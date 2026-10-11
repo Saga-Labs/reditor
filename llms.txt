@@ -1,0 +1,15 @@
+# Reditor
+
+> Alternatives to iPhone apps (for when an app shuts down, gets expensive or does not fit), with prices, versions and privacy labels copied from the App Store on a stated date. Run by Saga Labs; when a Saga Labs app is an alternative it is listed first and labelled as ours.
+
+## Alternatives
+
+- [Best Sora app alternatives for iPhone in 2026](https://reditor.cloud/sora-app-alternatives-iphone/) (en, updated 2026-10-11): OpenAI's Sora app is no longer on the App Store; compares five iPhone apps for AI video (Dora, Kling AI, Grok Imagine, Gemini, CapCut) by price, length and resolution, and privacy label. Our app on this page: DORA · AI Video Generator.
+- [Mejores alternativas a la app de Sora en iPhone en 2026](https://reditor.cloud/es/alternativas-a-sora-iphone/) (es, updated 2026-10-11): La app de Sora ya no está en el App Store; compara cinco apps de iPhone para vídeo con IA (Dora, Kling AI, Grok Imagine, Gemini, CapCut) por precio en euros, duración y resolución, y privacidad. Our app on this page: DORA · Generador Vídeo IA.
+- [Best Private LLM alternatives for iPhone and Mac in 2026](https://reditor.cloud/private-llm-alternatives-iphone/) (en, updated 2026-10-11): Compares Private LLM with four apps that run language models offline on iPhone (Pinku, Locally AI, Enclave, PocketPal AI) by price, models, Mac support and privacy label. Our app on this page: Pinku: Private Local AI Chat.
+- [Mejores alternativas a Private LLM en iPhone y Mac en 2026](https://reditor.cloud/es/alternativas-a-private-llm-iphone/) (es, updated 2026-10-11): Compara Private LLM con cuatro apps que ejecutan modelos de lenguaje sin conexión en iPhone (Pinku, Locally AI, Enclave, PocketPal AI) por precio en euros, modelos, Mac y etiqueta de privacidad. Our app on this page: Pinku: Chat IA Local Privado.
+
+## About
+
+- [How we check and disclose](https://reditor.cloud/about/)
+- Publisher: Saga Labs, https://aisagalab.com/, sagalabs@proton.me
