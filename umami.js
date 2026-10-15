@@ -2,7 +2,7 @@
    Dashboard: https://analytics.kilmaru.com  Site: reditor.cloud
    WEBSITE_ID is empty until the site is added in Umami; then paste it here. */
 (function () {
-  var WEBSITE_ID = '';
+  var WEBSITE_ID = 'e476834d-fc72-4a80-a37a-61e07c9a26c8';
   var UMAMI_SRC = 'https://analytics.kilmaru.com/script.js';
   if (!WEBSITE_ID) return;
   var s = document.createElement('script');

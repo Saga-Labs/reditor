@@ -10,6 +10,7 @@ every price, version and rating comes from the App Store on the date in
 `checked`, and that date is shown on the page and in the JSON-LD.
 """
 import html
+import re
 import importlib
 import json
 import pathlib
@@ -58,6 +59,18 @@ def esc(s):
 
 def store_link(app_id, ct):
     return f"https://apps.apple.com/app/apple-store/id{app_id}?pt={PT}&ct={ct}&mt=8"
+
+
+OUR_IDS = {"1667947372", "6754878073", "1143691286", "6754180384",
+           "1553693943", "1462269642", "1662608035", "1532670722"}
+
+
+def tag_ours(url, ct):
+    """Enlace a una app nuestra: le pone pt y el ct de la pagina (max 40). Los de otros, sin tocar."""
+    m = re.search(r"/id(\d+)", url)
+    if not m or m.group(1) not in OUR_IDS or "ct=" in url:
+        return url
+    return url + ("&" if "?" in url else "?") + f"pt={PT}&ct={ct[:40]}"
 
 
 def page_url(p):
@@ -207,7 +220,7 @@ def ranking_html(p, alternates):
         out.append(f"<h3>{esc(q)}</h3>\n<p>{esc(a)}</p>\n")
     out.append(f'<h2 id="sources">{t["sources"]}</h2>\n<ul class="sources">')
     for label, url, *_ in p["sources"]:
-        out.append(f'<li>{esc(label)}: <a href="{esc(url)}">{esc(url)}</a> ({chk})</li>')
+        out.append(f'<li>{esc(label)}: <a href="{esc(tag_ours(url, p["ct"]))}">{esc(url)}</a> ({chk})</li>')
     out.append("</ul>\n</article>\n")
     out.append(foot(lang))
     return "".join(out)
