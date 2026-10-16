@@ -23,7 +23,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video"]
 
 T = {
     "en": {
