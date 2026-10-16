@@ -1,0 +1,421 @@
+"""Versión en español (App Store de España, comprobado 2026-10-16) de las tres
+páginas del mismo día: ChatOn alternatives (Brainy), Viggle AI alternatives y
+Best AI image to video apps (Dora). Mismas apps, mismos datos y mismas
+afirmaciones que las inglesas (pages/chaton.py y pages/image_video.py); solo
+cambian precios en euros, valoraciones y número de valoraciones de España.
+Datos: iTunes lookup (country=es) y la ficha web de apps.apple.com/es.
+"""
+
+CHECKED = "2026-10-16"
+PRIV3 = "Datos utilizados para el seguimiento; datos vinculados a ti; datos no vinculados a ti"
+PRIV2 = "Datos utilizados para el seguimiento; datos no vinculados a ti"
+
+COMMON_METHOD_END = "Las suscripciones y los créditos cambian a menudo y las fichas del App Store solo enseñan algunas compras. Mira el precio que sale dentro de cada app antes de pagar."
+
+# ---------------------------------------------------------------- ChatOn
+ES1 = {
+    "group": "chaton-alt", "lang": "es", "store": "es",
+    "path": "es/alternativas-a-chaton-iphone/",
+    "ct": "rd-chaton-es",
+    "category": "UtilitiesApplication",
+    "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
+    "title": "Alternativas a ChatOn para iPhone (2026): 5 apps de chat con IA comparadas",
+    "h1": "Alternativas a ChatOn para iPhone en 2026",
+    "description": "Cinco apps de chat con IA para iPhone si ChatOn no te encaja: Brainy, ChatOn, Genie, Nova y Chat AI. Precios, valoraciones, idiomas y etiqueta de privacidad comprobados en el App Store de España el 16 de octubre de 2026.",
+    "llms": "Compara cinco apps de chat con IA para iPhone como alternativas a ChatOn (Brainy, ChatOn, Genie, Nova, Chat AI - Ask Anything) por precio en euros, valoraciones, idiomas, tamaño y etiqueta de privacidad del App Store, con los límites reales de cada una.",
+    "disclosure": "Brainy es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra, y es la app más pequeña y más nueva de la lista: en España solo tiene 1 valoración. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
+    "answer": [
+        "Si quieres una app de chat con IA para iPhone al estilo de ChatOn pero con otro precio o menos extras, las más parecidas son Genie y Nova, que también reúnen chat, generación de imágenes y búsqueda web detrás de una suscripción. ChatOn es la que más valoraciones tiene en España (unas 9.900) y la que más funciones enseña en su ficha.",
+        "Brainy (nuestra) es la opción más ligera: 25 MB, chat e imágenes, un escáner con la cámara, solo en inglés y con plan Pro semanal o anual. También es la menos probada, con 1 valoración en España y un único modelo de chat. Chat AI - Ask Anything tiene muy buena nota, pero su última actualización es de diciembre de 2024.",
+    ],
+    "columns": ["App", "Precio (España)", "Qué ofrece", "Idiomas", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
+    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (la ficha solo enseña algunas, así que puede haber más planes); las cinco se descargan gratis. Valoración: media y número de valoraciones en España ese día. Lo que ofrece cada competidora es lo que dice su propia ficha; no hemos hecho pruebas de calidad.",
+    "apps": [
+        {
+            "name": "Brainy AI Helper Chat & Create", "id": 1667947372, "ours": True, "anchor": "brainy",
+            "developer": "Saga Ltd.", "rating": (5.0, 1),
+            "row": ["Pro semanal 7,99 €; Pro anual 89,99 € o 99,99 €",
+                    "Chat con IA, generación de imágenes, escáner con la cámara para texto y mates",
+                    "1 (inglés)", PRIV2, "1.3.5 (29 ago 2026)", "5,0 (1 valoración)"],
+            "best_for": "una app pequeña y rápida de chat e imágenes cuando no necesitas una lista larga de funciones.",
+            "facts": [
+                "Chat: en la versión 1.3.5 las respuestas salen de un solo modelo, DeepSeek. Nuestra ficha del App Store todavía dice Gemini, Claude y Grok; ese texto es incorrecto para esta versión y se corregirá en la siguiente.",
+                "Imágenes: de texto a imagen con Nano Banana de Google (Gemini 2.5 Flash Image), con una pequeña cantidad diaria de imágenes gratis.",
+                "Escáner con la cámara: apunta a un texto o a un problema de mates y pregunta por él.",
+                "25 MB, iOS 18.0 o posterior (interfaz en inglés).",
+            ],
+            "limits": "solo 1 valoración en España, un único modelo de chat, solo en inglés y con iOS 18 o posterior. No genera vídeo en esta versión, no busca en la web y no deja elegir modelo.",
+        },
+        {
+            "name": "ChatOn - Chatbot IA en español", "id": 1661308505, "anchor": "chaton",
+            "developer": "AIBY Incorporated", "rating": (4.6, 9885),
+            "row": ["Premium semanal de 6,99 € a 8,99 € (una con prueba gratis); anual 39,99 €, o PRO+ 69,99 €",
+                    "Chat, más de 100 prompts, generación de imagen y vídeo, imagen a texto, herramientas de escritura",
+                    "19", PRIV3, "1.98 (5 oct 2026)", "4,6 (9.885 valoraciones)"],
+            "best_for": "quien quiere la lista de funciones más larga y una biblioteca de prompts hechos en una sola app de chat.",
+            "facts": [
+                "Su ficha dice que el chat usa varios modelos de IA con nombre y ofrece más de 100 prompts ya preparados.",
+                "Crea imágenes y vídeos a partir de fotos dentro del chat y extrae texto de las fotos.",
+                "19 idiomas, iOS 16 o posterior, 259 MB.",
+            ],
+            "limits": "la suscripción es la puerta de entrada (semanales desde 6,99 €), la app es grande (259 MB) y su etiqueta de privacidad incluye seguimiento y datos vinculados a ti.",
+        },
+        {
+            "name": "IA Chatbot en Español – Genie", "id": 1658377526, "anchor": "genie",
+            "developer": "APPNATION YAZILIM HIZMETLERI TICARET ANONIM SIRKETI", "rating": (4.66, 13490),
+            "row": ["Semanal de 6,99 € a 8,99 €; anual de 44,99 € a 99,99 €; 1.000 créditos 9,99 €",
+                    "Chat con Deep Thinking, generador y editor de imágenes, búsqueda web, análisis de fotos",
+                    "14", PRIV3, "10.7.1 (1 oct 2026)", "4,7 (13.490 valoraciones)"],
+            "best_for": "un chatbot completo y cuidado, con búsqueda web y razonamiento paso a paso para preguntas difíciles.",
+            "facts": [
+                "Deep Thinking para preguntas de programación, matemáticas y lógica, según su ficha.",
+                "Generador y editor de imágenes integrados, y Analizar fotos para identificar objetos, traducir texto o leer ecuaciones escritas a mano.",
+                "14 idiomas, iOS 16.4 o posterior, 206 MB.",
+            ],
+            "limits": "suscripciones semanales con varios precios que se solapan y una etiqueta de privacidad que incluye seguimiento y datos vinculados a ti.",
+        },
+        {
+            "name": "Chatbot de IA - Nova", "id": 1669007652, "anchor": "nova",
+            "developer": "SCALEUP YAZILIM HIZMETLERI ANONIM SIRKETI", "rating": (4.58, 6405),
+            "row": ["Semanal de 5,99 € a 8,99 €; mensual 11,99 €; anual de 34,99 € a 69,99 €",
+                    "Chat, generación de imágenes, búsqueda web, modo de voz, trabajo con archivos, ayuda con código, escaneo",
+                    "9", PRIV2, "4.5.4 (2 oct 2026)", "4,6 (6.405 valoraciones)"],
+            "best_for": "quien quiere modo de voz, trabajo con archivos y ayuda con código en la misma app de chat.",
+            "facts": [
+                "Su ficha nombra seis familias de modelos en las que dice basarse, y ofrece modo de voz y trabajo con archivos de Word y Excel.",
+                "Traducción en más de 140 idiomas según la ficha; la interfaz en sí tiene 9.",
+                "iOS 15 o posterior, 228 MB.",
+            ],
+            "limits": "muchas variantes de plan con precios distintos y es una app grande. Su etiqueta de privacidad incluye datos utilizados para el seguimiento.",
+        },
+        {
+            "name": "Chat AI - Ask Anything", "id": 1660877567, "anchor": "chat-ai",
+            "developer": "ElevenThirteen LLC", "rating": (4.79, 150),
+            "row": ["Semanal de 7,99 € a 8,99 €; mensual 17,99 €; anual de 34,99 € a 79,99 €; paquetes de créditos de 34,99 € y 59,99 €",
+                    "Chat de texto sencillo para escribir, preguntar y conversar",
+                    "25", PRIV2, "1.9 (21 dic 2024)", "4,8 (150 valoraciones)"],
+            "best_for": "un chat sencillo con más idiomas que ninguna de las otras cuatro (25).",
+            "facts": [
+                "Su ficha describe un chat sencillo para redacciones, correos y conversación; no menciona generación de imagen ni de vídeo.",
+                "25 idiomas, iOS 15 o posterior, 201 MB.",
+            ],
+            "limits": "la última actualización es de diciembre de 2024, casi dos años, la ficha no dice qué modelos de IA usa y mezcla suscripciones con paquetes de créditos.",
+        },
+    ],
+    "who": [
+        "<strong>Quieres la lista de funciones y de prompts más larga:</strong> ChatOn.",
+        "<strong>Quieres búsqueda web y razonamiento en un chatbot cuidado:</strong> Genie.",
+        "<strong>Quieres modo de voz y trabajo con archivos:</strong> Nova.",
+        "<strong>Quieres una app pequeña con chat e imágenes y sin extras:</strong> Brainy (nuestra), sabiendo que es nueva y solo está en inglés.",
+        "<strong>Quieres muchos idiomas de interfaz y chat sencillo:</strong> Chat AI - Ask Anything, si aceptas que no se actualiza desde 2024.",
+    ],
+    "cases": [
+        "Redactar correos, redacciones y publicaciones, y corregir textos.",
+        "Ayuda con los deberes y explicaciones (comprueba tú los datos importantes).",
+        "Crear una imagen a partir de una descripción.",
+        "Preguntar por una foto o por una página que escaneas con la cámara.",
+    ],
+    "method": [
+        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que ofrece cada competidora sale de su propia ficha. Lo que hace Brainy sale de su ficha y se comprobó en su código para la versión que está en la tienda (1.3.5). No hemos hecho una prueba de calidad de las respuestas, así que esta página no dice qué chat es el más listo. No hemos inventado valoraciones ni reseñas.",
+        COMMON_METHOD_END,
+    ],
+    "faq": [
+        ("¿Cuáles son buenas alternativas a ChatOn en iPhone?",
+         "Genie, Nova, Brainy (nuestra) y Chat AI - Ask Anything también dan chat con IA en iPhone. Genie y Nova son las más parecidas en funciones (chat, generación de imágenes, búsqueda web); Brainy es una app más pequeña con chat, imágenes y escáner con la cámara."),
+        ("¿Hay una alternativa gratis a ChatOn?",
+         "Las cinco apps se descargan gratis, pero todas venden suscripciones o créditos, así que lo que puedes hacer gratis depende de la app y cambia con el tiempo. Mira la cuota gratuita dentro de la app."),
+        ("¿Qué alternativa a ChatOn tiene mejores valoraciones?",
+         "El 16 de octubre de 2026 en el App Store de España, Chat AI - Ask Anything tiene la media más alta (4,8) pero con solo 150 valoraciones; Genie (4,7 con unas 13.500) y ChatOn (4,6 con unas 9.900) tienen muchas más. Brainy tiene 1 valoración, muy pocas para comparar."),
+        ("¿Brainy usa varios modelos de IA?",
+         "No en la versión 1.3.5, la que está hoy en la tienda. El chat usa DeepSeek y las imágenes usan Nano Banana de Google. El texto de nuestra ficha del App Store que nombra otros modelos de chat es incorrecto para esta versión."),
+        ("¿Cuáles de estas apps recogen datos para rastrearte?",
+         "Según sus etiquetas de privacidad del App Store, las cinco incluyen datos utilizados para el seguimiento. ChatOn y Genie incluyen además datos vinculados a ti. Brainy incluye datos utilizados para el seguimiento y datos no vinculados a ti."),
+    ],
+    "sources": [
+        ("Brainy (App Store)", "https://apps.apple.com/es/app/id1667947372"),
+        ("ChatOn (App Store)", "https://apps.apple.com/es/app/id1661308505"),
+        ("Genie (App Store)", "https://apps.apple.com/es/app/id1658377526"),
+        ("Nova (App Store)", "https://apps.apple.com/es/app/id1669007652"),
+        ("Chat AI - Ask Anything (App Store)", "https://apps.apple.com/es/app/id1660877567"),
+    ],
+}
+
+# ---------------------------------------------------------------- Dora
+DORA = {
+    "name": "DORA · Generador Vídeo IA", "id": 6754180384, "ours": True, "anchor": "dora",
+    "developer": "Saga Ltd.",
+    "best_for": "convertir una foto en un vídeo vertical corto para TikTok o Reels, con el coste en monedas a la vista antes de pulsar.",
+    "facts": [
+        "Da vida a una foto como vídeo corto, o escribe una descripción; un vídeo tarda unos dos minutos.",
+        "Motion Control copia los movimientos de un vídeo de baile en la persona de tu foto.",
+        "Vertical 9:16, horizontal o cuadrado, hasta 1080p y sin marca de agua. Cada generación enseña antes su coste en monedas, y si falla se devuelven.",
+        "La misma cuenta y las mismas monedas sirven en doravideo.com y dentro de asistentes de IA como Claude con el conector de Dora.",
+        "11 idiomas, iOS 18.6 o posterior, 62 MB.",
+    ],
+    "limits": "no hay vídeo gratis (hace falta plan o monedas), todavía no tiene valoraciones en España y Motion Control necesita una persona en la foto. No tiene feed de comunidad ni editor de fotos.",
+}
+DORA_PRICE = "Pro semanal 7,99 €, Pro anual 129,99 €; packs de monedas de 2,99 € a 229,99 €"
+VIGGLE_PRICE = "Pro 5,99 € a la semana, 9,99 € al mes o 99,90 € al año; planes Live de 29,99 € a 89,99 € al mes; créditos extra de 3 € a 17 €"
+
+ES2 = {
+    "group": "viggle-alt", "lang": "es", "store": "es",
+    "path": "es/alternativas-a-viggle-ai-iphone/",
+    "ct": "rd-viggle-es",
+    "category": "PhotoVideoApplication",
+    "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
+    "title": "Alternativas a Viggle AI para iPhone (2026): 5 apps comparadas",
+    "h1": "Alternativas a Viggle AI para iPhone en 2026",
+    "description": "Cinco apps de iPhone para usar en lugar de Viggle AI, o junto a ella: Dora, PixVerse Lite, Kling AI, Runway y Shots, con los datos de Viggle como referencia. Precios, valoraciones y etiqueta de privacidad comprobados en el App Store de España el 16 de octubre de 2026.",
+    "llms": "Compara Viggle AI con cinco alternativas de iPhone (Dora, PixVerse Lite, Kling AI, Runway, Shots) por precio en euros, cómo anima cada una una foto, valoraciones, idiomas y etiqueta de privacidad del App Store.",
+    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra, y en España todavía no tiene valoraciones. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
+    "answer": [
+        "Viggle AI se basa en meter tu foto en un clip de vídeo o en una de sus más de 8.000 plantillas. Si quieres esa misma copia de movimientos, Dora (nuestra) y PixVerse Lite tienen una función Motion Control que toma una foto más un vídeo de referencia. Si prefieres una herramienta de vídeo con IA más general, Kling AI y Runway generan vídeo a partir de imágenes y texto con clips más largos y más modelos, a precios más altos. Shots es una app de plantillas al estilo de Viggle.",
+        "Viggle tiene la interfaz solo en inglés (Runway también) y un plan Pro desde 5,99 € a la semana; las seis apps se descargan gratis y cobran por hacer vídeos.",
+    ],
+    "columns": ["App", "Precio (España)", "Cómo anima una foto", "Idiomas", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
+    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (las fichas solo enseñan algunas). Valoración: media y número de valoraciones en España ese día. Viggle se incluye como referencia; las otras cinco son las alternativas.",
+    "apps": [
+        dict(DORA, row=[DORA_PRICE,
+                        "De foto o texto a vídeo; Motion Control copia un vídeo de baile en tu foto",
+                        "11", PRIV2, "1.4.1 (9 oct 2026)", "Aún sin valoraciones en España"]),
+        {
+            "name": "PixVerse Lite", "id": 6767802142, "anchor": "pixverse",
+            "developer": "AIVORA PTE. LTD.", "rating": (4.23, 119),
+            "row": ["Elite 6,99 € a la semana o 59,99 € al año; paquetes de créditos de 6 € a 100 €",
+                    "De imagen a vídeo, Motion Control (imagen de un personaje más un vídeo de movimiento de referencia), plantillas",
+                    "14", PRIV3, "0.8.1 (21 sep 2026)", "4,2 (119 valoraciones)"],
+            "best_for": "quien quiere Motion Control más plantillas de baile y de efectos dentro de una caja de herramientas de vídeo más amplia.",
+            "facts": [
+                "Su ficha describe Motion Control como subir la imagen de un personaje y un vídeo de movimiento de referencia.",
+                "También de texto a vídeo, transiciones, ampliación de vídeo y escalado hasta 4K.",
+                "14 idiomas, iOS 15 o posterior, 121 MB.",
+            ],
+            "limits": "un número de versión por debajo de 1.0 (0.8.1), una interfaz amplia en la que la función de movimiento cuesta más toques de encontrar y una etiqueta de privacidad con seguimiento y datos vinculados.",
+        },
+        {
+            "name": "Kling AI: AI Image&Video Maker", "id": 6738049229, "anchor": "kling",
+            "developer": "KLING AI PTE. LTD.", "rating": (4.62, 1689),
+            "row": ["Standard 10 € al mes, Pro 39 €, Premier 99 €; membresías cortas desde 0,99 € a la semana; créditos de 6 € a 100 €",
+                    "De imagen o texto a vídeo, hasta 15 s en 1080p o 4K, ampliación hasta 3 minutos",
+                    "5", PRIV3, "3.8.20 (11 sep 2026)", "4,6 (1.689 valoraciones)"],
+            "best_for": "clips más largos y de más calidad e imágenes en 4K, con una comunidad donde mirar y clonar ideas.",
+            "facts": [
+                "Su ficha dice clips de hasta 15 segundos en 1080p o 4K nativos y Video Extension para llegar a 3 minutos.",
+                "Generación de imágenes en 4K y un feed de comunidad donde puedes clonar las ideas de otros.",
+                "5 idiomas, iOS 14 o posterior, 238 MB.",
+            ],
+            "limits": "es una plataforma creativa completa, no una app de bailes o memes de un toque, y los planes altos cuestan mucho más al mes que el plan semanal de Viggle.",
+        },
+        {
+            "name": "Runway: AI Image & Video", "id": 1665024375, "anchor": "runway",
+            "developer": "Runway AI, Inc.", "rating": (4.37, 839),
+            "row": ["Standard 17,99 € al mes o 149,99 € al año; Pro 39 €; Max 99 €; créditos de 10 € a 100 €",
+                    "De texto, imagen y vídeo a vídeo con varios modelos, más un Agent que monta un vídeo a partir de una conversación",
+                    "1 (inglés)", PRIV3, "100.0.0 (13 oct 2026)", "4,4 (839 valoraciones)"],
+            "best_for": "vídeo cuidado y controlado donde eliges el modelo, pensado para anuncios y cortos.",
+            "facts": [
+                "Su ficha dice que reúne varios modelos de vídeo e imagen con nombre en una sola app.",
+                "Runway Agent planifica los planos y monta un vídeo a partir de un chat en lenguaje normal.",
+                "Interfaz en inglés, iOS 16.4 o posterior, 129 MB.",
+            ],
+            "limits": "el plan más barato que enseña la ficha es de 17,99 € al mes, está pensada para vídeo de estilo profesional y no para memes virales, y la interfaz solo está en inglés.",
+        },
+        {
+            "name": "Shots: Foto a Video con IA", "id": 6745820631, "anchor": "shots",
+            "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (3.91, 307),
+            "row": ["Semanal de 7,99 € a 14,99 €; anual 44,99 € u 89,99 €; packs de monedas de 17,99 € a 39,99 €",
+                    "De foto o texto a vídeo, biblioteca de plantillas de baile, restauración de fotos",
+                    "5", PRIV3, "1.7.0 (16 ago 2026)", "3,9 (307 valoraciones)"],
+            "best_for": "plantillas rápidas de baile y de tendencias a partir de un selfie o de la foto de una mascota.",
+            "facts": [
+                "Su ficha habla de una biblioteca creciente de plantillas de baile virales; sube tu foto o la de tu mascota.",
+                "También retratos, fotos de empresa y mejora de un toque de fotos viejas o borrosas.",
+                "5 idiomas, iOS 16 o posterior, 114 MB.",
+            ],
+            "limits": "planes semanales con varios precios más packs de monedas, y su ficha no dice que puedas traer tu propio vídeo de referencia.",
+        },
+        {
+            "name": "Viggle AI: Meme Maker (de referencia)", "id": 6503272013, "anchor": "viggle",
+            "developer": "WarpEngine Canada Inc.", "rating": (4.73, 642),
+            "row": [VIGGLE_PRICE,
+                    "Mix: una foto más un vídeo, o más de 8.000 plantillas; sincronización labial; editor multipersonaje",
+                    "1 (inglés)", PRIV3, "2.0.7 (13 oct 2026)", "4,7 (642 valoraciones)"],
+            "best_for": "el punto de referencia: bailes virales, memes y jugadas deportivas a partir de una foto.",
+            "facts": [
+                "Su ficha describe generación de vídeo con control de movimiento, con más de 8.000 plantillas o tu propio clip.",
+                "Sincronización labial, un editor multipersonaje y un cambio de personaje en directo con la webcam en los planes Live.",
+                "Interfaz en inglés, iOS 16 o posterior, 140 MB.",
+            ],
+            "limits": "solo en inglés, y la ficha no dice cuántos créditos cuesta un vídeo.",
+        },
+    ],
+    "who": [
+        "<strong>Quieres copiar movimientos al estilo de Viggle con tu propio vídeo de referencia:</strong> Dora (nuestra) o PixVerse Lite.",
+        "<strong>Quieres una biblioteca de plantillas grande como la de Viggle:</strong> Shots, o quedarte con Viggle.",
+        "<strong>Quieres clips más largos y de más calidad:</strong> Kling AI.",
+        "<strong>Quieres elegir entre varios modelos de vídeo:</strong> Runway.",
+        "<strong>Quieres una interfaz en tu idioma:</strong> Dora (11 idiomas) o PixVerse Lite (14); Viggle y Runway solo están en inglés.",
+    ],
+    "cases": [
+        "Un vídeo de baile o de memes protagonizado por ti o por un amigo.",
+        "Un clip vertical para TikTok, Reels o YouTube Shorts.",
+        "Animar la foto de un producto o un retrato.",
+        "Probar una idea antes de grabarla.",
+    ],
+    "method": [
+        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que hace cada app sale de su propia descripción del App Store; lo que hace Dora se comprobó además con su ficha de la versión 1.4.1. No hemos hecho una prueba de calidad de los vídeos, así que esta página no dice qué app hace el vídeo más bonito. No hemos inventado valoraciones ni reseñas.",
+        COMMON_METHOD_END,
+    ],
+    "faq": [
+        ("¿Cuál es la mejor alternativa a Viggle AI en iPhone?",
+         "Depende de para qué uses Viggle. Para copiar un baile o un movimiento de un vídeo en tu foto, Dora (nuestra) y PixVerse Lite tienen Motion Control. Para vídeo generado más largo y de más calidad, Kling AI y Runway. Para plantillas de baile rápidas, Shots."),
+        ("¿Hay una alternativa gratis a Viggle AI?",
+         "Las seis apps se descargan gratis, pero todas cobran por hacer vídeos, con suscripción, créditos o las dos cosas, según sus fichas del App Store. Las cuotas gratuitas cambian; míralo dentro de cada app."),
+        ("¿Qué alternativa a Viggle tiene la interfaz en otros idiomas?",
+         "Dora lista 11 idiomas, PixVerse Lite 14, Kling AI 5 y Shots 5. Viggle y Runway solo listan inglés."),
+        ("¿Dora tiene marca de agua?",
+         "La ficha de Dora en el App Store dice que sus vídeos no llevan marca de agua. No hemos comprobado las marcas de agua de las otras apps, así que mírala antes de pagar."),
+        ("¿Puede Dora hacer bailar a una persona de mi foto?",
+         "Sí, con Motion Control: toma tu foto y un vídeo de baile de referencia y hace que la persona de la foto se mueva igual. Necesita una persona en la foto."),
+    ],
+    "sources": [
+        ("Dora (App Store)", "https://apps.apple.com/es/app/id6754180384"),
+        ("PixVerse Lite (App Store)", "https://apps.apple.com/es/app/id6767802142"),
+        ("Kling AI (App Store)", "https://apps.apple.com/es/app/id6738049229"),
+        ("Runway (App Store)", "https://apps.apple.com/es/app/id1665024375"),
+        ("Shots (App Store)", "https://apps.apple.com/es/app/id6745820631"),
+        ("Viggle AI (App Store)", "https://apps.apple.com/es/app/id6503272013"),
+    ],
+}
+
+ES3 = {
+    "group": "image-to-video", "lang": "es", "store": "es",
+    "path": "es/mejores-apps-ia-de-foto-a-video-iphone/",
+    "ct": "rd-img2video-es",
+    "category": "PhotoVideoApplication",
+    "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
+    "title": "Mejores apps de IA para convertir una foto en vídeo en iPhone (2026): 6 comparadas",
+    "h1": "Mejores apps de IA para convertir una foto en vídeo en iPhone en 2026",
+    "description": "Seis apps de iPhone que convierten una foto en un vídeo, comparadas por precio, cómo animan y etiqueta de privacidad: Dora, Kling AI, Runway, PixVerse Lite, Shots y Motionleap. Comprobado en el App Store de España el 16 de octubre de 2026.",
+    "llms": "Compara seis apps de iPhone que convierten una foto en un vídeo (Dora, Kling AI, Runway, PixVerse Lite, Shots, Motionleap) por precio en euros, si generan movimiento nuevo con IA o animan a mano, idiomas, valoraciones y etiqueta de privacidad del App Store.",
+    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra, y en España todavía no tiene valoraciones. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
+    "answer": [
+        "Hay dos tipos de apps de foto a vídeo en iPhone. Los generadores con IA (Dora, Kling AI, Runway, PixVerse Lite, Shots) crean movimiento nuevo a partir de tu foto y cobran cada vídeo con créditos, monedas o suscripción. Motionleap anima la foto a mano (tú marcas qué partes se mueven), así que el resultado es un bucle y no un clip generado.",
+        "Para clips verticales cortos para TikTok o Reels con el coste a la vista antes de generar, encajan Dora (nuestra) y PixVerse Lite. Para los clips más largos y de más calidad, Kling AI y Runway, desde 10 € y 17,99 € al mes. Para una foto en movimiento hecha a mano, Motionleap.",
+    ],
+    "columns": ["App", "Precio (España)", "Cómo anima", "Idiomas", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
+    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (las fichas solo enseñan algunas); las seis se descargan gratis. Valoración: media y número de valoraciones en España ese día.",
+    "apps": [
+        dict(DORA, row=[DORA_PRICE,
+                        "La IA genera un vídeo a partir de tu foto o de una descripción en unos dos minutos",
+                        "11", PRIV2, "1.4.1 (9 oct 2026)", "Aún sin valoraciones en España"]),
+        {
+            "name": "Kling AI: AI Image&Video Maker", "id": 6738049229, "anchor": "kling",
+            "developer": "KLING AI PTE. LTD.", "rating": (4.62, 1689),
+            "row": ["Standard 10 € al mes, Pro 39 €, Premier 99 €; membresías semanales desde 0,99 €; créditos de 6 € a 100 €",
+                    "De imagen a vídeo con IA, hasta 15 s en 1080p o 4K; ampliación hasta 3 minutos",
+                    "5", PRIV3, "3.8.20 (11 sep 2026)", "4,6 (1.689 valoraciones)"],
+            "best_for": "clips más largos y de mayor resolución.",
+            "facts": [
+                "Su ficha dice clips de hasta 15 segundos en 1080p o 4K nativos, con ampliación hasta 3 minutos.",
+                "También generación de imágenes y una comunidad para explorar.",
+                "5 idiomas, iOS 14 o posterior, 238 MB.",
+            ],
+            "limits": "planes desde 10 € al mes hasta 99 €, y es una app más grande y más compleja que una herramienta de un toque.",
+        },
+        {
+            "name": "Runway: AI Image & Video", "id": 1665024375, "anchor": "runway",
+            "developer": "Runway AI, Inc.", "rating": (4.37, 839),
+            "row": ["Standard 17,99 € al mes o 149,99 € al año; Pro 39 €; Max 99 €; créditos de 10 € a 100 €",
+                    "De texto, imagen y vídeo a vídeo con IA y varios modelos; Agent monta un vídeo desde el chat",
+                    "1 (inglés)", PRIV3, "100.0.0 (13 oct 2026)", "4,4 (839 valoraciones)"],
+            "best_for": "vídeo controlado y cinematográfico donde eliges el modelo.",
+            "facts": [
+                "Su ficha dice que convierte cualquier foto en movimiento y reúne varios modelos de vídeo con nombre.",
+                "Runway Agent planifica los planos y monta un vídeo terminado a partir de una conversación.",
+                "Interfaz en inglés, iOS 16.4 o posterior, 129 MB.",
+            ],
+            "limits": "el plan más barato que enseña la ficha es de 17,99 € al mes y la interfaz solo está en inglés.",
+        },
+        {
+            "name": "PixVerse Lite", "id": 6767802142, "anchor": "pixverse",
+            "developer": "AIVORA PTE. LTD.", "rating": (4.23, 119),
+            "row": ["Elite 6,99 € a la semana o 59,99 € al año; paquetes de créditos de 6 € a 100 €",
+                    "De imagen a vídeo con IA, plantillas, transiciones, Motion Control, escalado a 4K",
+                    "14", PRIV3, "0.8.1 (21 sep 2026)", "4,2 (119 valoraciones)"],
+            "best_for": "una caja de herramientas de vídeo con IA todo en uno y con muchos idiomas.",
+            "facts": [
+                "Su ficha nombra de imagen a vídeo, de texto a vídeo, plantillas, Motion Control, ampliación de vídeo y escalado hasta 4K.",
+                "14 idiomas, iOS 15 o posterior, 121 MB.",
+            ],
+            "limits": "versión 0.8.1, o sea todavía por debajo de 1.0, y una interfaz muy cargada.",
+        },
+        {
+            "name": "Shots: Foto a Video con IA", "id": 6745820631, "anchor": "shots",
+            "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (3.91, 307),
+            "row": ["Semanal de 7,99 € a 14,99 €; anual 44,99 € u 89,99 €; packs de monedas de 17,99 € a 39,99 €",
+                    "De foto a vídeo con IA, plantillas de baile, mejora y restauración de fotos",
+                    "5", PRIV3, "1.7.0 (16 ago 2026)", "3,9 (307 valoraciones)"],
+            "best_for": "selfies y fotos de mascotas con plantillas de baile y de tendencias ya hechas, y restaurar fotos viejas.",
+            "facts": [
+                "Su ficha ofrece de texto a vídeo, de foto a vídeo, plantillas de baile y retratos.",
+                "Mejora y restauración de un toque de fotos viejas o borrosas.",
+                "5 idiomas, iOS 16 o posterior, 114 MB.",
+            ],
+            "limits": "planes semanales desde 7,99 € con varios precios, más packs de monedas.",
+        },
+        {
+            "name": "Motionleap de Lightricks", "id": 1381206010, "anchor": "motionleap",
+            "developer": "Lightricks Ltd.", "rating": (4.66, 7661),
+            "row": ["Planes de acceso ilimitado de 3,99 € a 69,99 € (según la ficha)",
+                    "Marcas con flechas y puntos de anclaje lo que se mueve; las fotos hacen un bucle como un GIF",
+                    "14", PRIV3, "1.9.38 (2 ago 2026)", "4,7 (7.661 valoraciones)"],
+            "best_for": "arte fotográfico en movimiento (agua, nubes, pelo) que controlas a mano, sin créditos.",
+            "facts": [
+                "Su ficha describe animar uno o varios elementos con flechas y puntos de anclaje, además de superposiciones y control de velocidad.",
+                "Los vídeos hacen boomerang o fluyen como un GIF.",
+                "14 idiomas, iOS 17 o posterior, 245 MB.",
+            ],
+            "limits": "no es una herramienta de texto a vídeo ni de movimiento generado por IA, y su ficha no dice que haga bailar o caminar a las personas.",
+        },
+    ],
+    "who": [
+        "<strong>Quieres un clip vertical corto con IA a partir de una foto, con el coste a la vista antes:</strong> Dora (nuestra) o PixVerse Lite.",
+        "<strong>Quieres los clips más largos y nítidos:</strong> Kling AI.",
+        "<strong>Quieres elegir el modelo y planificar planos:</strong> Runway.",
+        "<strong>Quieres plantillas de baile y de tendencias:</strong> Shots.",
+        "<strong>Quieres una foto en movimiento en bucle sin créditos de IA:</strong> Motionleap.",
+    ],
+    "cases": [
+        "Dar vida a una foto antigua de familia.",
+        "La foto de un producto convertida en un clip de anuncio corto.",
+        "Un retrato que se mueve, para un perfil o una historia.",
+        "Fotos de paisaje con agua o nubes en movimiento (Motionleap).",
+    ],
+    "method": [
+        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que hace cada app sale de su propia descripción del App Store. No hemos hecho una prueba de calidad, así que esta página no dice qué app hace el vídeo más bonito. No hemos inventado valoraciones ni reseñas.",
+        COMMON_METHOD_END,
+    ],
+    "faq": [
+        ("¿Cuál es la mejor app de IA para convertir una foto en vídeo en iPhone?",
+         "Depende de lo que necesites. Kling AI y Runway hacen los clips más largos y de más calidad, pero cuestan desde 10 € y 17,99 € al mes. Dora (nuestra) y PixVerse Lite hacen clips verticales cortos con créditos o monedas. Shots tiene plantillas de baile. Motionleap anima a mano y sin créditos de IA."),
+        ("¿Puedo convertir una foto en vídeo gratis en iPhone?",
+         "Las seis apps se descargan gratis, pero los cinco generadores con IA cobran por hacer vídeos, con suscripción, créditos o monedas. Las cuotas gratuitas cambian, así que míralo dentro de cada app."),
+        ("¿Cómo convierte la IA una foto en un vídeo?",
+         "Le das a la app una foto y, si quieres, una descripción corta o un vídeo de referencia. El modelo de IA genera entonces fotogramas nuevos para que las personas o los objetos se muevan. Tarda desde aproximadamente un minuto hasta unos minutos."),
+        ("¿Cuál de estas apps enseña el precio antes de generar?",
+         "La ficha de Dora dice que cada vídeo o imagen enseña antes su coste en monedas y que las generaciones fallidas devuelven las monedas. No lo hemos comprobado en las otras apps."),
+        ("¿Dora funciona en otros idiomas?",
+         "Dora lista 11 idiomas. PixVerse Lite lista 14, Kling AI 5, Shots 5, Motionleap 14 y Runway solo inglés."),
+    ],
+    "sources": [
+        ("Dora (App Store)", "https://apps.apple.com/es/app/id6754180384"),
+        ("Kling AI (App Store)", "https://apps.apple.com/es/app/id6738049229"),
+        ("Runway (App Store)", "https://apps.apple.com/es/app/id1665024375"),
+        ("PixVerse Lite (App Store)", "https://apps.apple.com/es/app/id6767802142"),
+        ("Shots (App Store)", "https://apps.apple.com/es/app/id6745820631"),
+        ("Motionleap (App Store)", "https://apps.apple.com/es/app/id1381206010"),
+    ],
+}
+
+PAGES = [ES1, ES2, ES3]
