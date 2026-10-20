@@ -23,7 +23,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt"]
 
 T = {
     "en": {
@@ -209,7 +209,7 @@ def ranking_html(p, alternates):
         if a.get("ours"):
             out.append(f'<p><a class="cta" href="{esc(store_link(a["id"], p["ct"]))}">{t["get"]}</a></p>\n')
         elif a.get("id"):
-            out.append(f'<p><a href="https://apps.apple.com/{p["store"]}/app/id{a["id"]}">{t["store_page"]}</a></p>\n')
+            out.append(f'<p><a href="{esc(tag_ours(f"https://apps.apple.com/{p['store']}/app/id{a['id']}", p["ct"]))}">{t["store_page"]}</a></p>\n')
         out.append("</section>\n")
 
     out.append(f'<h2 id="who">{t["who"]}</h2>\n<ul>' + "".join(f"<li>{x}</li>" for x in p["who"]) + "</ul>\n")
@@ -320,8 +320,9 @@ def main():
              "> Alternatives to iPhone apps (for when an app shuts down, gets expensive or does not fit), with prices, versions and privacy labels copied from the App Store on a stated date. Run by Saga Labs; when a Saga Labs app is an alternative it is listed first and labelled as ours.", "",
              "## Alternatives", ""]
     for p in pages:
-        ours = next(a for a in p["apps"] if a.get("ours"))
-        lines.append(f"- [{p['h1']}]({page_url(p)}) ({p['lang']}, updated {p['updated']}): {p['llms']} Our app on this page: {ours['name']}.")
+        ours = next((a for a in p["apps"] if a.get("ours")), None)
+        tail = f" Our app on this page: {ours['name']}." if ours else (" " + p["llms_note"] if p.get("llms_note") else "")
+        lines.append(f"- [{p['h1']}]({page_url(p)}) ({p['lang']}, updated {p['updated']}): {p['llms']}{tail}")
     lines += ["", "## About", "", f"- [How we check and disclose]({SITE}/about/)", "- Publisher: Saga Labs, https://aisagalab.com/, sagalabs@proton.me", ""]
     (ROOT / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
 
