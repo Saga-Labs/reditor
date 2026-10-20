@@ -97,13 +97,13 @@ EN = {
         },
         {
             "name": "Pinku: Private Offline AI Chat", "id": 6754878073, "anchor": "pinku", "developer": "Saga Ltd.", "rating": (4.67, 12),
-            "row": ["App Store app", "Free; Pinku Pro in-app purchase", "macOS 14, Apple silicon", "Yes (iPhone 12+)", "1.0.9 (16 Oct 2026, iPhone)"],
+            "row": ["App Store app", "Free; Pinku Pro in-app purchase", "macOS 14, Apple silicon", "Yes (iPhone 12+)", "iPhone 1.0.9 (16 Oct 2026); Mac 1.0.7"],
             "best_for": "a short tested list that hides models your device cannot run, in 8 interface languages.",
             "facts": [
                 "Chats never leave the device; Apple's privacy label lists only purchase history and an anonymous user ID, used for Pinku Pro purchases.",
                 "Downloads from ModelScope where Hugging Face is blocked.",
             ],
-            "limits": "12 curated models only; the Mac version is behind the iPhone version; few ratings.",
+            "limits": "12 curated models only (0.34 to 4.7 GB; no Gemma 4 or Qwen3.5 yet); the Mac version on sale is 1.0.7; few ratings.",
         },
     ],
     "who": [
@@ -120,7 +120,7 @@ EN = {
     "method": [
         "We checked each project's GitHub page (licence, latest release, last commit), documentation and, for App Store apps, the US App Store page on 20 October 2026.",
         "Ollama itself: MIT licence, latest release v0.40.6 on 16 October 2026, macOS 14 or later, Apple silicon or Intel (CPU only); its giant models run on Ollama's cloud with usage credits.",
-        "Transparency: Pinku is made by Saga Labs, which runs Reditor. It is listed on the same criteria as the others.",
+        "From the team at Saga Labs: we make Pinku, one of the apps here. We built it because tools like Ollama and LM Studio expect some technical knowledge, such as picking a model file and a quantisation or using a terminal. Pinku is for everyone else: install it from the App Store, tap a model and chat privately, with no terminal and nothing to configure. The trade-off is a short list of small models chosen to fit each device, which is why it is not first here.",
     ],
     "faq": [
         ("What is the best Ollama alternative for Mac?", "LM Studio for a free desktop app with a model browser; Jan if you want it open source; llama.cpp if you are happy in a terminal."),
