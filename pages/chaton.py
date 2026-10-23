@@ -23,10 +23,10 @@ EN = {
     "h1": "ChatOn alternatives for iPhone in 2026",
     "description": "Six AI chat apps for iPhone if ChatOn does not fit: Brainy, ChatOn, Genie, Nova, Chat AI and Ask AI. Prices, ratings and privacy labels checked.",
     "llms": "Compares six iPhone AI chat apps as alternatives to ChatOn (Brainy, ChatOn, Genie, Nova, Chat AI - Ask Anything, Ask AI) by price, ratings, languages, size and App Store privacy label, with honest limits for each.",
-    "disclosure": "Brainy is made by Saga Labs, the company behind Reditor. It is listed first because it is ours, and it is the smallest and newest app here, with only 3 ratings. Ask AI, added on 23 October 2026, is ours too. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
+    "disclosure": "Brainy is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours, and it is the smallest and newest app here, with only 3 ratings. Ask AI, added on 23 October 2026, is ours too. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
         "If you want a ChatOn-style AI chat app on iPhone with a different price or fewer extras, the closest matches are Genie and Nova, which also bundle chat, image generation and web search behind a subscription. ChatOn itself has the most ratings of the six (about 287,000) and the widest feature list in its listing.",
-        "Brainy (ours) is the lightest option: 25 MB, chat plus images, a camera scanner, English only, and a weekly or yearly Pro plan. It is also the least proven here, with 3 ratings and a single chat model. Chat AI - Ask Anything has a high rating but was last updated in December 2024.",
+        "Brainy is the lightest option: 25 MB, chat plus images, a camera scanner, English only, and a weekly or yearly Pro plan. It is also the least proven here, with 3 ratings and a single chat model. Chat AI - Ask Anything has a high rating but was last updated in December 2024.",
     ],
     "columns": ["App", "Price (US)", "What it offers", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
     "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (Ask AI: 23 October 2026; the page shows only some of them, so more plans may exist); all six are free to download. Ratings are the App Store average and number of ratings that day. What each competitor offers is what its own listing says; we did not run quality tests.",
@@ -120,8 +120,8 @@ EN = {
         "<strong>You want the longest feature list and prompt library:</strong> ChatOn.",
         "<strong>You want web search and reasoning in a polished chatbot:</strong> Genie.",
         "<strong>You want voice mode and work on files:</strong> Nova.",
-        "<strong>You want a small app with chat and images and no extras:</strong> Brainy (ours), knowing it is new and English only.",
-        "<strong>You want to pick between models from several companies, chat only:</strong> Ask AI (ours), knowing it is new.",
+        "<strong>You want a small app with chat and images and no extras:</strong> Brainy, knowing it is new and English only.",
+        "<strong>You want to pick between models from several companies, chat only:</strong> Ask AI, knowing it is new.",
         "<strong>You want many interface languages and plain chat:</strong> Chat AI - Ask Anything, if you accept that it has not been updated since 2024.",
     ],
     "cases": [
@@ -136,7 +136,7 @@ EN = {
     ],
     "faq": [
         ("What are good alternatives to ChatOn on iPhone?",
-         "Genie, Nova, Brainy (ours), Ask AI (ours) and Chat AI - Ask Anything are alternatives that also give you AI chat on iPhone. Genie and Nova are the closest in features (chat, image generation, web search); Brainy is a smaller app with chat, images and a camera scanner; Ask AI is chat only, with a choice of models."),
+         "Genie, Nova, Brainy, Ask AI and Chat AI - Ask Anything are alternatives that also give you AI chat on iPhone. Genie and Nova are the closest in features (chat, image generation, web search); Brainy is a smaller app with chat, images and a camera scanner; Ask AI is chat only, with a choice of models."),
         ("Is there a free alternative to ChatOn?",
          "All six apps are free to download, but each sells subscriptions or credits, so how much you can do for free depends on the app and changes over time. Check the free allowance inside the app."),
         ("Which ChatOn alternative has the best ratings?",

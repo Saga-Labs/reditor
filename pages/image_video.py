@@ -37,9 +37,9 @@ EN1 = {
     "h1": "Viggle AI alternatives for iPhone in 2026",
     "description": "Five iPhone apps to use instead of, or next to, Viggle AI: Dora, PixVerse Lite, Kling AI, Runway and Shots. Prices, ratings and privacy checked.",
     "llms": "Compares Viggle AI with five iPhone alternatives (Dora, PixVerse Lite, Kling AI, Runway, Shots) by price, how each animates a photo, ratings, languages and App Store privacy label.",
-    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is listed first because it is ours, and it has far fewer ratings than most apps here. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
+    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours, and it has far fewer ratings than most apps here. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
-        "Viggle AI is built around putting your photo into a video clip or one of its 8,000+ templates. If you want that same move-copying, Dora (ours) and PixVerse Lite both have a Motion Control feature that takes a photo plus a reference video. If you would rather have a general AI video tool, Kling AI and Runway generate video from images and text with longer clips and more models, at higher prices. Shots is a template-driven app in the style of Viggle.",
+        "Viggle AI is built around putting your photo into a video clip or one of its 8,000+ templates. If you want that same move-copying, Dora and PixVerse Lite both have a Motion Control feature that takes a photo plus a reference video. If you would rather have a general AI video tool, Kling AI and Runway generate video from images and text with longer clips and more models, at higher prices. Shots is a template-driven app in the style of Viggle.",
         "Viggle itself has an English-only interface (so does Runway) and a Pro plan from $4.99 a week; all six apps are free to download and charge to make videos.",
     ],
     "columns": ["App", "Price (US)", "How it animates a photo", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
@@ -120,7 +120,7 @@ EN1 = {
         },
     ],
     "who": [
-        "<strong>You want Viggle-style move copying with your own reference video:</strong> Dora (ours) or PixVerse Lite.",
+        "<strong>You want Viggle-style move copying with your own reference video:</strong> Dora or PixVerse Lite.",
         "<strong>You want a bigger template library like Viggle's:</strong> Shots, or stay with Viggle.",
         "<strong>You want longer, higher-quality clips:</strong> Kling AI.",
         "<strong>You want to choose between several video models:</strong> Runway.",
@@ -138,7 +138,7 @@ EN1 = {
     ],
     "faq": [
         ("What is the best alternative to Viggle AI on iPhone?",
-         "It depends on what you use Viggle for. For copying a dance or move from a video onto your photo, Dora (ours) and PixVerse Lite have Motion Control. For longer, higher-quality generated video, Kling AI and Runway. For quick dance templates, Shots."),
+         "It depends on what you use Viggle for. For copying a dance or move from a video onto your photo, Dora and PixVerse Lite have Motion Control. For longer, higher-quality generated video, Kling AI and Runway. For quick dance templates, Shots."),
         ("Is there a free alternative to Viggle AI?",
          "All six apps are free to download, but each charges to make videos with a subscription, credits or both, according to their App Store listings. Free allowances change; check inside each app."),
         ("Which Viggle alternative has an interface in other languages?",
@@ -168,10 +168,10 @@ EN2 = {
     "h1": "Best AI image to video apps for iPhone in 2026",
     "description": "Six iPhone apps that turn a photo into a video, compared by price, how they animate and privacy label: Dora, Kling AI, Runway, PixVerse Lite and more.",
     "llms": "Compares six iPhone apps that turn a photo into a video (Dora, Kling AI, Runway, PixVerse Lite, Shots, Motionleap) by price, whether they generate new motion with AI or animate by hand, languages, ratings and App Store privacy label.",
-    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is listed first because it is ours, and it has only 15 ratings in the US. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
+    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours, and it has only 15 ratings in the US. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
         "There are two kinds of photo-to-video apps on iPhone. AI generators (Dora, Kling AI, Runway, PixVerse Lite, Shots) make new movement from your photo and charge for each video through credits, coins or a subscription. Motionleap animates a photo by hand (you mark which parts move), so the result is a loop rather than a generated clip.",
-        "For short vertical clips for TikTok or Reels with the cost shown before you generate, Dora (ours) and PixVerse Lite fit. For the longest, highest-quality clips, Kling AI and Runway, from $10 and $14.99 a month. For a hand-made moving photo, Motionleap.",
+        "For short vertical clips for TikTok or Reels with the cost shown before you generate, Dora and PixVerse Lite fit. For the longest, highest-quality clips, Kling AI and Runway, from $10 and $14.99 a month. For a hand-made moving photo, Motionleap.",
     ],
     "columns": ["App", "Price (US)", "How it animates", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
     "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (pages list only some of them); all six are free to download. Ratings are the App Store average and number of ratings that day.",
@@ -250,7 +250,7 @@ EN2 = {
         },
     ],
     "who": [
-        "<strong>You want a short vertical AI clip from one photo, with the cost shown first:</strong> Dora (ours) or PixVerse Lite.",
+        "<strong>You want a short vertical AI clip from one photo, with the cost shown first:</strong> Dora or PixVerse Lite.",
         "<strong>You want the longest and sharpest clips:</strong> Kling AI.",
         "<strong>You want to choose the model and plan shots:</strong> Runway.",
         "<strong>You want dance and trend templates:</strong> Shots.",
@@ -268,7 +268,7 @@ EN2 = {
     ],
     "faq": [
         ("What is the best AI image to video app for iPhone?",
-         "It depends on what you need. Kling AI and Runway make the longest and highest-quality clips but cost from $10 and $14.99 a month. Dora (ours) and PixVerse Lite make short vertical clips with credits or coins. Shots has dance templates. Motionleap animates by hand with no AI credits."),
+         "It depends on what you need. Kling AI and Runway make the longest and highest-quality clips but cost from $10 and $14.99 a month. Dora and PixVerse Lite make short vertical clips with credits or coins. Shots has dance templates. Motionleap animates by hand with no AI credits."),
         ("Can I turn a photo into a video for free on iPhone?",
          "All six apps are free to download, but the five AI generators charge to make videos, by subscription, credits or coins. Free allowances change, so check inside each app."),
         ("How does AI turn a photo into a video?",

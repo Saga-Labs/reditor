@@ -31,9 +31,9 @@ EN = {
     "h1": "Best AI apps to make a dancing video from a photo on iPhone in 2026",
     "description": "Five iPhone apps that make a person in a photo dance, compared by how they do it, price and languages: Dora, Viggle AI, Dance AI, Pose and more.",
     "llms": "Compares five iPhone apps that turn a photo into a dancing video (Dora, Viggle AI, Dance AI, Pose, PixVerse Lite) by how the dance is chosen (your own reference video or a template), price and languages.",
-    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is listed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
+    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
-        "To make a person in a photo dance on iPhone, there are two ways: copy the moves of a video you choose, or pick a ready-made dance or trend. Dora (ours) and PixVerse Lite copy the moves of a reference video onto your photo (both call it Motion Control); Viggle AI does the same with one photo plus one video and also has more than 8,000 templates; Dance AI and Pose work from a library of dance styles and trends.",
+        "To make a person in a photo dance on iPhone, there are two ways: copy the moves of a video you choose, or pick a ready-made dance or trend. Dora and PixVerse Lite copy the moves of a reference video onto your photo (both call it Motion Control); Viggle AI does the same with one photo plus one video and also has more than 8,000 templates; Dance AI and Pose work from a library of dance styles and trends.",
         "All five are free to download and all five charge to make videos, by subscription, credits or both. If you only want one trending template, the template apps are quicker; if you want a specific dance you already have on video, use one of the three that take a reference video.",
     ],
     "columns": ["App", "Price (US)", "How the dance is chosen", "Languages", "Version (date)", "Rating (US)"],
@@ -114,7 +114,7 @@ EN = {
         },
     ],
     "who": [
-        "<strong>You have a specific dance on video and want it on your photo:</strong> Dora (ours), Viggle AI or PixVerse Lite.",
+        "<strong>You have a specific dance on video and want it on your photo:</strong> Dora, Viggle AI or PixVerse Lite.",
         "<strong>You want a trending dance in one tap:</strong> Viggle AI (8,000+ templates), Dance AI or Pose.",
         "<strong>You want your kid or pet to dance:</strong> Dance AI or Pose, whose listings mention children, pets or babies. Dora's Motion Control needs a person in the photo.",
         "<strong>You also want a general AI video app:</strong> Dora or PixVerse Lite.",
@@ -132,7 +132,7 @@ EN = {
     ],
     "faq": [
         ("What is the best app to make a dancing video from a photo on iPhone?",
-         "It depends on how you want to choose the dance. To copy a dance video you already have onto your photo, Dora (ours), Viggle AI and PixVerse Lite take a reference video. For one-tap trends, Viggle AI has more than 8,000 templates, and Dance AI and Pose work from a library of dance styles and effects."),
+         "It depends on how you want to choose the dance. To copy a dance video you already have onto your photo, Dora, Viggle AI and PixVerse Lite take a reference video. For one-tap trends, Viggle AI has more than 8,000 templates, and Dance AI and Pose work from a library of dance styles and effects."),
         ("Can I make a dancing video from a photo for free?",
          "All five apps are free to download, but each charges to make videos, by subscription, credits or both. None of them offers unlimited free videos according to their App Store listings."),
         ("How does an AI dance video work?",
@@ -155,9 +155,9 @@ ES = {
     "h1": "Mejores apps de IA para hacer un vídeo de baile desde una foto en iPhone en 2026",
     "description": "Cinco apps de iPhone que hacen bailar a una persona de una foto, comparadas por cómo lo hacen, precio e idiomas: Dora, Viggle AI, Dance AI y más.",
     "llms": "Compara cinco apps de iPhone que convierten una foto en un vídeo de baile (Dora, Viggle AI, Dance AI, Pose, PixVerse Lite) según cómo se elige el baile (tu propio vídeo de referencia o una plantilla), precio en euros e idiomas.",
-    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
+    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
-        "Para hacer bailar a una persona de una foto en el iPhone hay dos caminos: copiar los movimientos de un vídeo que tú eliges, o escoger un baile o una tendencia ya hechos. Dora (nuestra) y PixVerse Lite copian los movimientos de un vídeo de referencia en tu foto (las dos lo llaman Motion Control); Viggle AI hace lo mismo con una foto y un vídeo y además tiene más de 8.000 plantillas; Dance AI y Pose parten de una biblioteca de estilos de baile y tendencias.",
+        "Para hacer bailar a una persona de una foto en el iPhone hay dos caminos: copiar los movimientos de un vídeo que tú eliges, o escoger un baile o una tendencia ya hechos. Dora y PixVerse Lite copian los movimientos de un vídeo de referencia en tu foto (las dos lo llaman Motion Control); Viggle AI hace lo mismo con una foto y un vídeo y además tiene más de 8.000 plantillas; Dance AI y Pose parten de una biblioteca de estilos de baile y tendencias.",
         "Las cinco se descargan gratis y las cinco cobran por hacer vídeos, con suscripción, créditos o las dos cosas. Si solo quieres una plantilla de moda, las apps de plantillas son más rápidas; si quieres un baile concreto que ya tienes en vídeo, usa una de las tres que aceptan un vídeo de referencia.",
     ],
     "columns": ["App", "Precio (España)", "Cómo se elige el baile", "Idiomas", "Versión (fecha)", "Valoración (España)"],
@@ -238,7 +238,7 @@ ES = {
         },
     ],
     "who": [
-        "<strong>Tienes un baile concreto en vídeo y lo quieres en tu foto:</strong> Dora (nuestra), Viggle AI o PixVerse Lite.",
+        "<strong>Tienes un baile concreto en vídeo y lo quieres en tu foto:</strong> Dora, Viggle AI o PixVerse Lite.",
         "<strong>Quieres un baile de moda con un toque:</strong> Viggle AI (más de 8.000 plantillas), Dance AI o Pose.",
         "<strong>Quieres que baile tu hijo o tu mascota:</strong> Dance AI o Pose, cuyas fichas mencionan niños, mascotas o bebés. El Motion Control de Dora necesita una persona en la foto.",
         "<strong>Quieres también una app de vídeo con IA general:</strong> Dora o PixVerse Lite.",
@@ -256,7 +256,7 @@ ES = {
     ],
     "faq": [
         ("¿Cuál es la mejor app para hacer un vídeo de baile desde una foto en iPhone?",
-         "Depende de cómo quieras elegir el baile. Para copiar en tu foto un baile que ya tienes en vídeo, Dora (nuestra), Viggle AI y PixVerse Lite aceptan un vídeo de referencia. Para tendencias con un toque, Viggle AI tiene más de 8.000 plantillas, y Dance AI y Pose parten de una biblioteca de estilos de baile y efectos."),
+         "Depende de cómo quieras elegir el baile. Para copiar en tu foto un baile que ya tienes en vídeo, Dora, Viggle AI y PixVerse Lite aceptan un vídeo de referencia. Para tendencias con un toque, Viggle AI tiene más de 8.000 plantillas, y Dance AI y Pose parten de una biblioteca de estilos de baile y efectos."),
         ("¿Se puede hacer un vídeo de baile desde una foto gratis?",
          "Las cinco apps se descargan gratis, pero todas cobran por hacer vídeos, con suscripción, créditos o las dos cosas. Según sus fichas del App Store, ninguna ofrece vídeos gratis ilimitados."),
         ("¿Cómo funciona un vídeo de baile con IA?",

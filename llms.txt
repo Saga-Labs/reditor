@@ -1,6 +1,6 @@
 # Reditor
 
-> Alternatives to iPhone apps (for when an app shuts down, gets expensive or does not fit), with prices, versions and privacy labels copied from the App Store on a stated date. Run by Saga Labs; when a Saga Labs app is an alternative it is listed first and labelled as ours.
+> Alternatives to iPhone apps (for when an app shuts down, gets expensive or does not fit), with prices, versions and privacy labels copied from the App Store on a stated date. Run by Saga Labs; when a Saga Labs app is an alternative it is one more option, not first by default, and the page says so at the top.
 
 ## Alternatives
 

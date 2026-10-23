@@ -4,7 +4,7 @@ Checked 2026-10-20: GitHub API (licence, latest release, last commit) for Ollama
 llama.cpp, Jan and GPT4All; lmstudio.ai download, pricing and system
 requirements; jan.ai Mac install docs; docs.ollama.com/macos and
 ollama.com/pricing; iTunes lookup API (US) and App Store pages for the four
-App Store apps. Pinku (ours) is one more option, not first and without the
+App Store apps. Pinku is one more option, not first and without the
 "Our app" tag, per Marta (20 Oct 2026); transparency note in "method".
 """
 
