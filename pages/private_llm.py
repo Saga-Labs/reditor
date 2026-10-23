@@ -29,7 +29,7 @@ EN = {
     "llms": "Compares Private LLM with four apps that run language models offline on iPhone (Pinku, Locally AI, Enclave, PocketPal AI) by price, models, Mac support and privacy label.",
     "disclosure": "Pinku is made by Saga Labs, the company behind Reditor. It is listed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
-        "If you want what Private LLM does (AI chat that runs on your iPhone without internet) without paying $4.99 before you try it, Pinku (ours) and Locally AI are free to download, run models with Apple's MLX, work on iPhone and Mac and have the App Store privacy label <em>Data Not Collected</em>. Pinku's six models up to 1 GB are free, and its larger models are a one-time $9.99, with no subscription.",
+        "If you want what Private LLM does (AI chat that runs on your iPhone without internet) without paying $4.99 before you try it, Pinku (ours) and Locally AI are free to download, run models with Apple's MLX, work on iPhone and Mac and have the App Store privacy label <em>Data Not Collected</em>. Pinku's six models up to 1 GB are free, and Pinku Pro, for the larger models, is a yearly subscription ($16.99) or a one-time purchase (from $9.99).",
         "Choose Enclave if you also want cloud models (Claude, GPT, Gemini) in the same app, or PocketPal AI if you want to load any GGUF model from Hugging Face.",
     ],
     "columns": ["App", "Price (US)", "Models", "iPhone and Mac", "App Store privacy label", "Version (date)", "Rating (US)"],
@@ -38,7 +38,7 @@ EN = {
         {
             "name": "Pinku: Private Local AI Chat", "id": 6754878073, "ours": True, "anchor": "pinku",
             "developer": "Saga Ltd.", "rating": (4.67, 12),
-            "row": ["Free; Pinku Pro $9.99 once", "12 models (Qwen3, Llama 3.2, Gemma 3, Gemma 3n, DeepSeek-R1 distill, SmolLM3, LFM2), 6 free", "Yes",
+            "row": ["Free; Pinku Pro $16.99/year or one-time from $9.99", "12 models (Qwen3, Llama 3.2, Gemma 3, Gemma 3n, DeepSeek-R1 distill, SmolLM3, LFM2), 6 free", "Yes",
                     "Data Not Collected", "1.0.8 (9 Oct 2026)", "4.7 (12 ratings)"],
             "best_for": "a free, small and simple offline chat on iPhone and Mac, with no account and no subscription.",
             "facts": [
@@ -105,7 +105,7 @@ EN = {
     ],
     "who": [
         "<strong>You want to try offline AI before paying:</strong> Pinku (ours) or Locally AI.",
-        "<strong>You want one purchase and no subscription:</strong> Pinku Pro ($9.99) or Private LLM ($4.99 up front).",
+        "<strong>You want one purchase and no subscription:</strong> Private LLM ($4.99 up front) or Pinku Pro in its one-time version (from $9.99).",
         "<strong>You want the most models, including 14B coders:</strong> Private LLM.",
         "<strong>You also want Claude, GPT or Gemini sometimes:</strong> Enclave Pro.",
         "<strong>You want any model from Hugging Face:</strong> PocketPal AI.",
@@ -121,7 +121,7 @@ EN = {
     ],
     "faq": [
         ("Is there a free alternative to Private LLM?",
-         "Yes. Pinku, Locally AI, Enclave and PocketPal AI are free to download and run models offline. Pinku's six models up to 1 GB are free; its larger models are a one-time $9.99."),
+         "Yes. Pinku, Locally AI, Enclave and PocketPal AI are free to download and run models offline. Pinku's six models up to 1 GB are free; Pinku Pro, for the larger models, is yearly ($16.99) or one-time (from $9.99)."),
         ("Which offline AI app for iPhone does not collect data?",
          "Pinku, Private LLM, Locally AI and PocketPal AI all show Data Not Collected on their App Store privacy labels. Enclave shows Data Not Linked to You."),
         ("Do these apps work without internet?",
@@ -146,7 +146,7 @@ ES = {
     "llms": "Compara Private LLM con cuatro apps que ejecutan modelos de lenguaje sin conexión en iPhone (Pinku, Locally AI, Enclave, PocketPal AI) por precio en euros, modelos, Mac y etiqueta de privacidad.",
     "disclosure": "Pinku es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
-        "Si quieres lo que hace Private LLM (un chat de IA que funciona en el iPhone sin internet) sin pagar 5,99 € antes de probarlo, Pinku (nuestra) y Locally AI se descargan gratis, usan MLX de Apple, funcionan en iPhone y Mac y tienen la etiqueta de privacidad <em>No se recopilan datos</em>. Los seis modelos de Pinku de hasta 1 GB son gratis, y los grandes son un pago único de 9,99 €, sin suscripción.",
+        "Si quieres lo que hace Private LLM (un chat de IA que funciona en el iPhone sin internet) sin pagar 5,99 € antes de probarlo, Pinku (nuestra) y Locally AI se descargan gratis, usan MLX de Apple, funcionan en iPhone y Mac y tienen la etiqueta de privacidad <em>No se recopilan datos</em>. Los seis modelos de Pinku de hasta 1 GB son gratis, y Pinku Pro, para los grandes, es una suscripción anual (19,99 €) o un pago único (desde 9,99 €).",
         "Elige Enclave si además quieres modelos en la nube (Claude, GPT, Gemini) en la misma app, o PocketPal AI si quieres cargar cualquier modelo GGUF de Hugging Face.",
     ],
     "columns": ["App", "Precio (España)", "Modelos", "iPhone y Mac", "Etiqueta de privacidad", "Versión (fecha)", "Valoración (España)"],
@@ -155,7 +155,7 @@ ES = {
         {
             "name": "Pinku: Chat IA Local Privado", "id": 6754878073, "ours": True, "anchor": "pinku",
             "developer": "Saga Ltd.", "rating": (5.0, 1),
-            "row": ["Gratis; Pinku Pro 9,99 € una vez", "12 modelos (Qwen3, Llama 3.2, Gemma 3, Gemma 3n, DeepSeek-R1 distill, SmolLM3, LFM2), 6 gratis", "Sí",
+            "row": ["Gratis; Pinku Pro 19,99 €/año o pago único desde 9,99 €", "12 modelos (Qwen3, Llama 3.2, Gemma 3, Gemma 3n, DeepSeek-R1 distill, SmolLM3, LFM2), 6 gratis", "Sí",
                     "No se recopilan datos", "1.0.8 (9 oct 2026)", "5,0 (1 valoración)"],
             "best_for": "un chat sin conexión gratis, ligero y sencillo en iPhone y Mac, sin cuenta ni suscripción.",
             "facts": [
@@ -222,7 +222,7 @@ ES = {
     ],
     "who": [
         "<strong>Quieres probar la IA sin conexión antes de pagar:</strong> Pinku (nuestra) o Locally AI.",
-        "<strong>Quieres un pago único y nada de suscripción:</strong> Pinku Pro (9,99 €) o Private LLM (5,99 € al descargar).",
+        "<strong>Quieres un pago único y nada de suscripción:</strong> Private LLM (5,99 € al descargar) o Pinku Pro en su versión de pago único (desde 9,99 €).",
         "<strong>Quieres el máximo de modelos, incluidos los de programación de 14B:</strong> Private LLM.",
         "<strong>A veces también quieres Claude, GPT o Gemini:</strong> Enclave Pro.",
         "<strong>Quieres cualquier modelo de Hugging Face:</strong> PocketPal AI.",
@@ -238,7 +238,7 @@ ES = {
     ],
     "faq": [
         ("¿Hay alguna alternativa gratis a Private LLM?",
-         "Sí. Pinku, Locally AI, Enclave y PocketPal AI se descargan gratis y ejecutan modelos sin conexión. Los seis modelos de Pinku de hasta 1 GB son gratis; los grandes son un pago único de 9,99 €."),
+         "Sí. Pinku, Locally AI, Enclave y PocketPal AI se descargan gratis y ejecutan modelos sin conexión. Los seis modelos de Pinku de hasta 1 GB son gratis; Pinku Pro, para los grandes, es anual (19,99 €) o de pago único (desde 9,99 €)."),
         ("¿Qué app de IA sin conexión para iPhone no recoge datos?",
          "Pinku, Private LLM, Locally AI y PocketPal AI tienen la etiqueta «No se recopilan datos» en el App Store. Enclave tiene «Datos no vinculados a ti»."),
         ("¿Funcionan sin internet?",
