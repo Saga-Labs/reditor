@@ -105,6 +105,26 @@ def page_url(p):
     return f"{SITE}/{p['path']}"
 
 
+def last_change(url):
+    """Date the built HTML of a URL last changed: today if the build just changed it, else its last commit.
+    The visible "Updated" date stays the data-check date; the sitemap lastmod also moves when the page text changes."""
+    import subprocess, datetime
+    rel = url[len(SITE) + 1:] + "index.html"
+    try:
+        if subprocess.run(["git", "-C", str(ROOT), "diff", "--quiet", "HEAD", "--", rel]).returncode == 1:
+            return datetime.date.today().isoformat()
+        out = subprocess.run(["git", "-C", str(ROOT), "log", "-1", "--format=%cs", "--", rel],
+                             capture_output=True, text=True).stdout.strip()
+        return out or None
+    except OSError:
+        return None
+
+
+def lastmod(url, updated):
+    dates = [d for d in (updated, last_change(url)) if d]
+    return max(dates) if dates else None
+
+
 def human_date(iso, lang):
     y, m, d = iso.split("-")
     months_en = ["January", "February", "March", "April", "May", "June", "July",
@@ -359,6 +379,7 @@ def main():
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u, d in urls:
+        d = lastmod(u, d)
         sm.append(f"<url><loc>{u}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>")
     sm.append("</urlset>")
     (ROOT / "sitemap.xml").write_text("\n".join(sm) + "\n", encoding="utf-8")
