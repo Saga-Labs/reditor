@@ -218,12 +218,26 @@ def ranking_html(p, alternates):
     out.append(f'<h2 id="faq">{t["faq"]}</h2>\n')
     for q, a in p["faq"]:
         out.append(f"<h3>{esc(q)}</h3>\n<p>{esc(a)}</p>\n")
+    out.append(guide_links_html(p))
     out.append(f'<h2 id="sources">{t["sources"]}</h2>\n<ul class="sources">')
     for label, url, *_ in p["sources"]:
         out.append(f'<li>{esc(label)}: <a href="{esc(tag_ours(url, p["ct"]))}">{esc(url)}</a> ({chk})</li>')
     out.append("</ul>\n</article>\n")
     out.append(foot(lang))
     return "".join(out)
+
+
+# Guias paso a paso de aisagalab.com que tratan lo mismo (enlaces entre los tres sitios, 23 oct 2026).
+GUIDE_LINKS = {'best-private-ai-chat-apps-work-without-internet-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'ollama-alternatives-mac-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'private-llm-alternatives-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'es/mejores-apps-chat-ia-privado-sin-internet-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')], 'es/alternativas-a-private-llm-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')]}
+
+
+def guide_links_html(p):
+    links = GUIDE_LINKS.get(p["path"])
+    if not links:
+        return ""
+    h = "Step-by-step guides" if p["lang"] == "en" else "Guías paso a paso"
+    items = "".join(f'<li><a href="{esc(u)}">{esc(t)}</a> (aisagalab.com)</li>' for t, u in links)
+    return f'<h2 id="guides">{h}</h2>\n<ul>{items}</ul>\n'
 
 
 def simple_page(lang, path, title, description, body_html, alternates=()):
