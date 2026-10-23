@@ -27,9 +27,9 @@ EN = {
     "ct": "rd-dance",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Best AI apps to make a dancing video from a photo on iPhone (2026): 5 compared",
+    "title": "Best AI dance video apps for iPhone photos (2026)",
     "h1": "Best AI apps to make a dancing video from a photo on iPhone in 2026",
-    "description": "Five iPhone apps that make a person in a photo dance, compared by how they do it, price and languages: Dora, Viggle AI, Dance AI, Pose and PixVerse Lite. Checked on the App Store on 15 October 2026.",
+    "description": "Five iPhone apps that make a person in a photo dance, compared by how they do it, price and languages: Dora, Viggle AI, Dance AI, Pose and more.",
     "llms": "Compares five iPhone apps that turn a photo into a dancing video (Dora, Viggle AI, Dance AI, Pose, PixVerse Lite) by how the dance is chosen (your own reference video or a template), price and languages.",
     "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is listed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
@@ -151,9 +151,9 @@ ES = {
     "ct": "rd-dance-es",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Mejores apps de IA para hacer un vídeo de baile desde una foto en iPhone (2026): 5 comparadas",
+    "title": "Mejores apps de IA para hacer bailar una foto en iPhone (2026)",
     "h1": "Mejores apps de IA para hacer un vídeo de baile desde una foto en iPhone en 2026",
-    "description": "Cinco apps de iPhone que hacen bailar a una persona de una foto, comparadas por cómo lo hacen, precio e idiomas: Dora, Viggle AI, Dance AI, Pose y PixVerse Lite. Comprobado en el App Store de España el 15 de octubre de 2026.",
+    "description": "Cinco apps de iPhone que hacen bailar a una persona de una foto, comparadas por cómo lo hacen, precio e idiomas: Dora, Viggle AI, Dance AI y más.",
     "llms": "Compara cinco apps de iPhone que convierten una foto en un vídeo de baile (Dora, Viggle AI, Dance AI, Pose, PixVerse Lite) según cómo se elige el baile (tu propio vídeo de referencia o una plantilla), precio en euros e idiomas.",
     "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [

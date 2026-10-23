@@ -19,9 +19,9 @@ EN = {
     "ct": "rd-private-chat",
     "category": "ProductivityApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Best private AI chat apps for iPhone that work without internet (2026): 7 compared by situation",
+    "title": "Best private AI chat apps for iPhone without internet (2026)",
     "h1": "Best private AI chat apps for iPhone that work without internet in 2026",
-    "description": "Seven iPhone apps that run AI chat on your device, compared by what you need: a small download, no signal, documents, Mac, or cloud models on demand. Pinku, Locally AI, Private LLM, Enclave, PocketPal AI, On-Device AI and Privacy AI. Prices, sizes and privacy labels checked on the App Store on 16 October 2026.",
+    "description": "Seven iPhone apps that run AI chat on your device, by situation: small download, no signal, documents, Mac. Pinku, Locally AI, Private LLM and more.",
     "llms": "Compares seven iPhone apps that run private AI chat on the device without internet (Pinku, Locally AI, Private LLM, Enclave, PocketPal AI, On-Device AI, Privacy AI) by situation: download size, price, models named in each listing, documents, Mac support, optional cloud and App Store privacy label.",
     "disclosure": "Pinku is made by Saga Labs, the company behind Reditor. It is listed first because it is ours, and it has only 12 ratings in the US. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
@@ -185,9 +185,9 @@ ES = {
     "ct": "rd-private-chat-es",
     "category": "ProductivityApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Mejores apps de chat con IA privado para iPhone que funcionan sin internet (2026): 7 comparadas según tu caso",
+    "title": "Mejores apps de chat con IA privado para iPhone sin internet (2026)",
     "h1": "Mejores apps de chat con IA privado para iPhone que funcionan sin internet en 2026",
-    "description": "Siete apps de iPhone que ejecutan un chat con IA en tu dispositivo, comparadas según lo que necesites: descarga pequeña, sin cobertura, documentos, Mac o modelos en la nube a ratos. Pinku, Locally AI, Private LLM, Enclave, PocketPal AI, On-Device AI y Privacy AI. Precios, tamaños y etiqueta de privacidad comprobados en el App Store de España el 16 de octubre de 2026.",
+    "description": "Siete apps de iPhone que ejecutan chat con IA en el dispositivo, según tu caso: descarga pequeña, sin cobertura, documentos, Mac. Pinku, Locally AI y más.",
     "llms": "Compara siete apps de iPhone que ejecutan un chat con IA privado en el dispositivo sin internet (Pinku, Locally AI, Private LLM, Enclave, PocketPal AI, On-Device AI, Privacy AI) según tu caso: tamaño de descarga, precio en euros, modelos que nombra cada ficha, documentos, Mac, nube opcional y etiqueta de privacidad del App Store.",
     "disclosure": "Pinku es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra, y en España solo tiene 1 valoración. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [

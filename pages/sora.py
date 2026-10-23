@@ -27,9 +27,9 @@ EN = {
     "ct": "rd-sora",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Best Sora app alternatives for iPhone (2026): the Sora app is gone, what to use now",
+    "title": "Best Sora app alternatives for iPhone video makers (2026)",
     "h1": "Best Sora app alternatives for iPhone in 2026",
-    "description": "OpenAI shut down the Sora app in 2026. Five iPhone apps that still make AI videos from a photo or a text prompt, compared: Dora, Kling AI, Grok, Google Gemini and CapCut. Prices and privacy labels checked on the App Store on 11 October 2026.",
+    "description": "The Sora app is gone. Five iPhone apps that still make AI videos from a photo or text, compared: Dora, Kling AI, Grok and more. Prices checked.",
     "llms": "OpenAI's Sora app is no longer on the App Store; compares five iPhone apps for AI video (Dora, Kling AI, Grok Imagine, Gemini, CapCut) by price, length and resolution, and privacy label.",
     "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is listed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
@@ -146,9 +146,9 @@ ES = {
     "ct": "rd-sora-es",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Mejores alternativas a Sora en iPhone (2026): la app de Sora ya no existe",
+    "title": "Mejores alternativas a Sora para hacer vídeos con IA en iPhone (2026)",
     "h1": "Mejores alternativas a la app de Sora en iPhone en 2026",
-    "description": "OpenAI cerró la app de Sora en 2026. Cinco apps de iPhone que siguen haciendo vídeos con IA desde una foto o un texto: Dora, Kling AI, Grok, Google Gemini y CapCut. Precios y privacidad comprobados en el App Store de España el 11 de octubre de 2026.",
+    "description": "La app de Sora ya no existe. Cinco apps de iPhone que hacen vídeos con IA desde una foto o un texto: Dora, Kling AI, Grok y más. Precios comprobados.",
     "llms": "La app de Sora ya no está en el App Store; compara cinco apps de iPhone para vídeo con IA (Dora, Kling AI, Grok Imagine, Gemini, CapCut) por precio en euros, duración y resolución, y privacidad.",
     "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [

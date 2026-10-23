@@ -53,6 +53,19 @@ T = {
 }
 
 
+# Home page sections: every ranking group must be in one of them (build fails otherwise).
+HOME_SECTIONS = [
+    ("ai-video", {"en": "AI video from a photo or text", "es": "Vídeo con IA desde una foto o un texto"}),
+    ("ai-chat", {"en": "AI chat apps", "es": "Apps de chat con IA"}),
+    ("offline-ai", {"en": "Private and offline AI", "es": "IA privada y sin conexión"}),
+]
+HOME_GROUPS = {
+    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video"},
+    "ai-chat": {"chaton-alt"},
+    "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
+}
+
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
@@ -270,28 +283,36 @@ def main():
     for lang, path in (("en", ""), ("es", "es/")):
         own = [p for p in pages if p["lang"] == lang]
         if lang == "en":
-            title = "Reditor: alternatives to iPhone apps, checked on the App Store"
-            desc = "When an app shuts down, gets expensive or does not fit, Reditor lists the alternatives on iPhone, with prices and privacy labels checked on the App Store."
+            title = "Best alternatives to popular iPhone apps (2026): Reditor"
+            desc = "Best alternatives to Sora, ChatOn, Viggle AI, Private LLM, Ollama and more on iPhone and Mac, with prices and privacy labels checked on the App Store."
             intro = ("<h1>Alternatives to iPhone apps, checked on the App Store</h1>"
                      "<p>One page per app people are leaving: what to use instead, and what you gain or lose with each option. "
                      "Every price, version and privacy label is copied from the App Store on the date shown on each page.</p>"
                      "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is listed first and marked as ours. Competitors are named with their real data, good and bad.</p>")
         else:
-            title = "Reditor: alternativas a apps de iPhone comprobadas en el App Store"
-            desc = "Cuando una app cierra, sube de precio o no encaja, Reditor da las alternativas en iPhone, con precios y privacidad comprobados en el App Store."
+            title = "Mejores alternativas a apps populares de iPhone (2026): Reditor"
+            desc = "Mejores alternativas a Sora, ChatOn, Viggle AI, Private LLM y más en iPhone y Mac, con precios y privacidad comprobados en el App Store."
             intro = ("<h1>Alternativas a apps de iPhone, comprobadas en el App Store</h1>"
                      "<p>Una página por cada app que la gente deja: qué usar en su lugar y qué ganas o pierdes con cada opción. "
                      "Cada precio, versión y etiqueta de privacidad está copiado del App Store en la fecha que pone cada página.</p>"
                      "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, va primera y marcada como nuestra. Las demás aparecen con sus datos reales, buenos y malos.</p>")
-        items = "".join(
-            f'<li><a href="/{p["path"]}">{esc(p["h1"])}</a> <span class="meta">({T[lang]["updated"]} {human_date(p["updated"], lang)})</span></li>'
-            for p in own
-        )
-        write(path, simple_page(lang, path, title, desc, intro + f"<ul class=\"list\">{items}</ul>",
+        sections = ""
+        for sec_id, names in HOME_SECTIONS:
+            group_pages = [p for p in own if p["group"] in HOME_GROUPS[sec_id]]
+            if not group_pages:
+                continue
+            items = "".join(
+                f'<li><a href="/{p["path"]}">{esc(p["h1"])}</a> <span class="meta">({T[lang]["updated"]} {human_date(p["updated"], lang)})</span></li>'
+                for p in group_pages
+            )
+            sections += f'<h2 id="{sec_id}">{esc(names[lang])}</h2><ul class="list">{items}</ul>'
+        missing = [p["path"] for p in own if not any(p["group"] in g for g in HOME_GROUPS.values())]
+        assert not missing, f"home: add these groups to HOME_GROUPS: {missing}"
+        write(path, simple_page(lang, path, title, desc, intro + sections,
                                 [("en", f"{SITE}/"), ("es", f"{SITE}/es/"), ("x-default", f"{SITE}/")]))
 
     about_en = """<h1>About Reditor and how we check</h1>
-<p>Reditor is run by <a href="https://aisagalab.com/">Saga Labs</a>, a small studio that makes iPhone apps (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Fast AI and Brainy). Contact: sagalabs@proton.me.</p>
+<p>Reditor is run by <a href="https://aisagalab.com/">Saga Labs</a>, a small studio that makes iPhone apps (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Ask AI and Brainy). Contact: sagalabs@proton.me.</p>
 <h2>Our apps come first, and we say so</h2>
 <p>When one of our apps fits a question, it is listed first with a "Our app" label and a disclosure at the top of the page. Competitors are linked to their normal App Store pages and shown with their real data, including where they are better than ours.</p>
 <h2>What we check</h2>
@@ -302,7 +323,7 @@ def main():
 <p>We recheck each page about once a month. The "Updated" date only changes when the data has actually been checked again.</p>
 """
     about_es = """<h1>Quiénes somos y cómo comprobamos</h1>
-<p>Reditor es de <a href="https://aisagalab.com/">Saga Labs</a>, un estudio pequeño que hace apps de iPhone (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Fast AI y Brainy). Contacto: sagalabs@proton.me.</p>
+<p>Reditor es de <a href="https://aisagalab.com/">Saga Labs</a>, un estudio pequeño que hace apps de iPhone (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Ask AI y Brainy). Contacto: sagalabs@proton.me.</p>
 <h2>Nuestras apps van primeras, y lo decimos</h2>
 <p>Cuando una de nuestras apps encaja, va primera con la etiqueta "Nuestra app" y un aviso arriba de la página. Las demás llevan enlace a su ficha normal del App Store y aparecen con sus datos reales, también donde son mejores que la nuestra.</p>
 <h2>Qué comprobamos</h2>

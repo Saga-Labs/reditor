@@ -23,9 +23,9 @@ EN = {
     "ct": "rd-private-llm",
     "category": "ProductivityApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Best Private LLM alternatives for iPhone and Mac (2026): offline AI chat compared",
+    "title": "Best Private LLM alternatives for offline AI on iPhone and Mac (2026)",
     "h1": "Best Private LLM alternatives for iPhone and Mac in 2026",
-    "description": "Private LLM costs $4.99 up front. Four free-to-download apps that also run AI models offline on iPhone, compared with it: Pinku, Locally AI, Enclave and PocketPal AI. Prices, models and privacy labels checked on the App Store on 11 October 2026.",
+    "description": "Private LLM costs $4.99 up front. Four free apps that also run AI offline on iPhone and Mac: Pinku, Locally AI, Enclave and PocketPal AI.",
     "llms": "Compares Private LLM with four apps that run language models offline on iPhone (Pinku, Locally AI, Enclave, PocketPal AI) by price, models, Mac support and privacy label.",
     "disclosure": "Pinku is made by Saga Labs, the company behind Reditor. It is listed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
@@ -140,9 +140,9 @@ ES = {
     "ct": "rd-private-llm-es",
     "category": "ProductivityApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Mejores alternativas a Private LLM en iPhone y Mac (2026): IA sin conexión",
+    "title": "Mejores alternativas a Private LLM para IA sin conexión en iPhone y Mac (2026)",
     "h1": "Mejores alternativas a Private LLM en iPhone y Mac en 2026",
-    "description": "Private LLM cuesta 5,99 € antes de probarla. Cuatro apps gratis que también ejecutan modelos de IA sin conexión en el iPhone, comparadas: Pinku, Locally AI, Enclave y PocketPal AI. Precios, modelos y privacidad comprobados en el App Store de España el 11 de octubre de 2026.",
+    "description": "Private LLM cuesta 5,99 €. Cuatro apps gratis que también ejecutan IA sin conexión en iPhone y Mac: Pinku, Locally AI, Enclave y PocketPal AI.",
     "llms": "Compara Private LLM con cuatro apps que ejecutan modelos de lenguaje sin conexión en iPhone (Pinku, Locally AI, Enclave, PocketPal AI) por precio en euros, modelos, Mac y etiqueta de privacidad.",
     "disclosure": "Pinku es de Saga Labs, la empresa que hace Reditor. Va primera porque es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [

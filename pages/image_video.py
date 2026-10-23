@@ -33,9 +33,9 @@ EN1 = {
     "ct": "rd-viggle",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Viggle AI alternatives for iPhone (2026): 5 apps compared",
+    "title": "Best Viggle AI alternatives for iPhone video makers (2026)",
     "h1": "Viggle AI alternatives for iPhone in 2026",
-    "description": "Five iPhone apps to use instead of, or next to, Viggle AI: Dora, PixVerse Lite, Kling AI, Runway and Shots, with Viggle's own data for comparison. Prices, ratings and privacy labels checked on the App Store on 16 October 2026.",
+    "description": "Five iPhone apps to use instead of, or next to, Viggle AI: Dora, PixVerse Lite, Kling AI, Runway and Shots. Prices, ratings and privacy checked.",
     "llms": "Compares Viggle AI with five iPhone alternatives (Dora, PixVerse Lite, Kling AI, Runway, Shots) by price, how each animates a photo, ratings, languages and App Store privacy label.",
     "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is listed first because it is ours, and it has far fewer ratings than most apps here. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
@@ -164,9 +164,9 @@ EN2 = {
     "ct": "rd-img2video",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Best AI image to video apps for iPhone (2026): 6 compared",
+    "title": "Best AI image to video apps for iPhone (2026)",
     "h1": "Best AI image to video apps for iPhone in 2026",
-    "description": "Six iPhone apps that turn a photo into a video, compared by price, how they animate and privacy label: Dora, Kling AI, Runway, PixVerse Lite, Shots and Motionleap. Checked on the App Store on 16 October 2026.",
+    "description": "Six iPhone apps that turn a photo into a video, compared by price, how they animate and privacy label: Dora, Kling AI, Runway, PixVerse Lite and more.",
     "llms": "Compares six iPhone apps that turn a photo into a video (Dora, Kling AI, Runway, PixVerse Lite, Shots, Motionleap) by price, whether they generate new motion with AI or animate by hand, languages, ratings and App Store privacy label.",
     "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is listed first because it is ours, and it has only 15 ratings in the US. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
