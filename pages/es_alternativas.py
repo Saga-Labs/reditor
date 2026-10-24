@@ -310,7 +310,7 @@ ES3 = {
     "ct": "rd-img2video-es",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Mejores apps de IA para convertir una foto en vídeo en iPhone (2026)",
+    "title": "Mejores apps de IA de foto a vídeo para iPhone (2026)",
     "h1": "Mejores apps de IA para convertir una foto en vídeo en iPhone en 2026",
     "description": "Seis apps de iPhone que convierten una foto en vídeo, comparadas por precio, cómo animan y privacidad: Dora, Kling AI, Runway, PixVerse Lite y más.",
     "llms": "Compara seis apps de iPhone que convierten una foto en un vídeo (Dora, Kling AI, Runway, PixVerse Lite, Shots, Motionleap) por precio en euros, si generan movimiento nuevo con IA o animan a mano, idiomas, valoraciones y etiqueta de privacidad del App Store.",

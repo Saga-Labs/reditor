@@ -18,7 +18,7 @@ EN = {
     "ct": "rd-ollama-alt",
     "category": "DeveloperApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Best Ollama alternatives for running open models on Mac and iPhone (2026)",
+    "title": "Best Ollama Alternatives for Mac and iPhone (2026)",
     "h1": "Best Ollama alternatives for Mac and iPhone in 2026",
     "description": "Eight Ollama alternatives compared: LM Studio, Jan, llama.cpp, GPT4All and the App Store apps Locally AI, Private LLM, Enclave and Pinku.",
     "llms": "Compares eight alternatives to Ollama for running open-weight models on Mac and iPhone (LM Studio, Jan, llama.cpp, GPT4All, Locally AI, Private LLM, Enclave, Pinku) by licence, macOS or iOS requirement, last update and whether they also run on iPhone. Notes that GPT4All has had no release since February 2025.",

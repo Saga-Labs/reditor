@@ -27,7 +27,7 @@ EN = {
     "ct": "rd-dance",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Best AI dance video apps for iPhone photos (2026)",
+    "title": "Best AI Apps to Make a Photo Dance on iPhone (2026)",
     "h1": "Best AI apps to make a dancing video from a photo on iPhone in 2026",
     "description": "Five iPhone apps that make a person in a photo dance, compared by how they do it, price and languages: Dora, Viggle AI, Dance AI, Pose and more.",
     "llms": "Compares five iPhone apps that turn a photo into a dancing video (Dora, Viggle AI, Dance AI, Pose, PixVerse Lite) by how the dance is chosen (your own reference video or a template), price and languages.",
