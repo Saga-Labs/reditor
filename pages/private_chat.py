@@ -45,7 +45,7 @@ EN = {
                 "Siri and Shortcuts to start a chat; interface in 34 languages.",
                 "iOS 18.6 or later with Metal 3, 21 MB; its listing says it also runs on a Mac with Apple silicon.",
             ],
-            "limits": "text chat only (its listing does not mention images, documents or web search), only 11 models to choose from, and the 18.6 requirement leaves older iPhones out. Small on-device models are less capable than cloud ones, and the Pro price shows up as three different amounts on the page, so check the price in the app. Only 12 ratings in the US.",
+            "limits": "text chat only (its listing does not mention images, documents or web search), only 11 models to choose from, and the 18.6 requirement leaves older iPhones out. Small on-device models are less capable than cloud ones, and the Pro price shows up as three different amounts on the page, so check the price in the app.",
         },
         {
             "name": "Locally AI by LM Studio", "id": 6741426692, "anchor": "locally-ai",
@@ -133,7 +133,7 @@ EN = {
                 "Also connects to cloud providers and uses Apple's on-device Foundation Model and Private Cloud Compute.",
                 "12 languages, iOS 18.0 or later, 3.7 GB, the biggest app here.",
             ],
-            "limits": "the biggest download here (3.7 GB), the most complex, and its privacy label includes Data Used to Track You. Only 20 ratings.",
+            "limits": "the biggest download here (3.7 GB), the most complex, and its privacy label includes Data Used to Track You.",
         },
     ],
     "who": [
@@ -268,7 +268,7 @@ ES = {
                 "Nada sale del dispositivo, según su ficha.",
                 "Solo en inglés, iOS 15.1 o posterior, 88 MB, el mínimo de iOS más antiguo de la lista.",
             ],
-            "limits": "tú eliges y dimensionas los modelos, lo que es más difícil para quien empieza; solo en inglés y con solo 8 valoraciones en España (4,1 con 161 en EE. UU.).",
+            "limits": "tú eliges y dimensionas los modelos, lo que es más difícil para quien empieza; solo en inglés.",
         },
         {
             "name": "On-Device AI: Asistente", "id": 6497060890, "anchor": "on-device-ai",
@@ -298,7 +298,7 @@ ES = {
                 "También se conecta a proveedores en la nube y usa el modelo Foundation de Apple en el dispositivo y Private Cloud Compute.",
                 "12 idiomas, iOS 18.0 o posterior, 3,7 GB, la app más grande de la lista.",
             ],
-            "limits": "la descarga más grande (3,7 GB), la más compleja y su etiqueta de privacidad incluye Datos utilizados para el seguimiento. Solo 2 valoraciones en España.",
+            "limits": "la descarga más grande (3,7 GB), la más compleja y su etiqueta de privacidad incluye Datos utilizados para el seguimiento.",
         },
     ],
     "who": [

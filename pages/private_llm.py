@@ -48,7 +48,7 @@ EN = {
                 "Pro (yearly or one-time) lets you choose any model, up to Qwen3 8B, and adds custom instructions, on-device dictation and read aloud.",
                 "App in 34 languages, 49 MB, iOS 18.6 or later.",
             ],
-            "limits": "fewer models than Private LLM, Enclave or PocketPal, the largest is Qwen3 8B, it is text only, and it has only 12 ratings in the US so far.",
+            "limits": "fewer models than Private LLM, Enclave or PocketPal, the largest is Qwen3 8B and it is text only.",
         },
         {
             "name": "Private LLM - Local AI Chat", "id": 6448106860, "anchor": "private-llm",

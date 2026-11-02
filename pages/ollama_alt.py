@@ -102,7 +102,7 @@ EN = {
                 "Chats never leave the device; Apple's privacy label lists only purchase history and an anonymous user ID, used for Pinku Pro purchases.",
                 "Downloads from ModelScope where Hugging Face is blocked.",
             ],
-            "limits": "11 curated models only (0.4 to 4.7 GB); few ratings.",
+            "limits": "11 curated models only (0.4 to 4.7 GB).",
         },
     ],
     "who": [

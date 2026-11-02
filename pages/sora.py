@@ -51,7 +51,7 @@ EN = {
                 "A video takes about two minutes, an image about one.",
                 "11 languages, iOS 18.6 or later, 61 MB.",
             ],
-            "limits": "it is a paid subscription, it has only 16 ratings in the US so far, and its privacy label includes data used to track you. It does not edit long videos on a timeline.",
+            "limits": "it is a paid subscription, and its privacy label includes data used to track you. It does not edit long videos on a timeline.",
         },
         {
             "name": "Kling AI: AI Image & Video Maker", "id": 6738049229, "anchor": "kling",

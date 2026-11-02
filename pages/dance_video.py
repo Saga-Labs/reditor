@@ -51,7 +51,7 @@ EN = {
                 "The same account and coins work on doravideo.com and inside Claude and ChatGPT through the Dora connector.",
                 "iOS 18.6 or later, 61 MB.",
             ],
-            "limits": "it needs a paid plan or coins (there is no free video), Motion Control needs a person in the photo (the app checks this on the phone), a pet or a drawing is not a person for it, and it has only 16 ratings in the US so far. It does not have a large catalogue of dance templates to scroll through the way Viggle AI does.",
+            "limits": "it needs a paid plan or coins (there is no free video), Motion Control needs a person in the photo (the app checks this on the phone), a pet or a drawing is not a person for it. It does not have a large catalogue of dance templates to scroll through the way Viggle AI does.",
         },
         {
             "name": "Viggle AI: Meme Maker", "id": 6503272013, "anchor": "viggle",

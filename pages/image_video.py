@@ -22,7 +22,7 @@ DORA = {
         "Same account and coins on doravideo.com and inside AI assistants such as Claude through the Dora connector.",
         "11 languages, iOS 18.6 or later, 62 MB.",
     ],
-    "limits": "there is no free video (you need coins or a plan), only 16 ratings in the US so far, and Motion Control needs a person in the photo. It has no community feed and no photo editor.",
+    "limits": "there is no free video (you need coins or a plan), and Motion Control needs a person in the photo. It has no community feed and no photo editor.",
 }
 
 VIGGLE_ROW_PRICE = "Pro $4.99 a week, $9.99 a month or $95.90 a year; Live plans $24.99 to $79.99 a month; extra credits $3 to $15"

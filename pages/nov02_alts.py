@@ -74,11 +74,11 @@ FACTS = {
 }
 
 LIMITS = {
-    "dora": "no free video (a plan is needed; coin packs are for subscribers), only 16 ratings in the US, no timeline editing of long videos and no publishing to your accounts.",
+    "dora": "no free video (a plan is needed; coin packs are for subscribers), no timeline editing of long videos and no publishing to your accounts.",
     "kling": "credits are sold on top of the plans, so check what a long video costs first; 5 languages.",
     "runway": "the App Store lists one language (English), and extra credits are sold on top of the plans.",
     "pika": "last updated on 15 July 2026, English only, and its listing is about effects and swaps rather than long scenes from text.",
-    "pixverse": "still version 0.8.1, and fewer ratings than Kling or Runway.",
+    "pixverse": "still version 0.8.1.",
     "luma": "last updated on 17 April 2026, English only, and the top plans are the most expensive listed here.",
     "pollo": "English only, and credits are not cheap at the small packs ($6.99 for 100).",
     "invideo": "English only, the highest entry price here, and more complex than an app that makes one clip.",
@@ -174,7 +174,7 @@ PIXVERSE = page("pixverse-alternatives-iphone", "rd-pixverse", "Best PixVerse Al
     "Six iPhone apps to use instead of PixVerse Lite: Kling AI, Pika, Shots, Dora, Pollo AI and Runway, compared by price, use and App Store privacy label.",
     "Six iPhone alternatives to PixVerse Lite (Kling AI, Pika, Shots, Dora, Pollo AI, Runway) by price, use and App Store privacy label.",
     ["On the US App Store the app is called PixVerse Lite, at version 0.8.1 from 21 September 2026, with Elite at $5.99 a week or $49.99 a year. It is hard to beat on price among these, so the reasons to leave are others: more ratings, a different way of working, or a simpler app.",
-     "Kling AI has far more ratings and states length and resolution clearly. Pika is for changing your own clips. Shots works from one photo and a style. Runway gives you several outside models and an agent. Dora makes one short clip with the cost shown first and no watermark, but it has only 16 ratings."],
+     "Kling AI has far more ratings and states length and resolution clearly. Pika is for changing your own clips. Shots works from one photo and a style. Runway gives you several outside models and an agent. Dora makes one short clip with the cost shown first and no watermark."],
     ["kling", "pika", "shots", "pollo", "runway"],
     dict(dora="One short clip, no watermark, cost shown first", kling="Stated length and resolution, many ratings", pika="Changing your own clips and photos", shots="Photo to video from a style", pollo="Ads and store content as well as video", runway="Several models and an agent in one app"),
     dict(dora="someone who wants one clip and to see the coin cost before tapping.", kling="people who want 15 seconds in 1080p or 4K, and up to 3 minutes with extension.", pika="people who like effects on what they already filmed.", shots="quick results without writing a prompt.", pollo="sellers who need ads and product images.", runway="people who want to pick the model and let an agent assemble the video."),
