@@ -34,7 +34,7 @@ PAGES = [{
     "llms": "Explains that Midjourney has no iPhone app under its own name (its developer publishes the anime-style niji・journey app) and compares seven iPhone AI image apps (niji・journey, Leonardo.Ai, Ideogram, Dora, Adobe Firefly, ChatGPT, Google Gemini) by price, image models named in each listing and App Store privacy label.",
     "answer": [
         "<strong>There is no app called Midjourney on the iPhone.</strong> On 2 November 2026, a US App Store search for «midjourney» showed no app from Midjourney under that name; Midjourney itself is used at midjourney.com, which also opens in Safari on the iPhone. The one iPhone app from Midjourney, Inc. is <a href=\"https://apps.apple.com/us/app/id6446376937\">niji・journey</a>, which makes anime-style pictures and syncs with an existing niji・journey account.",
-        "For other styles, six apps do the same job natively. Leonardo.Ai and Adobe Firefly let you choose between several image models (Firefly's are trained on licensed content, per Adobe). Ideogram is known for clean text inside images, such as logos and posters. ChatGPT and Google Gemini make images inside a chat app you may already have; Gemini's listing names Nano Banana 2. Dora makes images with Nano Banana 2 too, at about 10 coins an image on doravideo.com, and also makes video.",
+        "For other styles, six apps do the same job natively. Leonardo.Ai and Adobe Firefly let you choose between several image models (Firefly's are trained on licensed content, per Adobe). Ideogram is known for clean text inside images, such as logos and posters. ChatGPT and Google Gemini make images inside a chat app you may already have; Gemini's listing names Nano Banana 2. Dora makes images with Nano Banana 2 too, at 10 coins an image on doravideo.com, and also makes video.",
     ],
     "columns": ["App", "Price (US)", "What it makes, per its listing", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
     "table_note": "Prices are in-app purchases listed on each US App Store page on 2 November 2026; pages list only some. All are free to download. Ratings are that day's App Store average and count.",
@@ -68,7 +68,7 @@ PAGES = [{
              "1", LN, "2026.41 (24 Oct 2026)"]),
         app("DORA · AI Video Generator", 6754180384, "dora", "Saga Ltd.", 4.31, 16,
             "someone who wants images and short videos from the same coins, with the cost shown first.",
-            ["Images from a description or a reference photo, up to 4K, back in about a minute, per its listing; one of its image models is Nano Banana 2, at about 10 coins an image on <a href=\"https://doravideo.com/models\">doravideo.com/models</a>.",
+            ["Images from a description or a reference photo, up to 4K, back in about a minute, per its listing; one of its image models is Nano Banana 2, at 10 coins an image on <a href=\"https://doravideo.com/models\">doravideo.com/models</a>.",
              "The coin cost shows before you generate, and failed generations refund the coins.",
              "The same account and coins work on doravideo.com. Dora's own page compares it with Midjourney: <a href=\"https://doravideo.com/vs/midjourney\">doravideo.com/vs/midjourney</a>."],
             "built mainly for video, with no style quiz or community feed, and no free images: coins need a Pro plan.",
