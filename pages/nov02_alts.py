@@ -107,7 +107,7 @@ def page(slug, ct, title, h1, desc, llms, answer, picks, good, best, who, cases,
             "sources": [(f"{a['name']} (App Store)", f"https://apps.apple.com/us/app/id{a['id']}") for a in apps] + list(extra_sources)}
 
 
-RELATED = ["kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt"]
+RELATED = ["kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt"]
 
 KLING = page("kling-ai-alternatives-iphone", "rd-kling", "Best Kling AI Alternatives for iPhone (2026)", "Best Kling AI alternatives for iPhone in 2026",
     "Six iPhone apps to use instead of Kling AI: Runway, PixVerse Lite, Luma, Dora, Pollo AI and Grok, compared by price, what each is good for and privacy label.",
