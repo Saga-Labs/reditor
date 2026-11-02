@@ -26,7 +26,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov02_photo_vault"]
 
 T = {
     "en": {
@@ -37,7 +37,7 @@ T = {
         "faq": "Frequently asked questions", "sources": "Sources",
         "who": "Who should use what", "cases": "Use cases",
         "method": "How we checked",
-        "footer": "Reditor is run by Saga Labs, which makes Dora, Pinku, Brainy and Ask AI, some of the apps we compare.",
+        "footer": "Reditor is run by Saga Labs, which makes Dora, Pinku, Brainy, Ask AI and Photo Vault, some of the apps we compare.",
         "about": "About and method", "home": "All alternatives",
         "ratings": "ratings", "store_page": "App Store page",
     },
@@ -49,7 +49,7 @@ T = {
         "faq": "Preguntas frecuentes", "sources": "Fuentes",
         "who": "Cuál elegir según tu caso", "cases": "Casos de uso",
         "method": "Cómo lo comprobamos",
-        "footer": "Reditor es de Saga Labs, que hace Dora, Pinku, Brainy y Ask AI, algunas de las apps que comparamos.",
+        "footer": "Reditor es de Saga Labs, que hace Dora, Pinku, Brainy, Ask AI y Photo Vault, algunas de las apps que comparamos.",
         "about": "Quiénes somos y método", "home": "Todas las alternativas",
         "ratings": "valoraciones", "store_page": "Ficha en el App Store",
     },
@@ -61,11 +61,13 @@ HOME_SECTIONS = [
     ("ai-video", {"en": "AI video from a photo or text", "es": "Vídeo con IA desde una foto o un texto"}),
     ("ai-chat", {"en": "AI chat apps", "es": "Apps de chat con IA"}),
     ("offline-ai", {"en": "Private and offline AI", "es": "IA privada y sin conexión"}),
+    ("privacy", {"en": "Hide private photos", "es": "Ocultar fotos privadas"}),
 ]
 HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt"},
     "ai-chat": {"chaton-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
+    "privacy": {"photo-vault-alt"},
 }
 
 
@@ -80,7 +82,8 @@ def store_link(app_id, ct):
 OUR_LLMS = [("Dora", 6754180384, "AI video and image generator for iPhone and doravideo.com; subscription with coins; no free video."),
             ("Pinku", 6754878073, "private AI chat with open models that run on the device; free model, optional Pro."),
             ("Brainy", 1667947372, "plain-language AI assistant with voice, camera, images and video; weekly or yearly plan."),
-            ("Ask AI", 1662608035, "AI chat with several models in one app; a few free messages a day, Pro for the rest.")]
+            ("Ask AI", 1662608035, "AI chat with several models in one app; a few free messages a day, Pro for the rest."),
+            ("Photo Vault", 1532670722, "photo and video vault for iPhone with Face ID, no account and no server; optional copy in your own iCloud; Premium yearly or lifetime.")]
 
 OUR_IDS = {"1667947372", "6754878073", "1143691286", "6754180384",
            "1553693943", "1462269642", "1662608035", "1532670722"}
@@ -355,14 +358,14 @@ def main():
             intro = ("<h1>Alternatives to iPhone apps, checked on the App Store</h1>"
                      "<p>One page per app people are leaving: what to use instead, and what you gain or lose with each option. "
                      "Every price, version and privacy label is copied from the App Store on the date shown on each page.</p>"
-                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and the footer of every page names our apps. Competitors are named with their real data, good and bad. On this site, our apps are Dora, Pinku, Brainy and Ask AI.</p>")
+                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and the footer of every page names our apps. Competitors are named with their real data, good and bad. On this site, our apps are Dora, Pinku, Brainy, Ask AI and Photo Vault.</p>")
         else:
             title = "Mejores alternativas a apps populares de iPhone (2026): Reditor"
             desc = "Mejores alternativas a Sora, ChatOn, Viggle AI, Private LLM y más en iPhone y Mac, con precios y privacidad comprobados en el App Store."
             intro = ("<h1>Alternativas a apps de iPhone, comprobadas en el App Store</h1>"
                      "<p>Una página por cada app que la gente deja: qué usar en su lugar y qué ganas o pierdes con cada opción. "
                      "Cada precio, versión y etiqueta de privacidad está copiado del App Store en la fecha que pone cada página.</p>"
-                     "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y el pie de cada página nombra nuestras apps. Las demás aparecen con sus datos reales, buenos y malos. En esta web, nuestras apps son Dora, Pinku, Brainy y Ask AI.</p>")
+                     "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y el pie de cada página nombra nuestras apps. Las demás aparecen con sus datos reales, buenos y malos. En esta web, nuestras apps son Dora, Pinku, Brainy, Ask AI y Photo Vault.</p>")
         sections = ""
         for sec_id, names in HOME_SECTIONS:
             group_pages = sorted((p for p in own if p["group"] in HOME_GROUPS[sec_id]), key=lambda p: p["updated"], reverse=True)

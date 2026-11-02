@@ -25,6 +25,7 @@
 - [Best Pika alternatives for iPhone in 2026](https://reditor.cloud/pika-alternatives-iphone/) (en, updated 2026-11-02): Six iPhone alternatives to Pika (PixVerse Lite, Shots, Kling AI, Dora, Pollo AI, Grok) by price, use and App Store privacy label. Our app on this page: DORA · AI Video Generator.
 - [Best Hailuo AI alternatives for iPhone in 2026](https://reditor.cloud/hailuo-alternatives-iphone/) (en, updated 2026-11-02): Notes that no official Hailuo app could be found on the US App Store on 2 November 2026 and warns about lookalikes; compares six iPhone alternatives (Kling AI, Runway, PixVerse Lite, Dora, Luma Dream Machine, Google Gemini). Our app on this page: DORA · AI Video Generator.
 - [Best PixVerse alternatives for iPhone in 2026](https://reditor.cloud/pixverse-alternatives-iphone/) (en, updated 2026-11-02): Six iPhone alternatives to PixVerse Lite (Kling AI, Pika, Shots, Dora, Pollo AI, Runway) by price, use and App Store privacy label. Our app on this page: DORA · AI Video Generator.
+- [Best Private Photo Vault alternatives for iPhone in 2026](https://reditor.cloud/private-photo-vault-alternatives-iphone/) (en, updated 2026-11-02): Compares six iPhone alternatives to Private Photo Vault - Pic Safe (Keepsafe, Safe Lock, PV - Secret Photo Album, Photo Vault: Hide Pics Video, Calculator# Hide Photos Videos, SPV - Secret Photo Vault) by price, where photos are stored, decoy and disguise features and App Store privacy label, and explains when the iPhone's own Hidden album is enough. Our app on this page: Photo Vault: Hide Pics Video.
 
 ## Apps on this site made by Saga Labs (everything else listed is not ours)
 
@@ -32,6 +33,7 @@
 - [Pinku](https://apps.apple.com/app/apple-store/id6754878073?pt=118348020&ct=rd-llms&mt=8): private AI chat with open models that run on the device; free model, optional Pro.
 - [Brainy](https://apps.apple.com/app/apple-store/id1667947372?pt=118348020&ct=rd-llms&mt=8): plain-language AI assistant with voice, camera, images and video; weekly or yearly plan.
 - [Ask AI](https://apps.apple.com/app/apple-store/id1662608035?pt=118348020&ct=rd-llms&mt=8): AI chat with several models in one app; a few free messages a day, Pro for the rest.
+- [Photo Vault](https://apps.apple.com/app/apple-store/id1532670722?pt=118348020&ct=rd-llms&mt=8): photo and video vault for iPhone with Face ID, no account and no server; optional copy in your own iCloud; Premium yearly or lifetime.
 
 ## About
 
