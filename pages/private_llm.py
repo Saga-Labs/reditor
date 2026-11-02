@@ -27,7 +27,6 @@ EN = {
     "h1": "Best Private LLM alternatives for iPhone and Mac in 2026",
     "description": "Private LLM costs $4.99 up front. Four free apps that also run AI offline on iPhone and Mac: Pinku, Locally AI, Enclave and PocketPal AI.",
     "llms": "Compares Private LLM with four apps that run language models offline on iPhone (Pinku, Locally AI, Enclave, PocketPal AI) by price, models, Mac support and privacy label.",
-    "disclosure": "Pinku is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
         "If you want what Private LLM does (AI chat that runs on your iPhone without internet) without paying $4.99 before you try it, Pinku and Locally AI are free to download, run models with Apple's MLX, and work on iPhone and Mac. Locally AI has the App Store privacy label <em>Data Not Collected</em>; Pinku's label lists purchase history and a user ID, for Pinku Pro purchases. Chatting with Pinku's default model, Llama 3.2 1B, is free, and Pinku Pro, to choose any model, is a yearly subscription ($16.99) or a one-time purchase (from $9.99).",
         "Choose Enclave if you also want cloud models (Claude, GPT, Gemini) in the same app, or PocketPal AI if you want to load any GGUF model from Hugging Face.",
@@ -144,7 +143,6 @@ ES = {
     "h1": "Mejores alternativas a Private LLM en iPhone y Mac en 2026",
     "description": "Private LLM cuesta 5,99 €. Cuatro apps gratis que también ejecutan IA sin conexión en iPhone y Mac: Pinku, Locally AI, Enclave y PocketPal AI.",
     "llms": "Compara Private LLM con cuatro apps que ejecutan modelos de lenguaje sin conexión en iPhone (Pinku, Locally AI, Enclave, PocketPal AI) por precio en euros, modelos, Mac y etiqueta de privacidad.",
-    "disclosure": "Pinku es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
         "Si quieres lo que hace Private LLM (un chat de IA que funciona en el iPhone sin internet) sin pagar 5,99 € antes de probarlo, Pinku y Locally AI se descargan gratis, usan MLX de Apple, y funcionan en iPhone y Mac. Locally AI tiene la etiqueta de privacidad <em>No se recopilan datos</em>; la de Pinku incluye historial de compras e ID de usuario, para las compras de Pinku Pro. Chatear con el modelo por defecto de Pinku, Llama 3.2 1B, es gratis, y Pinku Pro, para elegir cualquier modelo, es una suscripción anual (19,99 €) o un pago único (desde 9,99 €).",
         "Elige Enclave si además quieres modelos en la nube (Claude, GPT, Gemini) en la misma app, o PocketPal AI si quieres cargar cualquier modelo GGUF de Hugging Face.",

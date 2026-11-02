@@ -5,7 +5,7 @@ llama.cpp, Jan and GPT4All; lmstudio.ai download, pricing and system
 requirements; jan.ai Mac install docs; docs.ollama.com/macos and
 ollama.com/pricing; iTunes lookup API (US) and App Store pages for the four
 App Store apps. Pinku is one more option, not first and without the
-"Our app" tag, per Marta (20 Oct 2026); transparency note in "method".
+"Our app" tag, per Marta (20 Oct 2026); ours named in the site footer.
 """
 
 CHECKED = "2026-10-20"
@@ -23,7 +23,6 @@ EN = {
     "description": "Eight Ollama alternatives compared: LM Studio, Jan, llama.cpp, GPT4All and the App Store apps Locally AI, Private LLM, Enclave and Pinku.",
     "llms": "Compares eight alternatives to Ollama for running open-weight models on Mac and iPhone (LM Studio, Jan, llama.cpp, GPT4All, Locally AI, Private LLM, Enclave, Pinku) by licence, macOS or iOS requirement, last update and whether they also run on iPhone. Notes that GPT4All has had no release since February 2025.",
     "llms_note": "Pinku, one of the eight, is made by Saga Labs, which runs Reditor.",
-    "disclosure": "Pinku is made by Saga Labs, the company behind Reditor. It is listed on the same criteria as the others.",
     "answer": [
         "If Ollama feels too technical, LM Studio is the closest free alternative on a Mac: a desktop app with a model browser that runs models with llama.cpp and Apple's MLX. Jan is the open-source equivalent. If you want Ollama's engine without Ollama, use llama.cpp directly. GPT4All still works but has had no release since February 2025.",
         "Ollama has no iPhone app. To run the same open models on an iPhone, use an App Store app: Locally AI (from the LM Studio team), Private LLM, Enclave or Pinku, all of which also have a Mac version. For which model to choose, see <a href=\"" + AISAGALAB + "\">the guide to open-weight models</a>.",
@@ -120,7 +119,6 @@ EN = {
     "method": [
         "We checked each project's GitHub page (licence, latest release, last commit), documentation and, for App Store apps, the US App Store page on 20 October 2026.",
         "Ollama itself: MIT licence, latest release v0.40.6 on 16 October 2026, macOS 14 or later, Apple silicon or Intel (CPU only); its giant models run on Ollama's cloud with usage credits.",
-        "From the team at Saga Labs: we make Pinku, one of the apps here. We built it because tools like Ollama and LM Studio expect some technical knowledge, such as picking a model file and a quantisation or using a terminal. Pinku is for everyone else: install it from the App Store, tap a model and chat privately, with no terminal and nothing to configure. The trade-off is a short list of small models chosen to fit each device, which is why it is not first here.",
     ],
     "faq": [
         ("What is the best Ollama alternative for Mac?", "LM Studio for a free desktop app with a model browser; Jan if you want it open source; llama.cpp if you are happy in a terminal."),

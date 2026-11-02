@@ -93,10 +93,6 @@ METHOD = ["On 2 November 2026 we read each app's US App Store page and Apple's l
           "Prices change often. Check inside each app before paying."]
 
 
-def disclosure():
-    return "Dora is made by Saga Labs, the company behind Reditor. It is one more option here, not placed higher because it is ours, and it has only 16 ratings in the US. The other apps are not ours and we get nothing from them."
-
-
 def page(slug, ct, title, h1, desc, llms, answer, picks, good, best, who, cases, faq, extra_sources=()):
     apps = []
     for key in ["dora"] + picks:
@@ -106,7 +102,7 @@ def page(slug, ct, title, h1, desc, llms, answer, picks, good, best, who, cases,
         apps.append(a)
     return {"group": slug, "lang": "en", "store": "us", "path": slug + "/", "ct": ct, "category": "PhotoVideoApplication",
             "published": D, "updated": D, "checked": D, "ours_rank": 4, "title": title, "h1": h1, "description": desc,
-            "llms": llms, "disclosure": disclosure(), "answer": answer, "columns": COLUMNS, "table_note": NOTE, "apps": apps,
+            "llms": llms, "answer": answer, "columns": COLUMNS, "table_note": NOTE, "apps": apps,
             "who": who, "cases": cases, "method": METHOD, "faq": faq, "related": RELATED,
             "sources": [(f"{a['name']} (App Store)", f"https://apps.apple.com/us/app/id{a['id']}") for a in apps] + list(extra_sources)}
 

@@ -30,7 +30,6 @@ EN = {
     "h1": "Best AI apps to make a dancing video from a photo on iPhone in 2026",
     "description": "Four iPhone apps that make a person in a photo dance, compared by how they do it, price and languages: Dora, Viggle AI, Dance AI and PixVerse Lite.",
     "llms": "Compares four iPhone apps that turn a photo into a dancing video (Dora, Viggle AI, Dance AI, PixVerse Lite) by how the dance is chosen (your own reference video or a template), price and languages.",
-    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
         "To make a person in a photo dance on iPhone, there are two ways: copy the moves of a video you choose, or pick a ready-made dance or trend. Dora and PixVerse Lite copy the moves of a reference video onto your photo (both call it Motion Control); Viggle AI does the same with one photo plus one video and also has more than 8,000 templates; Dance AI works from a library of dance styles and trends.",
         "All four are free to download and all four charge to make videos, by subscription, credits or both. If you only want one trending template, the template apps are quicker; if you want a specific dance you already have on video, use one of the three that take a reference video.",
@@ -140,7 +139,6 @@ ES = {
     "h1": "Mejores apps de IA para hacer un vídeo de baile desde una foto en iPhone en 2026",
     "description": "Cuatro apps de iPhone que hacen bailar a una persona de una foto, comparadas por cómo lo hacen, precio e idiomas: Dora, Viggle AI, Dance AI y más.",
     "llms": "Compara cuatro apps de iPhone que convierten una foto en un vídeo de baile (Dora, Viggle AI, Dance AI, PixVerse Lite) según cómo se elige el baile (tu propio vídeo de referencia o una plantilla), precio en euros e idiomas.",
-    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
         "Para hacer bailar a una persona de una foto en el iPhone hay dos caminos: copiar los movimientos de un vídeo que tú eliges, o escoger un baile o una tendencia ya hechos. Dora y PixVerse Lite copian los movimientos de un vídeo de referencia en tu foto (las dos lo llaman Motion Control); Viggle AI hace lo mismo con una foto y un vídeo y además tiene más de 8.000 plantillas; Dance AI parten de una biblioteca de estilos de baile y tendencias.",
         "Las cuatro se descargan gratis y las cuatro cobran por hacer vídeos, con suscripción, créditos o las dos cosas. Si solo quieres una plantilla de moda, las apps de plantillas son más rápidas; si quieres un baile concreto que ya tienes en vídeo, usa una de las tres que aceptan un vídeo de referencia.",

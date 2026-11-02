@@ -23,7 +23,6 @@ ES1 = {
     "h1": "Alternativas a ChatOn para iPhone en 2026",
     "description": "Seis apps de chat con IA para iPhone si ChatOn no te encaja: Brainy, ChatOn, Genie, Nova, Chat AI y Ask AI. Precios, valoraciones y privacidad.",
     "llms": "Compara seis apps de chat con IA para iPhone como alternativas a ChatOn (Brainy, ChatOn, Genie, Nova, Chat AI - Ask Anything, Ask AI) por precio en euros, valoraciones, idiomas, tamaño y etiqueta de privacidad del App Store, con los límites reales de cada una.",
-    "disclosure": "Brainy es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra, y en España solo tiene 1 valoración. Ask AI, añadida el 23 de octubre de 2026, también es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
         "Si quieres una app de chat con IA para iPhone al estilo de ChatOn pero con otro precio o menos extras, las más parecidas son Genie y Nova, que también reúnen chat, generación de imágenes y búsqueda web detrás de una suscripción. ChatOn es la que más valoraciones tiene en España (unas 9.900) y la que más funciones enseña en su ficha.",
         "Brainy es la opción de lenguaje sencillo: preguntas escribiendo o en voz alta, fotografías una carta para que te la explique y creas imágenes y vídeos, con plan semanal o anual. También es la menos probada, con 1 valoración en España. Chat AI - Ask Anything tiene muy buena nota, pero su última actualización es de diciembre de 2024.",
@@ -183,7 +182,6 @@ ES2 = {
     "h1": "Alternativas a Viggle AI para iPhone en 2026",
     "description": "Cinco apps de iPhone para usar en lugar de Viggle AI, o junto a ella: Dora, PixVerse Lite, Kling AI, Runway y Shots. Precios y privacidad.",
     "llms": "Compara Viggle AI con cinco alternativas de iPhone (Dora, PixVerse Lite, Kling AI, Runway, Shots) por precio en euros, cómo anima cada una una foto, valoraciones, idiomas y etiqueta de privacidad del App Store.",
-    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra, y en España todavía no tiene valoraciones. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
         "Viggle AI se basa en meter tu foto en un clip de vídeo o en una de sus más de 8.000 plantillas. Si quieres esa misma copia de movimientos, Dora y PixVerse Lite tienen una función Motion Control que toma una foto más un vídeo de referencia. Si prefieres una herramienta de vídeo con IA más general, Kling AI y Runway generan vídeo a partir de imágenes y texto con clips más largos y más modelos, a precios más altos. Shots es una app de plantillas al estilo de Viggle.",
         "Viggle tiene la interfaz solo en inglés (Runway también) y un plan Pro desde 5,99 € a la semana; las seis apps se descargan gratis y cobran por hacer vídeos.",
@@ -314,7 +312,6 @@ ES3 = {
     "h1": "Mejores apps de IA para convertir una foto en vídeo en iPhone en 2026",
     "description": "Seis apps de iPhone que convierten una foto en vídeo, comparadas por precio, cómo animan y privacidad: Dora, Kling AI, Runway, PixVerse Lite y más.",
     "llms": "Compara seis apps de iPhone que convierten una foto en un vídeo (Dora, Kling AI, Runway, PixVerse Lite, Shots, Motionleap) por precio en euros, si generan movimiento nuevo con IA o animan a mano, idiomas, valoraciones y etiqueta de privacidad del App Store.",
-    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra, y en España todavía no tiene valoraciones. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
         "Hay dos tipos de apps de foto a vídeo en iPhone. Los generadores con IA (Dora, Kling AI, Runway, PixVerse Lite, Shots) crean movimiento nuevo a partir de tu foto y cobran cada vídeo con créditos, monedas o suscripción. Motionleap anima la foto a mano (tú marcas qué partes se mueven), así que el resultado es un bucle y no un clip generado.",
         "Para clips verticales cortos para TikTok o Reels con el coste a la vista antes de generar, encajan Dora y PixVerse Lite. Para los clips más largos y de más calidad, Kling AI y Runway, desde 10 € y 17,99 € al mes. Para una foto en movimiento hecha a mano, Motionleap.",

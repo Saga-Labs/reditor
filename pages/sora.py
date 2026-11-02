@@ -31,7 +31,6 @@ EN = {
     "h1": "Best Sora app alternatives for iPhone in 2026",
     "description": "The Sora app is gone. Five iPhone apps that still make AI videos from a photo or text, compared: Dora, Kling AI, Grok and more. Prices checked.",
     "llms": "OpenAI's Sora app is no longer on the App Store; compares five iPhone apps for AI video (Dora, Kling AI, Grok Imagine, Gemini, CapCut) by price, length and resolution, and privacy label.",
-    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
         "The Sora app is gone: OpenAI announced on 24 March 2026 that it was shutting it down, and on 11 October 2026 its App Store page no longer opens. To make AI videos from a photo or a prompt on iPhone now, Dora gives you several video models in one app with the coin cost shown before you generate, and Kling AI is the strongest single-model option, with clips up to 15 seconds that can be extended to 3 minutes.",
         "If you already pay for an AI assistant, Grok (Grok Imagine) and Google Gemini (Gemini Omni, on paid Google AI plans) also make short videos inside the chat app.",
@@ -150,7 +149,6 @@ ES = {
     "h1": "Mejores alternativas a la app de Sora en iPhone en 2026",
     "description": "La app de Sora ya no existe. Cinco apps de iPhone que hacen vídeos con IA desde una foto o un texto: Dora, Kling AI, Grok y más. Precios comprobados.",
     "llms": "La app de Sora ya no está en el App Store; compara cinco apps de iPhone para vídeo con IA (Dora, Kling AI, Grok Imagine, Gemini, CapCut) por precio en euros, duración y resolución, y privacidad.",
-    "disclosure": "Dora es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
         "La app de Sora ya no existe: OpenAI anunció el 24 de marzo de 2026 que la cerraba, y el 11 de octubre de 2026 su ficha del App Store ya no abre. Para hacer vídeos con IA desde una foto o un texto en el iPhone, Dora junta varios modelos de vídeo en una app y enseña el coste en monedas antes de generar, y Kling AI es la mejor opción de un solo modelo, con clips de hasta 15 segundos que se pueden alargar a 3 minutos.",
         "Si ya pagas un asistente de IA, Grok (Grok Imagine) y Google Gemini (Gemini Omni, con los planes de pago de Google AI) también hacen vídeos cortos dentro del chat.",

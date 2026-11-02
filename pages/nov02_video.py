@@ -14,8 +14,6 @@ PAGES = [{'group': 'ugc-ads',
   'description': 'No budget for creators? Seven iPhone apps that make AI UGC ads for a small shop, including Creatify, Kiva, HeyGen and Dora, '
                  'compared by price and input.',
   'llms': 'Seven iPhone apps that make AI UGC ads for small shops (Creatify, Kiva, Zeely, Dora, HeyGen, Pollo AI, invideo), compared by what you must provide, price and App Store privacy label.',
-  'disclosure': 'Dora is made by Saga Labs, the company behind Reditor. It is one more option here, not placed higher because it is ours, and it has '
-                'only 16 ratings in the US. The other apps are not ours and we get nothing from them.',
   'answer': ['What matters for a small shop is what you must provide. Creatify, Zeely and Pollo AI start from a product link or URL. Kiva starts from a product photo. HeyGen starts from a '
              'short clip of you. invideo starts from an idea or footage and expects you to edit. Dora starts from a photo or description and makes '
              'one clip.',

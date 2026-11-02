@@ -23,7 +23,6 @@ EN = {
     "h1": "ChatOn alternatives for iPhone in 2026",
     "description": "Six AI chat apps for iPhone if ChatOn does not fit: Brainy, ChatOn, Genie, Nova, Chat AI and Ask AI. Prices, ratings and privacy labels checked.",
     "llms": "Compares six iPhone AI chat apps as alternatives to ChatOn (Brainy, ChatOn, Genie, Nova, Chat AI - Ask Anything, Ask AI) by price, ratings, languages, size and App Store privacy label, with honest limits for each.",
-    "disclosure": "Brainy is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours, and it has only 3 ratings. Ask AI, added on 23 October 2026, is ours too. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
         "If you want a ChatOn-style AI chat app on iPhone with a different price or fewer extras, the closest matches are Genie and Nova, which also bundle chat, image generation and web search behind a subscription. ChatOn itself has the most ratings of the six (about 287,000) and the widest feature list in its listing.",
         "Brainy is the plain-language option: ask by typing or out loud, point the camera at a letter and get it explained, and make images and videos, on a weekly or yearly plan. It is also the least proven here, with 3 ratings. Chat AI - Ask Anything has a high rating but was last updated in December 2024.",

@@ -6,8 +6,8 @@
 Each page lives in pages/*.py as a dict (see pages/sora.py).
 Rules (Marta, 20 Oct 2026): our app is one more option, never first by
 default. place_ours() moves it to the middle of the list (or to "ours_rank"
-if a page sets it) and the page says it is ours only in the disclosure line
-at the top, with no label in the table, the cards or "who should use what".
+if a page sets it) and the site footer names our apps (no notice in the article,
+Marta, 2 Nov 2026), with no label in the table, the cards or "who should use what".
 Our apps link to the App Store with pt+ct for campaign stats, competitors with a plain App Store link;
 every price, version and rating comes from the App Store on the date in
 `checked`, and that date is shown on the page and in the JSON-LD.
@@ -31,25 +31,25 @@ PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "
 T = {
     "en": {
         "updated": "Updated", "checked": "Data checked on the App Store on",
-        "ours": "Our app", "disclosure_title": "Disclosure",
+        "ours": "Our app",
         "table": "At a glance", "app": "App", "best_for": "Best for",
         "limits": "Limits", "get": "Get it on the App Store",
         "faq": "Frequently asked questions", "sources": "Sources",
         "who": "Who should use what", "cases": "Use cases",
         "method": "How we checked",
-        "footer": "Reditor is run by Saga Labs, which makes some of the apps we compare. We say so on every page where that happens.",
+        "footer": "Reditor is run by Saga Labs, which makes Dora, Pinku, Brainy and Ask AI, some of the apps we compare.",
         "about": "About and method", "home": "All alternatives",
         "ratings": "ratings", "store_page": "App Store page",
     },
     "es": {
         "updated": "Actualizado el", "checked": "Datos comprobados en el App Store el",
-        "ours": "Nuestra app", "disclosure_title": "Aviso",
+        "ours": "Nuestra app",
         "table": "Resumen", "app": "App", "best_for": "Mejor para",
         "limits": "Límites", "get": "Descargar en el App Store",
         "faq": "Preguntas frecuentes", "sources": "Fuentes",
         "who": "Cuál elegir según tu caso", "cases": "Casos de uso",
         "method": "Cómo lo comprobamos",
-        "footer": "Reditor es de Saga Labs, que hace algunas de las apps que comparamos. Lo decimos en cada página donde pasa.",
+        "footer": "Reditor es de Saga Labs, que hace Dora, Pinku, Brainy y Ask AI, algunas de las apps que comparamos.",
         "about": "Quiénes somos y método", "home": "Todas las alternativas",
         "ratings": "valoraciones", "store_page": "Ficha en el App Store",
     },
@@ -265,7 +265,6 @@ def ranking_html(p, alternates):
     out.append(f'<h2 id="who">{t["who"]}</h2>\n<ul>' + "".join(f"<li>{x}</li>" for x in p["who"]) + "</ul>\n")
     out.append(f'<h2 id="cases">{t["cases"]}</h2>\n<ul>' + "".join(f"<li>{x}</li>" for x in p["cases"]) + "</ul>\n")
     out.append(f'<h2 id="method">{t["method"]}</h2>\n' + "".join(f"<p>{x}</p>" for x in p["method"]) + "\n")
-    out.append(f'<aside class="disclosure"><strong>{t["disclosure_title"]}:</strong> {p["disclosure"]}</aside>\n')
     out.append(f'<h2 id="faq">{t["faq"]}</h2>\n')
     for q, a in p["faq"]:
         out.append(f"<h3>{esc(q)}</h3>\n<p>{esc(a)}</p>\n")
@@ -356,14 +355,14 @@ def main():
             intro = ("<h1>Alternatives to iPhone apps, checked on the App Store</h1>"
                      "<p>One page per app people are leaving: what to use instead, and what you gain or lose with each option. "
                      "Every price, version and privacy label is copied from the App Store on the date shown on each page.</p>"
-                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and a line at the end of the page says so. Competitors are named with their real data, good and bad. On this site, our apps are Dora, Pinku, Brainy and Ask AI.</p>")
+                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and the footer of every page names our apps. Competitors are named with their real data, good and bad. On this site, our apps are Dora, Pinku, Brainy and Ask AI.</p>")
         else:
             title = "Mejores alternativas a apps populares de iPhone (2026): Reditor"
             desc = "Mejores alternativas a Sora, ChatOn, Viggle AI, Private LLM y más en iPhone y Mac, con precios y privacidad comprobados en el App Store."
             intro = ("<h1>Alternativas a apps de iPhone, comprobadas en el App Store</h1>"
                      "<p>Una página por cada app que la gente deja: qué usar en su lugar y qué ganas o pierdes con cada opción. "
                      "Cada precio, versión y etiqueta de privacidad está copiado del App Store en la fecha que pone cada página.</p>"
-                     "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y una línea al final de la página lo dice. Las demás aparecen con sus datos reales, buenos y malos. En esta web, nuestras apps son Dora, Pinku, Brainy y Ask AI.</p>")
+                     "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y el pie de cada página nombra nuestras apps. Las demás aparecen con sus datos reales, buenos y malos. En esta web, nuestras apps son Dora, Pinku, Brainy y Ask AI.</p>")
         sections = ""
         for sec_id, names in HOME_SECTIONS:
             group_pages = sorted((p for p in own if p["group"] in HOME_GROUPS[sec_id]), key=lambda p: p["updated"], reverse=True)
@@ -388,8 +387,8 @@ def main():
 
     about_en = """<h1>About Reditor and how we check</h1>
 <p>Reditor is run by <a href="https://aisagalab.com/">Saga Labs</a>, a small studio that makes iPhone apps (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Ask AI and Brainy). Contact: sagalabs@proton.me.</p>
-<h2>Our apps are one more option, and we say so</h2>
-<p>When one of our apps fits a question, it is included as one more option, placed where it fits rather than first, and a single disclosure line at the end of the page says it is ours. Competitors are linked to their normal App Store pages and shown with their real data, including where they are better than ours.</p>
+<h2>Our apps are one more option, and we say which</h2>
+<p>When one of our apps fits a question, it is included as one more option, placed where it fits rather than first, and the footer of every page names our apps. Competitors are linked to their normal App Store pages and shown with their real data, including where they are better than ours.</p>
 <h2>What we check</h2>
 <ul><li>Price and in-app purchases, version and release date, rating and number of ratings, languages, minimum iOS: from the App Store listing (US store unless the page says otherwise) on the date shown.</li>
 <li>Privacy: the App Store privacy label as published by each developer.</li>
@@ -400,7 +399,7 @@ def main():
     about_es = """<h1>Quiénes somos y cómo comprobamos</h1>
 <p>Reditor es de <a href="https://aisagalab.com/">Saga Labs</a>, un estudio pequeño que hace apps de iPhone (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Ask AI y Brainy). Contacto: sagalabs@proton.me.</p>
 <h2>Nuestras apps son una opción más, y lo decimos</h2>
-<p>Cuando una de nuestras apps encaja, aparece como una opción más, en el puesto que le corresponde y no primera, y una sola línea de aviso al final de la página dice que es nuestra. Las demás llevan enlace a su ficha normal del App Store y aparecen con sus datos reales, también donde son mejores que la nuestra.</p>
+<p>Cuando una de nuestras apps encaja, aparece como una opción más, en el puesto que le corresponde y no primera, y el pie de cada página nombra nuestras apps. Las demás llevan enlace a su ficha normal del App Store y aparecen con sus datos reales, también donde son mejores que la nuestra.</p>
 <h2>Qué comprobamos</h2>
 <ul><li>Precio y compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas e iOS mínimo: de la ficha del App Store (la de España en las páginas en español) en la fecha indicada.</li>
 <li>Privacidad: la etiqueta de privacidad del App Store que publica cada desarrollador.</li>
@@ -428,7 +427,7 @@ def main():
 
     # llms.txt
     lines = ["# Reditor", "",
-             "> Alternatives to iPhone apps (for when an app shuts down, gets expensive or does not fit), with prices, versions and privacy labels copied from the App Store on a stated date. Run by Saga Labs; when a Saga Labs app is an alternative it is one more option, not first by default, and a line at the end of the page says so.", "",
+             "> Alternatives to iPhone apps (for when an app shuts down, gets expensive or does not fit), with prices, versions and privacy labels copied from the App Store on a stated date. Run by Saga Labs; when a Saga Labs app is an alternative it is one more option, not first by default, and the footer of every page names our apps.", "",
              "## Alternatives", ""]
     for p in pages:
         ours = next((a for a in p["apps"] if a.get("ours")), None)
