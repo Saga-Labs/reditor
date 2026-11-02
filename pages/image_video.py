@@ -13,7 +13,7 @@ PRIV3 = "Data Used to Track You; Data Linked to You; Data Not Linked to You"
 
 DORA = {
     "name": "DORA · AI Video Generator", "id": 6754180384, "ours": True, "anchor": "dora",
-    "developer": "Saga Ltd.", "rating": (4.27, 15),
+    "developer": "Saga Ltd.", "rating": (4.31, 16),
     "best_for": "turning one photo into a short vertical video for TikTok or Reels, with the coin cost shown before you tap.",
     "facts": [
         "Bring a photo to life as a short video, or write a description; a video takes about two minutes.",
@@ -22,7 +22,7 @@ DORA = {
         "Same account and coins on doravideo.com and inside AI assistants such as Claude through the Dora connector.",
         "11 languages, iOS 18.6 or later, 62 MB.",
     ],
-    "limits": "there is no free video (you need coins or a plan), only 15 ratings in the US so far, and Motion Control needs a person in the photo. It has no community feed and no photo editor.",
+    "limits": "there is no free video (you need coins or a plan), only 16 ratings in the US so far, and Motion Control needs a person in the photo. It has no community feed and no photo editor.",
 }
 
 VIGGLE_ROW_PRICE = "Pro $4.99 a week, $9.99 a month or $95.90 a year; Live plans $24.99 to $79.99 a month; extra credits $3 to $15"
@@ -45,9 +45,9 @@ EN1 = {
     "columns": ["App", "Price (US)", "How it animates a photo", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
     "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (pages list only some of them). Ratings are the App Store average and number of ratings that day. Viggle is included for comparison; the other five are the alternatives.",
     "apps": [
-        dict(DORA, row=["Pro weekly $4.99 or $9.99, Pro yearly $119.99; coin packs from $2.99 to $199.99",
+        dict(DORA, row=["Pro weekly ($4.99 and $6.99 listed), Pro yearly $119.99; coin packs for subscribers, $3.99 to $224.99",
                         "Photo or text to video; Motion Control copies a dance video onto your photo",
-                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.1 (9 Oct 2026)", "4.3 (15 ratings)"]),
+                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3 (16 ratings)"]),
         {
             "name": "PixVerse Lite", "id": 6767802142, "anchor": "pixverse",
             "developer": "AIVORA PTE. LTD.", "rating": (4.31, 1695),
@@ -168,7 +168,7 @@ EN2 = {
     "h1": "Best AI image to video apps for iPhone in 2026",
     "description": "Six iPhone apps that turn a photo into a video, compared by price, how they animate and privacy label: Dora, Kling AI, Runway, PixVerse Lite and more.",
     "llms": "Compares six iPhone apps that turn a photo into a video (Dora, Kling AI, Runway, PixVerse Lite, Shots, Motionleap) by price, whether they generate new motion with AI or animate by hand, languages, ratings and App Store privacy label.",
-    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours, and it has only 15 ratings in the US. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
+    "disclosure": "Dora is made by Saga Labs, the company behind Reditor. It is one more option in this list, not placed first because it is ours, and it has only 16 ratings in the US. The other apps are not ours and we get nothing from them; their links go to their normal App Store pages.",
     "answer": [
         "There are two kinds of photo-to-video apps on iPhone. AI generators (Dora, Kling AI, Runway, PixVerse Lite, Shots) make new movement from your photo and charge for each video through credits, coins or a subscription. Motionleap animates a photo by hand (you mark which parts move), so the result is a loop rather than a generated clip.",
         "For short vertical clips for TikTok or Reels with the cost shown before you generate, Dora and PixVerse Lite fit. For the longest, highest-quality clips, Kling AI and Runway, from $10 and $14.99 a month. For a hand-made moving photo, Motionleap.",
@@ -176,9 +176,9 @@ EN2 = {
     "columns": ["App", "Price (US)", "How it animates", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
     "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (pages list only some of them); all six are free to download. Ratings are the App Store average and number of ratings that day.",
     "apps": [
-        dict(DORA, row=["Pro weekly $4.99 or $9.99, Pro yearly $119.99; coin packs from $2.99 to $199.99",
+        dict(DORA, row=["Pro weekly ($4.99 and $6.99 listed), Pro yearly $119.99; coin packs for subscribers, $3.99 to $224.99",
                         "AI generates a video from your photo or a description in about two minutes",
-                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.1 (9 Oct 2026)", "4.3 (15 ratings)"]),
+                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3 (16 ratings)"]),
         {
             "name": "Kling AI: AI Image&Video Maker", "id": 6738049229, "anchor": "kling",
             "developer": "KLING AI PTE. LTD.", "rating": (4.68, 31671),

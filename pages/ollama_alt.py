@@ -96,14 +96,14 @@ EN = {
             "limits": "requires the newest macOS and iOS (27).",
         },
         {
-            "name": "Pinku: Private Offline AI Chat", "id": 6754878073, "anchor": "pinku", "developer": "Saga Ltd.", "rating": (4.67, 12),
-            "row": ["App Store app", "Free; Pinku Pro in-app purchase", "macOS 14, Apple silicon", "Yes (iPhone 12+)", "iPhone 1.0.9 (16 Oct 2026); Mac 1.0.7"],
-            "best_for": "a short tested list that hides models your device cannot run, in 8 interface languages.",
+            "name": "Private Offline AI Chat: Pinku", "id": 6754878073, "anchor": "pinku", "developer": "Saga Ltd.", "rating": (4.67, 12),
+            "row": ["App Store app", "Free; Pinku Pro in-app purchase", "macOS 14, Apple silicon", "Yes (iPhone 12+)", "iPhone 1.4 (31 Oct 2026)"],
+            "best_for": "a short tested list that hides models your device cannot run, in 34 interface languages.",
             "facts": [
                 "Chats never leave the device; Apple's privacy label lists only purchase history and an anonymous user ID, used for Pinku Pro purchases.",
                 "Downloads from ModelScope where Hugging Face is blocked.",
             ],
-            "limits": "12 curated models only (0.34 to 4.7 GB; no Gemma 4 or Qwen3.5 yet); the Mac version on sale is 1.0.7; few ratings.",
+            "limits": "11 curated models only (0.4 to 4.7 GB); few ratings.",
         },
     ],
     "who": [

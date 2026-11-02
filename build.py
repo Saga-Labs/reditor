@@ -77,6 +77,11 @@ def store_link(app_id, ct):
     return f"https://apps.apple.com/app/apple-store/id{app_id}?pt={PT}&ct={ct}&mt=8"
 
 
+OUR_LLMS = [("Dora", 6754180384, "AI video and image generator for iPhone and doravideo.com; subscription with coins; no free video."),
+            ("Pinku", 6754878073, "private AI chat with open models that run on the device; free model, optional Pro."),
+            ("Brainy", 1667947372, "plain-language AI assistant with voice, camera, images and video; weekly or yearly plan."),
+            ("Ask AI", 1662608035, "AI chat with several models in one app; a few free messages a day, Pro for the rest.")]
+
 OUR_IDS = {"1667947372", "6754878073", "1143691286", "6754180384",
            "1553693943", "1462269642", "1662608035", "1532670722"}
 
@@ -232,7 +237,7 @@ def ranking_html(p, alternates):
     }
 
     out = [head(p, alternates, [article, item_list, faq, crumbs])]
-    out.append(f"<article>\n<h1>{esc(p['h1'])}</h1>\n")
+    out.append(f'<article>\n<p class="meta crumbs"><a href="/{"es/" if lang == "es" else ""}">{NAME}</a> › {esc(section_name(p))}</p>\n<h1>{esc(p["h1"])}</h1>\n')
     out.append(f'<p class="meta">{t["updated"]} <time datetime="{p["updated"]}">{upd}</time> · {t["checked"]} {chk}</p>\n')
     out.append(f'<aside class="disclosure"><strong>{t["disclosure_title"]}:</strong> {p["disclosure"]}</aside>\n')
     out.append("".join(f"<p>{x}</p>\n" for x in p["answer"]))
@@ -243,7 +248,7 @@ def ranking_html(p, alternates):
     for a in apps:
         cells = a["row"]
         name = esc(a["name"])
-        out.append(f"<tr><td>{name}</td>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>\n")
+        out.append(f'<tr><td><a href="#{a["anchor"]}">{name}</a></td>' + "".join(f"<td>{c}</td>" for c in cells) + "</tr>\n")
     out.append(f'</tbody></table></div>\n<p class="note">{p["table_note"]}</p>\n')
 
     for i, a in enumerate(apps):
@@ -265,6 +270,7 @@ def ranking_html(p, alternates):
     for q, a in p["faq"]:
         out.append(f"<h3>{esc(q)}</h3>\n<p>{esc(a)}</p>\n")
     out.append(guide_links_html(p))
+    out.append(related_html(p))
     out.append(f'<h2 id="sources">{t["sources"]}</h2>\n<ul class="sources">')
     for label, url, *_ in p["sources"]:
         out.append(f'<li>{esc(label)}: <a href="{esc(tag_ours(url, p["ct"]))}">{esc(url)}</a> ({chk})</li>')
@@ -286,9 +292,30 @@ def guide_links_html(p):
     return f'<h2 id="guides">{h}</h2>\n<ul>{items}</ul>\n'
 
 
-def simple_page(lang, path, title, description, body_html, alternates=()):
+def section_of(group):
+    return next(s for s, g in HOME_GROUPS.items() if group in g)
+
+
+def section_name(p):
+    sec = section_of(p["group"])
+    return next(n[p["lang"]] for s, n in HOME_SECTIONS if s == sec)
+
+
+def related_html(p, limit=5):
+    """Links to other comparisons in the same language: same topic first, then the rest of the site."""
+    own = [q for q in ALL_PAGES if q["lang"] == p["lang"] and q["group"] != p["group"]]
+    sec = section_of(p["group"])
+    picks = ([q for q in own if section_of(q["group"]) == sec] + [q for q in own if section_of(q["group"]) != sec])[:limit]
+    if not picks:
+        return ""
+    h = "Related comparisons" if p["lang"] == "en" else "Comparativas relacionadas"
+    return f'<h2 id="related">{h}</h2>\n<ul class="list">' + "".join(
+        f'<li><a href="/{q["path"]}">{esc(q["h1"])}</a></li>' for q in picks) + "</ul>\n"
+
+
+def simple_page(lang, path, title, description, body_html, alternates=(), ld=()):
     p = {"lang": lang, "path": path, "title": title, "description": description}
-    return head(p, alternates, []) + body_html + foot(lang)
+    return head(p, alternates, list(ld)) + body_html + foot(lang)
 
 
 def write(path, text):
@@ -299,10 +326,16 @@ def write(path, text):
     f.write_text(text, encoding="utf-8")
 
 
+ALL_PAGES = []
+ORG = {"@type": "Organization", "name": "Saga Labs", "url": "https://aisagalab.com/", "email": "sagalabs@proton.me",
+       "sameAs": ["https://doravideo.com", "https://github.com/Saga-Labs"]}
+
+
 def main():
     pages = []
     for mod in PAGE_MODULES:
         pages += importlib.import_module(f"pages.{mod}").PAGES
+    ALL_PAGES[:] = pages
     by_group = {}
     for p in pages:
         by_group.setdefault(p["group"], []).append(p)
@@ -321,14 +354,14 @@ def main():
             intro = ("<h1>Alternatives to iPhone apps, checked on the App Store</h1>"
                      "<p>One page per app people are leaving: what to use instead, and what you gain or lose with each option. "
                      "Every price, version and privacy label is copied from the App Store on the date shown on each page.</p>"
-                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and the page says so at the top. Competitors are named with their real data, good and bad.</p>")
+                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and the page says so at the top. Competitors are named with their real data, good and bad. On this site, our apps are Dora, Pinku, Brainy and Ask AI.</p>")
         else:
             title = "Mejores alternativas a apps populares de iPhone (2026): Reditor"
             desc = "Mejores alternativas a Sora, ChatOn, Viggle AI, Private LLM y más en iPhone y Mac, con precios y privacidad comprobados en el App Store."
             intro = ("<h1>Alternativas a apps de iPhone, comprobadas en el App Store</h1>"
                      "<p>Una página por cada app que la gente deja: qué usar en su lugar y qué ganas o pierdes con cada opción. "
                      "Cada precio, versión y etiqueta de privacidad está copiado del App Store en la fecha que pone cada página.</p>"
-                     "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y la página lo dice arriba. Las demás aparecen con sus datos reales, buenos y malos.</p>")
+                     "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y la página lo dice arriba. Las demás aparecen con sus datos reales, buenos y malos. En esta web, nuestras apps son Dora, Pinku, Brainy y Ask AI.</p>")
         sections = ""
         for sec_id, names in HOME_SECTIONS:
             group_pages = [p for p in own if p["group"] in HOME_GROUPS[sec_id]]
@@ -341,8 +374,15 @@ def main():
             sections += f'<h2 id="{sec_id}">{esc(names[lang])}</h2><ul class="list">{items}</ul>'
         missing = [p["path"] for p in own if not any(p["group"] in g for g in HOME_GROUPS.values())]
         assert not missing, f"home: add these groups to HOME_GROUPS: {missing}"
+        home_ld = [
+            {"@context": "https://schema.org", "@type": "WebSite", "name": NAME, "url": f"{SITE}/", "inLanguage": lang, "publisher": ORG},
+            {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "description": desc, "url": f"{SITE}/{path}",
+             "inLanguage": lang, "publisher": ORG,
+             "mainEntity": {"@type": "ItemList", "numberOfItems": len(own), "itemListElement": [
+                 {"@type": "ListItem", "position": i + 1, "url": page_url(q), "name": q["h1"]} for i, q in enumerate(own)]}},
+        ]
         write(path, simple_page(lang, path, title, desc, intro + sections,
-                                [("en", f"{SITE}/"), ("es", f"{SITE}/es/"), ("x-default", f"{SITE}/")]))
+                                [("en", f"{SITE}/"), ("es", f"{SITE}/es/"), ("x-default", f"{SITE}/")], home_ld))
 
     about_en = """<h1>About Reditor and how we check</h1>
 <p>Reditor is run by <a href="https://aisagalab.com/">Saga Labs</a>, a small studio that makes iPhone apps (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Ask AI and Brainy). Contact: sagalabs@proton.me.</p>
@@ -392,6 +432,9 @@ def main():
         ours = next((a for a in p["apps"] if a.get("ours")), None)
         tail = f" Our app on this page: {ours['name']}." if ours else (" " + p["llms_note"] if p.get("llms_note") else "")
         lines.append(f"- [{p['h1']}]({page_url(p)}) ({p['lang']}, updated {p['updated']}): {p['llms']}{tail}")
+    lines += ["", "## Apps on this site made by Saga Labs (everything else listed is not ours)", ""]
+    for nm, aid, what in OUR_LLMS:
+        lines.append(f"- [{nm}]({store_link(aid, 'rd-llms')}): {what}")
     lines += ["", "## About", "", f"- [How we check and disclose]({SITE}/about/)", "- Publisher: Saga Labs, https://aisagalab.com/, sagalabs@proton.me", ""]
     (ROOT / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
 

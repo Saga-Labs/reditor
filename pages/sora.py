@@ -41,9 +41,9 @@ EN = {
     "apps": [
         {
             "name": "DORA · AI Video Generator", "id": 6754180384, "ours": True, "anchor": "dora",
-            "developer": "Saga Ltd.", "rating": (4.27, 15),
-            "row": ["Subscription: $4.99 or $9.99 a week, $119.99 a year; coin packs from $2.99", "Video from a photo or text, dance copy (Motion Control), product ads, images up to 4K",
-                    "Yes; same account on doravideo.com and in Claude and ChatGPT", "Data Used to Track You; Data Not Linked to You", "1.4.1 (9 Oct 2026)", "4.3 (15 ratings)"],
+            "developer": "Saga Ltd.", "rating": (4.31, 16),
+            "row": ["Subscription: weekly ($4.99 and $6.99 listed), $119.99 a year; coin packs for subscribers from $3.99", "Video from a photo or text, dance copy (Motion Control), product ads, images up to 4K",
+                    "Yes; same account on doravideo.com and in Claude and ChatGPT", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3 (16 ratings)"],
             "best_for": "people who want Sora-style clips from a photo or a sentence, ready for TikTok and Reels, without picking a model provider.",
             "facts": [
                 "Several video models in one app; each generation shows its coin cost before you tap, and failed generations refund the coins.",
@@ -52,7 +52,7 @@ EN = {
                 "A video takes about two minutes, an image about one.",
                 "11 languages, iOS 18.6 or later, 61 MB.",
             ],
-            "limits": "it is a paid subscription, it has only 15 ratings in the US so far, and its privacy label includes data used to track you. It does not edit long videos on a timeline.",
+            "limits": "it is a paid subscription, it has only 16 ratings in the US so far, and its privacy label includes data used to track you. It does not edit long videos on a timeline.",
         },
         {
             "name": "Kling AI: AI Image & Video Maker", "id": 6738049229, "anchor": "kling",
@@ -161,8 +161,8 @@ ES = {
         {
             "name": "DORA · Generador Vídeo IA", "id": 6754180384, "ours": True, "anchor": "dora",
             "developer": "Saga Ltd.",
-            "row": ["Suscripción: 7,99 € a la semana o 129,99 € al año; packs de monedas desde 2,99 €", "Vídeo desde una foto o un texto, copiar un baile (Motion Control), anuncios de producto, imágenes hasta 4K",
-                    "Sí; la misma cuenta sirve en doravideo.com y en Claude y ChatGPT", "Datos utilizados para rastrearte; datos no vinculados a ti", "1.4.1 (9 oct 2026)", "Aún sin valoraciones en España"],
+            "row": ["Suscripción: 7,99 € a la semana o 129,99 € al año; packs de monedas para suscriptores desde 3,99 €", "Vídeo desde una foto o un texto, copiar un baile (Motion Control), anuncios de producto, imágenes hasta 4K",
+                    "Sí; la misma cuenta sirve en doravideo.com y en Claude y ChatGPT", "Datos utilizados para rastrearte; datos no vinculados a ti", "1.4.2 (26 oct 2026)", "Aún sin valoraciones en España"],
             "best_for": "quien quiere clips al estilo de Sora desde una foto o una frase, listos para TikTok y Reels, sin elegir proveedor de modelos.",
             "facts": [
                 "Varios modelos de vídeo en una app; cada generación enseña su coste en monedas antes de pulsar, y si falla se devuelven.",

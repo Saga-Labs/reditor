@@ -19,32 +19,32 @@ ES1 = {
     "ct": "rd-chaton-es",
     "category": "UtilitiesApplication",
     "published": CHECKED, "updated": "2026-10-23", "checked": CHECKED,
-    "title": "Mejores alternativas a ChatOn para chatear con IA en iPhone (2026)",
+    "title": "Mejores alternativas a ChatOn en iPhone (2026)",
     "h1": "Alternativas a ChatOn para iPhone en 2026",
     "description": "Seis apps de chat con IA para iPhone si ChatOn no te encaja: Brainy, ChatOn, Genie, Nova, Chat AI y Ask AI. Precios, valoraciones y privacidad.",
     "llms": "Compara seis apps de chat con IA para iPhone como alternativas a ChatOn (Brainy, ChatOn, Genie, Nova, Chat AI - Ask Anything, Ask AI) por precio en euros, valoraciones, idiomas, tamaño y etiqueta de privacidad del App Store, con los límites reales de cada una.",
-    "disclosure": "Brainy es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra, y es la app más pequeña y más nueva de la lista: en España solo tiene 1 valoración. Ask AI, añadida el 23 de octubre de 2026, también es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
+    "disclosure": "Brainy es de Saga Labs, la empresa que hace Reditor. Es una opción más de la lista, no va primera por ser nuestra, y en España solo tiene 1 valoración. Ask AI, añadida el 23 de octubre de 2026, también es nuestra. Las demás no son nuestras y no ganamos nada con ellas; sus enlaces van a su ficha normal del App Store.",
     "answer": [
         "Si quieres una app de chat con IA para iPhone al estilo de ChatOn pero con otro precio o menos extras, las más parecidas son Genie y Nova, que también reúnen chat, generación de imágenes y búsqueda web detrás de una suscripción. ChatOn es la que más valoraciones tiene en España (unas 9.900) y la que más funciones enseña en su ficha.",
-        "Brainy es la opción más ligera: 25 MB, chat e imágenes, un escáner con la cámara, solo en inglés y con plan Pro semanal o anual. También es la menos probada, con 1 valoración en España y un único modelo de chat. Chat AI - Ask Anything tiene muy buena nota, pero su última actualización es de diciembre de 2024.",
+        "Brainy es la opción de lenguaje sencillo: preguntas escribiendo o en voz alta, fotografías una carta para que te la explique y creas imágenes y vídeos, con plan semanal o anual. También es la menos probada, con 1 valoración en España. Chat AI - Ask Anything tiene muy buena nota, pero su última actualización es de diciembre de 2024.",
     ],
     "columns": ["App", "Precio (España)", "Qué ofrece", "Idiomas", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
     "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (Ask AI: 23 de octubre de 2026; la ficha solo enseña algunas, así que puede haber más planes); las seis se descargan gratis. Valoración: media y número de valoraciones en España ese día. Lo que ofrece cada competidora es lo que dice su propia ficha; no hemos hecho pruebas de calidad.",
     "apps": [
         {
-            "name": "Brainy AI Helper Chat & Create", "id": 1667947372, "ours": True, "anchor": "brainy",
+            "name": "Asistente IA fácil: Brainy", "id": 1667947372, "ours": True, "anchor": "brainy",
             "developer": "Saga Ltd.", "rating": (5.0, 1),
             "row": ["Pro semanal 7,99 €; Pro anual 89,99 € o 99,99 €",
-                    "Chat con IA, generación de imágenes, escáner con la cámara para texto y mates",
-                    "1 (inglés)", PRIV2, "1.3.5 (29 ago 2026)", "5,0 (1 valoración)"],
-            "best_for": "una app pequeña y rápida de chat e imágenes cuando no necesitas una lista larga de funciones.",
+                    "Chat con IA por texto o voz, explica una carta fotografiada, imágenes y vídeos con IA",
+                    "33", PRIV2, "1.5.0 (25 oct 2026)", "5,0 (1 valoración)"],
+            "best_for": "quien quiere ayuda de IA con palabras sencillas, por voz, sin elegir modelos ni ajustes.",
             "facts": [
-                "Chat: en la versión 1.3.5 las respuestas salen de un solo modelo, DeepSeek. Nuestra ficha del App Store todavía dice Gemini, Claude y Grok; ese texto es incorrecto para esta versión y se corregirá en la siguiente.",
-                "Imágenes: de texto a imagen con Nano Banana de Google (Gemini 2.5 Flash Image), con una pequeña cantidad diaria de imágenes gratis.",
-                "Escáner con la cámara: apunta a un texto o a un problema de mates y pregunta por él.",
-                "25 MB, iOS 18.0 o posterior (interfaz en inglés).",
+                "Tareas de un toque, según su ficha: explicar en tres líneas una carta fotografiada, responder un mensaje, escribir una reclamación, traducir.",
+                "Pulsas el micrófono para preguntar y lee la respuesta en voz alta; el texto sigue el tamaño de tu iPhone.",
+                "Crea vídeos desde una idea o tu foto, e imágenes desde palabras; antes muestra el coste en créditos.",
+                "50 MB, iOS 18.0 o posterior.",
             ],
-            "limits": "solo 1 valoración en España, un único modelo de chat, solo en inglés y con iOS 18 o posterior. No genera vídeo en esta versión, no busca en la web y no deja elegir modelo.",
+            "limits": "solo 1 valoración en España, iOS 18 o posterior y planes de pago para usarla a fondo. Su ficha no nombra ningún modelo de chat ni menciona búsqueda web o selector de modelos.",
         },
         {
             "name": "ChatOn - Chatbot IA en español", "id": 1661308505, "anchor": "chaton",
@@ -120,7 +120,7 @@ ES1 = {
         "<strong>Quieres la lista de funciones y de prompts más larga:</strong> ChatOn.",
         "<strong>Quieres búsqueda web y razonamiento en un chatbot cuidado:</strong> Genie.",
         "<strong>Quieres modo de voz y trabajo con archivos:</strong> Nova.",
-        "<strong>Quieres una app pequeña con chat e imágenes y sin extras:</strong> Brainy, sabiendo que es nueva y solo está en inglés.",
+        "<strong>Quieres ayuda con palabras sencillas, por voz o con la cámara:</strong> Brainy, sabiendo que tiene muy pocas valoraciones.",
         "<strong>Quieres elegir entre modelos de varias empresas, solo chat:</strong> Ask AI, sabiendo que es nueva.",
         "<strong>Quieres muchos idiomas de interfaz y chat sencillo:</strong> Chat AI - Ask Anything, si aceptas que no se actualiza desde 2024.",
     ],
@@ -136,13 +136,13 @@ ES1 = {
     ],
     "faq": [
         ("¿Cuáles son buenas alternativas a ChatOn en iPhone?",
-         "Genie, Nova, Brainy, Ask AI y Chat AI - Ask Anything también dan chat con IA en iPhone. Genie y Nova son las más parecidas en funciones (chat, generación de imágenes, búsqueda web); Brainy es una app más pequeña con chat, imágenes y escáner con la cámara; Ask AI es solo chat, con varios modelos para elegir."),
+         "Genie, Nova, Brainy, Ask AI y Chat AI - Ask Anything también dan chat con IA en iPhone. Genie y Nova son las más parecidas en funciones (chat, generación de imágenes, búsqueda web); Brainy es un asistente de lenguaje sencillo con voz, cámara, imágenes y vídeo; Ask AI es solo chat, con varios modelos para elegir."),
         ("¿Hay una alternativa gratis a ChatOn?",
          "Las seis apps se descargan gratis, pero todas venden suscripciones o créditos, así que lo que puedes hacer gratis depende de la app y cambia con el tiempo. Mira la cuota gratuita dentro de la app."),
         ("¿Qué alternativa a ChatOn tiene mejores valoraciones?",
          "El 16 de octubre de 2026 en el App Store de España, Chat AI - Ask Anything tiene la media más alta (4,8) pero con solo 150 valoraciones; Genie (4,7 con unas 13.500) y ChatOn (4,6 con unas 9.900) tienen muchas más. Brainy y Ask AI tienen 1 valoración cada una, muy pocas para comparar."),
         ("¿Brainy usa varios modelos de IA?",
-         "No en la versión 1.3.5, la que está hoy en la tienda. El chat usa DeepSeek y las imágenes usan Nano Banana de Google. El texto de nuestra ficha del App Store que nombra otros modelos de chat es incorrecto para esta versión."),
+         "Su ficha de la versión 1.5.0 no nombra ningún modelo ni ofrece selector. Si quieres elegir modelos, Ask AI, también nuestra, está hecha para eso."),
         ("¿Cuáles de estas apps recogen datos para rastrearte?",
          "Según sus etiquetas de privacidad del App Store, las seis incluyen datos utilizados para el seguimiento. ChatOn, Genie y Ask AI incluyen además datos vinculados a ti. Brainy incluye datos utilizados para el seguimiento y datos no vinculados a ti."),
     ],
@@ -170,7 +170,7 @@ DORA = {
     ],
     "limits": "no hay vídeo gratis (hace falta plan o monedas), todavía no tiene valoraciones en España y Motion Control necesita una persona en la foto. No tiene feed de comunidad ni editor de fotos.",
 }
-DORA_PRICE = "Pro semanal 7,99 €, Pro anual 129,99 €; packs de monedas de 2,99 € a 229,99 €"
+DORA_PRICE = "Pro semanal 7,99 €, Pro anual 129,99 €; packs de monedas para suscriptores, de 3,99 € a 249,99 €"
 VIGGLE_PRICE = "Pro 5,99 € a la semana, 9,99 € al mes o 99,90 € al año; planes Live de 29,99 € a 89,99 € al mes; créditos extra de 3 € a 17 €"
 
 ES2 = {
@@ -179,7 +179,7 @@ ES2 = {
     "ct": "rd-viggle-es",
     "category": "PhotoVideoApplication",
     "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
-    "title": "Mejores alternativas a Viggle AI para hacer vídeos en iPhone (2026)",
+    "title": "Mejores alternativas a Viggle AI en iPhone (2026)",
     "h1": "Alternativas a Viggle AI para iPhone en 2026",
     "description": "Cinco apps de iPhone para usar en lugar de Viggle AI, o junto a ella: Dora, PixVerse Lite, Kling AI, Runway y Shots. Precios y privacidad.",
     "llms": "Compara Viggle AI con cinco alternativas de iPhone (Dora, PixVerse Lite, Kling AI, Runway, Shots) por precio en euros, cómo anima cada una una foto, valoraciones, idiomas y etiqueta de privacidad del App Store.",
@@ -193,7 +193,7 @@ ES2 = {
     "apps": [
         dict(DORA, row=[DORA_PRICE,
                         "De foto o texto a vídeo; Motion Control copia un vídeo de baile en tu foto",
-                        "11", PRIV2, "1.4.1 (9 oct 2026)", "Aún sin valoraciones en España"]),
+                        "11", PRIV2, "1.4.2 (26 oct 2026)", "Aún sin valoraciones en España"]),
         {
             "name": "PixVerse Lite", "id": 6767802142, "anchor": "pixverse",
             "developer": "AIVORA PTE. LTD.", "rating": (4.23, 119),
@@ -324,7 +324,7 @@ ES3 = {
     "apps": [
         dict(DORA, row=[DORA_PRICE,
                         "La IA genera un vídeo a partir de tu foto o de una descripción en unos dos minutos",
-                        "11", PRIV2, "1.4.1 (9 oct 2026)", "Aún sin valoraciones en España"]),
+                        "11", PRIV2, "1.4.2 (26 oct 2026)", "Aún sin valoraciones en España"]),
         {
             "name": "Kling AI: AI Image&Video Maker", "id": 6738049229, "anchor": "kling",
             "developer": "KLING AI PTE. LTD.", "rating": (4.62, 1689),

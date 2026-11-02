@@ -24,4 +24,5 @@ tr:last-child td{border-bottom:0}
 .sources{font-size:14px;word-break:break-word}
 .url{color:var(--muted)}
 .list li{margin:8px 0}
+.crumbs{margin:20px 0 -16px}
 footer{border-top:1px solid var(--line);margin-top:48px;padding-top:12px;padding-bottom:32px;color:var(--muted);font-size:14px}
