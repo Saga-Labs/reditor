@@ -26,7 +26,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts"]
 
 T = {
     "en": {
@@ -63,7 +63,7 @@ HOME_SECTIONS = [
     ("offline-ai", {"en": "Private and offline AI", "es": "IA privada y sin conexión"}),
 ]
 HOME_GROUPS = {
-    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads"},
+    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt"},
     "ai-chat": {"chaton-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
 }
@@ -305,7 +305,9 @@ def related_html(p, limit=5):
     """Links to other comparisons in the same language: same topic first, then the rest of the site."""
     own = [q for q in ALL_PAGES if q["lang"] == p["lang"] and q["group"] != p["group"]]
     sec = section_of(p["group"])
-    picks = ([q for q in own if section_of(q["group"]) == sec] + [q for q in own if section_of(q["group"]) != sec])[:limit]
+    named = [q for g in p.get("related", []) for q in own if q["group"] == g]
+    rest = [q for q in own if q not in named]
+    picks = (named + [q for q in rest if section_of(q["group"]) == sec] + [q for q in rest if section_of(q["group"]) != sec])[:limit]
     if not picks:
         return ""
     h = "Related comparisons" if p["lang"] == "en" else "Comparativas relacionadas"
@@ -364,7 +366,7 @@ def main():
                      "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y la página lo dice arriba. Las demás aparecen con sus datos reales, buenos y malos. En esta web, nuestras apps son Dora, Pinku, Brainy y Ask AI.</p>")
         sections = ""
         for sec_id, names in HOME_SECTIONS:
-            group_pages = [p for p in own if p["group"] in HOME_GROUPS[sec_id]]
+            group_pages = sorted((p for p in own if p["group"] in HOME_GROUPS[sec_id]), key=lambda p: p["updated"], reverse=True)
             if not group_pages:
                 continue
             items = "".join(
