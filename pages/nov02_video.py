@@ -19,8 +19,7 @@ PAGES = [{'group': 'ugc-ads',
   'answer': ['What matters for a small shop is what you must provide. Zeely and Pollo AI start from a product link or URL. HeyGen starts from a '
              'short clip of you. invideo starts from an idea or footage and expects you to edit. Dora starts from a photo or description and makes '
              'one clip.',
-             'Tell viewers honestly when a person in an ad is AI, and do not invent customer reviews: a fake testimonial is a problem however it is '
-             'made.'],
+             'Tell viewers honestly when a person in an ad is AI, and do not invent customer reviews: in the US, the <a href="https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers">FTC rule on fake reviews and testimonials</a> covers testimonials from people who do not exist.'],
   'columns': ['App', 'Price (US)', 'What it does', 'Languages', 'App Store privacy label', 'Version (date)', 'Rating (US)'],
   'table_note': 'Prices are in-app purchases listed on each US App Store page on 2 November 2026, and pages list only some. All are free to '
                 "download. Ratings are that day's App Store average and count.",
@@ -111,7 +110,7 @@ PAGES = [{'group': 'ugc-ads',
           ('Which is cheapest to try?',
            "Of the prices listed, Dora's 300 coins at $3.99 or Pollo AI's weekly at $5.99. Costs per video differ, so compare inside the apps."),
           ('Can AI avatars pretend to be customers?',
-           'They should not. Rules on fake testimonials apply, so do not present an AI person as a real buyer.')],
+           'They should not. In the US, the FTC rule on fake reviews and testimonials covers testimonials from people who do not exist, so do not present an AI person as a real buyer.')],
   'sources': [('Zeely: AI Marketing Platform (App Store)', 'https://apps.apple.com/us/app/id1586861768'),
               ('AI Avatar Generator - HeyGen (App Store)', 'https://apps.apple.com/us/app/id6711356409'),
               ('Pollo AI: AI Video & Image (App Store)', 'https://apps.apple.com/us/app/id6740024098'),
