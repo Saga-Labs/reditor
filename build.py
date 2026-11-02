@@ -78,6 +78,34 @@ MORE_RELATED = {
     "perplexity-alt": ["chaton-alt", "private-chat-situation"],
     "private-chat-situation": ["perplexity-alt"],
 }
+# Rediseño (vista previa): imágenes de cabecera hechas con IA, sacadas de saga-growth/data/generaciones/catalogo.csv
+# (id de 8 caracteres). Las páginas con visitas de Google o ChatGPT no cambian de HTML: no llevan imagen.
+HERO = {
+    "image-to-video": ("36cd022e", "A paper crane turning into a real crane over a lake at dawn", "Una grulla de papel que se convierte en una grulla de verdad sobre un lago al amanecer"),
+    "dance-video": ("13c4bd14", "A dancer mid-leap in a studio", "Un bailarín en pleno salto en un estudio"),
+    "sora": ("e751c449", "Sea cliffs and waves at sunset, seen from above", "Acantilados y olas al atardecer, vistos desde arriba"),
+    "runway-alt": ("7f21c01f", "A neon-lit street in the rain at night", "Una calle con neones bajo la lluvia, de noche"),
+    "ugc-ads": ("6908c86b", "Hands opening a small product box on a table", "Unas manos abren la caja de un producto sobre una mesa"),
+    "pika-alt": ("c69bffc1", "Citrus slices splashing into water", "Rodajas de cítricos salpicando agua"),
+    "pixverse-alt": ("77018dd7", "Close-up of a chameleon's eye", "Primer plano del ojo de un camaleón"),
+}
+HERO_FILE = {"image-to-video": "image-to-video", "dance-video": "dance-video", "sora": "sora", "runway-alt": "runway",
+             "ugc-ads": "ugc-ads", "pika-alt": "pika", "pixverse-alt": "pixverse"}
+VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-apps-ia-de-foto-a-video-iphone/"}
+# Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
+EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "private-chat-situation", "sora", "kling-alt", "runway-alt",
+             "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "perplexity-alt",
+             "chaton-alt", "private-llm", "ollama-alternatives"]
+
+
+def hero_img(p, first, sizes="(max-width: 820px) 100vw, 780px"):
+    if p["group"] not in HERO or p["path"] in VISITED:
+        return ""
+    _, en, es = HERO[p["group"]]
+    f = HERO_FILE[p["group"]]
+    load = 'fetchpriority="high"' if first else 'loading="lazy" decoding="async"'
+    return (f'<img src="/img/hero/{f}-1200.webp" srcset="/img/hero/{f}-640.webp 640w, /img/hero/{f}-1200.webp 1200w" '
+            f'sizes="{sizes}" width="1200" height="675" alt="{esc(en if p["lang"] == "en" else es)}" {load}>')
 
 
 def esc(s):
@@ -250,6 +278,10 @@ def ranking_html(p, alternates):
     out = [head(p, alternates, [article, item_list, faq, crumbs])]
     out.append(f'<article>\n<p class="meta crumbs"><a href="/{"es/" if lang == "es" else ""}">{NAME}</a> › {esc(section_name(p))}</p>\n<h1>{esc(p["h1"])}</h1>\n')
     out.append(f'<p class="meta">{t["updated"]} <time datetime="{p["updated"]}">{upd}</time> · {t["checked"]} {chk}</p>\n')
+    img = hero_img(p, True)
+    if img:
+        cap = "Image made with AI." if lang == "en" else "Imagen hecha con IA."
+        out.append(f'<figure class="hero">{img}<figcaption>{cap}</figcaption></figure>\n')
     out.append("".join(f"<p>{x}</p>\n" for x in p["answer"]))
 
     out.append(f'<h2 id="table">{t["table"]}</h2>\n<div class="scroll"><table>\n<thead><tr>')
@@ -379,16 +411,27 @@ def main():
                      "<p>Una página por cada app que la gente deja: qué usar en su lugar y qué ganas o pierdes con cada opción. "
                      "Cada precio, versión y etiqueta de privacidad está copiado del App Store en la fecha que pone cada página.</p>"
                      "<p class=\"disclosure\">Reditor es de Saga Labs, un estudio de apps. Cuando una de nuestras apps es una alternativa, es una opción más, no va primera por defecto, y el pie de cada página nombra nuestras apps. Las demás aparecen con sus datos reales, buenos y malos. En esta web, nuestras apps son Dora, Pinku, Brainy y Ask AI.</p>")
-        sections = ""
+        def card(q, cls, first=False, sizes="(max-width: 700px) 100vw, 400px"):
+            sec = section_of(q["group"])
+            img = hero_img(q, first, sizes)
+            return (f'<a class="card {cls} s-{sec}{"" if img else " flat"}" href="/{q["path"]}">'
+                    + (f'<span class="pic">{img}</span>' if img else "")
+                    + f'<span class="txt"><span class="kicker">{esc(section_name(q))}</span>'
+                    f'<span class="ttl">{esc(q["h1"])}</span>'
+                    f'<span class="meta">{T[lang]["updated"]} {human_date(q["updated"], lang)}</span></span></a>')
+        order = sorted(own, key=lambda q: EVERGREEN.index(q["group"]) if q["group"] in EVERGREEN else 99)
+        top, rest = order[:5], order[5:]
+        top_h = "Start here" if lang == "en" else "Para empezar"
+        sections = (f'<section class="lead" aria-label="{top_h}">' + card(top[0], "big", True, "(max-width: 900px) 100vw, 760px")
+                    + '<div class="side">' + "".join(card(q, "small") for q in top[1:]) + "</div></section>")
+        sections += '<div class="chips">' + "".join(f'<a href="#{s}">{esc(n[lang])}</a>' for s, n in HOME_SECTIONS) + "</div>"
         for sec_id, names in HOME_SECTIONS:
-            group_pages = sorted((p for p in own if p["group"] in HOME_GROUPS[sec_id]), key=lambda p: p["updated"], reverse=True)
+            group_pages = [q for q in rest if q["group"] in HOME_GROUPS[sec_id]]
             if not group_pages:
                 continue
-            items = "".join(
-                f'<li><a href="/{p["path"]}">{esc(p["h1"])}</a> <span class="meta">({T[lang]["updated"]} {human_date(p["updated"], lang)})</span></li>'
-                for p in group_pages
-            )
-            sections += f'<h2 id="{sec_id}">{esc(names[lang])}</h2><ul class="list">{items}</ul>'
+            sections += f'<h2 id="{sec_id}">{esc(names[lang])}</h2><div class="cards">' + "".join(card(q, "") for q in group_pages) + "</div>"
+        intro = '<div class="home">' + intro
+        sections += "</div>"
         missing = [p["path"] for p in own if not any(p["group"] in g for g in HOME_GROUPS.values())]
         assert not missing, f"home: add these groups to HOME_GROUPS: {missing}"
         home_ld = [
