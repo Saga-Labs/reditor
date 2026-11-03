@@ -70,6 +70,15 @@ HOME_GROUPS = {
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
 }
 
+MORE_RELATED = {
+    "image-to-video": ["midjourney-alt"],
+    "ugc-ads": ["midjourney-alt"],
+    "chaton-alt": ["perplexity-alt", "midjourney-alt"],
+    "midjourney-alt": ["image-to-video", "seedance-alt", "kling-alt"],
+    "perplexity-alt": ["chaton-alt", "private-chat-situation"],
+    "private-chat-situation": ["perplexity-alt"],
+}
+
 
 def esc(s):
     return html.escape(str(s), quote=True)
@@ -339,6 +348,11 @@ def main():
     for mod in PAGE_MODULES:
         pages += importlib.import_module(f"pages.{mod}").PAGES
     ALL_PAGES[:] = pages
+    # Enlaces internos entre temas vecinos, sobre todo hacia las páginas nuevas (3 nov 2026)
+    for q in pages:
+        extra = MORE_RELATED.get(q["group"], [])
+        if extra:
+            q["related"] = list(dict.fromkeys(list(q.get("related", [])) + extra))
     by_group = {}
     for p in pages:
         by_group.setdefault(p["group"], []).append(p)
