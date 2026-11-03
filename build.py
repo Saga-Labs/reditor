@@ -26,7 +26,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana"]
 
 T = {
     "en": {
@@ -65,7 +65,7 @@ HOME_SECTIONS = [
 ]
 HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video"},
-    "ai-image": {"midjourney-alt"},
+    "ai-image": {"midjourney-alt", "nano-banana"},
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt", "grok-apps"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
 }
@@ -73,13 +73,14 @@ HOME_GROUPS = {
 MORE_RELATED = {
     "image-to-video": ["midjourney-alt"],
     "ugc-ads": ["midjourney-alt", "no-watermark"],
-    "google-video": ["image-to-video", "seedance-alt", "no-watermark", "kling-alt", "runway-alt"],
+    "google-video": ["nano-banana", "image-to-video", "seedance-alt", "no-watermark", "kling-alt", "runway-alt"],
     "no-watermark": ["google-video", "image-to-video", "ugc-ads", "pika-alt", "kling-alt", "runway-alt"],
     "pika-alt": ["no-watermark"],
     "kling-alt": ["no-watermark"],
     "runway-alt": ["no-watermark"],
     "chaton-alt": ["perplexity-alt", "deepseek-alt", "midjourney-alt"],
-    "midjourney-alt": ["image-to-video", "seedance-alt", "kling-alt"],
+    "midjourney-alt": ["nano-banana", "image-to-video", "seedance-alt", "kling-alt"],
+    "nano-banana": ["midjourney-alt", "google-video", "image-to-video"],
     "perplexity-alt": ["chaton-alt", "deepseek-alt", "private-chat-situation"],
     "deepseek-alt": ["grok-apps", "chaton-alt", "perplexity-alt", "private-llm", "private-chat-situation"],
     "grok-apps": ["deepseek-alt", "perplexity-alt", "chaton-alt"],
@@ -102,7 +103,7 @@ HERO_FILE = {"image-to-video": "image-to-video", "dance-video": "dance-video", "
 VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-apps-ia-de-foto-a-video-iphone/"}
 # Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
 EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "no-watermark", "google-video", "private-chat-situation", "sora", "kling-alt", "runway-alt",
-             "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "perplexity-alt",
+             "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "nano-banana", "perplexity-alt",
              "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives"]
 
 
