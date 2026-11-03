@@ -23,6 +23,8 @@ import urllib.request
 ROOT = pathlib.Path(__file__).parent
 SITE = "https://reditor.cloud"
 NAME = "Reditor"
+# Verificación de Bing Webmaster (solo en la portada; no tocar las páginas con visitas). Marta, 3 nov 2026.
+BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE15280">\n'
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
@@ -213,7 +215,7 @@ def head(p, alternates, extra_ld):
 <meta property="og:url" content="{esc(page_url(p))}">
 <meta property="og:site_name" content="{NAME}">
 <meta name="robots" content="index, follow, max-snippet:-1">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{BING_META if page_url(p) == SITE + "/" else ""}<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css">
 <script src="/umami.js" defer></script>
 {lds}
