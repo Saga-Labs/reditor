@@ -1,4 +1,4 @@
-"""DeepSeek app alternatives for iPhone, EN. Our app: Ask AI (id1662608035), whose listing names DeepSeek among its models.
+"""Apps to use DeepSeek on iPhone, EN (was /deepseek-alternatives-iphone/ for a few minutes on 3 Nov; that URL is reviewland's, see ios-playbook references/temas-webs.md). Our app: Ask AI (id1662608035), whose listing names DeepSeek among its models.
 
 Checked 2026-11-03: US App Store search for «deepseek», «deepseek ai», «deepseek chat» and «deepseek offline»,
 iTunes lookup and the US App Store page of every app (price list, privacy label). Only apps whose own listing names
@@ -23,19 +23,19 @@ def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, our
 
 PAGES = [{
     "group": "deepseek-alt", "lang": "en", "store": "us",
-    "path": "deepseek-alternatives-iphone/",
-    "ct": "rd-deepseek-alternatives-iphone",
+    "path": "deepseek-apps-iphone/",
+    "ct": "rd-deepseek-apps-iphone",
     "category": "ProductivityApplication",
     "published": D, "updated": D, "checked": CHECKED,
-    "title": "DeepSeek App for iPhone: Official App and 6 Alternatives (2026)",
-    "h1": "DeepSeek app for iPhone: the official app and 6 alternatives",
-    "description": "The official DeepSeek app is free on iPhone. Six other apps whose listings name DeepSeek, cloud and offline, compared by price and privacy label.",
-    "llms": "Describes the official DeepSeek iPhone app (free, Hangzhou DeepSeek, Data Linked to You) and compares six iPhone apps whose App Store listings name DeepSeek: three cloud chat apps with several models (Chat AI by Deep Flow, AI Chat by AppStation, Ask AI) and three that run smaller DeepSeek-based models offline on the phone (Locally AI, Private LLM, Enclave), by price and App Store privacy label.",
+    "title": "How to Use DeepSeek on iPhone (2026): 7 Apps That Offer It",
+    "h1": "Apps to use DeepSeek on iPhone in 2026",
+    "description": "Seven ways to use DeepSeek on iPhone: the free official app, three chat apps that offer it next to other models, and three that run it offline.",
+    "llms": "Explains how to use DeepSeek on an iPhone: describes the official DeepSeek app (free, Hangzhou DeepSeek, Data Linked to You) and compares six iPhone apps whose App Store listings name DeepSeek: three cloud chat apps with several models (Chat AI by Deep Flow, AI Chat by AppStation, Ask AI) and three that run smaller DeepSeek-based models offline on the phone (Locally AI, Private LLM, Enclave), by price and App Store privacy label.",
     "answer": [
-        "<strong>Yes, DeepSeek has an official iPhone app.</strong> It is <a href=\"https://apps.apple.com/us/app/id6737597349\">DeepSeek - AI Assistant</a> from Hangzhou DeepSeek Artificial Intelligence Co., Ltd: free, with no in-app purchases listed, in 71 languages. On 3 November 2026 its US App Store rating was 3.9 from 12,484 ratings, and its privacy label lists Data Linked to You.",
-        "People look elsewhere for two reasons. To use DeepSeek next to other models in one chat, Chat AI, AI Chat and Ask AI name DeepSeek in their listings, beside Claude and Gemini. To keep everything on the phone, Locally AI, Private LLM and Enclave run DeepSeek-based models offline; these are small distilled versions (Private LLM names DeepSeek R1 Distill), not the full model the official app uses.",
+        "<strong>The simplest way to use DeepSeek on iPhone is its official app.</strong> It is <a href=\"https://apps.apple.com/us/app/id6737597349\">DeepSeek - AI Assistant</a> from Hangzhou DeepSeek Artificial Intelligence Co., Ltd: free, with no in-app purchases listed, in 71 languages. On 3 November 2026 its US App Store rating was 3.9 from 12,484 ratings, and its privacy label lists Data Linked to You.",
+        "Six other apps also give you DeepSeek. To use it next to other models in one chat, Chat AI, AI Chat and Ask AI name DeepSeek in their listings, beside Claude and Gemini. To keep everything on the phone, Locally AI, Private LLM and Enclave run DeepSeek-based models offline; these are small distilled versions (Private LLM names DeepSeek R1 Distill), not the full model the official app uses.",
     ],
-    "columns": ["App", "Price (US)", "How it gives you DeepSeek, per its listing", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
+    "columns": ["App", "Price (US)", "How it offers DeepSeek, per its listing", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
     "table_note": "Prices are in-app purchases listed on each US App Store page on 3 November 2026; pages list only some. All are free to download except Private LLM. Ratings are that day's App Store average and count.",
     "apps": [
         app("Chat AI: Ask Agent Anything", 1668787639, "chat-ai", "DEEP FLOW SOFTWARE SERVICES - FZCO", 4.76, 329089,
@@ -94,7 +94,7 @@ PAGES = [{
              "14", "Data Not Linked to You", "1.77.0 (1 Oct 2026)"]),
     ],
     "who": [
-        "<strong>DeepSeek itself, free:</strong> the official DeepSeek app.",
+        "<strong>The full DeepSeek model, free:</strong> the official DeepSeek app.",
         "<strong>DeepSeek plus many other models, images and files:</strong> Chat AI.",
         "<strong>DeepSeek offline, free, nothing collected:</strong> Locally AI.",
         "<strong>DeepSeek, Claude, Gemini and Grok in the same chat:</strong> Ask AI.",
