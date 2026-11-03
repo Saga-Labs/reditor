@@ -29,7 +29,7 @@ A = {
 }
 
 FACTS = {
-    "dora": ["Its default video model is Seedance 2 Mini from ByteDance, with sound, up to 12 seconds and up to 720p, per doravideo.com/models. Seedance 2 and Seedance 2 Fast are also listed there, next to Veo 3.1, Kling 2.6 and others.",
+    "dora": ["Its default video model is Seedance 2 Mini from ByteDance, with sound, up to 12 seconds and up to 720p, per doravideo.com/models. Seedance 2 and Seedance 2 Fast are also listed there, next to Kling 2.6, Gemini Omni and Grok.",
              "Starts from a photo or a written description. The coin cost shows before you generate, and failed generations refund the coins.",
              "The same account and coins work on doravideo.com and in AI assistants through its connector."],
     "capcut": ["Made by ByteDance, the company behind Seedance. CapCut's newsroom says Dreamina Seedance 2.0 reached CapCut users in the US on 7 April 2026, starting with paid users.",
