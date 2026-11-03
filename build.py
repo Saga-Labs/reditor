@@ -28,7 +28,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest"]
 
 T = {
     "en": {
@@ -39,7 +39,7 @@ T = {
         "faq": "Frequently asked questions", "sources": "Sources",
         "who": "Who should use what", "cases": "Use cases",
         "method": "How we checked",
-        "footer": "Reditor is run by Saga Labs, which makes Dora, Pinku, Brainy, Ask AI, Photo Vault, Crypton and Drop, some of the apps we compare.",
+        "footer": "Reditor is run by Saga Labs, which makes Dora, Pinku, Brainy, Ask AI, Photo Vault, Crypton, Drop and 3 Tasks, some of the apps we compare.",
         "about": "About and method", "home": "All alternatives",
         "ratings": "ratings", "store_page": "App Store page",
     },
@@ -75,7 +75,7 @@ HOME_GROUPS = {
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives", "lm-studio-iphone"},
     "privacy": {"keepsafe-alt", "calculator-vault"},
     "crypto": {"blockfolio-alt"},
-    "wellbeing": {"headspace-alt", "endel-alt"},
+    "wellbeing": {"headspace-alt", "endel-alt", "forest-alt"},
 }
 
 MORE_RELATED = {
@@ -95,6 +95,7 @@ MORE_RELATED = {
     "grok-apps": ["deepseek-alt", "perplexity-alt", "chaton-alt"],
     "private-llm": ["deepseek-alt"],
     "chatgpt-plus-alt": ["perplexity-alt", "grok-apps", "deepseek-alt", "chaton-alt"],
+    "forest-alt": ["endel-alt", "headspace-alt"],
     "endel-alt": ["headspace-alt"],
     "headspace-alt": ["endel-alt"],
     "calculator-vault": ["keepsafe-alt"],
@@ -120,7 +121,7 @@ VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-a
 # Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
 EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "no-watermark", "google-video", "private-chat-situation", "sora", "kling-alt", "runway-alt",
              "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "nano-banana", "chatgpt-image", "perplexity-alt",
-             "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives", "lm-studio-iphone", "keepsafe-alt", "calculator-vault", "blockfolio-alt", "chatgpt-plus-alt", "headspace-alt", "endel-alt"]
+             "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives", "lm-studio-iphone", "keepsafe-alt", "calculator-vault", "blockfolio-alt", "chatgpt-plus-alt", "headspace-alt", "endel-alt", "forest-alt"]
 
 
 def hero_img(p, first, sizes="(max-width: 820px) 100vw, 780px"):
@@ -147,7 +148,8 @@ OUR_LLMS = [("Dora", 6754180384, "AI video and image generator for iPhone and do
             ("Ask AI", 1662608035, "AI chat with several models in one app; a few free messages a day, Pro for the rest."),
             ("Photo Vault", 1532670722, "photo and video vault with Face ID, no account and no data collected; Premium yearly or lifetime."),
             ("Crypton", 1143691286, "crypto price and portfolio tracker with P&L per coin and widgets; free, optional account."),
-            ("Drop", 1462269642, "breathing sessions and nature sounds with a growing garden; free, Pro monthly or lifetime.")]
+            ("Drop", 1462269642, "breathing sessions and nature sounds with a growing garden; free, Pro monthly or lifetime."),
+            ("3 Tasks", 1553693943, "to-do list of three tasks a day with a timer on each; free, one-time Pro.")]
 
 OUR_IDS = {"1667947372", "6754878073", "1143691286", "6754180384",
            "1553693943", "1462269642", "1662608035", "1532670722"}
@@ -431,7 +433,7 @@ def main():
             intro = ("<h1>Alternatives to iPhone apps, checked on the App Store</h1>"
                      "<p>One page per app people are leaving: what to use instead, and what you gain or lose with each option. "
                      "Every price, version and privacy label is copied from the App Store on the date shown on each page.</p>"
-                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and the footer of every page names our apps. Competitors are named with their real data, good and bad. On this site, our apps are Dora, Pinku, Brainy, Ask AI, Photo Vault, Crypton and Drop.</p>")
+                     "<p class=\"disclosure\">Reditor is run by Saga Labs, an app studio. When one of our apps is an alternative, it is one more option, not first by default, and the footer of every page names our apps. Competitors are named with their real data, good and bad. On this site, our apps are Dora, Pinku, Brainy, Ask AI, Photo Vault, Crypton, Drop and 3 Tasks.</p>")
         else:
             title = "Mejores alternativas a apps populares de iPhone (2026): Reditor"
             desc = "Mejores alternativas a Sora, ChatOn, Viggle AI, Private LLM y más en iPhone y Mac, con precios y privacidad comprobados en el App Store."
