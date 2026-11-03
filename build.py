@@ -28,7 +28,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image"]
 
 T = {
     "en": {
@@ -67,7 +67,7 @@ HOME_SECTIONS = [
 ]
 HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video"},
-    "ai-image": {"midjourney-alt", "nano-banana"},
+    "ai-image": {"midjourney-alt", "nano-banana", "chatgpt-image"},
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt", "grok-apps"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
 }
@@ -81,8 +81,9 @@ MORE_RELATED = {
     "kling-alt": ["no-watermark"],
     "runway-alt": ["no-watermark"],
     "chaton-alt": ["perplexity-alt", "deepseek-alt", "midjourney-alt"],
-    "midjourney-alt": ["nano-banana", "image-to-video", "seedance-alt", "kling-alt"],
-    "nano-banana": ["midjourney-alt", "google-video", "image-to-video"],
+    "midjourney-alt": ["nano-banana", "chatgpt-image", "image-to-video", "seedance-alt", "kling-alt"],
+    "nano-banana": ["chatgpt-image", "midjourney-alt", "google-video", "image-to-video"],
+    "chatgpt-image": ["midjourney-alt", "nano-banana", "image-to-video"],
     "perplexity-alt": ["chaton-alt", "deepseek-alt", "private-chat-situation"],
     "deepseek-alt": ["grok-apps", "chaton-alt", "perplexity-alt", "private-llm", "private-chat-situation"],
     "grok-apps": ["deepseek-alt", "perplexity-alt", "chaton-alt"],
@@ -105,7 +106,7 @@ HERO_FILE = {"image-to-video": "image-to-video", "dance-video": "dance-video", "
 VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-apps-ia-de-foto-a-video-iphone/"}
 # Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
 EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "no-watermark", "google-video", "private-chat-situation", "sora", "kling-alt", "runway-alt",
-             "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "nano-banana", "perplexity-alt",
+             "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "nano-banana", "chatgpt-image", "perplexity-alt",
              "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives"]
 
 
