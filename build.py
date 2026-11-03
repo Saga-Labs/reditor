@@ -26,7 +26,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek"]
 
 T = {
     "en": {
@@ -66,16 +66,18 @@ HOME_SECTIONS = [
 HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt"},
     "ai-image": {"midjourney-alt"},
-    "ai-chat": {"chaton-alt", "perplexity-alt"},
+    "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
 }
 
 MORE_RELATED = {
     "image-to-video": ["midjourney-alt"],
     "ugc-ads": ["midjourney-alt"],
-    "chaton-alt": ["perplexity-alt", "midjourney-alt"],
+    "chaton-alt": ["perplexity-alt", "deepseek-alt", "midjourney-alt"],
     "midjourney-alt": ["image-to-video", "seedance-alt", "kling-alt"],
-    "perplexity-alt": ["chaton-alt", "private-chat-situation"],
+    "perplexity-alt": ["chaton-alt", "deepseek-alt", "private-chat-situation"],
+    "deepseek-alt": ["chaton-alt", "perplexity-alt", "private-llm", "private-chat-situation"],
+    "private-llm": ["deepseek-alt"],
     "private-chat-situation": ["perplexity-alt"],
 }
 # Rediseño (vista previa): imágenes de cabecera hechas con IA, sacadas de saga-growth/data/generaciones/catalogo.csv
@@ -95,7 +97,7 @@ VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-a
 # Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
 EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "private-chat-situation", "sora", "kling-alt", "runway-alt",
              "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "perplexity-alt",
-             "chaton-alt", "private-llm", "ollama-alternatives"]
+             "deepseek-alt", "chaton-alt", "private-llm", "ollama-alternatives"]
 
 
 def hero_img(p, first, sizes="(max-width: 820px) 100vw, 780px"):
