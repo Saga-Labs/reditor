@@ -28,7 +28,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio"]
 
 T = {
     "en": {
@@ -69,7 +69,7 @@ HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video"},
     "ai-image": {"midjourney-alt", "nano-banana", "chatgpt-image"},
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt", "grok-apps"},
-    "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
+    "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives", "lm-studio-iphone"},
 }
 
 MORE_RELATED = {
@@ -88,6 +88,8 @@ MORE_RELATED = {
     "deepseek-alt": ["grok-apps", "chaton-alt", "perplexity-alt", "private-llm", "private-chat-situation"],
     "grok-apps": ["deepseek-alt", "perplexity-alt", "chaton-alt"],
     "private-llm": ["deepseek-alt"],
+    "lm-studio-iphone": ["ollama-alternatives", "private-chat-situation", "private-llm", "deepseek-alt"],
+    "ollama-alternatives": ["lm-studio-iphone"],
     "private-chat-situation": ["perplexity-alt"],
 }
 # Rediseño (vista previa): imágenes de cabecera hechas con IA, sacadas de saga-growth/data/generaciones/catalogo.csv
@@ -107,7 +109,7 @@ VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-a
 # Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
 EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "no-watermark", "google-video", "private-chat-situation", "sora", "kling-alt", "runway-alt",
              "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "nano-banana", "chatgpt-image", "perplexity-alt",
-             "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives"]
+             "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives", "lm-studio-iphone"]
 
 
 def hero_img(p, first, sizes="(max-width: 820px) 100vw, 780px"):
@@ -334,7 +336,7 @@ def ranking_html(p, alternates):
 
 
 # Guias paso a paso de aisagalab.com que tratan lo mismo (enlaces entre los tres sitios, 23 oct 2026).
-GUIDE_LINKS = {'best-private-ai-chat-apps-work-without-internet-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'ollama-alternatives-mac-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'private-llm-alternatives-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'es/mejores-apps-chat-ia-privado-sin-internet-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')], 'es/alternativas-a-private-llm-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')]}
+GUIDE_LINKS = {'lm-studio-apps-iphone/': [('Which AI model fits my iPhone or Mac?', 'https://aisagalab.com/pinku/which-ai-model-fits-my-iphone-mac.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How does local AI work on iPhone?', 'https://aisagalab.com/pinku/how-does-local-ai-work-on-iphone.html')], 'best-private-ai-chat-apps-work-without-internet-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'ollama-alternatives-mac-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'private-llm-alternatives-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'es/mejores-apps-chat-ia-privado-sin-internet-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')], 'es/alternativas-a-private-llm-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')]}
 
 
 def guide_links_html(p):
