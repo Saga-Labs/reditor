@@ -26,7 +26,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity"]
 
 T = {
     "en": {
@@ -66,7 +66,7 @@ HOME_SECTIONS = [
 HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt"},
     "ai-image": {"midjourney-alt"},
-    "ai-chat": {"chaton-alt"},
+    "ai-chat": {"chaton-alt", "perplexity-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
 }
 
