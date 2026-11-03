@@ -26,7 +26,7 @@ NAME = "Reditor"
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark"]
 
 T = {
     "en": {
@@ -64,7 +64,7 @@ HOME_SECTIONS = [
     ("offline-ai", {"en": "Private and offline AI", "es": "IA privada y sin conexión"}),
 ]
 HOME_GROUPS = {
-    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt"},
+    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark"},
     "ai-image": {"midjourney-alt"},
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives"},
@@ -72,7 +72,11 @@ HOME_GROUPS = {
 
 MORE_RELATED = {
     "image-to-video": ["midjourney-alt"],
-    "ugc-ads": ["midjourney-alt"],
+    "ugc-ads": ["midjourney-alt", "no-watermark"],
+    "no-watermark": ["image-to-video", "ugc-ads", "pika-alt", "kling-alt", "runway-alt"],
+    "pika-alt": ["no-watermark"],
+    "kling-alt": ["no-watermark"],
+    "runway-alt": ["no-watermark"],
     "chaton-alt": ["perplexity-alt", "deepseek-alt", "midjourney-alt"],
     "midjourney-alt": ["image-to-video", "seedance-alt", "kling-alt"],
     "perplexity-alt": ["chaton-alt", "deepseek-alt", "private-chat-situation"],
@@ -95,7 +99,7 @@ HERO_FILE = {"image-to-video": "image-to-video", "dance-video": "dance-video", "
              "ugc-ads": "ugc-ads", "pika-alt": "pika", "pixverse-alt": "pixverse"}
 VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-apps-ia-de-foto-a-video-iphone/"}
 # Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
-EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "private-chat-situation", "sora", "kling-alt", "runway-alt",
+EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "no-watermark", "private-chat-situation", "sora", "kling-alt", "runway-alt",
              "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "perplexity-alt",
              "deepseek-alt", "chaton-alt", "private-llm", "ollama-alternatives"]
 
