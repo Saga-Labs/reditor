@@ -28,7 +28,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma", "nov05_sora_chatgpt"]
 
 T = {
     "en": {
@@ -69,7 +69,7 @@ HOME_SECTIONS = [
     ("wellbeing", {"en": "Sleep, meditation and focus", "es": "Sueño, meditación y concentración"}),
 ]
 HOME_GROUPS = {
-    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video", "luma-alt"},
+    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video", "luma-alt", "sora-chatgpt"},
     "ai-image": {"midjourney-alt", "nano-banana", "chatgpt-image"},
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt", "grok-apps", "chatgpt-plus-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives", "lm-studio-iphone"},
@@ -95,6 +95,8 @@ MORE_RELATED = {
     "grok-apps": ["deepseek-alt", "perplexity-alt", "chaton-alt"],
     "private-llm": ["deepseek-alt"],
     "chatgpt-plus-alt": ["perplexity-alt", "grok-apps", "deepseek-alt", "chaton-alt"],
+    "sora-chatgpt": ["sora", "runway-alt", "kling-alt", "image-to-video"],
+    "sora": ["sora-chatgpt"],
     "luma-alt": ["kling-alt", "runway-alt", "pika-alt", "google-video", "no-watermark"],
     "forest-alt": ["endel-alt", "headspace-alt"],
     "endel-alt": ["headspace-alt"],
@@ -272,9 +274,9 @@ def ranking_html(p, alternates):
                 "@type": "ListItem", "position": i + 1,
                 "item": {
                     "@type": "SoftwareApplication", "name": a["name"],
-                    "operatingSystem": "iOS",
+                    "operatingSystem": p.get("os", "iOS"),
                     "applicationCategory": p.get("category", "UtilitiesApplication"),
-                    **({"url": f"https://apps.apple.com/app/id{a['id']}"} if a.get("id") else {}),
+                    **({"url": a["url"]} if a.get("url") else {"url": f"https://apps.apple.com/app/id{a['id']}"} if a.get("id") else {}),
                     **({"author": {"@type": "Organization", "name": a["developer"]}} if a.get("developer") else {}),
                     **({"aggregateRating": {"@type": "AggregateRating", "ratingValue": a["rating"][0], "ratingCount": a["rating"][1]}}
                        if a.get("rating") and a["rating"][1] >= 5 else {}),
@@ -308,7 +310,7 @@ def ranking_html(p, alternates):
 
     out = [head(p, alternates, [article, item_list, faq, crumbs])]
     out.append(f'<article>\n<p class="meta crumbs"><a href="/{"es/" if lang == "es" else ""}">{NAME}</a> › {esc(section_name(p))}</p>\n<h1>{esc(p["h1"])}</h1>\n')
-    out.append(f'<p class="meta">{t["updated"]} <time datetime="{p["updated"]}">{upd}</time> · {t["checked"]} {chk}</p>\n')
+    out.append(f'<p class="meta">{t["updated"]} <time datetime="{p["updated"]}">{upd}</time> · {p.get("checked_label", t["checked"])} {chk}</p>\n')
     img = hero_img(p, True)
     if img:
         cap = "Image made with AI." if lang == "en" else "Imagen hecha con IA."
@@ -330,7 +332,9 @@ def ranking_html(p, alternates):
         out.append(f'<p class="bestfor"><strong>{t["best_for"]}:</strong> {a["best_for"]}</p>\n')
         out.append("<ul>" + "".join(f"<li>{x}</li>" for x in a["facts"]) + "</ul>\n")
         out.append(f'<p><strong>{t["limits"]}:</strong> {a["limits"]}</p>\n')
-        if a.get("ours"):
+        if a.get("url"):  # plugins de ChatGPT: enlace a su ficha, no al App Store (5 nov 2026)
+            out.append(f'<p><a href="{esc(a["url"])}">{esc(p.get("link_label", t["store_page"]))}</a></p>\n')
+        elif a.get("ours"):
             out.append(f'<p><a href="{esc(store_link(a["id"], p["ct"]))}">{t["store_page"]}</a></p>\n')
         elif a.get("id"):
             out.append(f'<p><a href="{esc(tag_ours(f"https://apps.apple.com/{p['store']}/app/id{a['id']}", p["ct"]))}">{t["store_page"]}</a></p>\n')
