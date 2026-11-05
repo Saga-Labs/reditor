@@ -28,7 +28,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma"]
 
 T = {
     "en": {
@@ -69,7 +69,7 @@ HOME_SECTIONS = [
     ("wellbeing", {"en": "Sleep, meditation and focus", "es": "Sueño, meditación y concentración"}),
 ]
 HOME_GROUPS = {
-    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video"},
+    "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video", "luma-alt"},
     "ai-image": {"midjourney-alt", "nano-banana", "chatgpt-image"},
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt", "grok-apps", "chatgpt-plus-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives", "lm-studio-iphone"},
@@ -95,6 +95,7 @@ MORE_RELATED = {
     "grok-apps": ["deepseek-alt", "perplexity-alt", "chaton-alt"],
     "private-llm": ["deepseek-alt"],
     "chatgpt-plus-alt": ["perplexity-alt", "grok-apps", "deepseek-alt", "chaton-alt"],
+    "luma-alt": ["kling-alt", "runway-alt", "pika-alt", "google-video", "no-watermark"],
     "forest-alt": ["endel-alt", "headspace-alt"],
     "endel-alt": ["headspace-alt"],
     "headspace-alt": ["endel-alt"],
@@ -121,7 +122,7 @@ VISITED = {"es/mejores-apps-chat-ia-privado-sin-internet-iphone/", "es/mejores-a
 # Portada por temas que no caducan: primero las listas «best … apps», luego las alternativas a cada app.
 EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "no-watermark", "google-video", "private-chat-situation", "sora", "kling-alt", "runway-alt",
              "pika-alt", "hailuo-alt", "pixverse-alt", "viggle-alt", "seedance-alt", "midjourney-alt", "nano-banana", "chatgpt-image", "perplexity-alt",
-             "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives", "lm-studio-iphone", "keepsafe-alt", "calculator-vault", "blockfolio-alt", "chatgpt-plus-alt", "headspace-alt", "endel-alt", "forest-alt"]
+             "deepseek-alt", "grok-apps", "chaton-alt", "private-llm", "ollama-alternatives", "lm-studio-iphone", "keepsafe-alt", "calculator-vault", "blockfolio-alt", "chatgpt-plus-alt", "headspace-alt", "endel-alt", "forest-alt", "luma-alt"]
 
 
 def hero_img(p, first, sizes="(max-width: 820px) 100vw, 780px"):
