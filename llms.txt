@@ -50,7 +50,7 @@
 - [Dora](https://apps.apple.com/app/apple-store/id6754180384?pt=118348020&ct=rd-llms&mt=8): AI video and image generator for iPhone and doravideo.com; subscription with coins; no free video.
 - [Pinku](https://apps.apple.com/app/apple-store/id6754878073?pt=118348020&ct=rd-llms&mt=8): private AI chat with open models that run on the device; free model, optional Pro.
 - [Brainy](https://apps.apple.com/app/apple-store/id1667947372?pt=118348020&ct=rd-llms&mt=8): plain-language AI assistant with voice, camera, images and video; weekly or yearly plan.
-- [Ask AI](https://apps.apple.com/app/apple-store/id1662608035?pt=118348020&ct=rd-llms&mt=8): AI chat with several models in one app; a few free messages a day, Pro for the rest.
+- [Ask AI](https://apps.apple.com/app/apple-store/id1662608035?pt=118348020&ct=rd-llms&mt=8&ppid=420fcaf3-b818-460e-a74f-1cb8fe2a787a): AI chat with several models in one app; a few free messages a day, Pro for the rest.
 - [Photo Vault](https://apps.apple.com/app/apple-store/id1532670722?pt=118348020&ct=rd-llms&mt=8): photo and video vault with Face ID, no account and no data collected; Premium yearly or lifetime.
 - [Crypton](https://apps.apple.com/app/apple-store/id1143691286?pt=118348020&ct=rd-llms&mt=8): crypto price and portfolio tracker with P&L per coin and widgets; free, optional account.
 - [Drop](https://apps.apple.com/app/apple-store/id1462269642?pt=118348020&ct=rd-llms&mt=8): breathing sessions and nature sounds with a growing garden; free, Pro monthly or lifetime.

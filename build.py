@@ -142,7 +142,8 @@ def esc(s):
 
 
 def store_link(app_id, ct):
-    return f"https://apps.apple.com/app/apple-store/id{app_id}?pt={PT}&ct={ct}&mt=8"
+    extra = f"&ppid={askai_ppid(ct)}" if str(app_id) == ASKAI_ID else ""
+    return f"https://apps.apple.com/app/apple-store/id{app_id}?pt={PT}&ct={ct}&mt=8" + extra
 
 
 OUR_LLMS = [("Dora", 6754180384, "AI video and image generator for iPhone and doravideo.com; subscription with coins; no free video."),
@@ -170,12 +171,34 @@ def place_ours(p):
     return apps
 
 
+# Ask AI: Custom Product Pages aprobadas el 7 nov 2026 (#80). Cada enlace va a la página de su tema.
+ASKAI_ID = "1662608035"
+ASKAI_PPID = {
+    "fotos": "2275a5f5-5264-4ade-98ab-7f7ca0ccdb1a",
+    "modelo": "420fcaf3-b818-460e-a74f-1cb8fe2a787a",
+    "traducir": "735d27ce-2811-4b20-9d3c-7bfad431030d",
+}
+
+
+def askai_ppid(ct):
+    """Tema de la página (por su ct): imágenes -> fotos; traducir -> traducir; lo demás (chat, modelos) -> modelo."""
+    c = (ct or "").lower()
+    if re.search(r"translat|tradu|uebersetz|ubersetz|perevod", c):
+        return ASKAI_PPID["traducir"]
+    if re.search(r"image|photo|picture|imagen|imagem|bild|foto|画像", c):
+        return ASKAI_PPID["fotos"]
+    return ASKAI_PPID["modelo"]
+
+
 def tag_ours(url, ct):
     """Enlace a una app nuestra: le pone pt y el ct de la pagina (max 40). Los de otros, sin tocar."""
     m = re.search(r"/id(\d+)", url)
-    if not m or m.group(1) not in OUR_IDS or "ct=" in url:
+    if not m or m.group(1) not in OUR_IDS:
         return url
-    return url + ("&" if "?" in url else "?") + f"pt={PT}&ct={ct[:40]}"
+    extra = f"&ppid={askai_ppid(ct)}" if m.group(1) == ASKAI_ID and "ppid=" not in url else ""
+    if "ct=" in url:
+        return url + extra
+    return url + ("&" if "?" in url else "?") + f"pt={PT}&ct={ct[:40]}" + extra
 
 
 def page_url(p):
