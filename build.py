@@ -28,7 +28,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma", "nov05_sora_chatgpt"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma", "nov05_sora_chatgpt", "nov08_trump_crypto"]
 
 T = {
     "en": {
@@ -74,7 +74,7 @@ HOME_GROUPS = {
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt", "grok-apps", "chatgpt-plus-alt"},
     "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives", "lm-studio-iphone"},
     "privacy": {"keepsafe-alt", "calculator-vault"},
-    "crypto": {"blockfolio-alt"},
+    "crypto": {"blockfolio-alt", "trump-crypto-news"},
     "wellbeing": {"headspace-alt", "endel-alt", "forest-alt"},
 }
 
@@ -106,6 +106,8 @@ MORE_RELATED = {
     "lm-studio-iphone": ["ollama-alternatives", "private-chat-situation", "private-llm", "deepseek-alt"],
     "ollama-alternatives": ["lm-studio-iphone"],
     "private-chat-situation": ["perplexity-alt"],
+    "trump-crypto-news": ["blockfolio-alt"],
+    "blockfolio-alt": ["trump-crypto-news"],
 }
 # Rediseño (vista previa): imágenes de cabecera hechas con IA, sacadas de saga-growth/data/generaciones/catalogo.csv
 # (id de 8 caracteres). Las páginas con visitas de Google o ChatGPT no cambian de HTML: no llevan imagen.
@@ -379,6 +381,48 @@ def ranking_html(p, alternates):
     return "".join(out)
 
 
+def news_html(p, alternates):
+    """News article (8 Nov 2026, moved from aisagalab): dated facts, sections, FAQ and sources; no ranking table."""
+    t = T[p["lang"]]
+    lang = p["lang"]
+    upd = human_date(p["updated"], lang)
+    crypton = store_link(1143691286, p["ct"])
+    fill = lambda h: h.replace("{CRYPTON}", esc(crypton))
+    article = {
+        "@context": "https://schema.org", "@type": "NewsArticle",
+        "headline": p["h1"], "description": p["description"],
+        "inLanguage": lang, "datePublished": p["published"], "dateModified": p["updated"],
+        "mainEntityOfPage": page_url(p),
+        "author": {"@type": "Organization", "name": NAME, "url": SITE},
+        "publisher": {"@type": "Organization", "name": "Saga Labs", "url": "https://aisagalab.com/"},
+    }
+    faq = {
+        "@context": "https://schema.org", "@type": "FAQPage",
+        "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in p["faq"]],
+    }
+    crumbs = {
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": NAME, "item": f"{SITE}/{'es/' if lang == 'es' else ''}"},
+            {"@type": "ListItem", "position": 2, "name": p["h1"], "item": page_url(p)},
+        ],
+    }
+    out = [head(p, alternates, [article, faq, crumbs])]
+    out.append(f'<article>\n<p class="meta crumbs"><a href="/{"es/" if lang == "es" else ""}">{NAME}</a> › {esc(p["kicker"])}</p>\n<h1>{esc(p["h1"])}</h1>\n')
+    out.append(f'<p class="meta"><time datetime="{p["published"]}">{upd}</time> · {esc(p["stand"])}</p>\n')
+    out.append("".join(f"<p>{fill(x)}</p>\n" for x in p["answer"]))
+    for sid, h, body in p["sections"]:
+        out.append(f'<h2 id="{sid}">{esc(h)}</h2>\n{fill(body)}')
+    out.append(f'<h2 id="faq">{t["faq"]}</h2>\n')
+    for q, a in p["faq"]:
+        out.append(f"<h3>{esc(q)}</h3>\n<p>{esc(a)}</p>\n")
+    out.append(related_html(p))
+    out.append(f'<h2 id="sources">{t["sources"]}</h2>\n<ul class="sources">' + "".join(f"<li>{fill(x)}</li>" for x in p["sources_html"]) + "</ul>\n")
+    out.append(f'<p class="note">{p["fix"]}</p>\n</article>\n')
+    out.append(foot(lang))
+    return "".join(out)
+
+
 # Guias paso a paso de aisagalab.com que tratan lo mismo (enlaces entre los tres sitios, 23 oct 2026).
 GUIDE_LINKS = {'lm-studio-apps-iphone/': [('Which AI model fits my iPhone or Mac?', 'https://aisagalab.com/pinku/which-ai-model-fits-my-iphone-mac.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How does local AI work on iPhone?', 'https://aisagalab.com/pinku/how-does-local-ai-work-on-iphone.html')], 'best-private-ai-chat-apps-work-without-internet-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'ollama-alternatives-mac-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'private-llm-alternatives-iphone/': [('Is it safe to tell ChatGPT private things? What AI chat apps keep, and how to keep it on your phone', 'https://aisagalab.com/pinku/is-it-safe-to-tell-chatgpt-private-things.html'), ('How to use AI on iPhone without internet', 'https://aisagalab.com/pinku/use-ai-on-iphone-without-internet.html'), ('How to check whether an AI chat app really keeps your chats on your iPhone', 'https://aisagalab.com/pinku/check-ai-chat-app-keeps-chats-on-iphone.html')], 'es/mejores-apps-chat-ia-privado-sin-internet-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')], 'es/alternativas-a-private-llm-iphone/': [('¿Es seguro contarle cosas privadas a ChatGPT?', 'https://aisagalab.com/pinku/es/es-seguro-contarle-cosas-privadas-a-chatgpt.html'), ('Cómo usar IA en el iPhone sin internet', 'https://aisagalab.com/pinku/es/usar-ia-en-iphone-sin-internet.html'), ('Cómo comprobar si una app de chat con IA guarda de verdad tus chats en el iPhone', 'https://aisagalab.com/pinku/es/comprobar-si-una-app-de-ia-guarda-tus-chats-en-el-iphone.html')]}
 
@@ -450,7 +494,7 @@ def main():
     for p in pages:
         alts = [(q["lang"], page_url(q)) for q in by_group[p["group"]]]
         alts.append(("x-default", page_url(next(q for q in by_group[p["group"]] if q["lang"] == "en"))))
-        write(p["path"], ranking_html(p, alts))
+        write(p["path"], (news_html if p.get("kind") == "news" else ranking_html)(p, alts))
 
     # Home pages
     for lang, path in (("en", ""), ("es", "es/")):
