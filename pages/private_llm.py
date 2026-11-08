@@ -32,13 +32,13 @@ EN = {
         "Choose Enclave if you also want cloud models (Claude, GPT, Gemini) in the same app, or PocketPal AI if you want to load any GGUF model from Hugging Face.",
     ],
     "columns": ["App", "Price (US)", "Models", "iPhone and Mac", "App Store privacy label", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the US App Store price and in-app purchases on 11 October 2026. Ratings are the App Store average and number of ratings that day. All five work offline after a model is downloaded.",
+    "table_note": "Prices are the US App Store price and in-app purchases on 11 October 2026. Ratings are the App Store average that day. All five work offline after a model is downloaded.",
     "apps": [
         {
             "name": "Private Offline AI Chat: Pinku", "id": 6754878073, "ours": True, "anchor": "pinku",
             "developer": "Saga Ltd.", "rating": (4.67, 12),
             "row": ["Free; Pinku Pro $16.99/year or one-time from $9.99", "11 models (Qwen3, Llama 3.2, LFM2.5, Gemma 3, Gemma 3n, Gemma 4, SmolLM3); Llama 3.2 1B free", "Yes",
-                    "Data Linked to You (purchase history, user ID)", "1.4 (31 Oct 2026)", "4.7 (12 ratings)"],
+                    "Data Linked to You (purchase history, user ID)", "1.4 (31 Oct 2026)", "4.7"],
             "best_for": "a free, small and simple offline chat on iPhone and Mac, with no account and no subscription.",
             "facts": [
                 "Runs models locally with Apple's MLX on the device GPU; after the model download it works in airplane mode.",
@@ -54,7 +54,7 @@ EN = {
             "name": "Private LLM - Local AI Chat", "id": 6448106860, "anchor": "private-llm",
             "developer": "Numen Technologies", "rating": (4.16, 734),
             "row": ["$4.99 to download, no in-app purchases; Family Sharing", "Many families: Llama 3.1/3.2, Qwen 2.5/3, Qwen 2.5 Coder up to 14B, Gemma 2/3, Phi 4, Mistral 7B, DeepSeek-R1 distill", "Yes",
-                    "Data Not Collected", "1.9.16 (14 Sep 2026)", "4.2 (734 ratings)"],
+                    "Data Not Collected", "1.9.16 (14 Sep 2026)", "4.2"],
             "best_for": "people who want the widest choice of quantized models and are happy to pay once up front.",
             "facts": [
                 "Uses an mlc-llm based engine and OmniQuant quantization, according to the developer.",
@@ -68,7 +68,7 @@ EN = {
             "name": "Locally AI by LM Studio", "id": 6741426692, "anchor": "locally-ai",
             "developer": "Element Labs (LM Studio)", "rating": (4.72, 1761),
             "row": ["Free, no in-app purchases listed", "Llama 3.2, Gemma 2 and 3, Qwen 3, DeepSeek and more", "Yes",
-                    "Data Not Collected", "1.65.0 (14 Sep 2026)", "4.7 (1,761 ratings)"],
+                    "Data Not Collected", "1.65.0 (14 Sep 2026)", "4.7"],
             "best_for": "a completely free offline chat from the makers of LM Studio for desktop.",
             "facts": [
                 "Powered by Apple MLX, no login, no data collection.",
@@ -80,7 +80,7 @@ EN = {
             "name": "Enclave - Local AI Assistant", "id": 6476614556, "anchor": "enclave",
             "developer": "Piotr Gorzelany", "rating": (4.69, 1089),
             "row": ["Free; Pro $9.99; other purchases $0.99 to $9.99", "Hundreds of open models (Llama, DeepSeek, Gemma, Qwen, Phi, Mistral); cloud models with Pro", "Yes",
-                    "Data Not Linked to You", "1.77.0 (1 Oct 2026)", "4.7 (1,089 ratings)"],
+                    "Data Not Linked to You", "1.77.0 (1 Oct 2026)", "4.7"],
             "best_for": "people who want local models and, when needed, cloud models from Anthropic, OpenAI, Google and xAI in one app.",
             "facts": [
                 "Local models with no account; Pro adds cloud models without API keys and web search for them.",
@@ -93,7 +93,7 @@ EN = {
             "name": "PocketPal AI", "id": 6502579498, "anchor": "pocketpal",
             "developer": "Gooya UG", "rating": (4.07, 161),
             "row": ["Free; optional \"pals\" $0.99 to $2.99", "Any GGUF model from Hugging Face", "iPhone and iPad",
-                    "Data Not Collected", "1.19.1 (8 Oct 2026)", "4.1 (161 ratings)"],
+                    "Data Not Collected", "1.19.1 (8 Oct 2026)", "4.1"],
             "best_for": "tinkerers who want to search Hugging Face and load any GGUF model they like.",
             "facts": [
                 "Search, bookmark and download GGUF models from Hugging Face inside the app.",
@@ -116,7 +116,7 @@ EN = {
         "Drafting, summarising and brainstorming on a Mac without an API key.",
     ],
     "method": [
-        "On 11 October 2026 we opened each app's US App Store page and Apple's lookup data: price and in-app purchases, version and release date, rating and number of ratings, languages, size, minimum iOS, Mac support and the privacy label. Model lists and features are taken from each developer's App Store description. We did not invent ratings or reviews.",
+        "On 11 October 2026 we opened each app's US App Store page and Apple's lookup data: price and in-app purchases, version and release date, rating, languages, size, minimum iOS, Mac support and the privacy label. Model lists and features are taken from each developer's App Store description. We did not invent ratings or reviews.",
     ],
     "faq": [
         ("Is there a free alternative to Private LLM?",
@@ -148,13 +148,13 @@ ES = {
         "Elige Enclave si además quieres modelos en la nube (Claude, GPT, Gemini) en la misma app, o PocketPal AI si quieres cargar cualquier modelo GGUF de Hugging Face.",
     ],
     "columns": ["App", "Precio (España)", "Modelos", "iPhone y Mac", "Etiqueta de privacidad", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precio y compras dentro de la app del App Store de España el 11 de octubre de 2026. Valoración: media y número de valoraciones en España ese día. Las cinco funcionan sin conexión una vez descargado un modelo.",
+    "table_note": "Precio y compras dentro de la app del App Store de España el 11 de octubre de 2026. Valoración: media en España ese día. Las cinco funcionan sin conexión una vez descargado un modelo.",
     "apps": [
         {
             "name": "Chat IA Offline Privado: Pinku", "id": 6754878073, "ours": True, "anchor": "pinku",
             "developer": "Saga Ltd.", "rating": (5.0, 1),
             "row": ["Gratis; Pinku Pro 19,99 €/año o pago único desde 9,99 €", "11 modelos (Qwen3, Llama 3.2, LFM2.5, Gemma 3, Gemma 3n, Gemma 4, SmolLM3); Llama 3.2 1B gratis", "Sí",
-                    "Datos vinculados a ti (compras, ID de usuario)", "1.4 (31 oct 2026)", "5,0 (1 valoración)"],
+                    "Datos vinculados a ti (compras, ID de usuario)", "1.4 (31 oct 2026)", "5,0"],
             "best_for": "un chat sin conexión gratis, ligero y sencillo en iPhone y Mac, sin cuenta ni suscripción.",
             "facts": [
                 "Ejecuta los modelos en el dispositivo con MLX de Apple; tras descargar el modelo funciona en modo avión.",
@@ -170,7 +170,7 @@ ES = {
             "name": "Private LLM - Chat de IA Local", "id": 6448106860, "anchor": "private-llm",
             "developer": "Numen Technologies", "rating": (3.42, 24),
             "row": ["5,99 € al descargar, sin compras dentro; En familia", "Muchas familias: Llama 3.1/3.2, Qwen 2.5/3, Qwen 2.5 Coder hasta 14B, Gemma 2/3, Phi 4, Mistral 7B, DeepSeek-R1 distill", "Sí",
-                    "No se recopilan datos", "1.9.16 (14 sep 2026)", "3,4 (24 valoraciones)"],
+                    "No se recopilan datos", "1.9.16 (14 sep 2026)", "3,4"],
             "best_for": "quien quiere la mayor variedad de modelos cuantizados y no le importa pagar al principio.",
             "facts": [
                 "Usa un motor basado en mlc-llm y cuantización OmniQuant, según el desarrollador.",
@@ -184,7 +184,7 @@ ES = {
             "name": "Locally AI de LM Studio", "id": 6741426692, "anchor": "locally-ai",
             "developer": "Element Labs (LM Studio)", "rating": (4.49, 144),
             "row": ["Gratis, sin compras dentro", "Llama 3.2, Gemma 2 y 3, Qwen 3, DeepSeek y más", "Sí",
-                    "No se recopilan datos", "1.65.0 (14 sep 2026)", "4,5 (144 valoraciones)"],
+                    "No se recopilan datos", "1.65.0 (14 sep 2026)", "4,5"],
             "best_for": "un chat sin conexión totalmente gratis de los creadores de LM Studio para ordenador.",
             "facts": [
                 "Funciona con MLX de Apple, sin cuenta y sin recoger datos.",
@@ -196,7 +196,7 @@ ES = {
             "name": "Enclave - Asistente de IA Local", "id": 6476614556, "anchor": "enclave",
             "developer": "Piotr Gorzelany", "rating": (4.67, 30),
             "row": ["Gratis; Pro 9,99 €; otras compras de 0,99 € a 9,99 €", "Cientos de modelos abiertos (Llama, DeepSeek, Gemma, Qwen, Phi, Mistral); en la nube con Pro", "Sí",
-                    "Datos no vinculados a ti", "1.77.0 (1 oct 2026)", "4,7 (30 valoraciones)"],
+                    "Datos no vinculados a ti", "1.77.0 (1 oct 2026)", "4,7"],
             "best_for": "quien quiere modelos locales y, cuando haga falta, modelos en la nube de Anthropic, OpenAI, Google y xAI en la misma app.",
             "facts": [
                 "Modelos locales sin cuenta; Pro añade modelos en la nube sin claves de API y búsqueda web para ellos.",
@@ -209,7 +209,7 @@ ES = {
             "name": "PocketPal AI", "id": 6502579498, "anchor": "pocketpal",
             "developer": "Gooya UG", "rating": (4.5, 8),
             "row": ["Gratis; «pals» opcionales de 1,49 € a 2,99 €", "Cualquier modelo GGUF de Hugging Face", "iPhone y iPad",
-                    "No se recopilan datos", "1.19.1 (8 oct 2026)", "4,5 (8 valoraciones)"],
+                    "No se recopilan datos", "1.19.1 (8 oct 2026)", "4,5"],
             "best_for": "quien quiere buscar en Hugging Face y cargar el modelo GGUF que prefiera.",
             "facts": [
                 "Busca, guarda y descarga modelos GGUF de Hugging Face dentro de la app.",
@@ -232,7 +232,7 @@ ES = {
         "Redactar, resumir y buscar ideas en un Mac sin clave de API.",
     ],
     "method": [
-        "El 11 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de Apple: precio y compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo, si funciona en Mac y etiqueta de privacidad. Los modelos y funciones salen de la descripción de cada desarrollador en el App Store. No inventamos valoraciones ni reseñas.",
+        "El 11 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de Apple: precio y compras dentro de la app, versión y fecha, valoración, idiomas, tamaño, iOS mínimo, si funciona en Mac y etiqueta de privacidad. Los modelos y funciones salen de la descripción de cada desarrollador en el App Store. No inventamos valoraciones ni reseñas.",
     ],
     "faq": [
         ("¿Hay alguna alternativa gratis a Private LLM?",

@@ -25,17 +25,17 @@ EN = {
     "llms": "Compares six iPhone AI chat apps as alternatives to ChatOn (Brainy, ChatOn, Genie, Nova, Chat AI - Ask Anything, Ask AI) by price, ratings, languages, size and App Store privacy label, with honest limits for each.",
     "answer": [
         "If you want a ChatOn-style AI chat app on iPhone with a different price or fewer extras, the closest matches are Genie and Nova, which also bundle chat, image generation and web search behind a subscription. ChatOn itself has the most ratings of the six (about 287,000) and the widest feature list in its listing.",
-        "Brainy is the plain-language option: ask by typing or out loud, point the camera at a letter and get it explained, and make images and videos, on a weekly or yearly plan. It is also the least proven here, with 3 ratings. Chat AI - Ask Anything has a high rating but was last updated in December 2024.",
+        "Brainy is the plain-language option: ask by typing or out loud, point the camera at a letter and get it explained, and make images and videos, on a weekly or yearly plan. Chat AI - Ask Anything has a high rating but was last updated in December 2024.",
     ],
     "columns": ["App", "Price (US)", "What it offers", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (Ask AI: 23 October 2026; the page shows only some of them, so more plans may exist); all six are free to download. Ratings are the App Store average and number of ratings that day. What each competitor offers is what its own listing says; we did not run quality tests.",
+    "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (Ask AI: 23 October 2026; the page shows only some of them, so more plans may exist); all six are free to download. Ratings are the App Store average that day. What each competitor offers is what its own listing says; we did not run quality tests.",
     "apps": [
         {
             "name": "Easy AI Assistant: Brainy", "id": 1667947372, "ours": True, "anchor": "brainy",
             "developer": "Saga Ltd.", "rating": (4.67, 3),
             "row": ["Pro weekly $6.99, Pro yearly $89.99 (a $79.99 option is also listed)",
                     "AI chat by text or voice, explain a photographed letter, AI images and videos",
-                    "33", "Data Used to Track You; Data Not Linked to You", "1.5.0 (25 Oct 2026)", "4.7 (3 ratings)"],
+                    "33", "Data Used to Track You; Data Not Linked to You", "1.5.0 (25 Oct 2026)", "4.7"],
             "best_for": "someone who wants AI help in plain words, by voice, without choosing models or settings.",
             "facts": [
                 "One-tap tasks, per its listing: explain a photographed letter in three lines, reply to a message, write a complaint, translate.",
@@ -50,7 +50,7 @@ EN = {
             "developer": "AIBY Incorporated", "rating": (4.7, 286946),
             "row": ["Premium weekly $6.99 to $7.99 (one with free trial); yearly $39.99, or PRO+ $59.99",
                     "Chat, 100+ prompts, image and video generation, image-to-text, writing tools",
-                    "19", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "1.98 (5 Oct 2026)", "4.7 (286,946 ratings)"],
+                    "19", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "1.98 (5 Oct 2026)", "4.7"],
             "best_for": "people who want the biggest feature list and a ready prompt library in one chat app.",
             "facts": [
                 "Its listing says the chat uses several named AI models and offers more than 100 ready prompts.",
@@ -64,7 +64,7 @@ EN = {
             "developer": "APPNATION YAZILIM HIZMETLERI TICARET ANONIM SIRKETI", "rating": (4.71, 202214),
             "row": ["Weekly $5.99 to $7.99; yearly $39.99 to $99.99",
                     "Chat with Deep Thinking, image generator and editor, web search, photo analysis",
-                    "14", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "10.7.1 (1 Oct 2026)", "4.7 (202,214 ratings)"],
+                    "14", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "10.7.1 (1 Oct 2026)", "4.7"],
             "best_for": "a polished all-round chatbot with web search and step-by-step reasoning for harder questions.",
             "facts": [
                 "Deep Thinking for coding, maths and logic questions, according to its listing.",
@@ -78,7 +78,7 @@ EN = {
             "developer": "SCALEUP YAZILIM HIZMETLERI ANONIM SIRKETI", "rating": (4.64, 127173),
             "row": ["Weekly $4.99 to $7.99; monthly $9.99; yearly $39.99 to $59.99",
                     "Chat, image generation, web search, voice mode, file work, code help, scanning",
-                    "9", "Data Used to Track You; Data Not Linked to You", "4.5.4 (2 Oct 2026)", "4.6 (127,173 ratings)"],
+                    "9", "Data Used to Track You; Data Not Linked to You", "4.5.4 (2 Oct 2026)", "4.6"],
             "best_for": "people who want voice mode, file work and code help in the same chat app.",
             "facts": [
                 "Its listing names six model families it says it is built on, and offers voice mode and work on Word and Excel files.",
@@ -92,7 +92,7 @@ EN = {
             "developer": "ElevenThirteen LLC", "rating": (4.81, 130263),
             "row": ["Weekly $6.99 to $7.99; monthly $19.99; yearly $29.99 to $69.99; credit packs $9.99 and $49.99",
                     "Plain text chat for writing, questions and conversation",
-                    "25", "Data Used to Track You; Data Not Linked to You", "1.9 (21 Dec 2024)", "4.8 (130,263 ratings)"],
+                    "25", "Data Used to Track You; Data Not Linked to You", "1.9 (21 Dec 2024)", "4.8"],
             "best_for": "a simple chat with the most languages of the five (25).",
             "facts": [
                 "Its listing describes plain chat for essays, emails and conversation; it does not list image or video generation.",
@@ -105,7 +105,7 @@ EN = {
             "developer": "Saga Ltd.", "rating": (5.0, 3),
             "row": ["Pro weekly $7.99, yearly $69.99 (discounted yearly $39.99 to $59.99; monthly $9.99 also listed)",
                     "Chat with models from several companies, switchable mid-chat; web search (Pro); read aloud",
-                    "5", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "1.4.4 (22 Oct 2026)", "5.0 (3 ratings)"],
+                    "5", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "1.4.4 (22 Oct 2026)", "5.0"],
             "best_for": "switching between models from several companies, such as Gemini, Claude, Grok, DeepSeek and Perplexity Sonar, in one chat.",
             "facts": [
                 "A few messages a day are free; Pro unlocks every model, web search and a much higher daily limit.",
@@ -130,7 +130,7 @@ EN = {
         "Asking about a photo or a page you scan with the camera.",
     ],
     "method": [
-        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating and number of ratings, languages, size, minimum iOS and the privacy label categories. What each competitor offers is taken from its own listing. What Brainy does is taken from its listing and checked in its code for the version in the store (1.3.5). We did not run a quality test of the answers, so this page does not say which chat is smartest. We did not invent ratings or reviews.",
+        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating, languages, size, minimum iOS and the privacy label categories. What each competitor offers is taken from its own listing. What Brainy does is taken from its listing and checked in its code for the version in the store (1.3.5). We did not run a quality test of the answers, so this page does not say which chat is smartest. We did not invent ratings or reviews.",
         "Subscription prices change often and App Store pages list only some purchases. Check the price shown inside each app before paying.",
     ],
     "faq": [
@@ -139,7 +139,7 @@ EN = {
         ("Is there a free alternative to ChatOn?",
          "All six apps are free to download, but each sells subscriptions or credits, so how much you can do for free depends on the app and changes over time. Check the free allowance inside the app."),
         ("Which ChatOn alternative has the best ratings?",
-         "On 16 October 2026 in the US App Store, Chat AI - Ask Anything has the highest average (4.8 from about 130,000 ratings), followed by Genie (4.7) and ChatOn (4.7). Brainy and Ask AI have 3 ratings each, too few to compare."),
+         "On 16 October 2026 in the US App Store, Chat AI - Ask Anything has a 4.8 average, Genie and ChatOn 4.7, Brainy 4.7 and Ask AI 5.0. The averages are close, so price, features and how recently each app was updated tell them apart better than the stars."),
         ("Does Brainy use several AI models?",
          "Its listing for version 1.5.0 names no model and offers no model picker. If you want to choose models yourself, Ask AI, also ours, is built for that."),
         ("Which of these apps collect data to track you?",

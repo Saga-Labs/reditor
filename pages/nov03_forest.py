@@ -15,7 +15,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -72,7 +72,7 @@ PAGES = [{
             ["Write three tasks each day and finish them one at a time, with a start and pause timer on each that keeps counting with the screen locked.",
              "Tasks that repeat daily, a home screen widget and dark mode, all free.",
              "Pro is a one-time purchase ($4.99 or $9.99 listed): history, streaks, CSV export and color themes."],
-            "it does not block apps or grow anything, it has only 5 US ratings, and its privacy label includes Data Used to Track You (Firebase Analytics, per its listing).",
+            "it does not block apps or grow anything, and its privacy label includes Data Used to Track You (Firebase Analytics, per its listing).",
             ["Pro one-time $4.99 or $9.99",
              "No", "Yes, three tasks a day", TN, "1.4.3 (26 Oct 2026)"], ours=True),
         app("FocusFlight - Deepfocus Timer", 6648771147, "focusflight", "Cement Planet LTD", 4.85, 9822,

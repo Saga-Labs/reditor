@@ -15,7 +15,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -73,7 +73,7 @@ PAGES = [{
             ["Face ID, Touch ID or a passcode, plus a separate password for each album.",
              "Disguised icon (Calculator, Notes or Weather); flip the phone face down and it jumps to Safari, Calendar or Messages.",
              "Encrypted backup to one password-locked file you keep in Files or on your computer; optional encrypted copy in your own iCloud, and the vault is left out of regular iCloud backups."],
-            "only 6 US ratings, no decoy PIN or break-in report in its listing, and unlimited photos and the iCloud copy need Premium.",
+            "no decoy PIN or break-in report in its listing, and unlimited photos and the iCloud copy need Premium.",
             ["Premium $19.99 or $29.99 a year; lifetime $14.99 or $29.99",
              "No (disguised icon instead)", "Encrypted file you keep; your own iCloud (Premium)", NC, "1.3.1 (1 Nov 2026)"], ours=True),
         app("Hide Photos Video -Hide it Pro", 523488488, "hide-it-pro", "Anuj Tenani", 4.65, 24796,

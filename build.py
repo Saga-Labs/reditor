@@ -550,7 +550,7 @@ def main():
 <h2>Our apps are one more option, and we say which</h2>
 <p>When one of our apps fits a question, it is included as one more option, placed where it fits rather than first, and the footer of every page names our apps. Competitors are linked to their normal App Store pages and shown with their real data, including where they are better than ours.</p>
 <h2>What we check</h2>
-<ul><li>Price and in-app purchases, version and release date, rating and number of ratings, languages, minimum iOS: from the App Store listing (US store unless the page says otherwise) on the date shown.</li>
+<ul><li>Price and in-app purchases, version and release date, rating, languages, minimum iOS: from the App Store listing (US store unless the page says otherwise) on the date shown.</li>
 <li>Privacy: the App Store privacy label as published by each developer.</li>
 <li>Features: only what the developer states on its App Store listing or official site. We do not invent reviews or scores.</li></ul>
 <h2>Updates</h2>
@@ -561,7 +561,7 @@ def main():
 <h2>Nuestras apps son una opción más, y lo decimos</h2>
 <p>Cuando una de nuestras apps encaja, aparece como una opción más, en el puesto que le corresponde y no primera, y el pie de cada página nombra nuestras apps. Las demás llevan enlace a su ficha normal del App Store y aparecen con sus datos reales, también donde son mejores que la nuestra.</p>
 <h2>Qué comprobamos</h2>
-<ul><li>Precio y compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas e iOS mínimo: de la ficha del App Store (la de España en las páginas en español) en la fecha indicada.</li>
+<ul><li>Precio y compras dentro de la app, versión y fecha, valoración, idiomas e iOS mínimo: de la ficha del App Store (la de España en las páginas en español) en la fecha indicada.</li>
 <li>Privacidad: la etiqueta de privacidad del App Store que publica cada desarrollador.</li>
 <li>Funciones: solo lo que el desarrollador dice en su ficha o en su web oficial. No inventamos reseñas ni puntuaciones.</li></ul>
 <h2>Actualizaciones</h2>

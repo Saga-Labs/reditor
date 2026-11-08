@@ -16,7 +16,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -71,7 +71,7 @@ PAGES = [{
             ["Breathing sessions of 2, 5, 10 and 20 minutes with a visual guide; a garden grows as you practice.",
              "Nature sounds: campfire and forest free; rain, dewdrops and ocean with Pro.",
              "Works offline, no ads, home screen widgets; in 33 languages."],
-            "only 12 US ratings, and it is not a library of voice-guided courses like Headspace's.",
+            "it is not a library of voice-guided courses like Headspace's.",
             ["Pro $4.99 a month; lifetime $24.99 or $49.99 (offer $9.99)",
              "Breathing sessions and nature sounds", "33", "Data Not Linked to You", "2.14 (30 Oct 2026)"], ours=True),
         app("Waking Up: Meditation & Wisdom", 1307736395, "waking-up", "Waking Up Course, LLC", 4.92, 42734,

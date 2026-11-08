@@ -36,13 +36,13 @@ EN = {
         "If you already pay for an AI assistant, Grok (Grok Imagine) and Google Gemini (Gemini Omni, on paid Google AI plans) also make short videos inside the chat app.",
     ],
     "columns": ["App", "Price (US)", "What it makes", "Account", "App Store privacy label", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the in-app purchases listed on each US App Store page on 11 October 2026; all five are free to download. Ratings are the App Store average and number of ratings that day.",
+    "table_note": "Prices are the in-app purchases listed on each US App Store page on 11 October 2026; all five are free to download. Ratings are the App Store average that day.",
     "apps": [
         {
             "name": "DORA · AI Video Generator", "id": 6754180384, "ours": True, "anchor": "dora",
             "developer": "Saga Ltd.", "rating": (4.31, 16),
             "row": ["Subscription: weekly ($4.99 and $6.99 listed), $119.99 a year; coin packs for subscribers from $3.99", "Video from a photo or text, dance copy (Motion Control), product ads, images up to 4K",
-                    "Yes; same account on doravideo.com and in Claude and ChatGPT", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3 (16 ratings)"],
+                    "Yes; same account on doravideo.com and in Claude and ChatGPT", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3"],
             "best_for": "people who want Sora-style clips from a photo or a sentence, ready for TikTok and Reels, without picking a model provider.",
             "facts": [
                 "Several video models in one app; each generation shows its coin cost before you tap, and failed generations refund the coins.",
@@ -57,7 +57,7 @@ EN = {
             "name": "Kling AI: AI Image & Video Maker", "id": 6738049229, "anchor": "kling",
             "developer": "KLING AI PTE. LTD.", "rating": (4.68, 31607),
             "row": ["Credits from $5 (330); plans $10, $37 or $92 a month", "Video from text or images, up to 15 s in 1080p or 4K, extendable to 3 min",
-                    "Yes", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "3.8.20 (11 Sep 2026)", "4.7 (31,607 ratings)"],
+                    "Yes", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "3.8.20 (11 Sep 2026)", "4.7"],
             "best_for": "longer or higher-resolution clips from one top video model.",
             "facts": [
                 "Native 1080p or 4K clips up to 15 seconds; Video Extension takes them to 3 minutes.",
@@ -71,7 +71,7 @@ EN = {
             "name": "Grok (Grok Imagine)", "id": 6670324846, "anchor": "grok",
             "developer": "X Corp.", "rating": (4.87, 1497069),
             "row": ["SuperGrok Lite $10, SuperGrok $30, Plus $100, Heavy $300; extra credits from $5", "Images, short videos with sound, photo to video, inside a chat assistant",
-                    "Yes", "Data Linked to You", "1.4.51 (9 Oct 2026)", "4.9 (1,497,069 ratings)"],
+                    "Yes", "Data Linked to You", "1.4.51 (9 Oct 2026)", "4.9"],
             "best_for": "people who already use Grok and want quick clips without another app.",
             "facts": [
                 "Grok Imagine makes images from text or voice and short videos with sound, or animates a photo.",
@@ -84,7 +84,7 @@ EN = {
             "name": "Google Gemini (Gemini Omni)", "id": 6477489729, "anchor": "gemini",
             "developer": "Google LLC", "rating": (4.72, 2330532),
             "row": ["Video needs Google AI Plus ($4.99), Pro ($19.99) or Ultra ($199.99), or Workspace", "Cinematic videos from your ideas with Gemini Omni, inside the Gemini assistant",
-                    "Google account", "Data Linked to You", "1.2026.3970207 (7 Oct 2026)", "4.7 (2,330,532 ratings)"],
+                    "Google account", "Data Linked to You", "1.2026.3970207 (7 Oct 2026)", "4.7"],
             "best_for": "people who already pay for a Google AI plan.",
             "facts": [
                 "The listing says Gemini Omni turns ideas into cinematic videos for Google AI Plus, Pro, Ultra and Workspace users.",
@@ -97,7 +97,7 @@ EN = {
             "name": "CapCut: Photo & Video Editor", "id": 1500855883, "anchor": "capcut",
             "developer": "BYTEDANCE PTE. LTD.", "rating": (4.61, 1123502),
             "row": ["Standard $9.99 a month, Pro $19.99 a month, yearly $89.99", "Video editing: keyframes, auto captions, effects, 4K 60fps export",
-                    "Optional", "Data Used to Track You; Data Linked to You", "19.7.0 (8 Oct 2026)", "4.6 (1,123,502 ratings)"],
+                    "Optional", "Data Used to Track You; Data Linked to You", "19.7.0 (8 Oct 2026)", "4.6"],
             "best_for": "finishing an AI clip: cutting, captions, music and effects before you post.",
             "facts": [
                 "Trim, split and merge clips, speed curves, chroma key and stabilisation.",
@@ -121,7 +121,7 @@ EN = {
         "Copying a trending dance onto your own photo (Dora's Motion Control).",
     ],
     "method": [
-        "On 11 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating and number of ratings, languages, size, minimum iOS and the privacy label. What each app makes is taken from its own App Store description. We did not invent ratings or reviews.",
+        "On 11 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating, languages, size, minimum iOS and the privacy label. What each app makes is taken from its own App Store description. We did not invent ratings or reviews.",
         "The Sora app's App Store page (id6744034028) returned \"not found\" that day. The shutdown date comes from Engadget's report of OpenAI's announcement.",
     ],
     "faq": [
@@ -154,7 +154,7 @@ ES = {
         "Si ya pagas un asistente de IA, Grok (Grok Imagine) y Google Gemini (Gemini Omni, con los planes de pago de Google AI) también hacen vídeos cortos dentro del chat.",
     ],
     "columns": ["App", "Precio (España)", "Qué hace", "Cuenta", "Etiqueta de privacidad", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precios: compras dentro de la app que muestra cada ficha del App Store de España el 11 de octubre de 2026; las cinco se descargan gratis. Valoración: media y número de valoraciones en España ese día.",
+    "table_note": "Precios: compras dentro de la app que muestra cada ficha del App Store de España el 11 de octubre de 2026; las cinco se descargan gratis. Valoración: media en España ese día.",
     "apps": [
         {
             "name": "DORA · Generador Vídeo IA", "id": 6754180384, "ours": True, "anchor": "dora",
@@ -175,7 +175,7 @@ ES = {
             "name": "Kling AI: AI Image&Video Maker", "id": 6738049229, "anchor": "kling",
             "developer": "KLING AI PTE. LTD.", "rating": (4.62, 1687),
             "row": ["Créditos desde 6 € (330); planes de 10 €, 39 €, 99 € o 199,99 € al mes", "Vídeo desde texto o imágenes, hasta 15 s en 1080p o 4K, ampliable a 3 min",
-                    "Sí", "Datos utilizados para rastrearte; datos vinculados a ti; datos no vinculados a ti", "3.8.20 (11 sep 2026)", "4,6 (1.687 valoraciones)"],
+                    "Sí", "Datos utilizados para rastrearte; datos vinculados a ti; datos no vinculados a ti", "3.8.20 (11 sep 2026)", "4,6"],
             "best_for": "clips más largos o con más resolución con un único modelo puntero.",
             "facts": [
                 "Clips de hasta 15 segundos en 1080p o 4K; con Video Extension llegan a 3 minutos.",
@@ -189,7 +189,7 @@ ES = {
             "name": "Grok (Grok Imagine)", "id": 6670324846, "anchor": "grok",
             "developer": "X Corp.", "rating": (4.81, 72312),
             "row": ["SuperGrok Lite 10 €, SuperGrok 35 €, Plus 100 €, Heavy 349 €; créditos extra desde 6 €", "Imágenes, vídeos cortos con sonido y foto a vídeo, dentro de un asistente",
-                    "Sí", "Datos vinculados a ti", "1.4.51 (9 oct 2026)", "4,8 (72.312 valoraciones)"],
+                    "Sí", "Datos vinculados a ti", "1.4.51 (9 oct 2026)", "4,8"],
             "best_for": "quien ya usa Grok y quiere clips rápidos sin otra app.",
             "facts": [
                 "Grok Imagine hace imágenes desde texto o voz y vídeos cortos con sonido, o anima una foto.",
@@ -202,7 +202,7 @@ ES = {
             "name": "Google Gemini (Gemini Omni)", "id": 6477489729, "anchor": "gemini",
             "developer": "Google LLC", "rating": (4.68, 207849),
             "row": ["El vídeo pide Google AI Plus (4,99 €), Pro (21,99 €) o Ultra, o Workspace", "Vídeos cinematográficos con Gemini Omni dentro del asistente Gemini",
-                    "Cuenta de Google", "Datos vinculados a ti", "1.2026.3970207 (7 oct 2026)", "4,7 (207.849 valoraciones)"],
+                    "Cuenta de Google", "Datos vinculados a ti", "1.2026.3970207 (7 oct 2026)", "4,7"],
             "best_for": "quien ya paga un plan de Google AI.",
             "facts": [
                 "Según la ficha, Gemini Omni convierte ideas en vídeos cinematográficos para usuarios de Google AI Plus, Pro, Ultra y Workspace.",
@@ -215,7 +215,7 @@ ES = {
             "name": "CapCut - Editor de vídeo", "id": 1500855883, "anchor": "capcut",
             "developer": "BYTEDANCE PTE. LTD.", "rating": (4.54, 41985),
             "row": ["Standard 11,99 € al mes, Pro 23,99 € al mes", "Edición: fotogramas clave, subtítulos automáticos, efectos, exportación 4K 60 fps",
-                    "Opcional", "Datos utilizados para rastrearte; datos vinculados a ti", "19.7.0 (8 oct 2026)", "4,5 (41.985 valoraciones)"],
+                    "Opcional", "Datos utilizados para rastrearte; datos vinculados a ti", "19.7.0 (8 oct 2026)", "4,5"],
             "best_for": "terminar un clip hecho con IA: cortar, subtitular, poner música y efectos antes de publicar.",
             "facts": [
                 "Recortar, dividir y unir clips, curvas de velocidad, croma y estabilización.",
@@ -239,7 +239,7 @@ ES = {
         "Copiar un baile de moda en tu propia foto (Motion Control de Dora).",
     ],
     "method": [
-        "El 11 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de Apple: compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y etiqueta de privacidad. Lo que hace cada app sale de su propia descripción en el App Store. No inventamos valoraciones ni reseñas.",
+        "El 11 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de Apple: compras dentro de la app, versión y fecha, valoración, idiomas, tamaño, iOS mínimo y etiqueta de privacidad. Lo que hace cada app sale de su propia descripción en el App Store. No inventamos valoraciones ni reseñas.",
         "La ficha de la app de Sora (id6744034028) daba «no encontrada» ese día. La fecha del cierre sale de la noticia de Engadget sobre el anuncio de OpenAI.",
     ],
     "faq": [

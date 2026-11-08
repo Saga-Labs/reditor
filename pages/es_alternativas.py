@@ -25,17 +25,17 @@ ES1 = {
     "llms": "Compara seis apps de chat con IA para iPhone como alternativas a ChatOn (Brainy, ChatOn, Genie, Nova, Chat AI - Ask Anything, Ask AI) por precio en euros, valoraciones, idiomas, tamaño y etiqueta de privacidad del App Store, con los límites reales de cada una.",
     "answer": [
         "Si quieres una app de chat con IA para iPhone al estilo de ChatOn pero con otro precio o menos extras, las más parecidas son Genie y Nova, que también reúnen chat, generación de imágenes y búsqueda web detrás de una suscripción. ChatOn es la que más valoraciones tiene en España (unas 9.900) y la que más funciones enseña en su ficha.",
-        "Brainy es la opción de lenguaje sencillo: preguntas escribiendo o en voz alta, fotografías una carta para que te la explique y creas imágenes y vídeos, con plan semanal o anual. También es la menos probada, con 1 valoración en España. Chat AI - Ask Anything tiene muy buena nota, pero su última actualización es de diciembre de 2024.",
+        "Brainy es la opción de lenguaje sencillo: preguntas escribiendo o en voz alta, fotografías una carta para que te la explique y creas imágenes y vídeos, con plan semanal o anual. Chat AI - Ask Anything tiene muy buena nota, pero su última actualización es de diciembre de 2024.",
     ],
     "columns": ["App", "Precio (España)", "Qué ofrece", "Idiomas", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (Ask AI: 23 de octubre de 2026; la ficha solo enseña algunas, así que puede haber más planes); las seis se descargan gratis. Valoración: media y número de valoraciones en España ese día. Lo que ofrece cada competidora es lo que dice su propia ficha; no hemos hecho pruebas de calidad.",
+    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (Ask AI: 23 de octubre de 2026; la ficha solo enseña algunas, así que puede haber más planes); las seis se descargan gratis. Valoración: media en España ese día. Lo que ofrece cada competidora es lo que dice su propia ficha; no hemos hecho pruebas de calidad.",
     "apps": [
         {
             "name": "Asistente IA fácil: Brainy", "id": 1667947372, "ours": True, "anchor": "brainy",
             "developer": "Saga Ltd.", "rating": (5.0, 1),
             "row": ["Pro semanal 7,99 €; Pro anual 89,99 € o 99,99 €",
                     "Chat con IA por texto o voz, explica una carta fotografiada, imágenes y vídeos con IA",
-                    "33", PRIV2, "1.5.0 (25 oct 2026)", "5,0 (1 valoración)"],
+                    "33", PRIV2, "1.5.0 (25 oct 2026)", "5,0"],
             "best_for": "quien quiere ayuda de IA con palabras sencillas, por voz, sin elegir modelos ni ajustes.",
             "facts": [
                 "Tareas de un toque, según su ficha: explicar en tres líneas una carta fotografiada, responder un mensaje, escribir una reclamación, traducir.",
@@ -43,14 +43,14 @@ ES1 = {
                 "Crea vídeos desde una idea o tu foto, e imágenes desde palabras; antes muestra el coste en créditos.",
                 "50 MB, iOS 18.0 o posterior.",
             ],
-            "limits": "solo 1 valoración en España, iOS 18 o posterior y planes de pago para usarla a fondo. Su ficha no nombra ningún modelo de chat ni menciona búsqueda web o selector de modelos.",
+            "limits": "pide iOS 18 o posterior y planes de pago para usarla a fondo. Su ficha no nombra ningún modelo de chat ni menciona búsqueda web o selector de modelos.",
         },
         {
             "name": "ChatOn - Chatbot IA en español", "id": 1661308505, "anchor": "chaton",
             "developer": "AIBY Incorporated", "rating": (4.6, 9885),
             "row": ["Premium semanal de 6,99 € a 8,99 € (una con prueba gratis); anual 39,99 €, o PRO+ 69,99 €",
                     "Chat, más de 100 prompts, generación de imagen y vídeo, imagen a texto, herramientas de escritura",
-                    "19", PRIV3, "1.98 (5 oct 2026)", "4,6 (9.885 valoraciones)"],
+                    "19", PRIV3, "1.98 (5 oct 2026)", "4,6"],
             "best_for": "quien quiere la lista de funciones más larga y una biblioteca de prompts hechos en una sola app de chat.",
             "facts": [
                 "Su ficha dice que el chat usa varios modelos de IA con nombre y ofrece más de 100 prompts ya preparados.",
@@ -64,7 +64,7 @@ ES1 = {
             "developer": "APPNATION YAZILIM HIZMETLERI TICARET ANONIM SIRKETI", "rating": (4.66, 13490),
             "row": ["Semanal de 6,99 € a 8,99 €; anual de 44,99 € a 99,99 €; 1.000 créditos 9,99 €",
                     "Chat con Deep Thinking, generador y editor de imágenes, búsqueda web, análisis de fotos",
-                    "14", PRIV3, "10.7.1 (1 oct 2026)", "4,7 (13.490 valoraciones)"],
+                    "14", PRIV3, "10.7.1 (1 oct 2026)", "4,7"],
             "best_for": "un chatbot completo y cuidado, con búsqueda web y razonamiento paso a paso para preguntas difíciles.",
             "facts": [
                 "Deep Thinking para preguntas de programación, matemáticas y lógica, según su ficha.",
@@ -78,7 +78,7 @@ ES1 = {
             "developer": "SCALEUP YAZILIM HIZMETLERI ANONIM SIRKETI", "rating": (4.58, 6405),
             "row": ["Semanal de 5,99 € a 8,99 €; mensual 11,99 €; anual de 34,99 € a 69,99 €",
                     "Chat, generación de imágenes, búsqueda web, modo de voz, trabajo con archivos, ayuda con código, escaneo",
-                    "9", PRIV2, "4.5.4 (2 oct 2026)", "4,6 (6.405 valoraciones)"],
+                    "9", PRIV2, "4.5.4 (2 oct 2026)", "4,6"],
             "best_for": "quien quiere modo de voz, trabajo con archivos y ayuda con código en la misma app de chat.",
             "facts": [
                 "Su ficha nombra seis familias de modelos en las que dice basarse, y ofrece modo de voz y trabajo con archivos de Word y Excel.",
@@ -92,7 +92,7 @@ ES1 = {
             "developer": "ElevenThirteen LLC", "rating": (4.79, 150),
             "row": ["Semanal de 7,99 € a 8,99 €; mensual 17,99 €; anual de 34,99 € a 79,99 €; paquetes de créditos de 34,99 € y 59,99 €",
                     "Chat de texto sencillo para escribir, preguntar y conversar",
-                    "25", PRIV2, "1.9 (21 dic 2024)", "4,8 (150 valoraciones)"],
+                    "25", PRIV2, "1.9 (21 dic 2024)", "4,8"],
             "best_for": "un chat sencillo con más idiomas que ninguna de las otras cuatro (25).",
             "facts": [
                 "Su ficha describe un chat sencillo para redacciones, correos y conversación; no menciona generación de imagen ni de vídeo.",
@@ -105,14 +105,14 @@ ES1 = {
             "developer": "Saga Ltd.", "rating": (5.0, 1),
             "row": ["Pro semanal 8,99 €, anual 79,99 € (anual con descuento de 44,99 € a 69,99 €; también figura mensual 9,99 €)",
                     "Chat con modelos de varias empresas, que cambias en mitad del chat; búsqueda web (Pro); lectura en voz alta",
-                    "5", PRIV3, "1.4.4 (22 oct 2026)", "5,0 (1 valoración)"],
+                    "5", PRIV3, "1.4.4 (22 oct 2026)", "5,0"],
             "best_for": "cambiar entre modelos de varias empresas, como Gemini, Claude, Grok, DeepSeek y Perplexity Sonar, en un mismo chat.",
             "facts": [
                 "Unos pocos mensajes al día son gratis; Pro desbloquea todos los modelos, la búsqueda web y un límite diario mucho más alto.",
                 "Escribe, reescribe, resume y traduce; pone título a los chats.",
                 "5 idiomas, iOS 18.6 o posterior, 36 MB.",
             ],
-            "limits": "solo chat: sin imágenes, vídeos ni archivos, así que no sustituye del todo a ChatOn. Solo 1 valoración en España, pide iOS 18.6 o posterior y su descripción aún usa su nombre anterior, Fast AI.",
+            "limits": "solo chat: sin imágenes, vídeos ni archivos, así que no sustituye del todo a ChatOn. Pide iOS 18.6 o posterior y su descripción aún usa su nombre anterior, Fast AI.",
         },
     ],
     "who": [
@@ -130,7 +130,7 @@ ES1 = {
         "Preguntar por una foto o por una página que escaneas con la cámara.",
     ],
     "method": [
-        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que ofrece cada competidora sale de su propia ficha. Lo que hace Brainy sale de su ficha y se comprobó en su código para la versión que está en la tienda (1.3.5). No hemos hecho una prueba de calidad de las respuestas, así que esta página no dice qué chat es el más listo. No hemos inventado valoraciones ni reseñas.",
+        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que ofrece cada competidora sale de su propia ficha. Lo que hace Brainy sale de su ficha y se comprobó en su código para la versión que está en la tienda (1.3.5). No hemos hecho una prueba de calidad de las respuestas, así que esta página no dice qué chat es el más listo. No hemos inventado valoraciones ni reseñas.",
         COMMON_METHOD_END,
     ],
     "faq": [
@@ -139,7 +139,7 @@ ES1 = {
         ("¿Hay una alternativa gratis a ChatOn?",
          "Las seis apps se descargan gratis, pero todas venden suscripciones o créditos, así que lo que puedes hacer gratis depende de la app y cambia con el tiempo. Mira la cuota gratuita dentro de la app."),
         ("¿Qué alternativa a ChatOn tiene mejores valoraciones?",
-         "El 16 de octubre de 2026 en el App Store de España, Chat AI - Ask Anything tiene la media más alta (4,8) con 150 valoraciones; Genie (4,7 con unas 13.500) y ChatOn (4,6 con unas 9.900) tienen muchas más. Brainy y Ask AI tienen 1 valoración cada una, muy pocas para comparar."),
+         "El 16 de octubre de 2026 en el App Store de España, Chat AI - Ask Anything tiene un 4,8 de media, Genie un 4,7, ChatOn un 4,6, y Brainy y Ask AI un 5,0. Las medias están muy cerca, así que el precio, las funciones y cuándo se actualizó cada app las distinguen mejor que las estrellas."),
         ("¿Brainy usa varios modelos de IA?",
          "Su ficha de la versión 1.5.0 no nombra ningún modelo ni ofrece selector. Si quieres elegir modelos, Ask AI, también nuestra, está hecha para eso."),
         ("¿Cuáles de estas apps recogen datos para rastrearte?",
@@ -187,7 +187,7 @@ ES2 = {
         "Viggle tiene la interfaz solo en inglés (Runway también) y un plan Pro desde 5,99 € a la semana; las seis apps se descargan gratis y cobran por hacer vídeos.",
     ],
     "columns": ["App", "Precio (España)", "Cómo anima una foto", "Idiomas", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (las fichas solo enseñan algunas). Valoración: media y número de valoraciones en España ese día. Viggle se incluye como referencia; las otras cinco son las alternativas.",
+    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (las fichas solo enseñan algunas). Valoración: media en España ese día. Viggle se incluye como referencia; las otras cinco son las alternativas.",
     "apps": [
         dict(DORA, row=[DORA_PRICE,
                         "De foto o texto a vídeo; Motion Control copia un vídeo de baile en tu foto",
@@ -197,7 +197,7 @@ ES2 = {
             "developer": "AIVORA PTE. LTD.", "rating": (4.23, 119),
             "row": ["Elite 6,99 € a la semana o 59,99 € al año; paquetes de créditos de 6 € a 100 €",
                     "De imagen a vídeo, Motion Control (imagen de un personaje más un vídeo de movimiento de referencia), plantillas",
-                    "14", PRIV3, "0.8.1 (21 sep 2026)", "4,2 (119 valoraciones)"],
+                    "14", PRIV3, "0.8.1 (21 sep 2026)", "4,2"],
             "best_for": "quien quiere Motion Control más plantillas de baile y de efectos dentro de una caja de herramientas de vídeo más amplia.",
             "facts": [
                 "Su ficha describe Motion Control como subir la imagen de un personaje y un vídeo de movimiento de referencia.",
@@ -211,7 +211,7 @@ ES2 = {
             "developer": "KLING AI PTE. LTD.", "rating": (4.62, 1689),
             "row": ["Standard 10 € al mes, Pro 39 €, Premier 99 €; membresías cortas desde 0,99 € a la semana; créditos de 6 € a 100 €",
                     "De imagen o texto a vídeo, hasta 15 s en 1080p o 4K, ampliación hasta 3 minutos",
-                    "5", PRIV3, "3.8.20 (11 sep 2026)", "4,6 (1.689 valoraciones)"],
+                    "5", PRIV3, "3.8.20 (11 sep 2026)", "4,6"],
             "best_for": "clips más largos y de más calidad e imágenes en 4K, con una comunidad donde mirar y clonar ideas.",
             "facts": [
                 "Su ficha dice clips de hasta 15 segundos en 1080p o 4K nativos y Video Extension para llegar a 3 minutos.",
@@ -225,7 +225,7 @@ ES2 = {
             "developer": "Runway AI, Inc.", "rating": (4.37, 839),
             "row": ["Standard 17,99 € al mes o 149,99 € al año; Pro 39 €; Max 99 €; créditos de 10 € a 100 €",
                     "De texto, imagen y vídeo a vídeo con varios modelos, más un Agent que monta un vídeo a partir de una conversación",
-                    "1 (inglés)", PRIV3, "100.0.0 (13 oct 2026)", "4,4 (839 valoraciones)"],
+                    "1 (inglés)", PRIV3, "100.0.0 (13 oct 2026)", "4,4"],
             "best_for": "vídeo cuidado y controlado donde eliges el modelo, pensado para anuncios y cortos.",
             "facts": [
                 "Su ficha dice que reúne varios modelos de vídeo e imagen con nombre en una sola app.",
@@ -239,7 +239,7 @@ ES2 = {
             "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (3.91, 307),
             "row": ["Semanal de 7,99 € a 14,99 €; anual 44,99 € u 89,99 €; packs de monedas de 17,99 € a 39,99 €",
                     "De foto o texto a vídeo, biblioteca de plantillas de baile, restauración de fotos",
-                    "5", PRIV3, "1.7.0 (16 ago 2026)", "3,9 (307 valoraciones)"],
+                    "5", PRIV3, "1.7.0 (16 ago 2026)", "3,9"],
             "best_for": "plantillas rápidas de baile y de tendencias a partir de un selfie o de la foto de una mascota.",
             "facts": [
                 "Su ficha habla de una biblioteca creciente de plantillas de baile virales; sube tu foto o la de tu mascota.",
@@ -253,7 +253,7 @@ ES2 = {
             "developer": "WarpEngine Canada Inc.", "rating": (4.73, 642),
             "row": [VIGGLE_PRICE,
                     "Mix: una foto más un vídeo, o más de 8.000 plantillas; sincronización labial; editor multipersonaje",
-                    "1 (inglés)", PRIV3, "2.0.7 (13 oct 2026)", "4,7 (642 valoraciones)"],
+                    "1 (inglés)", PRIV3, "2.0.7 (13 oct 2026)", "4,7"],
             "best_for": "el punto de referencia: bailes virales, memes y jugadas deportivas a partir de una foto.",
             "facts": [
                 "Su ficha describe generación de vídeo con control de movimiento, con más de 8.000 plantillas o tu propio clip.",
@@ -277,7 +277,7 @@ ES2 = {
         "Probar una idea antes de grabarla.",
     ],
     "method": [
-        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que hace cada app sale de su propia descripción del App Store; lo que hace Dora se comprobó además con su ficha de la versión 1.4.1. No hemos hecho una prueba de calidad de los vídeos, así que esta página no dice qué app hace el vídeo más bonito. No hemos inventado valoraciones ni reseñas.",
+        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que hace cada app sale de su propia descripción del App Store; lo que hace Dora se comprobó además con su ficha de la versión 1.4.1. No hemos hecho una prueba de calidad de los vídeos, así que esta página no dice qué app hace el vídeo más bonito. No hemos inventado valoraciones ni reseñas.",
         COMMON_METHOD_END,
     ],
     "faq": [
@@ -317,7 +317,7 @@ ES3 = {
         "Para clips verticales cortos para TikTok o Reels con el coste a la vista antes de generar, encajan Dora y PixVerse Lite. Para los clips más largos y de más calidad, Kling AI y Runway, desde 10 € y 17,99 € al mes. Para una foto en movimiento hecha a mano, Motionleap.",
     ],
     "columns": ["App", "Precio (España)", "Cómo anima", "Idiomas", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (las fichas solo enseñan algunas); las seis se descargan gratis. Valoración: media y número de valoraciones en España ese día.",
+    "table_note": "Precios: compras dentro de la app que muestra la ficha del App Store de España el 16 de octubre de 2026 (las fichas solo enseñan algunas); las seis se descargan gratis. Valoración: media en España ese día.",
     "apps": [
         dict(DORA, row=[DORA_PRICE,
                         "La IA genera un vídeo a partir de tu foto o de una descripción en unos dos minutos",
@@ -327,7 +327,7 @@ ES3 = {
             "developer": "KLING AI PTE. LTD.", "rating": (4.62, 1689),
             "row": ["Standard 10 € al mes, Pro 39 €, Premier 99 €; membresías semanales desde 0,99 €; créditos de 6 € a 100 €",
                     "De imagen a vídeo con IA, hasta 15 s en 1080p o 4K; ampliación hasta 3 minutos",
-                    "5", PRIV3, "3.8.20 (11 sep 2026)", "4,6 (1.689 valoraciones)"],
+                    "5", PRIV3, "3.8.20 (11 sep 2026)", "4,6"],
             "best_for": "clips más largos y de mayor resolución.",
             "facts": [
                 "Su ficha dice clips de hasta 15 segundos en 1080p o 4K nativos, con ampliación hasta 3 minutos.",
@@ -341,7 +341,7 @@ ES3 = {
             "developer": "Runway AI, Inc.", "rating": (4.37, 839),
             "row": ["Standard 17,99 € al mes o 149,99 € al año; Pro 39 €; Max 99 €; créditos de 10 € a 100 €",
                     "De texto, imagen y vídeo a vídeo con IA y varios modelos; Agent monta un vídeo desde el chat",
-                    "1 (inglés)", PRIV3, "100.0.0 (13 oct 2026)", "4,4 (839 valoraciones)"],
+                    "1 (inglés)", PRIV3, "100.0.0 (13 oct 2026)", "4,4"],
             "best_for": "vídeo controlado y cinematográfico donde eliges el modelo.",
             "facts": [
                 "Su ficha dice que convierte cualquier foto en movimiento y reúne varios modelos de vídeo con nombre.",
@@ -355,7 +355,7 @@ ES3 = {
             "developer": "AIVORA PTE. LTD.", "rating": (4.23, 119),
             "row": ["Elite 6,99 € a la semana o 59,99 € al año; paquetes de créditos de 6 € a 100 €",
                     "De imagen a vídeo con IA, plantillas, transiciones, Motion Control, escalado a 4K",
-                    "14", PRIV3, "0.8.1 (21 sep 2026)", "4,2 (119 valoraciones)"],
+                    "14", PRIV3, "0.8.1 (21 sep 2026)", "4,2"],
             "best_for": "una caja de herramientas de vídeo con IA todo en uno y con muchos idiomas.",
             "facts": [
                 "Su ficha nombra de imagen a vídeo, de texto a vídeo, plantillas, Motion Control, ampliación de vídeo y escalado hasta 4K.",
@@ -368,7 +368,7 @@ ES3 = {
             "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (3.91, 307),
             "row": ["Semanal de 7,99 € a 14,99 €; anual 44,99 € u 89,99 €; packs de monedas de 17,99 € a 39,99 €",
                     "De foto a vídeo con IA, plantillas de baile, mejora y restauración de fotos",
-                    "5", PRIV3, "1.7.0 (16 ago 2026)", "3,9 (307 valoraciones)"],
+                    "5", PRIV3, "1.7.0 (16 ago 2026)", "3,9"],
             "best_for": "selfies y fotos de mascotas con plantillas de baile y de tendencias ya hechas, y restaurar fotos viejas.",
             "facts": [
                 "Su ficha ofrece de texto a vídeo, de foto a vídeo, plantillas de baile y retratos.",
@@ -382,7 +382,7 @@ ES3 = {
             "developer": "Lightricks Ltd.", "rating": (4.66, 7661),
             "row": ["Planes de acceso ilimitado de 3,99 € a 69,99 € (según la ficha)",
                     "Marcas con flechas y puntos de anclaje lo que se mueve; las fotos hacen un bucle como un GIF",
-                    "14", PRIV3, "1.9.38 (2 ago 2026)", "4,7 (7.661 valoraciones)"],
+                    "14", PRIV3, "1.9.38 (2 ago 2026)", "4,7"],
             "best_for": "arte fotográfico en movimiento (agua, nubes, pelo) que controlas a mano, sin créditos.",
             "facts": [
                 "Su ficha describe animar uno o varios elementos con flechas y puntos de anclaje, además de superposiciones y control de velocidad.",
@@ -406,7 +406,7 @@ ES3 = {
         "Fotos de paisaje con agua o nubes en movimiento (Motionleap).",
     ],
     "method": [
-        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que hace cada app sale de su propia descripción del App Store. No hemos hecho una prueba de calidad, así que esta página no dice qué app hace el vídeo más bonito. No hemos inventado valoraciones ni reseñas.",
+        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precios de las compras dentro de la app, versión y fecha, valoración, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Lo que hace cada app sale de su propia descripción del App Store. No hemos hecho una prueba de calidad, así que esta página no dice qué app hace el vídeo más bonito. No hemos inventado valoraciones ni reseñas.",
         COMMON_METHOD_END,
     ],
     "faq": [

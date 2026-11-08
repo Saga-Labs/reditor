@@ -14,7 +14,7 @@ CHECKED = "2026-11-02"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -69,7 +69,7 @@ PAGES = [{
             ["Its listing names models from several companies, including Gemini, Claude, Grok, DeepSeek and Perplexity Sonar, and you can switch model in the middle of a chat.",
              "With Pro, it searches the web by itself when a question needs current information.",
              "Reads photos you attach and can read any answer aloud."],
-            "web search and most models need Pro (a few free messages a day without it), it does not read files or make images, and it has only 3 ratings.",
+            "web search and most models need Pro (a few free messages a day without it), and it does not read files or make images.",
             ["A few free messages a day; Pro yearly, listed from $39.99 to $69.99",
              "Chat with several models; web search with Pro",
              "5", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "1.4.5 (2 Nov 2026)"], ours=True),

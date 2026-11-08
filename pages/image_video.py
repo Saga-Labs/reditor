@@ -42,17 +42,17 @@ EN1 = {
         "Viggle itself has an English-only interface (so does Runway) and a Pro plan from $4.99 a week; all six apps are free to download and charge to make videos.",
     ],
     "columns": ["App", "Price (US)", "How it animates a photo", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (pages list only some of them). Ratings are the App Store average and number of ratings that day. Viggle is included for comparison; the other five are the alternatives.",
+    "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (pages list only some of them). Ratings are the App Store average that day. Viggle is included for comparison; the other five are the alternatives.",
     "apps": [
         dict(DORA, row=["Pro weekly ($4.99 and $6.99 listed), Pro yearly $119.99; coin packs for subscribers, $3.99 to $224.99",
                         "Photo or text to video; Motion Control copies a dance video onto your photo",
-                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3 (16 ratings)"]),
+                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3"]),
         {
             "name": "PixVerse Lite", "id": 6767802142, "anchor": "pixverse",
             "developer": "AIVORA PTE. LTD.", "rating": (4.31, 1695),
             "row": ["Elite $5.99 a week or $49.99 a year; credit packs $5 to $100",
                     "Image to video, Motion Control (character image plus reference motion video), templates",
-                    "14", PRIV3, "0.8.1 (21 Sep 2026)", "4.3 (1,695 ratings)"],
+                    "14", PRIV3, "0.8.1 (21 Sep 2026)", "4.3"],
             "best_for": "people who want Motion Control plus dance and effect templates in a broader video toolbox.",
             "facts": [
                 "Its listing describes Motion Control as uploading a character image and a reference motion video.",
@@ -66,7 +66,7 @@ EN1 = {
             "developer": "KLING AI PTE. LTD.", "rating": (4.68, 31671),
             "row": ["Standard $10 a month, Pro $37, Premier $92; short memberships from $1.19 a week; credits $5 to $100",
                     "Image or text to video, up to 15 s in 1080p or 4K, extension up to 3 minutes",
-                    "5", PRIV3, "3.8.20 (11 Sep 2026)", "4.7 (31,671 ratings)"],
+                    "5", PRIV3, "3.8.20 (11 Sep 2026)", "4.7"],
             "best_for": "longer, higher-quality clips and 4K images, with a community to browse and clone ideas from.",
             "facts": [
                 "Its listing says clips of up to 15 seconds in native 1080p or 4K, and Video Extension to reach up to 3 minutes.",
@@ -80,7 +80,7 @@ EN1 = {
             "developer": "Runway AI, Inc.", "rating": (4.48, 17539),
             "row": ["Standard $14.99 a month or $143.99 a year; Pro $35; Max $95; credits $10 to $100",
                     "Text, image and video to video with several models, plus an Agent that builds a video from a conversation",
-                    "1 (English)", PRIV3, "100.0.0 (13 Oct 2026)", "4.5 (17,539 ratings)"],
+                    "1 (English)", PRIV3, "100.0.0 (13 Oct 2026)", "4.5"],
             "best_for": "polished, controlled video where you want to pick the model, aimed at ads and short films.",
             "facts": [
                 "Its listing says it bundles several named video and image models in one app.",
@@ -94,7 +94,7 @@ EN1 = {
             "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (4.47, 18177),
             "row": ["Weekly $6.99 to $12.99; yearly $39.99 or $79.99; coin packs $9.99 to $34.99",
                     "Photo or text to video, a library of dance templates, photo restore",
-                    "5", PRIV3, "1.7.0 (16 Aug 2026)", "4.5 (18,177 ratings)"],
+                    "5", PRIV3, "1.7.0 (16 Aug 2026)", "4.5"],
             "best_for": "quick dance and trend templates from a selfie or a pet photo.",
             "facts": [
                 "Its listing says a growing library of viral dance templates; upload your photo or pet.",
@@ -108,7 +108,7 @@ EN1 = {
             "developer": "WarpEngine Canada Inc.", "rating": (4.76, 28091),
             "row": [VIGGLE_ROW_PRICE,
                     "Mix: one photo plus one video, or 8,000+ templates; lip-sync; multi-character editor",
-                    "1 (English)", PRIV3, "2.0.7 (13 Oct 2026)", "4.8 (28,091 ratings)"],
+                    "1 (English)", PRIV3, "2.0.7 (13 Oct 2026)", "4.8"],
             "best_for": "the reference point: viral dances, memes and sports moments from one photo.",
             "facts": [
                 "Its listing describes motion-controlled video generation, with 8,000+ templates or your own clip.",
@@ -132,7 +132,7 @@ EN1 = {
         "Testing an idea before you film it.",
     ],
     "method": [
-        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating and number of ratings, languages, size, minimum iOS and privacy label categories. What each app does is taken from its own App Store description; what Dora does was also checked against its listing for version 1.4.1. We did not run a quality test of the videos, so this page does not say which app makes the best-looking video. We did not invent ratings or reviews.",
+        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating, languages, size, minimum iOS and privacy label categories. What each app does is taken from its own App Store description; what Dora does was also checked against its listing for version 1.4.1. We did not run a quality test of the videos, so this page does not say which app makes the best-looking video. We did not invent ratings or reviews.",
         "Subscriptions and credits change often, and App Store pages list only some purchases. Check the price shown inside each app before paying.",
     ],
     "faq": [
@@ -172,17 +172,17 @@ EN2 = {
         "For short vertical clips for TikTok or Reels with the cost shown before you generate, Dora and PixVerse Lite fit. For the longest, highest-quality clips, Kling AI and Runway, from $10 and $14.99 a month. For a hand-made moving photo, Motionleap.",
     ],
     "columns": ["App", "Price (US)", "How it animates", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (pages list only some of them); all six are free to download. Ratings are the App Store average and number of ratings that day.",
+    "table_note": "Prices are the in-app purchases listed on each US App Store page on 16 October 2026 (pages list only some of them); all six are free to download. Ratings are the App Store average that day.",
     "apps": [
         dict(DORA, row=["Pro weekly ($4.99 and $6.99 listed), Pro yearly $119.99; coin packs for subscribers, $3.99 to $224.99",
                         "AI generates a video from your photo or a description in about two minutes",
-                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3 (16 ratings)"]),
+                        "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)", "4.3"]),
         {
             "name": "Kling AI: AI Image&Video Maker", "id": 6738049229, "anchor": "kling",
             "developer": "KLING AI PTE. LTD.", "rating": (4.68, 31671),
             "row": ["Standard $10 a month, Pro $37, Premier $92; weekly memberships from $1.19; credits $5 to $100",
                     "AI image to video, up to 15 s in 1080p or 4K; extension up to 3 minutes",
-                    "5", PRIV3, "3.8.20 (11 Sep 2026)", "4.7 (31,671 ratings)"],
+                    "5", PRIV3, "3.8.20 (11 Sep 2026)", "4.7"],
             "best_for": "longer, higher-resolution clips.",
             "facts": [
                 "Its listing says clips up to 15 seconds in native 1080p or 4K, with extension to 3 minutes.",
@@ -196,7 +196,7 @@ EN2 = {
             "developer": "Runway AI, Inc.", "rating": (4.48, 17539),
             "row": ["Standard $14.99 a month or $143.99 a year; Pro $35; Max $95; credits $10 to $100",
                     "AI text, image and video to video with several models; Agent builds a video from chat",
-                    "1 (English)", PRIV3, "100.0.0 (13 Oct 2026)", "4.5 (17,539 ratings)"],
+                    "1 (English)", PRIV3, "100.0.0 (13 Oct 2026)", "4.5"],
             "best_for": "controlled, cinematic video where you pick the model.",
             "facts": [
                 "Its listing says it turns any photo into motion and bundles several named video models.",
@@ -210,7 +210,7 @@ EN2 = {
             "developer": "AIVORA PTE. LTD.", "rating": (4.31, 1695),
             "row": ["Elite $5.99 a week or $49.99 a year; credit packs $5 to $100",
                     "AI image to video, templates, transitions, Motion Control, upscaling to 4K",
-                    "14", PRIV3, "0.8.1 (21 Sep 2026)", "4.3 (1,695 ratings)"],
+                    "14", PRIV3, "0.8.1 (21 Sep 2026)", "4.3"],
             "best_for": "an all-in-one AI video toolbox with many languages.",
             "facts": [
                 "Its listing names image to video, text to video, templates, Motion Control, video extension and upscaling up to 4K.",
@@ -223,7 +223,7 @@ EN2 = {
             "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (4.47, 18177),
             "row": ["Weekly $6.99 to $12.99; yearly $39.99 or $79.99; coin packs $9.99 to $34.99",
                     "AI photo to video, dance templates, photo enhancing and restoring",
-                    "5", PRIV3, "1.7.0 (16 Aug 2026)", "4.5 (18,177 ratings)"],
+                    "5", PRIV3, "1.7.0 (16 Aug 2026)", "4.5"],
             "best_for": "selfies and pet photos with ready-made dance and trend templates, plus restoring old photos.",
             "facts": [
                 "Its listing offers text to video, photo to video, dance templates and portraits.",
@@ -237,7 +237,7 @@ EN2 = {
             "developer": "Lightricks Ltd.", "rating": (4.77, 117323),
             "row": ["Unlimited access plans from $3.99 to $59.99 listed",
                     "You mark what moves with arrows and anchor points; photos loop like a GIF",
-                    "14", PRIV3, "1.9.38 (2 Aug 2026)", "4.8 (117,323 ratings)"],
+                    "14", PRIV3, "1.9.38 (2 Aug 2026)", "4.8"],
             "best_for": "moving photo art (water, clouds, hair) that you control by hand, with no credits.",
             "facts": [
                 "Its listing describes animating one or several elements with arrows and anchor points, plus overlays and speed control.",
@@ -261,7 +261,7 @@ EN2 = {
         "Landscape photos with moving water or clouds (Motionleap).",
     ],
     "method": [
-        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating and number of ratings, languages, size, minimum iOS and privacy label categories. What each app does is taken from its own App Store description. We did not run a quality test, so this page does not say which app makes the best-looking video. We did not invent ratings or reviews.",
+        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating, languages, size, minimum iOS and privacy label categories. What each app does is taken from its own App Store description. We did not run a quality test, so this page does not say which app makes the best-looking video. We did not invent ratings or reviews.",
         "Subscriptions and credits change often, and App Store pages list only some purchases. Check the price shown inside each app before paying.",
     ],
     "faq": [

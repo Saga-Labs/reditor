@@ -18,7 +18,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -51,7 +51,7 @@ PAGES = [{
             ["A real calculator for standard math; type your PIN and press «=» to open the vault.",
              "An emergency PIN shows an empty vault; a wrong PIN takes a front-camera photo with time and location; several vaults, each with its own PIN.",
              "Free plan: up to 20 items, per its listing. No account and no servers; optional backup to your own iCloud with Pro."],
-            "only 37 ratings, and unlimited storage and iCloud backup need Pro.",
+            "unlimited storage and iCloud backup need Pro.",
             ["Pro $2.99 to $3.99 a month, $14.99 to $24.99 a year, lifetime $39.99 or $59.99",
              "Working calculator; PIN then «=»", "Yes (emergency PIN shows an empty vault)", NL, "1.9 (19 Sep 2026)"]),
         app("Calculator# Hide Photos Videos", 1165276801, "calculator-hash", "Salman Ashraf", 4.39, 28938,
@@ -75,7 +75,7 @@ PAGES = [{
             ["Disguised icon: Calculator, Notes or Weather. It is not a working calculator: it opens with Face ID, Touch ID or a passcode.",
              "A separate password for each album; flip the phone face down and it jumps to Safari, Calendar or Messages.",
              "Encrypted backup to one file you keep, optional encrypted copy in your own iCloud; the vault is left out of regular iCloud backups."],
-            "the disguise is the icon only: the name under it on the home screen still reads Photo Vault. Also only 6 US ratings, no decoy PIN in its listing, and unlimited photos need Premium.",
+            "the disguise is the icon only: the name under it on the home screen still reads Photo Vault. There is no decoy PIN in its listing, and unlimited photos need Premium.",
             ["Premium $19.99 or $29.99 a year; lifetime $14.99 or $29.99",
              "Calculator-style icon; Face ID or passcode", "No (face-down exit instead)", NC, "1.3.1 (1 Nov 2026)"], ours=True),
         app("CalcX Vault Secret Photo Lock", 1577144445, "calcx", "Vasilkoff Ltd", 4.48, 202,

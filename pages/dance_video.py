@@ -35,14 +35,14 @@ EN = {
         "All four are free to download and all four charge to make videos, by subscription, credits or both. If you only want one trending template, the template apps are quicker; if you want a specific dance you already have on video, use one of the three that take a reference video.",
     ],
     "columns": ["App", "Price (US)", "How the dance is chosen", "Languages", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the in-app purchases listed on each US App Store page on 15 October 2026; all four are free to download. Ratings are the App Store average and number of ratings that day.",
+    "table_note": "Prices are the in-app purchases listed on each US App Store page on 15 October 2026; all four are free to download. Ratings are the App Store average that day.",
     "apps": [
         {
             "name": "DORA · AI Video Generator", "id": 6754180384, "ours": True, "anchor": "dora",
             "developer": "Saga Ltd.", "rating": (4.31, 16),
             "row": ["Subscription: weekly ($4.99 and $6.99 listed), $119.99 a year; coin packs for subscribers, $3.99 to $224.99",
                     "Motion Control copies the moves of a dance video onto the person in your photo",
-                    "11", "1.4.2 (26 Oct 2026)", "4.3 (16 ratings)"],
+                    "11", "1.4.2 (26 Oct 2026)", "4.3"],
             "best_for": "people who have a specific dance on video and want it on their own photo, in vertical format for TikTok and Reels.",
             "facts": [
                 "Motion Control takes your photo plus a reference dance video and makes the person in the photo do those moves.",
@@ -58,7 +58,7 @@ EN = {
             "developer": "WarpEngine Canada Inc.", "rating": (4.76, 28091),
             "row": ["Pro $4.99 a week, $9.99 a month or $95.90 a year; Live plans from $24.99 a month; extra credits $3 to $15",
                     "Mix: one photo plus one video, or one of 8,000+ templates (dances, memes, sports moments)",
-                    "1 (English)", "2.0.7 (13 Oct 2026)", "4.8 (28,091 ratings)"],
+                    "1 (English)", "2.0.7 (13 Oct 2026)", "4.8"],
             "best_for": "trend dances and meme videos, with the biggest template library of the four.",
             "facts": [
                 "Its listing describes motion-controlled video generation: drop your photo into any video clip, or pick a template.",
@@ -72,7 +72,7 @@ EN = {
             "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (4.59, 17573),
             "row": ["Weekly premium $9.99 to $14.99, yearly $39.99 or $79.99; coin packs $9.99 to $34.99",
                     "A library of dance styles: upload a photo of a person, a child or a pet and pick a style",
-                    "5", "1.1.0 (11 Sep 2026)", "4.6 (17,573 ratings)"],
+                    "5", "1.1.0 (11 Sep 2026)", "4.6"],
             "best_for": "one-tap dances from a photo of a person, a child or a pet, without finding a reference video.",
             "facts": [
                 "Pick a dance style from the library and generate; no choreography or editing.",
@@ -87,7 +87,7 @@ EN = {
             "developer": "AIVORA PTE. LTD.", "rating": (4.31, 1659),
             "row": ["Elite $5.99 a week or $49.99 a year; credit packs $5 to $100",
                     "Motion Control: a character image plus a reference motion video; also dance templates",
-                    "14", "0.8.1 (21 Sep 2026)", "4.3 (1,659 ratings)"],
+                    "14", "0.8.1 (21 Sep 2026)", "4.3"],
             "best_for": "people who want a general AI video app that also has Motion Control and dance templates.",
             "facts": [
                 "Its listing describes Motion Control as uploading a character image and a reference motion video to guide the movement.",
@@ -111,7 +111,7 @@ EN = {
         "Trying a choreography on a photo before filming it.",
     ],
     "method": [
-        "On 15 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating and number of ratings, languages, size and minimum iOS. What each app does is taken from its own App Store description; the way Dora's Motion Control works is also checked in our code. We did not run a quality test of the dances, so this page does not say which app makes the best-looking dance. We did not invent ratings or reviews.",
+        "On 15 October 2026 we opened each app's US App Store page and Apple's lookup data: in-app purchase prices, version and release date, rating, languages, size and minimum iOS. What each app does is taken from its own App Store description; the way Dora's Motion Control works is also checked in our code. We did not run a quality test of the dances, so this page does not say which app makes the best-looking dance. We did not invent ratings or reviews.",
         "Subscriptions and credits change often. Check the price shown inside each app before paying.",
     ],
     "faq": [
@@ -144,7 +144,7 @@ ES = {
         "Las cuatro se descargan gratis y las cuatro cobran por hacer vídeos, con suscripción, créditos o las dos cosas. Si solo quieres una plantilla de moda, las apps de plantillas son más rápidas; si quieres un baile concreto que ya tienes en vídeo, usa una de las tres que aceptan un vídeo de referencia.",
     ],
     "columns": ["App", "Precio (España)", "Cómo se elige el baile", "Idiomas", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precios: compras dentro de la app que muestra cada ficha del App Store de España el 15 de octubre de 2026; las cuatro se descargan gratis. Valoración: media y número de valoraciones en España ese día.",
+    "table_note": "Precios: compras dentro de la app que muestra cada ficha del App Store de España el 15 de octubre de 2026; las cuatro se descargan gratis. Valoración: media en España ese día.",
     "apps": [
         {
             "name": "DORA · Generador Vídeo IA", "id": 6754180384, "ours": True, "anchor": "dora",
@@ -167,7 +167,7 @@ ES = {
             "developer": "WarpEngine Canada Inc.", "rating": (4.73, 642),
             "row": ["Pro 5,99 € a la semana, 9,99 € al mes o 99,90 € al año; planes Live desde 29,99 € al mes; créditos extra de 3 € a 17 €",
                     "Mix: una foto y un vídeo, o una de más de 8.000 plantillas (bailes, memes, jugadas)",
-                    "1 (inglés)", "2.0.7 (13 oct 2026)", "4,7 (642 valoraciones)"],
+                    "1 (inglés)", "2.0.7 (13 oct 2026)", "4,7"],
             "best_for": "bailes de moda y vídeos de memes, con la mayor biblioteca de plantillas de las cuatro.",
             "facts": [
                 "Su ficha habla de generación de vídeo con control de movimiento: mete tu foto en cualquier clip o elige una plantilla.",
@@ -181,7 +181,7 @@ ES = {
             "developer": "Deepix AI Yazilim Teknolojileri Anonim Sirketi", "rating": (4.15, 405),
             "row": ["Premium semanal de 9,99 € a 17,99 €, anual 44,99 € u 89,99 €; packs de monedas de 9,99 € a 39,99 €",
                     "Biblioteca de estilos de baile: sube la foto de una persona, un niño o una mascota y elige un estilo",
-                    "5", "1.1.0 (11 sep 2026)", "4,2 (405 valoraciones)"],
+                    "5", "1.1.0 (11 sep 2026)", "4,2"],
             "best_for": "bailes con un toque desde la foto de una persona, un niño o una mascota, sin buscar un vídeo de referencia.",
             "facts": [
                 "Eliges un estilo de baile de la biblioteca y generas; sin coreografía ni edición.",
@@ -196,7 +196,7 @@ ES = {
             "developer": "AIVORA PTE. LTD.", "rating": (4.23, 119),
             "row": ["Elite 6,99 € a la semana o 59,99 € al año; packs de créditos de 6 € a 100 €",
                     "Motion Control: una imagen del personaje y un vídeo de movimiento de referencia; también plantillas de baile",
-                    "14", "0.8.1 (21 sep 2026)", "4,2 (119 valoraciones)"],
+                    "14", "0.8.1 (21 sep 2026)", "4,2"],
             "best_for": "quien quiere una app de vídeo con IA general que además tenga Motion Control y plantillas de baile.",
             "facts": [
                 "Su ficha describe Motion Control como subir una imagen de un personaje y un vídeo de movimiento de referencia para guiar el movimiento.",
@@ -220,7 +220,7 @@ ES = {
         "Probar una coreografía en una foto antes de grabarla.",
     ],
     "method": [
-        "El 15 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de Apple: compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño e iOS mínimo. Lo que hace cada app sale de su propia descripción en el App Store; cómo funciona el Motion Control de Dora lo comprobamos además en nuestro código. No hicimos una prueba de calidad de los bailes, así que esta página no dice qué app hace el baile más bonito. No inventamos valoraciones ni reseñas.",
+        "El 15 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de Apple: compras dentro de la app, versión y fecha, valoración, idiomas, tamaño e iOS mínimo. Lo que hace cada app sale de su propia descripción en el App Store; cómo funciona el Motion Control de Dora lo comprobamos además en nuestro código. No hicimos una prueba de calidad de los bailes, así que esta página no dice qué app hace el baile más bonito. No inventamos valoraciones ni reseñas.",
         "Las suscripciones y los créditos cambian a menudo. Mira el precio que enseña cada app antes de pagar.",
     ],
     "faq": [

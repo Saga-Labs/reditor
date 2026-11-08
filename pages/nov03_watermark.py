@@ -18,7 +18,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -75,7 +75,7 @@ PAGES = [{
             ["Its App Store listing says «No watermark on your videos», and doravideo.com says paid-plan videos need no attribution.",
              "Vertical 9:16 for TikTok, Reels and Shorts, up to 1080p, saved to the camera roll or shared from the app.",
              "The coin cost shows before you generate, and failed generations refund the coins."],
-            "no free videos: you need the Pro plan, and coin packs are for subscribers. Only 16 ratings.",
+            "no free videos: you need the Pro plan, and coin packs are for subscribers.",
             ["No watermark, per its listing (no free plan)",
              "Pro weekly $4.99 or $6.99, yearly $119.99; coin packs $3.99 to $224.99",
              "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)"], ours=True),
@@ -93,7 +93,7 @@ PAGES = [{
             ["Its listing says watermark control, longer exports, some styles and higher resolutions require a subscription.",
              "Turns a script into an animated video with consistent characters, voiceover and lip-sync.",
              "Exports up to 30 minutes per video with a subscription."],
-            "English only, few ratings (131), and the listing does not say which plan removes the watermark.",
+            "English only, and the listing does not say which plan removes the watermark.",
             ["Watermark control needs a subscription, per its listing",
              "Standard $10.90 to $12 a month or $72 a year, Plus $26, Pro $31.90 to $35 a month; credits $18 to $88",
              "1", T3, "1.2.22 (7 Oct 2026)"]),

@@ -15,7 +15,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -71,7 +71,7 @@ PAGES = [{
             ["Models from Gemini, Claude, Grok, DeepSeek and Perplexity Sonar in one chat; switch at any time and keep the conversation.",
              "A few free messages every day; Pro adds every model, web search and a higher limit.",
              "Reads photos and reads answers aloud."],
-            "only 3 US ratings, no ChatGPT models, it does not make images or read files, and its privacy label includes Data Used to Track You.",
+            "no ChatGPT models, it does not make images or read files, and its privacy label includes Data Used to Track You.",
             ["Monthly $9.99", "Weekly $7.99; yearly $69.99",
              "Gemini, Claude, Grok, DeepSeek, Perplexity Sonar", T3, "1.4.5 (2 Nov 2026)"], ours=True),
         app("Vibe by Mistral (ex-Le Chat)", 6740410176, "mistral", "MISTRAL AI", 4.76, 1346,
@@ -79,7 +79,7 @@ PAGES = [{
             ["Formerly Le Chat; Vibe Pro is $14.99 a month or $149.99 a year.",
              "Deep research with sources across the web and connected tools; drafts reports from your email, calendar and documents.",
              "A free plan for quick answers."],
-            "far fewer ratings than the big apps (1,346), and the listing does not say which models Pro uses.",
+            "the listing does not say which models Pro uses.",
             ["Vibe Pro $14.99", "$149.99 a year",
              "Mistral", "Data Linked to You; Data Not Linked to You", "2.16.0 (23 Oct 2026)"]),
         app("Claude by Anthropic", 6473753684, "claude", "Anthropic PBC", 4.72, 293855,

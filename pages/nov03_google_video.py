@@ -16,7 +16,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -35,7 +35,7 @@ PAGES = [{
     "description": "No Veo app exists: Google's video models come in Gemini and Google Flow. Seven other iPhone apps offering Veo or Gemini Omni, by price and privacy label.",
     "llms": "Explains how to make video with Google's models (Gemini Omni and Veo) on an iPhone: there is no app called Veo from Google; the Gemini app offers Gemini Omni video on Google AI Plus, Pro and Ultra, and Google Flow is Google's creative studio app. Compares seven other iPhone apps that name Veo or Gemini Omni (Canva, Picsart, Leonardo.Ai, Dora, ChatNow, Pollo AI, Flashloop) by price and App Store privacy label.",
     "answer": [
-        "<strong>Google has no app called Veo on the iPhone.</strong> On 3 November 2026, the apps named «Veo» on the US App Store were a scooter service and a sports camera, not Google. Google's main route is the <a href=\"https://apps.apple.com/us/app/id6477489729\">Google Gemini</a> app, whose listing says it makes cinematic videos with Gemini Omni for Google AI Plus ($4.99 a month), Pro ($19.99) and Ultra ($199.99) users, so free Gemini accounts do not get video. Google also publishes <a href=\"https://apps.apple.com/us/app/id6751294549\">Google Flow</a>, an AI creative studio synced with Flow on the desktop; its listing says it uses «Google's most advanced generative models» without naming them, lists no in-app purchases, and had a 3.8 rating from 130 ratings.",
+        "<strong>Google has no app called Veo on the iPhone.</strong> On 3 November 2026, the apps named «Veo» on the US App Store were a scooter service and a sports camera, not Google. Google's main route is the <a href=\"https://apps.apple.com/us/app/id6477489729\">Google Gemini</a> app, whose listing says it makes cinematic videos with Gemini Omni for Google AI Plus ($4.99 a month), Pro ($19.99) and Ultra ($199.99) users, so free Gemini accounts do not get video. Google also publishes <a href=\"https://apps.apple.com/us/app/id6751294549\">Google Flow</a>, an AI creative studio synced with Flow on the desktop; its listing says it uses «Google's most advanced generative models» without naming them, lists no in-app purchases, and had a 3.8 rating.",
         "Seven other apps offer Google's video models. Canva, Picsart and Leonardo.Ai add Veo 3 to an editor or image app; ChatNow, Pollo AI and Flashloop offer Veo next to Sora, Kling and Seedance; and Dora lists Gemini Omni, Google's any-to-any model, on its website, with the cost per clip shown before you generate.",
     ],
     "columns": ["App", "Price (US)", "Google model, per its listing", "Languages", "App Store privacy label", "Version (date)", "Rating (US)"],

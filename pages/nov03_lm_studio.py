@@ -15,7 +15,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -62,7 +62,7 @@ PAGES = [{
             ["Connects to an Ollama or LM Studio server, OpenRouter, Requesty or any OpenAI-compatible endpoint.",
              "Downloads supported models to run on the phone, offline after the download.",
              "Open source on GitHub, per its listing, with optional end-to-end encrypted sync to your own S3 storage."],
-            "only 15 ratings, English only, and no Mac version.",
+            "English only, and no Mac version.",
             ["No purchases listed",
              "Yes: LM Studio, Ollama, OpenAI-compatible", "Yes", "No", NC]),
         app("Private Offline AI Chat: Pinku", 6754878073, "pinku", "Saga Ltd.", 4.67, 12,
@@ -86,7 +86,7 @@ PAGES = [{
             ["Connects to LM Studio, Ollama, llama.cpp and other OpenAI-compatible endpoints; loads and unloads models and shows quantization and context length.",
              "One purchase (Chapper Pro, $9.99) and an optional on-device add-on ($4.99); no subscription, per its listing.",
              "MCP tools, a sandboxed terminal and export to TXT, PDF, Markdown, JSON and more."],
-            "the lowest rating here (3.1 from 9 ratings), no Mac version, and its last update was 6 August 2026.",
+            "the lowest rating here (3.1), no Mac version, and its last update was 6 August 2026.",
             ["Chapper Pro $9.99; on-device add-on $4.99",
              "Yes: LM Studio, Ollama, llama.cpp", "With the $4.99 add-on", "No", NC]),
         app("PocketPal AI", 6502579498, "pocketpal", "Gooya UG (haftungsbeschraenkt)", 4.04, 165,

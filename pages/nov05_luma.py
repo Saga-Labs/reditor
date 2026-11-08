@@ -15,7 +15,7 @@ CHECKED = "2026-11-05"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -70,7 +70,7 @@ PAGES = [{
             ["doravideo.com/models lists Seedance 2 (from 16 coins with Seedance 2 Mini), Kling 2.6, Gemini Omni and Grok for video.",
              "Photo to video, text to video, templates and Motion Control (copy a dance onto your photo); no watermark; up to 1080p.",
              "The cost shows before you generate, failed generations refund the coins, and coins also work on doravideo.com and in Claude and ChatGPT."],
-            "only 17 US ratings, its App Store listing does not name the models (the list is on its website), and coins need the Pro plan.",
+            "its App Store listing does not name the models (the list is on its website), and coins need the Pro plan.",
             ["Pro weekly $4.99 or $6.99, yearly $119.99; coins $4.99 to $224.99",
              "Seedance 2, Kling 2.6, Gemini Omni, Grok, per doravideo.com/models", "11", "Data Used to Track You; Data Not Linked to You", "1.4.2 (26 Oct 2026)"], ours=True),
         app("Pika - AI Video", 6680155400, "pika", "Mellis, Inc.", 4.73, 4324,

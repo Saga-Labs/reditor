@@ -28,7 +28,7 @@ EN = {
         "Pick by situation, not by brand: the section below says which one fits a flight, a nearly full phone, private documents, a Mac, or the occasional cloud model. The \"private\" part is also not the same in all seven: Privacy AI's label includes Data Used to Track You, and Enclave's lists Data Not Linked to You, because both offer optional cloud features.",
     ],
     "columns": ["App", "Price (US)", "Download size", "Models and features named in its listing", "App Store privacy label", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the US App Store price and the in-app purchases the page lists on 16 October 2026 (the page may list only some). Sizes are the App Store download size; models you download afterwards add to it. Ratings are the App Store average and number of ratings that day. All seven are described by their developers as working offline with local models.",
+    "table_note": "Prices are the US App Store price and the in-app purchases the page lists on 16 October 2026 (the page may list only some). Sizes are the App Store download size; models you download afterwards add to it. Ratings are the App Store average that day. All seven are described by their developers as working offline with local models.",
     "apps": [
         {
             "name": "Private Offline AI Chat: Pinku", "id": 6754878073, "ours": True, "anchor": "pinku",
@@ -36,7 +36,7 @@ EN = {
             "row": ["Free; Pinku Pro yearly ($16.99) or one-time ($9.99, $19.99 or $39.99 listed)",
                     "49 MB",
                     "11 open models (Qwen3, Llama 3.2, LFM2.5, Gemma 3, 3n and 4, SmolLM3) from 0.4 to 4.7 GB; text chat",
-                    "Data Linked to You (purchase history, user ID)", "1.4 (31 Oct 2026)", "4.7 (12 ratings)"],
+                    "Data Linked to You (purchase history, user ID)", "1.4 (31 Oct 2026)", "4.7"],
             "best_for": "a very small install: you pick one model, download it once, and chat offline with nothing else on the phone.",
             "facts": [
                 "Runs 11 open models locally with Apple's MLX; chatting with the default, Llama 3.2 1B, is free, and Pinku Pro (optional, a yearly subscription or a one-time purchase, per its listing) lets you choose any model and unlocks custom instructions, voice dictation and read aloud.",
@@ -52,7 +52,7 @@ EN = {
             "developer": "Element Labs Inc", "rating": (4.72, 1783),
             "row": ["Free, no purchases listed", "117 MB",
                     "Llama 3.2, Gemma 2 and 3, Qwen 3, DeepSeek and more; image analysis",
-                    "Data Not Collected", "1.66.0 (15 Oct 2026)", "4.7 (1,783 ratings)"],
+                    "Data Not Collected", "1.66.0 (15 Oct 2026)", "4.7"],
             "best_for": "the easiest free start with a lot of ratings behind it.",
             "facts": [
                 "Its listing says 100% offline, no login and no data collection, powered by Apple MLX.",
@@ -66,7 +66,7 @@ EN = {
             "developer": "Numen Technologies Limited", "rating": (4.15, 735),
             "row": ["$4.99 once, no in-app purchases listed", "1.4 GB",
                     "Llama, Gemma, Phi, Mistral, Qwen, DeepSeek R1 Distill, StableLM and more",
-                    "Data Not Collected", "1.9.16 (14 Sep 2026)", "4.2 (735 ratings)"],
+                    "Data Not Collected", "1.9.16 (14 Sep 2026)", "4.2"],
             "best_for": "people who want to pay once, with Family Sharing, and want a very long model list.",
             "facts": [
                 "Paid up front with no subscription; Family Sharing is included, according to its listing.",
@@ -81,7 +81,7 @@ EN = {
             "developer": "Piotr Gorzelany", "rating": (4.69, 1094),
             "row": ["Free; Pro $9.99; tip-style purchases $0.99 to $9.99", "717 MB",
                     "Hundreds of open models (Llama, DeepSeek, Gemma, Qwen, Phi, Mistral, SmolLM); optional cloud models with Pro",
-                    "Data Not Linked to You", "1.77.0 (1 Oct 2026)", "4.7 (1,094 ratings)"],
+                    "Data Not Linked to You", "1.77.0 (1 Oct 2026)", "4.7"],
             "best_for": "private chat with documents and voice, plus an occasional cloud model when you choose to.",
             "facts": [
                 "Voice chat with on-device speech recognition and text-to-speech, and chat with PDFs, text files, images and code, processed locally.",
@@ -96,7 +96,7 @@ EN = {
             "developer": "Gooya UG (haftungsbeschraenkt)", "rating": (4.07, 161),
             "row": ["Free; add-on purchases $0.99 to $2.99", "88 MB",
                     "Any GGUF model from Hugging Face, searched and downloaded inside the app",
-                    "Data Not Collected", "1.19.1 (8 Oct 2026)", "4.1 (161 ratings)"],
+                    "Data Not Collected", "1.19.1 (8 Oct 2026)", "4.1"],
             "best_for": "tinkerers who want to choose their own model files.",
             "facts": [
                 "Its listing says you search, bookmark and download GGUF models from Hugging Face in the app, then chat offline.",
@@ -110,7 +110,7 @@ EN = {
             "developer": "Zijie Deng", "rating": (4.38, 162),
             "row": ["Free; Pro subscription $3.99 or $34.99; lifetime $49.99 or $99.99", "1.9 GB",
                     "Gemma, Qwen, DeepSeek, Mistral local models; documents, OCR, notes, transcription, listening library",
-                    "Data Not Collected", "1.51.0 (5 Oct 2026)", "4.4 (162 ratings)"],
+                    "Data Not Collected", "1.51.0 (5 Oct 2026)", "4.4"],
             "best_for": "one private workspace for chat, documents, voice notes and listening, on iPhone, iPad and Mac.",
             "facts": [
                 "Its listing says chats, documents, recordings and notes stay on the device; online providers are optional and only work after you enable them.",
@@ -118,14 +118,14 @@ EN = {
                 "Voice notes and transcription, a listening queue for PDFs and articles, RSS feeds.",
                 "9 languages, iOS 18.0 or later, 1.9 GB; also iPad, Mac and Apple Vision Pro, per the listing.",
             ],
-            "limits": "a large and broad app (1.9 GB) with a lot of surface, a Pro tier with both subscription and lifetime prices, and 162 ratings.",
+            "limits": "a large and broad app (1.9 GB) with a lot of surface, and a Pro tier with both subscription and lifetime prices.",
         },
         {
             "name": "Privacy AI: Agent & Chatbot", "id": 6738392421, "anchor": "privacy-ai",
             "developer": "AcmeUp Inc.", "rating": (4.8, 20),
             "row": ["Free; Pro $3.99 a week, $9.99 a month or $99.99 a year", "3.7 GB",
                     "On-device GGUF and MLX models, optional cloud providers, agent, image models, mini apps",
-                    "Data Used to Track You; Data Not Linked to You", "3.3.0 (16 Oct 2026)", "4.8 (20 ratings)"],
+                    "Data Used to Track You; Data Not Linked to You", "3.3.0 (16 Oct 2026)", "4.8"],
             "best_for": "people who want an agent that plans and uses tools, with local models first and cloud only if they connect it.",
             "facts": [
                 "Its listing says local models work fully offline and nothing leaves the phone unless you connect a cloud provider yourself.",
@@ -152,7 +152,7 @@ EN = {
         "Trying several open models to see which one you like (Pinku, Private LLM, PocketPal AI).",
     ],
     "method": [
-        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: price and in-app purchases, version and release date, rating and number of ratings, languages, size, minimum iOS and the privacy label categories. Model lists and features are taken from each developer's App Store description; what Pinku does comes from its live listing, version 1.0.8. We did not run a quality or speed test of the models, so this page does not say which one answers best. We did not invent ratings or reviews.",
+        "On 16 October 2026 we opened each app's US App Store page and Apple's lookup data: price and in-app purchases, version and release date, rating, languages, size, minimum iOS and the privacy label categories. Model lists and features are taken from each developer's App Store description; what Pinku does comes from its live listing, version 1.0.8. We did not run a quality or speed test of the models, so this page does not say which one answers best. We did not invent ratings or reviews.",
         "Model families named above (Llama, Gemma, Qwen, DeepSeek, Phi, Mistral and others) are the ones each listing names. Prices change and pages list only some purchases; check the price shown inside each app before paying.",
     ],
     "faq": [
@@ -193,7 +193,7 @@ ES = {
         "Elige según tu caso y no según la marca: más abajo se dice cuál encaja con un vuelo, un móvil casi lleno, documentos privados, un Mac o un modelo en la nube de vez en cuando. Lo de «privado» tampoco es igual en las siete: la etiqueta de Privacy AI incluye Datos utilizados para el seguimiento y la de Enclave Datos no vinculados a ti, porque las dos ofrecen funciones opcionales en la nube.",
     ],
     "columns": ["App", "Precio (España)", "Tamaño de descarga", "Modelos y funciones que nombra su ficha", "Etiqueta de privacidad del App Store", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precios: precio en el App Store de España y compras dentro de la app que enseña la ficha el 16 de octubre de 2026 (la ficha puede enseñar solo algunas). Tamaños: descarga del App Store; los modelos que bajes después se suman. Valoración: media y número de valoraciones en España ese día. Sus desarrolladores describen las siete como capaces de funcionar sin conexión con modelos locales.",
+    "table_note": "Precios: precio en el App Store de España y compras dentro de la app que enseña la ficha el 16 de octubre de 2026 (la ficha puede enseñar solo algunas). Tamaños: descarga del App Store; los modelos que bajes después se suman. Valoración: media en España ese día. Sus desarrolladores describen las siete como capaces de funcionar sin conexión con modelos locales.",
     "apps": [
         {
             "name": "Chat IA Offline Privado: Pinku", "id": 6754878073, "ours": True, "anchor": "pinku",
@@ -201,7 +201,7 @@ ES = {
             "row": ["Gratis; Pinku Pro anual (19,99 €) o compra única (figura a 9,99 €, 22,99 € y 44,99 €)",
                     "49 MB",
                     "11 modelos abiertos (Qwen3, Llama 3.2, LFM2.5, Gemma 3, 3n y 4, SmolLM3) de 0,4 a 4,7 GB; chat de texto",
-                    "Datos vinculados a ti (compras, ID de usuario)", "1.4 (31 oct 2026)", "5,0 (1 valoración)"],
+                    "Datos vinculados a ti (compras, ID de usuario)", "1.4 (31 oct 2026)", "5,0"],
             "best_for": "una instalación muy pequeña: eliges un modelo, lo descargas una vez y chateas sin conexión sin nada más en el móvil.",
             "facts": [
                 "Ejecuta 11 modelos abiertos en local con MLX de Apple; chatear con el de por defecto, Llama 3.2 1B, es gratis, y Pinku Pro (opcional, suscripción anual o compra única, según su ficha) te deja elegir cualquier modelo y desbloquea instrucciones personalizadas, dictado por voz y lectura en voz alta.",
@@ -210,14 +210,14 @@ ES = {
                 "Siri y Atajos para empezar un chat; interfaz en 34 idiomas.",
                 "iOS 18.6 o posterior con Metal 3, 21 MB; su ficha dice que también funciona en un Mac con Apple silicon.",
             ],
-            "limits": "solo chat de texto (su ficha no menciona imágenes, documentos ni búsqueda web), solo 12 modelos para elegir y el requisito de iOS 18.6 deja fuera a los iPhone más antiguos. Los modelos pequeños en el dispositivo son menos capaces que los de la nube, y el precio de Pro sale con tres importes distintos en la ficha, así que mira el precio dentro de la app. En España solo tiene 1 valoración.",
+            "limits": "solo chat de texto (su ficha no menciona imágenes, documentos ni búsqueda web), solo 12 modelos para elegir y el requisito de iOS 18.6 deja fuera a los iPhone más antiguos. Los modelos pequeños en el dispositivo son menos capaces que los de la nube, y el precio de Pro sale con tres importes distintos en la ficha, así que mira el precio dentro de la app.",
         },
         {
             "name": "Locally AI de LM Studio", "id": 6741426692, "anchor": "locally-ai",
             "developer": "Element Labs Inc", "rating": (4.48, 146),
             "row": ["Gratis, sin compras en la ficha", "117 MB",
                     "Llama 3.2, Gemma 2 y 3, Qwen 3, DeepSeek y más; análisis de imágenes",
-                    "Datos no recopilados", "1.66.0 (15 oct 2026)", "4,5 (146 valoraciones)"],
+                    "Datos no recopilados", "1.66.0 (15 oct 2026)", "4,5"],
             "best_for": "el comienzo gratis más fácil, con bastantes valoraciones detrás.",
             "facts": [
                 "Su ficha dice 100 % sin conexión, sin inicio de sesión y sin recopilar datos, con MLX de Apple.",
@@ -231,7 +231,7 @@ ES = {
             "developer": "Numen Technologies Limited", "rating": (3.42, 24),
             "row": ["5,99 € una vez, sin compras en la ficha", "1,4 GB",
                     "Llama, Gemma, Phi, Mistral, Qwen, DeepSeek R1 Distill, StableLM y más",
-                    "Datos no recopilados", "1.9.16 (14 sep 2026)", "3,4 (24 valoraciones)"],
+                    "Datos no recopilados", "1.9.16 (14 sep 2026)", "3,4"],
             "best_for": "quien quiere pagar una vez, con Compartir en familia, y una lista de modelos muy larga.",
             "facts": [
                 "De pago por adelantado y sin suscripción; incluye Compartir en familia, según su ficha.",
@@ -239,14 +239,14 @@ ES = {
                 "Siri y Atajos, indicaciones de sistema personalizables; también en Mac.",
                 "Solo en inglés, iOS 17.0 o posterior, 1,4 GB.",
             ],
-            "limits": "se paga antes de probarla, la app sola pesa 1,4 GB y la interfaz solo está en inglés. En España tiene 3,4 de media con 24 valoraciones (en EE. UU. 4,2 con 735).",
+            "limits": "se paga antes de probarla, la app sola pesa 1,4 GB y la interfaz solo está en inglés. En España tiene 3,4 de media (en EE. UU., 4,2).",
         },
         {
             "name": "Enclave-Asistente de IA Local", "id": 6476614556, "anchor": "enclave",
             "developer": "Piotr Gorzelany", "rating": (4.67, 30),
             "row": ["Gratis; Pro 9,99 €; compras tipo propina de 0,99 € a 9,99 €", "717 MB",
                     "Cientos de modelos abiertos (Llama, DeepSeek, Gemma, Qwen, Phi, Mistral, SmolLM); modelos en la nube opcionales con Pro",
-                    "Datos no vinculados a ti", "1.77.0 (1 oct 2026)", "4,7 (30 valoraciones)"],
+                    "Datos no vinculados a ti", "1.77.0 (1 oct 2026)", "4,7"],
             "best_for": "chat privado con documentos y voz, y a veces un modelo en la nube si lo eliges.",
             "facts": [
                 "Chat de voz con reconocimiento y síntesis de voz en el dispositivo, y chat con PDF, archivos de texto, imágenes y código, procesados en local.",
@@ -261,7 +261,7 @@ ES = {
             "developer": "Gooya UG (haftungsbeschraenkt)", "rating": (4.5, 8),
             "row": ["Gratis; compras extra de 1,49 € a 2,99 €", "88 MB",
                     "Cualquier modelo GGUF de Hugging Face, que se busca y se descarga dentro de la app",
-                    "Datos no recopilados", "1.19.1 (8 oct 2026)", "4,5 (8 valoraciones)"],
+                    "Datos no recopilados", "1.19.1 (8 oct 2026)", "4,5"],
             "best_for": "quien disfruta eligiendo sus propios archivos de modelo.",
             "facts": [
                 "Su ficha dice que buscas, guardas y descargas modelos GGUF de Hugging Face dentro de la app y luego chateas sin conexión.",
@@ -275,7 +275,7 @@ ES = {
             "developer": "Zijie Deng", "rating": (5.0, 1),
             "row": ["Gratis; suscripción Pro 3,99 € o 39,99 €; de por vida 59,99 € o 99,99 €", "1,9 GB",
                     "Modelos locales Gemma, Qwen, DeepSeek, Mistral; documentos, OCR, notas, transcripción, biblioteca de escucha",
-                    "Datos no recopilados", "1.51.0 (5 oct 2026)", "5,0 (1 valoración)"],
+                    "Datos no recopilados", "1.51.0 (5 oct 2026)", "5,0"],
             "best_for": "un solo espacio privado para chat, documentos, notas de voz y escucha, en iPhone, iPad y Mac.",
             "facts": [
                 "Su ficha dice que chats, documentos, grabaciones y notas se quedan en el dispositivo; los proveedores en línea son opcionales y solo funcionan cuando los activas.",
@@ -283,14 +283,14 @@ ES = {
                 "Notas de voz y transcripción, una cola de escucha de PDF y artículos, canales RSS.",
                 "9 idiomas, iOS 18.0 o posterior, 1,9 GB; también iPad, Mac y Apple Vision Pro, según la ficha.",
             ],
-            "limits": "una app grande y muy amplia (1,9 GB), con un nivel Pro que tiene suscripción y precios de por vida, y solo 1 valoración en España (4,4 con 162 en EE. UU.).",
+            "limits": "una app grande y muy amplia (1,9 GB), y con un nivel Pro que tiene suscripción y precios de por vida.",
         },
         {
             "name": "Privacy AI: Agente y chatbot", "id": 6738392421, "anchor": "privacy-ai",
             "developer": "AcmeUp Inc.", "rating": (3.5, 2),
             "row": ["Gratis; Pro 3,99 € a la semana, 9,99 € al mes o 99,99 € al año", "3,7 GB",
                     "Modelos GGUF y MLX en el dispositivo, proveedores en la nube opcionales, agente, modelos de imagen, mini apps",
-                    "Datos utilizados para el seguimiento; datos no vinculados a ti", "3.3.0 (16 oct 2026)", "3,5 (2 valoraciones)"],
+                    "Datos utilizados para el seguimiento; datos no vinculados a ti", "3.3.0 (16 oct 2026)", "3,5"],
             "best_for": "quien quiere un agente que planifica y usa herramientas, con modelos locales primero y la nube solo si la conecta.",
             "facts": [
                 "Su ficha dice que los modelos locales funcionan del todo sin conexión y que nada sale del móvil salvo que conectes tú un proveedor en la nube.",
@@ -317,7 +317,7 @@ ES = {
         "Probar varios modelos abiertos para ver cuál te gusta (Pinku, Private LLM, PocketPal AI).",
     ],
     "method": [
-        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precio y compras dentro de la app, versión y fecha, valoración y número de valoraciones, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Las listas de modelos y las funciones salen de la descripción del App Store de cada desarrollador; lo que hace Pinku sale de su ficha en vivo, versión 1.0.8. No hemos hecho una prueba de calidad ni de velocidad de los modelos, así que esta página no dice cuál contesta mejor. No hemos inventado valoraciones ni reseñas.",
+        "El 16 de octubre de 2026 abrimos la ficha de cada app en el App Store de España y los datos de búsqueda de Apple: precio y compras dentro de la app, versión y fecha, valoración, idiomas, tamaño, iOS mínimo y categorías de la etiqueta de privacidad. Las listas de modelos y las funciones salen de la descripción del App Store de cada desarrollador; lo que hace Pinku sale de su ficha en vivo, versión 1.0.8. No hemos hecho una prueba de calidad ni de velocidad de los modelos, así que esta página no dice cuál contesta mejor. No hemos inventado valoraciones ni reseñas.",
         "Las familias de modelos que se nombran arriba (Llama, Gemma, Qwen, DeepSeek, Phi, Mistral y otras) son las que nombra cada ficha. Los precios cambian y las fichas enseñan solo algunas compras; mira el precio que sale dentro de cada app antes de pagar.",
     ],
     "faq": [

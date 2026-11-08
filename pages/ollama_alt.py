@@ -77,7 +77,7 @@ EN = {
             "name": "Locally AI by LM Studio", "id": 6741426692, "anchor": "locally", "developer": "Element Labs", "rating": (4.71, 1804),
             "row": ["App Store app", "Free; not open source", "macOS 26", "Yes", "1.66.0 (15 Oct 2026)"],
             "best_for": "the same models on iPhone and Mac from one free app.",
-            "facts": ["Apple MLX; no login; Data Not Collected.", "4.7 from 1,804 ratings in the US."],
+            "facts": ["Apple MLX; no login; Data Not Collected.", "Rated 4.7 on the US App Store."],
             "limits": "on Mac it needs macOS 26; curated models only.",
         },
         {

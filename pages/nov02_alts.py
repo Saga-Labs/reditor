@@ -8,7 +8,7 @@ T3 = "Data Used to Track You; Data Linked to You; Data Not Linked to You"
 
 def app(name, id_, anchor, dev, rating, count, price, langs, priv, ver):
     return {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
-            "_row": (price, str(langs), priv, ver, f"{rating:.1f} ({count:,} ratings)")}
+            "_row": (price, str(langs), priv, ver, f"{rating:.1f}")}
 
 
 A = {

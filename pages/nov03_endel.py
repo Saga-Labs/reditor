@@ -16,7 +16,7 @@ CHECKED = "2026-11-03"
 def app(name, id_, anchor, dev, rating, count, best_for, facts, limits, row, ours=False):
     a = {"name": name, "id": id_, "anchor": anchor, "developer": dev, "rating": (rating, count),
          "best_for": best_for, "facts": facts, "limits": limits,
-         "row": row + [f"{rating:.1f} ({count:,} ratings)"]}
+         "row": row + [f"{rating:.1f}"]}
     if ours:
         a["ours"] = True
     return a
@@ -63,7 +63,7 @@ PAGES = [{
             ["350+ soundscapes, each with its own sliders; «White Noise & Co» covers white, brown, green, grey and pink noise.",
              "Made for long listening, to focus, sleep or mask outside noise; a meditation bell to pace sessions.",
              "Full Access is listed at $19.99; the listing does not say whether it renews."],
-            "English only and fewer ratings (1,192); nothing is generated for you, you tune it.",
+            "English only; nothing is generated for you, you tune it.",
             ["Full Access $19.99; All You Can Hear $14.99", "Not stated",
              "350+ adjustable soundscapes", NL, "3.21.79 (29 Oct 2026)"]),
         app("Sleep Sounds & Focus: Drop", 1462269642, "drop", "Saga Ltd.", 4.42, 12,
@@ -71,7 +71,7 @@ PAGES = [{
             ["Breathing sessions of 2, 5, 10 and 20 minutes with a visual guide; a garden grows as you practice.",
              "Nature sounds: campfire and forest free; rain, dewdrops and ocean with Pro.",
              "Works offline, no ads, home screen widgets; in 33 languages."],
-            "only 12 US ratings and five nature sounds in its listing; it does not generate or adapt soundscapes like Endel.",
+            "only five nature sounds in its listing; it does not generate or adapt soundscapes like Endel.",
             ["Pro $4.99 a month", "Lifetime $24.99 or $49.99 (offer $9.99)",
              "Breathing sessions and 5 nature sounds", NL, "2.14 (30 Oct 2026)"], ours=True),
         app("(Not Boring) Vibes", 1661440185, "vibes", "Not Boring Software LLC", 4.84, 2885,
