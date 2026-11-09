@@ -798,7 +798,7 @@ PAGES = [{
     ],
     "fix": 'إذا كان هناك شيء قديم هنا، <a href="mailto:sagalabs@proton.me">أخبرنا</a> وسنصحح الصفحة.',
 }, {
-    **COMMON, "lang": "zh-Hant", "path": "zh-hant/川普家族加密貨幣-期中選舉後-wlfi-trump-usd1/", "ct": "rd-trump-crypto-midterms-zh-hant",
+    **COMMON, "lang": "zh-Hant", "path": "zh-hant/chuanpu-jiazu-jiamimibi-wlfi-trump-usd1/", "ct": "rd-trump-crypto-midterms-zh-hant",
     "kicker": "加密貨幣新聞",
     "title": "期中選舉後的川普家族加密貨幣：WLFI、TRUMP 與 USD1（2026 年 11 月 8 日）",
     "h1": "期中選舉後的川普家族加密貨幣：民主黨想調查什麼，以及 WLFI、TRUMP 與 USD1 如何變動",
@@ -876,7 +876,7 @@ PAGES = [{
     ],
     "fix": '如果本頁有過時內容，請<a href="mailto:sagalabs@proton.me">告訴我們</a>，我們會修正。',
 }, {
-    **COMMON, "lang": "th", "path": "th/kripto-ครอบครัวทรัมป์-หลังเลือกตั้ง-wlfi-trump-usd1/", "ct": "rd-trump-crypto-midterms-th",
+    **COMMON, "lang": "th", "path": "th/kripto-trump-family-wlfi-trump-usd1/", "ct": "rd-trump-crypto-midterms-th",
     "kicker": "ข่าวคริปโต",
     "title": "คริปโตของครอบครัวทรัมป์หลังการเลือกตั้ง: WLFI, TRUMP และ USD1 (8 พ.ย. 2026)",
     "h1": "คริปโตของครอบครัวทรัมป์หลังการเลือกตั้งกลางเทอม: พรรคเดโมแครตวางแผนจะสอบสวนอะไร และ WLFI, TRUMP และ USD1 เคลื่อนไหวอย่างไร",
