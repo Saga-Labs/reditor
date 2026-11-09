@@ -182,9 +182,9 @@ TEXT = {
             ["Quale alternativa a ChatOn ha le valutazioni migliori?",
              "Le medie in stelle nella tabella, prese dall'App Store italiano, sono vicine tra loro, quindi prezzo, funzioni e quanto di recente è stata aggiornata ogni app permettono di distinguerle meglio delle stelle."],
             ["Brainy usa più modelli di IA?",
-             "La sua scheda per la versione 1.5.0 non cita nessun modello e non offre la scelta del modello. Se vuoi scegliere tu i modelli, Ask AI, della stessa casa di Brainy, è pensata per questo."],
+             "La sua scheda per la versione 1.5.0 non cita nessun modello e non offre la scelta del modello. Se vuoi scegliere tu i modelli, Ask AI è pensata per questo."],
             ["Quali di queste app raccolgono dati per tracciarti?",
-             "Secondo le loro etichette sulla privacy dell'App Store, tutte e sei indicano Dati utilizzati per il tracciamento. ChatOn, Genie e Ask AI indicano anche Dati collegati all'utente. Brainy indica Dati utilizzati per il tracciamento e Dati non collegati all'utente."],
+             "Secondo le loro etichette sulla privacy dell'App Store, tutte e sei indicano Dati utilizzati per il tracciamento. ChatOn, Genie, Ask AI e Brainy indicano anche Dati collegati all'utente (per Brainy: acquisti e identificativi). Nova e Chat AI - Ask Anything indicano Dati utilizzati per il tracciamento e Dati non collegati all'utente."],
         ],
         "sources": ["Brainy (App Store)", "ChatOn AI (App Store)", "Genie (App Store)", "Nova (App Store)", "Chat AI - Ask Anything (App Store)", "Ask AI (App Store)"],
         "apps": {

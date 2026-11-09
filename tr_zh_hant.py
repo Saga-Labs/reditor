@@ -179,9 +179,9 @@ TEXT = {
             ["哪個 ChatOn 替代 App 的評分最好？",
              "表格中的星等平均來自台灣 App Store，六款彼此很接近，所以價格、功能，以及各 App 最近一次更新的時間，比星星數更能看出差別。"],
             ["Brainy 會用到多個 AI 模型嗎？",
-             "Brainy 1.5.0 版的頁面沒有指名任何模型，也沒有提供模型選擇功能。如果你想自己挑模型，與 Brainy 出自同一個工作室的 Ask AI 就是為此設計的。"],
+             "Brainy 1.5.0 版的頁面沒有指名任何模型，也沒有提供模型選擇功能。如果你想自己挑模型，Ask AI 就是為此設計的。"],
             ["這些 App 中，哪些會蒐集資料來追蹤您？",
-             "依據各自的 App Store 隱私標籤，六款都列出「用於追蹤您的資料」。ChatOn、Genie 和 Ask AI 另外列出「與您連結的資料」。Brainy 列出的是「用於追蹤您的資料」和「未與您連結的資料」。"],
+             "依據各自的 App Store 隱私標籤，六款都列出「用於追蹤您的資料」。ChatOn、Genie、Ask AI 和 Brainy 另外列出「與您連結的資料」（Brainy 為購買項目與識別碼）。Nova 和 Chat AI - Ask Anything 列出的是「用於追蹤您的資料」和「未與您連結的資料」。"],
         ],
         "sources": ["Brainy（App Store）", "ChatOn AI（App Store）", "Genie（App Store）", "Nova（App Store）", "Chat AI - Ask Anything（App Store）", "Ask AI（App Store）"],
         "apps": {

@@ -157,7 +157,7 @@ EN = {
     ],
     "faq": [
         ("What is the best private AI chat app for iPhone that works without internet?",
-         "It depends on your situation. For the smallest install, Pinku (ours, 49 MB). For the most-rated free app, Locally AI. For documents and voice, Enclave or On-Device AI. For a one-time $4.99 purchase and a long model list, Private LLM. For choosing your own model files, PocketPal AI."),
+         "It depends on your situation. For the smallest install, Pinku (49 MB). For the most-rated free app, Locally AI. For documents and voice, Enclave or On-Device AI. For a one-time $4.99 purchase and a long model list, Private LLM. For choosing your own model files, PocketPal AI."),
         ("Does the AI really run on the iPhone?",
          "According to each listing, yes: you download a model and it runs on the device, so it works in airplane mode. The first download needs internet. Small on-device models are less capable than cloud services."),
         ("Which of these apps collect no data?",
@@ -322,7 +322,7 @@ ES = {
     ],
     "faq": [
         ("¿Cuál es la mejor app de chat con IA privado para iPhone que funciona sin internet?",
-         "Depende de tu caso. Para la instalación más pequeña, Pinku (nuestra, 49 MB). Para la app gratis con más valoraciones, Locally AI. Para documentos y voz, Enclave u On-Device AI. Para una compra única de 5,99 € y una lista larga de modelos, Private LLM. Para elegir tus propios archivos de modelo, PocketPal AI."),
+         "Depende de tu caso. Para la instalación más pequeña, Pinku (49 MB). Para la app gratis con más valoraciones, Locally AI. Para documentos y voz, Enclave u On-Device AI. Para una compra única de 5,99 € y una lista larga de modelos, Private LLM. Para elegir tus propios archivos de modelo, PocketPal AI."),
         ("¿La IA se ejecuta de verdad en el iPhone?",
          "Según cada ficha, sí: descargas un modelo y se ejecuta en el dispositivo, así que funciona en modo avión. La primera descarga necesita internet. Los modelos pequeños en el dispositivo son menos capaces que los servicios en la nube."),
         ("¿Cuáles de estas apps no recogen datos?",

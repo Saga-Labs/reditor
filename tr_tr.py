@@ -180,9 +180,9 @@ TEXT = {
             ["En iyi puanlara sahip ChatOn alternatifi hangisi?",
              "Tablodaki yıldız ortalamaları (bu ülkenin App Store'undan) birbirine yakın; bu yüzden fiyat, özellikler ve her uygulamanın ne kadar yakın zamanda güncellendiği, yıldızlardan daha iyi ayırt eder."],
             ["Brainy birden fazla yapay zeka modeli kullanıyor mu?",
-             "1.5.0 sürümünün sayfasında hiçbir model adı geçmiyor ve model seçici sunulmuyor. Modelleri kendiniz seçmek istiyorsanız, Brainy ile aynı stüdyodan çıkan Ask AI bunun için yapılmıştır."],
+             "1.5.0 sürümünün sayfasında hiçbir model adı geçmiyor ve model seçici sunulmuyor. Modelleri kendiniz seçmek istiyorsanız, Ask AI bunun için yapılmıştır."],
             ["Bu uygulamalardan hangileri sizi izlemek için veri topluyor?",
-             "App Store gizlilik etiketlerine göre altısı da Sizi İzlemek İçin Kullanılan Veriler listeliyor. ChatOn, Genie ve Ask AI ayrıca Sizinle Bağlantılı Veriler listeliyor. Brainy, Sizi İzlemek İçin Kullanılan Veriler ve Sizinle Bağlantılı Olmayan Veriler listeliyor."],
+             "App Store gizlilik etiketlerine göre altısı da Sizi İzlemek İçin Kullanılan Veriler listeliyor. ChatOn, Genie, Ask AI ve Brainy ayrıca Sizinle Bağlantılı Veriler listeliyor (Brainy'de satın alımlar ve tanımlayıcılar). Nova ve Chat AI - Ask Anything, Sizi İzlemek İçin Kullanılan Veriler ve Sizinle Bağlantılı Olmayan Veriler listeliyor."],
         ],
         "sources": ["Brainy (App Store)", "ChatOn AI (App Store)", "Genie (App Store)", "Nova (App Store)", "Chat AI - Ask Anything (App Store)", "Ask AI (App Store)"],
         "apps": {

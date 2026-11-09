@@ -26,7 +26,7 @@ EN = {
     "path": "sora-app-alternatives-iphone/",
     "ct": "rd-sora",
     "category": "PhotoVideoApplication",
-    "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
+    "published": CHECKED, "updated": "2026-11-09", "checked": CHECKED,
     "title": "Best Sora App Alternatives for iPhone (2026)",
     "h1": "Best Sora app alternatives for iPhone in 2026",
     "description": "The Sora app is gone. Five iPhone apps that still make AI videos from a photo or text, compared: Dora, Kling AI, Grok and more. Prices checked.",
@@ -36,7 +36,7 @@ EN = {
         "If you already pay for an AI assistant, Grok (Grok Imagine) and Google Gemini (Gemini Omni, on paid Google AI plans) also make short videos inside the chat app.",
     ],
     "columns": ["App", "Price (US)", "What it makes", "Account", "App Store privacy label", "Version (date)", "Rating (US)"],
-    "table_note": "Prices are the in-app purchases listed on each US App Store page on 11 October 2026; all five are free to download. Ratings are the App Store average that day.",
+    "table_note": "Prices are the in-app purchases listed on each US App Store page on 11 October 2026; all five are free to download. Ratings are the App Store average that day. Privacy labels rechecked on 9 November 2026.",
     "apps": [
         {
             "name": "DORA · AI Video Generator", "id": 6754180384, "ours": True, "anchor": "dora",
@@ -71,7 +71,7 @@ EN = {
             "name": "Grok (Grok Imagine)", "id": 6670324846, "anchor": "grok",
             "developer": "X Corp.", "rating": (4.87, 1497069),
             "row": ["SuperGrok Lite $10, SuperGrok $30, Plus $100, Heavy $300; extra credits from $5", "Images, short videos with sound, photo to video, inside a chat assistant",
-                    "Yes", "Data Linked to You", "1.4.51 (9 Oct 2026)", "4.9"],
+                    "Yes", "Data Used to Track You; Data Linked to You; Data Not Linked to You", "1.4.51 (9 Oct 2026)", "4.9"],
             "best_for": "people who already use Grok and want quick clips without another app.",
             "facts": [
                 "Grok Imagine makes images from text or voice and short videos with sound, or animates a photo.",
@@ -128,7 +128,7 @@ EN = {
         ("Is the Sora app still available on iPhone?",
          "No. OpenAI announced on 24 March 2026 that it was shutting down the Sora app, and on 11 October 2026 its App Store page no longer opens."),
         ("What is the best Sora alternative on iPhone?",
-         "For short videos from a photo or a prompt, Dora (ours, several models in one app) and Kling AI (up to 15 seconds in 1080p or 4K, extendable to 3 minutes). Grok and Gemini also make videos if you pay for their plans."),
+         "For short videos from a photo or a prompt, Dora (several models in one app) and Kling AI (up to 15 seconds in 1080p or 4K, extendable to 3 minutes). Grok and Gemini also make videos if you pay for their plans."),
         ("Is there a free Sora alternative?",
          "All five apps are free to download, but video generation is paid in each: Dora by subscription and coins, Kling AI by credits or plans, Gemini only on Google AI Plus or higher, Grok through SuperGrok plans and credits."),
         ("Can I turn a photo into a video on iPhone without Sora?",
@@ -144,7 +144,7 @@ ES = {
     "path": "es/alternativas-a-sora-iphone/",
     "ct": "rd-sora-es",
     "category": "PhotoVideoApplication",
-    "published": CHECKED, "updated": CHECKED, "checked": CHECKED,
+    "published": CHECKED, "updated": "2026-11-09", "checked": CHECKED,
     "title": "Mejores alternativas a Sora para iPhone (2026)",
     "h1": "Mejores alternativas a la app de Sora en iPhone en 2026",
     "description": "La app de Sora ya no existe. Cinco apps de iPhone que hacen vídeos con IA desde una foto o un texto: Dora, Kling AI, Grok y más. Precios comprobados.",
@@ -154,7 +154,7 @@ ES = {
         "Si ya pagas un asistente de IA, Grok (Grok Imagine) y Google Gemini (Gemini Omni, con los planes de pago de Google AI) también hacen vídeos cortos dentro del chat.",
     ],
     "columns": ["App", "Precio (España)", "Qué hace", "Cuenta", "Etiqueta de privacidad", "Versión (fecha)", "Valoración (España)"],
-    "table_note": "Precios: compras dentro de la app que muestra cada ficha del App Store de España el 11 de octubre de 2026; las cinco se descargan gratis. Valoración: media en España ese día.",
+    "table_note": "Precios: compras dentro de la app que muestra cada ficha del App Store de España el 11 de octubre de 2026; las cinco se descargan gratis. Valoración: media en España ese día. Etiquetas de privacidad revisadas el 9 de noviembre de 2026.",
     "apps": [
         {
             "name": "DORA · Generador Vídeo IA", "id": 6754180384, "ours": True, "anchor": "dora",
@@ -189,7 +189,7 @@ ES = {
             "name": "Grok (Grok Imagine)", "id": 6670324846, "anchor": "grok",
             "developer": "X Corp.", "rating": (4.81, 72312),
             "row": ["SuperGrok Lite 10 €, SuperGrok 35 €, Plus 100 €, Heavy 349 €; créditos extra desde 6 €", "Imágenes, vídeos cortos con sonido y foto a vídeo, dentro de un asistente",
-                    "Sí", "Datos vinculados a ti", "1.4.51 (9 oct 2026)", "4,8"],
+                    "Sí", "Datos utilizados para el seguimiento; datos vinculados a ti; datos no vinculados a ti", "1.4.51 (9 oct 2026)", "4,8"],
             "best_for": "quien ya usa Grok y quiere clips rápidos sin otra app.",
             "facts": [
                 "Grok Imagine hace imágenes desde texto o voz y vídeos cortos con sonido, o anima una foto.",
@@ -246,7 +246,7 @@ ES = {
         ("¿Sigue existiendo la app de Sora en iPhone?",
          "No. OpenAI anunció el 24 de marzo de 2026 que cerraba la app de Sora, y el 11 de octubre de 2026 su ficha del App Store ya no abre."),
         ("¿Cuál es la mejor alternativa a Sora en iPhone?",
-         "Para vídeos cortos desde una foto o un texto, Dora (nuestra, varios modelos en una app) y Kling AI (hasta 15 segundos en 1080p o 4K, ampliables a 3 minutos). Grok y Gemini también hacen vídeos si pagas sus planes."),
+         "Para vídeos cortos desde una foto o un texto, Dora (varios modelos en una app) y Kling AI (hasta 15 segundos en 1080p o 4K, ampliables a 3 minutos). Grok y Gemini también hacen vídeos si pagas sus planes."),
         ("¿Hay alguna alternativa gratis a Sora?",
          "Las cinco se descargan gratis, pero generar vídeo es de pago en todas: Dora con suscripción y monedas, Kling AI con créditos o planes, Gemini solo con Google AI Plus o superior y Grok con los planes SuperGrok y créditos."),
         ("¿Se puede convertir una foto en vídeo en el iPhone sin Sora?",

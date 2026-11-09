@@ -180,9 +180,9 @@ TEXT = {
             ["Welche ChatOn Alternative hat die besten Bewertungen?",
              "Die Sternedurchschnitte in der Tabelle stammen aus dem App Store in Deutschland und liegen nah beieinander. Preis, Funktionen und wie kürzlich jede App aktualisiert wurde unterscheiden sie daher besser als die Sterne."],
             ["Nutzt Brainy mehrere KI-Modelle?",
-             "Der Eintrag für Version 1.5.0 nennt kein Modell und bietet keine Modellauswahl. Wenn du Modelle selbst wählen willst, ist Ask AI, aus demselben Studio wie Brainy, genau dafür gebaut."],
+             "Der Eintrag für Version 1.5.0 nennt kein Modell und bietet keine Modellauswahl. Wenn du Modelle selbst wählen willst, ist Ask AI genau dafür gebaut."],
             ["Welche dieser Apps sammeln Daten, um dich zu tracken?",
-             "Laut ihren App-Store-Datenschutzangaben nennen alle sechs „Daten, die zum Tracking verwendet werden“. ChatOn, Genie und Ask AI nennen außerdem „Mit dir verknüpfte Daten“. Brainy nennt „Daten, die zum Tracking verwendet werden“ und „Nicht mit dir verknüpfte Daten“."],
+             "Laut ihren App-Store-Datenschutzangaben nennen alle sechs „Daten, die zum Tracking verwendet werden“. ChatOn, Genie, Ask AI und Brainy nennen außerdem „Mit dir verknüpfte Daten“ (bei Brainy: Käufe und Kennungen). Nova und Chat AI - Ask Anything nennen „Daten, die zum Tracking verwendet werden“ und „Nicht mit dir verknüpfte Daten“."],
         ],
         "sources": ["Brainy (App Store)", "ChatOn AI (App Store)", "Genie (App Store)", "Nova (App Store)", "Chat AI - Ask Anything (App Store)", "Ask AI (App Store)"],
         "apps": {
