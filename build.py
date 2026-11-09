@@ -20,6 +20,8 @@ import pathlib
 import sys
 import urllib.request
 
+import i18n
+
 ROOT = pathlib.Path(__file__).parent
 SITE = "https://reditor.cloud"
 NAME = "Reditor"
@@ -56,6 +58,51 @@ T = {
         "ratings": "valoraciones", "store_page": "Ficha en el App Store",
     },
 }
+
+# One table for every language of the site. en and es keep their strings in T above and their home/about below;
+# every other language has a data module tr_<code>.py (UI strings, home, about, section names and the translated
+# texts of each page) that i18n.py merges with the English page. `cc` is the App Store country used for prices.
+M_EN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+M_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+LANGS = {
+    "en": dict(prefix="", html="en", dir="ltr", name="English", cc="us", months=M_EN, datefmt="{d} {M} {y}", about="about"),
+    "es": dict(prefix="es/", html="es", dir="ltr", name="Español", cc="es", months=M_ES, datefmt="{d} de {M} de {y}", about="acerca"),
+    "ru": dict(prefix="ru/", html="ru", dir="ltr", name="Русский", cc="ru", datefmt="{d} {M} {y} г.", about="o-proekte",
+               months=["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"]),
+    "de": dict(prefix="de/", html="de", dir="ltr", name="Deutsch", cc="de", datefmt="{d}. {M} {y}", about="ueber-uns",
+               months=["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]),
+    "ja": dict(prefix="ja/", html="ja", dir="ltr", name="日本語", cc="jp", datefmt="{y}年{m}月{d}日", about="about",
+               months=[str(i) for i in range(1, 13)]),
+    "pt-BR": dict(prefix="pt-br/", html="pt-BR", dir="ltr", name="Português (Brasil)", cc="br", datefmt="{d} de {M} de {y}", about="sobre",
+                  months=["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]),
+    "fr": dict(prefix="fr/", html="fr", dir="ltr", name="Français", cc="fr", datefmt="{d} {M} {y}", about="a-propos",
+               months=["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]),
+    "ar": dict(prefix="ar/", html="ar", dir="rtl", name="العربية", cc="sa", datefmt="{d} {M} {y}", about="about",
+               months=["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"]),
+    "zh-Hans": dict(prefix="zh-hans/", html="zh-Hans", dir="ltr", name="简体中文", cc="cn", datefmt="{y}年{m}月{d}日", about="about", months=[str(i) for i in range(1, 13)]),
+    "zh-Hant": dict(prefix="zh-hant/", html="zh-Hant", dir="ltr", name="繁體中文", cc="tw", datefmt="{y}年{m}月{d}日", about="about", months=[str(i) for i in range(1, 13)]),
+    "th": dict(prefix="th/", html="th", dir="ltr", name="ไทย", cc="th", datefmt="{d} {M} {y}", about="about",
+               months=["มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"]),
+    "tr": dict(prefix="tr/", html="tr", dir="ltr", name="Türkçe", cc="tr", datefmt="{d} {M} {y}", about="hakkinda",
+               months=["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]),
+    "it": dict(prefix="it/", html="it", dir="ltr", name="Italiano", cc="it", datefmt="{d} {M} {y}", about="chi-siamo",
+               months=["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]),
+    "ko": dict(prefix="ko/", html="ko", dir="ltr", name="한국어", cc="kr", datefmt="{y}년 {m}월 {d}일", about="about", months=[str(i) for i in range(1, 13)]),
+}
+TR_MODULES = {}  # lang -> imported tr_<code> module, filled in main() for languages that have one
+
+
+def pre(lang):
+    return LANGS[lang]["prefix"]
+
+
+def about_path(lang):
+    return f"{pre(lang)}{LANGS[lang]['about']}/"
+
+
+def active_langs():
+    have = {p["lang"] for p in ALL_PAGES}
+    return [l for l in LANGS if l in have]
 
 
 # Home page sections: every ranking group must be in one of them (build fails otherwise).
@@ -130,7 +177,7 @@ EVERGREEN = ["image-to-video", "dance-video", "ugc-ads", "no-watermark", "google
 
 
 def hero_img(p, first, sizes="(max-width: 820px) 100vw, 780px"):
-    if p["group"] not in HERO or p["path"] in VISITED:
+    if p["group"] not in HERO or p["path"] in VISITED or p["lang"] not in ("en", "es"):
         return ""
     _, en, es = HERO[p["group"]]
     f = HERO_FILE[p["group"]]
@@ -229,13 +276,8 @@ def lastmod(url, updated):
 
 def human_date(iso, lang):
     y, m, d = iso.split("-")
-    months_en = ["January", "February", "March", "April", "May", "June", "July",
-                 "August", "September", "October", "November", "December"]
-    months_es = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
-                 "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-    if lang == "es":
-        return f"{int(d)} de {months_es[int(m) - 1]} de {y}"
-    return f"{int(d)} {months_en[int(m) - 1]} {y}"
+    L = LANGS[lang]
+    return L["datefmt"].format(d=int(d), m=int(m), y=y, M=L["months"][int(m) - 1])
 
 
 def head(p, alternates, extra_ld):
@@ -248,7 +290,7 @@ def head(p, alternates, extra_ld):
         for ld in extra_ld
     )
     return f"""<!doctype html>
-<html lang="{p['lang']}">
+<html lang="{LANGS[p['lang']]['html']}"{' dir="rtl"' if LANGS[p['lang']]['dir'] == 'rtl' else ''}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -268,17 +310,18 @@ def head(p, alternates, extra_ld):
 {lds}
 </head>
 <body>
-<header class="top"><a class="brand" href="/{'es/' if p['lang'] == 'es' else ''}">{NAME}</a>
-<nav><a href="/{'es/' if p['lang'] == 'es' else ''}">{t['home']}</a> · <a href="/{'es/acerca/' if p['lang'] == 'es' else 'about/'}">{t['about']}</a></nav></header>
+<header class="top"><a class="brand" href="/{pre(p['lang'])}">{NAME}</a>
+<nav><a href="/{pre(p['lang'])}">{t['home']}</a> · <a href="/{about_path(p['lang'])}">{t['about']}</a></nav></header>
 <main>
 """
 
 
 def foot(lang):
     t = T[lang]
+    switcher = " · ".join(f'<a href="/{pre(l)}">{LANGS[l]["name"]}</a>' for l in active_langs())
     return f"""</main>
 <footer><p>{esc(t['footer'])}</p>
-<p><a href="/">English</a> · <a href="/es/">Español</a> · <a href="/{'es/acerca/' if lang == 'es' else 'about/'}">{t['about']}</a> · <a href="/llms.txt">llms.txt</a></p></footer>
+<p>{switcher} · <a href="/{about_path(lang)}">{t['about']}</a> · <a href="/llms.txt">llms.txt</a></p></footer>
 </body>
 </html>
 """
@@ -328,13 +371,13 @@ def ranking_html(p, alternates):
     crumbs = {
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": NAME, "item": f"{SITE}/{'es/' if lang == 'es' else ''}"},
+            {"@type": "ListItem", "position": 1, "name": NAME, "item": f"{SITE}/{pre(lang)}"},
             {"@type": "ListItem", "position": 2, "name": p["h1"], "item": page_url(p)},
         ],
     }
 
     out = [head(p, alternates, [article, item_list, faq, crumbs])]
-    out.append(f'<article>\n<p class="meta crumbs"><a href="/{"es/" if lang == "es" else ""}">{NAME}</a> › {esc(section_name(p))}</p>\n<h1>{esc(p["h1"])}</h1>\n')
+    out.append(f'<article>\n<p class="meta crumbs"><a href="/{pre(lang)}">{NAME}</a> › {esc(section_name(p))}</p>\n<h1>{esc(p["h1"])}</h1>\n')
     out.append(f'<p class="meta">{t["updated"]} <time datetime="{p["updated"]}">{upd}</time> · {p.get("checked_label", t["checked"])} {chk}</p>\n')
     img = hero_img(p, True)
     if img:
@@ -403,12 +446,12 @@ def news_html(p, alternates):
     crumbs = {
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": NAME, "item": f"{SITE}/{'es/' if lang == 'es' else ''}"},
+            {"@type": "ListItem", "position": 1, "name": NAME, "item": f"{SITE}/{pre(lang)}"},
             {"@type": "ListItem", "position": 2, "name": p["h1"], "item": page_url(p)},
         ],
     }
     out = [head(p, alternates, [article, faq, crumbs])]
-    out.append(f'<article>\n<p class="meta crumbs"><a href="/{"es/" if lang == "es" else ""}">{NAME}</a> › {esc(p["kicker"])}</p>\n<h1>{esc(p["h1"])}</h1>\n')
+    out.append(f'<article>\n<p class="meta crumbs"><a href="/{pre(lang)}">{NAME}</a> › {esc(p["kicker"])}</p>\n<h1>{esc(p["h1"])}</h1>\n')
     out.append(f'<p class="meta"><time datetime="{p["published"]}">{upd}</time> · {esc(p["stand"])}</p>\n')
     out.append("".join(f"<p>{fill(x)}</p>\n" for x in p["answer"]))
     for sid, h, body in p["sections"]:
@@ -440,9 +483,15 @@ def section_of(group):
     return next(s for s, g in HOME_GROUPS.items() if group in g)
 
 
+def sec_name(sec, lang):
+    if lang in ("en", "es"):
+        return next(n[lang] for s, n in HOME_SECTIONS if s == sec)
+    return TR_MODULES[lang].SECTIONS[sec]
+
+
 def section_name(p):
     sec = section_of(p["group"])
-    return next(n[p["lang"]] for s, n in HOME_SECTIONS if s == sec)
+    return sec_name(sec, p["lang"])
 
 
 def related_html(p, limit=5):
@@ -454,7 +503,7 @@ def related_html(p, limit=5):
     picks = (named + [q for q in rest if section_of(q["group"]) == sec] + [q for q in rest if section_of(q["group"]) != sec])[:limit]
     if not picks:
         return ""
-    h = "Related comparisons" if p["lang"] == "en" else "Comparativas relacionadas"
+    h = T[p["lang"]].get("related") or ("Related comparisons" if p["lang"] == "en" else "Comparativas relacionadas")
     return f'<h2 id="related">{h}</h2>\n<ul class="list">' + "".join(
         f'<li><a href="/{q["path"]}">{esc(q["h1"])}</a></li>' for q in picks) + "</ul>\n"
 
@@ -481,6 +530,19 @@ def main():
     pages = []
     for mod in PAGE_MODULES:
         pages += importlib.import_module(f"pages.{mod}").PAGES
+    for lang in LANGS:
+        if lang in ("en", "es"):
+            continue
+        try:
+            TR_MODULES[lang] = importlib.import_module("tr_" + lang.lower().replace("-", "_"))
+        except ModuleNotFoundError:
+            continue
+        T[lang] = TR_MODULES[lang].UI
+        base = {q["group"]: q for q in pages if q["lang"] == "en"}
+        for group, text in TR_MODULES[lang].TEXT.items():
+            pg = i18n.localize(base[group], lang, LANGS[lang], text, TR_MODULES[lang].UI, human_date)
+            if pg:
+                pages.append(pg)
     ALL_PAGES[:] = pages
     # Enlaces internos entre temas vecinos, sobre todo hacia las páginas nuevas (3 nov 2026)
     for q in pages:
@@ -497,9 +559,13 @@ def main():
         write(p["path"], (news_html if p.get("kind") == "news" else ranking_html)(p, alts))
 
     # Home pages
-    for lang, path in (("en", ""), ("es", "es/")):
+    for lang in active_langs():
+        path = pre(lang)
         own = [p for p in pages if p["lang"] == lang]
-        if lang == "en":
+        home_alts = [(l, f"{SITE}/{pre(l)}") for l in active_langs()] + [("x-default", f"{SITE}/")]
+        if lang not in ("en", "es"):
+            title, desc, intro = TR_MODULES[lang].HOME["title"], TR_MODULES[lang].HOME["desc"], TR_MODULES[lang].HOME["intro"]
+        elif lang == "en":
             title = "Best alternatives to popular iPhone apps (2026): Reditor"
             desc = "Best alternatives to Sora, ChatOn, Viggle AI, Private LLM, Ollama and more on iPhone and Mac, with prices and privacy labels checked on the App Store."
             intro = ("<h1>Alternatives to iPhone apps, checked on the App Store</h1>"
@@ -523,14 +589,14 @@ def main():
                     f'<span class="meta">{T[lang]["updated"]} {human_date(q["updated"], lang)}</span></span></a>')
         order = sorted(own, key=lambda q: EVERGREEN.index(q["group"]) if q["group"] in EVERGREEN else 99)
         top, rest = order[:5], order[5:]
-        top_h = "Start here" if lang == "en" else "Para empezar"
+        top_h = {"en": "Start here", "es": "Para empezar"}.get(lang) or T[lang]["start"]
         sections = (f'<section class="lead" aria-label="{top_h}">' + card(top[0], "big", True, "(max-width: 900px) 100vw, 760px")
                     + '<div class="side">' + "".join(card(q, "small") for q in top[1:]) + "</div></section>")
         shown = [(s, n) for s, n in HOME_SECTIONS if any(q["group"] in HOME_GROUPS[s] for q in rest)]
-        sections += '<div class="chips">' + "".join(f'<a href="#{s}">{esc(n[lang])}</a>' for s, n in shown) + "</div>"
+        sections += '<div class="chips">' + "".join(f'<a href="#{s}">{esc(sec_name(s, lang))}</a>' for s, n in shown) + "</div>"
         for sec_id, names in shown:
             group_pages = [q for q in rest if q["group"] in HOME_GROUPS[sec_id]]
-            sections += f'<h2 id="{sec_id}">{esc(names[lang])}</h2><div class="cards">' + "".join(card(q, "") for q in group_pages) + "</div>"
+            sections += f'<h2 id="{sec_id}">{esc(sec_name(sec_id, lang))}</h2><div class="cards">' + "".join(card(q, "") for q in group_pages) + "</div>"
         intro = '<div class="home">' + intro
         sections += "</div>"
         missing = [p["path"] for p in own if not any(p["group"] in g for g in HOME_GROUPS.values())]
@@ -543,7 +609,7 @@ def main():
                  {"@type": "ListItem", "position": i + 1, "url": page_url(q), "name": q["h1"]} for i, q in enumerate(own)]}},
         ]
         write(path, simple_page(lang, path, title, desc, intro + sections,
-                                [("en", f"{SITE}/"), ("es", f"{SITE}/es/"), ("x-default", f"{SITE}/")], home_ld))
+                                home_alts, home_ld))
 
     about_en = """<h1>About Reditor and how we check</h1>
 <p>Reditor is run by <a href="https://aisagalab.com/">Saga Labs</a>, a small studio that makes iPhone apps (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Ask AI and Brainy). Contact: sagalabs@proton.me.</p>
@@ -567,15 +633,21 @@ def main():
 <h2>Actualizaciones</h2>
 <p>Revisamos cada página más o menos una vez al mes. La fecha de "Actualizado" solo cambia cuando de verdad se han vuelto a comprobar los datos.</p>
 """
-    about_alts = [("en", f"{SITE}/about/"), ("es", f"{SITE}/es/acerca/")]
+    about_alts = [(l, f"{SITE}/{about_path(l)}") for l in active_langs()] + [("x-default", f"{SITE}/about/")]
     write("about/", simple_page("en", "about/", "About Reditor and how we check apps",
                                 "Who runs Reditor, how apps are checked and how our own apps are disclosed.", about_en, about_alts))
     write("es/acerca/", simple_page("es", "es/acerca/", "Quiénes somos y cómo comprobamos las apps",
                                     "Quién hace Reditor, cómo comprobamos las apps y cómo avisamos de las nuestras.", about_es, about_alts))
+    for lang, mod in TR_MODULES.items():
+        if lang in active_langs():
+            write(about_path(lang), simple_page(lang, about_path(lang), mod.ABOUT["title"], mod.ABOUT["desc"], mod.ABOUT["html"], about_alts))
 
     # sitemap
-    urls = [(f"{SITE}/", max(p["updated"] for p in pages)), (f"{SITE}/es/", max(p["updated"] for p in pages)),
-            (f"{SITE}/about/", None), (f"{SITE}/es/acerca/", None)]
+    old = [p["updated"] for p in pages if p["lang"] in ("en", "es")]
+    urls = [(f"{SITE}/", max(old)), (f"{SITE}/es/", max(old)), (f"{SITE}/about/", None), (f"{SITE}/es/acerca/", None)]
+    for l in active_langs():
+        if l not in ("en", "es"):
+            urls += [(f"{SITE}/{pre(l)}", max(p["updated"] for p in pages if p["lang"] == l)), (f"{SITE}/{about_path(l)}", None)]
     urls += [(page_url(p), p["updated"]) for p in pages]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -591,7 +663,7 @@ def main():
              "## Alternatives", ""]
     for p in pages:
         ours = next((a for a in p["apps"] if a.get("ours")), None)
-        tail = f" Our app on this page: {ours['name']}." if ours else (" " + p["llms_note"] if p.get("llms_note") else "")
+        tail = "" if p["lang"] not in ("en", "es") else f" Our app on this page: {ours['name']}." if ours else (" " + p["llms_note"] if p.get("llms_note") else "")
         lines.append(f"- [{p['h1']}]({page_url(p)}) ({p['lang']}, updated {p['updated']}): {p['llms']}{tail}")
     lines += ["", "## Apps on this site made by Saga Labs (everything else listed is not ours)", ""]
     for nm, aid, what in OUR_LLMS:

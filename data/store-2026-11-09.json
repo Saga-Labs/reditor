@@ -1,0 +1,6248 @@
+{
+"dora|ru": {
+"avail": true,
+"rating": 0,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"599,00 ₽"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"9 990,00 ₽"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"19 990,00 ₽"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"12 990,00 ₽"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"5 990,00 ₽"
+],
+[
+"AI Video Generator Pro Weekly",
+"599,00 ₽"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"1 290,00 ₽"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"1 990,00 ₽"
+],
+[
+"AI Video Generator Pro Yearly",
+"9 990,00 ₽"
+],
+[
+"300 Coins: AI Video & Photo",
+"449,00 ₽"
+]
+],
+"pmin": "449,00 ₽",
+"pmax": "19 990,00 ₽"
+},
+"dora|de": {
+"avail": true,
+"rating": 0,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"129,99 €"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"249,99 €"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"149,99 €"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"79,99 €"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"17,99 €"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"24,99 €"
+],
+[
+"AI Video Generator Pro Yearly",
+"129,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "249,99 €"
+},
+"dora|jp": {
+"avail": true,
+"rating": 4.75,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI動画生成 Pro 週額プラン",
+"¥1,100"
+],
+[
+"1,000コイン AI動画・写真",
+"¥2,500"
+],
+[
+"AI動画生成 Pro 週額プラン",
+"¥1,100"
+],
+[
+"AI動画 Pro 年額・1週間無料",
+"¥20,000"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"¥35,000"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"¥22,000"
+],
+[
+"5,000コイン AI動画・写真",
+"¥12,000"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"¥4,000"
+],
+[
+"AI動画生成 Pro 年額プラン",
+"¥20,000"
+],
+[
+"300コイン AI動画・写真",
+"¥800"
+]
+],
+"pmin": "¥800",
+"pmax": "¥35,000"
+},
+"dora|br": {
+"avail": true,
+"rating": 5,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"R$ 19,90"
+],
+[
+"AI Video Generator Pro Weekly",
+"R$ 49,90"
+],
+[
+"AI Video Generator Pro Weekly",
+"R$ 16,90"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"R$ 799,90"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"R$ 1.499,90"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"R$ 999,90"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"R$ 499,90"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"R$ 99,90"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"R$ 149,90"
+],
+[
+"AI Video Generator Pro Yearly",
+"R$ 799,90"
+]
+],
+"pmin": "R$ 16,90",
+"pmax": "R$ 1.499,90"
+},
+"dora|fr": {
+"avail": true,
+"rating": 5,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"129,99 €"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"249,99 €"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"149,99 €"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"79,99 €"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"17,99 €"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"24,99 €"
+],
+[
+"AI Video Generator Pro Yearly",
+"129,99 €"
+],
+[
+"300 Coins: AI Video & Photo",
+"5,99 €"
+]
+],
+"pmin": "5,99 €",
+"pmax": "249,99 €"
+},
+"dora|sa": {
+"avail": true,
+"rating": 5,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"SAR 19.99"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"SAR 499.99"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"SAR 999.99"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"SAR 599.99"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"SAR 299.99"
+],
+[
+"AI Video Generator Pro Weekly",
+"SAR 29.99"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"SAR 59.99"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"SAR 99.99"
+],
+[
+"AI Video Generator Pro Yearly",
+"SAR 499.99"
+],
+[
+"300 Coins: AI Video & Photo",
+"SAR 19.99"
+]
+],
+"pmin": "SAR 19.99",
+"pmax": "SAR 999.99"
+},
+"dora|cn": {
+"avail": false
+},
+"dora|tw": {
+"avail": true,
+"rating": 5,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"$220.00"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"$3,990.00"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"$6,990.00"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"$4,990.00"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"$2,490.00"
+],
+[
+"AI Video Generator Pro Weekly",
+"$220.00"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"$490.00"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"$790.00"
+],
+[
+"AI Video Generator Pro Yearly",
+"$3,990.00"
+],
+[
+"300 Coins: AI Video & Photo",
+"$150.00"
+]
+],
+"pmin": "$150.00",
+"pmax": "$6,990.00"
+},
+"dora|th": {
+"avail": true,
+"rating": 5,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"฿249.00"
+],
+[
+"AI Video Generator Pro Weekly",
+"฿249.00"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"฿3,990.00"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"฿7,990.00"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"฿4,990.00"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"฿2,490.00"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"฿499.00"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"฿899.00"
+],
+[
+"AI Video Generator Pro Yearly",
+"฿3,990.00"
+],
+[
+"300 Coins: AI Video & Photo",
+"฿199.00"
+]
+],
+"pmin": "฿199.00",
+"pmax": "฿7,990.00"
+},
+"dora|tr": {
+"avail": true,
+"rating": 0,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"₺399,99"
+],
+[
+"AI Video Generator Pro Weekly",
+"₺249,99"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"₺5.999,99"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"₺11.999,99"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"₺7.999,99"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"₺3.999,99"
+],
+[
+"AI Video Generator Pro Weekly",
+"₺399,99"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"₺799,99"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"₺1.299,99"
+],
+[
+"AI Video Generator Pro Yearly",
+"₺5.999,99"
+]
+],
+"pmin": "₺249,99",
+"pmax": "₺11.999,99"
+},
+"dora|it": {
+"avail": true,
+"rating": 5,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Generator Pro Weekly",
+"7,99 €"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"129,99 €"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"249,99 €"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"149,99 €"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"79,99 €"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"17,99 €"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"24,99 €"
+],
+[
+"AI Video Generator Pro Yearly",
+"129,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "249,99 €"
+},
+"dora|kr": {
+"avail": true,
+"rating": 4,
+"version": "1.4.2",
+"date": "2026-10-26",
+"iap": [
+[
+"AI Video Generator Pro Weekly",
+"￦9,900"
+],
+[
+"AI Video Pro Yearly, Week Free",
+"￦199,000"
+],
+[
+"Dora AI Video 25000 Coins Pack",
+"￦349,000"
+],
+[
+"Dora AI Video 10000 Coins Pack",
+"￦229,000"
+],
+[
+"5,000 Coins: AI Video & Photo",
+"￦110,000"
+],
+[
+"AI Video Generator Pro Weekly",
+"￦9,900"
+],
+[
+"1,000 Coins: AI Video & Photo",
+"￦25,000"
+],
+[
+"Dora AI Video 2000 Coins Pack",
+"￦39,000"
+],
+[
+"AI Video Generator Pro Yearly",
+"￦199,000"
+],
+[
+"300 Coins: AI Video & Photo",
+"￦7,700"
+]
+],
+"pmin": "￦7,700",
+"pmax": "￦349,000"
+},
+"kling|ru": {
+"avail": true,
+"rating": 4.71898,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"330 Credits",
+"449,00 ₽"
+],
+[
+"Standard Membership-one week",
+"99,00 ₽"
+],
+[
+"Standard plan (monthly)",
+"899,00 ₽"
+],
+[
+"660 Credits",
+"899,00 ₽"
+],
+[
+"Standard Membership - one week",
+"149,00 ₽"
+],
+[
+"1320 Credits",
+"1 790,00 ₽"
+],
+[
+"Pro plan (monthly)",
+"2 990,00 ₽"
+],
+[
+"3300 Credits",
+"4 490,00 ₽"
+],
+[
+"Premier plan (monthly)",
+"7 990,00 ₽"
+],
+[
+"100 Credits",
+"149,00 ₽"
+]
+],
+"pmin": "99,00 ₽",
+"pmax": "7 990,00 ₽"
+},
+"kling|de": {
+"avail": true,
+"rating": 4.56477,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"Standard plan (monthly)",
+"10,00 €"
+],
+[
+"330 Credits",
+"6,00 €"
+],
+[
+"660 Credits",
+"10,00 €"
+],
+[
+"Standard Membership-one week",
+"0,99 €"
+],
+[
+"1320 Credits",
+"22,00 €"
+],
+[
+"Pro plan (monthly)",
+"39,00 €"
+],
+[
+"Standard Membership - one week",
+"1,99 €"
+],
+[
+"6600 Credits",
+"100,00 €"
+],
+[
+"3300 Credits",
+"60,00 €"
+],
+[
+"Premier plan (monthly)",
+"99,00 €"
+]
+],
+"pmin": "0,99 €",
+"pmax": "100,00 €"
+},
+"kling|jp": {
+"avail": true,
+"rating": 4.53702,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"330 Credits",
+"¥800"
+],
+[
+"Standard plan (monthly)",
+"¥1,500"
+],
+[
+"660 Credits",
+"¥1,500"
+],
+[
+"1320 Credits",
+"¥3,000"
+],
+[
+"Standard Membership-one week",
+"¥200"
+],
+[
+"Pro plan (monthly)",
+"¥6,000"
+],
+[
+"Standard Membership - one week",
+"¥200"
+],
+[
+"3300 Credits",
+"¥8,000"
+],
+[
+"6600 Credits",
+"¥15,000"
+],
+[
+"Premier plan (monthly)",
+"¥15,000"
+]
+],
+"pmin": "¥200",
+"pmax": "¥15,000"
+},
+"kling|br": {
+"avail": true,
+"rating": 4.79706,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"330 Credits",
+"R$ 29,90"
+],
+[
+"Standard Membership-one week",
+"R$ 7,90"
+],
+[
+"Standard Membership - one week",
+"R$ 9,90"
+],
+[
+"Standard plan (monthly)",
+"R$ 49,90"
+],
+[
+"660 Credits",
+"R$ 59,90"
+],
+[
+"1320 Credits",
+"R$ 129,90"
+],
+[
+"Pro plan (monthly)",
+"R$ 199,90"
+],
+[
+"3300 Credits",
+"R$ 299,90"
+],
+[
+"Premier plan (monthly)",
+"R$ 499,90"
+],
+[
+"6600 Credits",
+"R$ 599,90"
+]
+],
+"pmin": "R$ 7,90",
+"pmax": "R$ 599,90"
+},
+"kling|fr": {
+"avail": true,
+"rating": 4.62345,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"Standard plan (monthly)",
+"10,00 €"
+],
+[
+"330 Credits",
+"6,00 €"
+],
+[
+"660 Credits",
+"10,00 €"
+],
+[
+"Standard Membership-one week",
+"0,99 €"
+],
+[
+"1320 Credits",
+"22,00 €"
+],
+[
+"Pro plan (monthly)",
+"39,00 €"
+],
+[
+"Standard Membership - one week",
+"1,99 €"
+],
+[
+"3300 Credits",
+"60,00 €"
+],
+[
+"Premier plan (monthly)",
+"99,00 €"
+],
+[
+"6600 Credits",
+"100,00 €"
+]
+],
+"pmin": "0,99 €",
+"pmax": "100,00 €"
+},
+"kling|sa": {
+"avail": true,
+"rating": 4.33119,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"Standard Membership - one week",
+"SAR 4.99"
+],
+[
+"330 Credits",
+"SAR 19.99"
+],
+[
+"Standard Membership-one week",
+"SAR 4.99"
+],
+[
+"Standard plan (monthly)",
+"SAR 39.99"
+],
+[
+"660 Credits",
+"SAR 39.99"
+],
+[
+"1320 Credits",
+"SAR 89.99"
+],
+[
+"Pro plan (monthly)",
+"SAR 149.99"
+],
+[
+"100 Credits",
+"SAR 4.99"
+],
+[
+"3300 Credits",
+"SAR 199.99"
+],
+[
+"Premier plan (monthly)",
+"SAR 399.99"
+]
+],
+"pmin": "SAR 4.99",
+"pmax": "SAR 399.99"
+},
+"kling|cn": {
+"avail": false
+},
+"kling|tw": {
+"avail": true,
+"rating": 4.7674,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"330 Credits",
+"$150.00"
+],
+[
+"Standard plan (monthly)",
+"$320.00"
+],
+[
+"660 Credits",
+"$320.00"
+],
+[
+"Standard Membership-one week",
+"$30.00"
+],
+[
+"1320 Credits",
+"$690.00"
+],
+[
+"Pro plan (monthly)",
+"$1,190.00"
+],
+[
+"3300 Credits",
+"$1,490.00"
+],
+[
+"Standard Membership - one week",
+"$50.00"
+],
+[
+"Premier plan (monthly)",
+"$2,990.00"
+],
+[
+"6600 Credits",
+"$2,990.00"
+]
+],
+"pmin": "$30.00",
+"pmax": "$2,990.00"
+},
+"kling|th": {
+"avail": true,
+"rating": 4.81532,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"330 Credits",
+"฿199.00"
+],
+[
+"Standard Membership - one week",
+"฿49.00"
+],
+[
+"Standard Membership-one week",
+"฿49.00"
+],
+[
+"Standard plan (monthly)",
+"฿399.00"
+],
+[
+"660 Credits",
+"฿399.00"
+],
+[
+"1320 Credits",
+"฿699.00"
+],
+[
+"Pro plan (monthly)",
+"฿1,290.00"
+],
+[
+"3300 Credits",
+"฿1,990.00"
+],
+[
+"Premier plan (monthly)",
+"฿3,490.00"
+],
+[
+"100 Credits",
+"฿49.00"
+]
+],
+"pmin": "฿49.00",
+"pmax": "฿3,490.00"
+},
+"kling|tr": {
+"avail": true,
+"rating": 4.51762,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"330 Credits",
+"₺249,99"
+],
+[
+"Standard Membership - one week",
+"₺79,99"
+],
+[
+"Standard plan (monthly)",
+"₺449,99"
+],
+[
+"Standard Membership-one week",
+"₺59,99"
+],
+[
+"660 Credits",
+"₺499,99"
+],
+[
+"Pro plan (monthly)",
+"₺1.499,99"
+],
+[
+"1320 Credits",
+"₺999,99"
+],
+[
+"3300 Credits",
+"₺2.499,99"
+],
+[
+"Premier plan (monthly)",
+"₺3.999,99"
+],
+[
+"13200 Credits",
+"₺9.999,99"
+]
+],
+"pmin": "₺59,99",
+"pmax": "₺9.999,99"
+},
+"kling|it": {
+"avail": true,
+"rating": 4.58887,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"Standard plan (monthly)",
+"10,00 €"
+],
+[
+"330 Credits",
+"6,00 €"
+],
+[
+"660 Credits",
+"10,00 €"
+],
+[
+"Standard Membership-one week",
+"0,99 €"
+],
+[
+"1320 Credits",
+"22,00 €"
+],
+[
+"Pro plan (monthly)",
+"39,00 €"
+],
+[
+"Standard Membership - one week",
+"1,99 €"
+],
+[
+"3300 Credits",
+"60,00 €"
+],
+[
+"6600 Credits",
+"100,00 €"
+],
+[
+"Premier plan (monthly)",
+"99,00 €"
+]
+],
+"pmin": "0,99 €",
+"pmax": "100,00 €"
+},
+"kling|kr": {
+"avail": true,
+"rating": 4.68545,
+"version": "3.10.10",
+"date": "2026-11-04",
+"iap": [
+[
+"330 Credits",
+"￦7,700"
+],
+[
+"Standard plan (monthly)",
+"￦14,000"
+],
+[
+"Standard Membership-one week",
+"￦2,200"
+],
+[
+"660 Credits",
+"￦17,000"
+],
+[
+"Pro plan (monthly)",
+"￦55,000"
+],
+[
+"1320 Credits",
+"￦33,000"
+],
+[
+"Standard Membership - one week",
+"￦2,200"
+],
+[
+"3300 Credits",
+"￦77,000"
+],
+[
+"Premier plan (monthly)",
+"￦129,000"
+],
+[
+"6600 Credits",
+"￦149,000"
+]
+],
+"pmin": "￦2,200",
+"pmax": "￦149,000"
+},
+"runway|ru": {
+"avail": true,
+"rating": 4.40041,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"1 290,00 ₽"
+],
+[
+"1000 Generation Credits",
+"899,00 ₽"
+],
+[
+"Pro - Monthly",
+"2 990,00 ₽"
+],
+[
+"Unlimited - Monthly",
+"7 990,00 ₽"
+],
+[
+"2000 Generation  Credits",
+"1 790,00 ₽"
+],
+[
+"1500 Generation Credits",
+"1 290,00 ₽"
+],
+[
+"3000 Generation  Credits",
+"2 490,00 ₽"
+],
+[
+"Max - Monthly",
+"7 990,00 ₽"
+],
+[
+"5000 Generation  Credits",
+"4 490,00 ₽"
+],
+[
+"Standard - Yearly",
+"12 990,00 ₽"
+]
+],
+"pmin": "899,00 ₽",
+"pmax": "12 990,00 ₽"
+},
+"runway|de": {
+"avail": true,
+"rating": 4.16442,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"17,99 €"
+],
+[
+"1000 Generation Credits",
+"10,00 €"
+],
+[
+"2000 Generation  Credits",
+"22,00 €"
+],
+[
+"Pro - Monthly",
+"39,00 €"
+],
+[
+"3000 Generation  Credits",
+"35,00 €"
+],
+[
+"4000 Credits",
+"45,00 €"
+],
+[
+"Standard - Yearly",
+"149,99 €"
+],
+[
+"10000 Generation Credits",
+"100,00 €"
+],
+[
+"Max - Monthly",
+"99,00 €"
+],
+[
+"Unlimited - Monthly",
+"99,00 €"
+]
+],
+"pmin": "10,00 €",
+"pmax": "149,99 €"
+},
+"runway|jp": {
+"avail": true,
+"rating": 4.5083,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"¥2,500"
+],
+[
+"1000 Generation Credits",
+"¥1,500"
+],
+[
+"2000 Generation  Credits",
+"¥3,000"
+],
+[
+"Pro - Monthly",
+"¥5,000"
+],
+[
+"Unlimited - Monthly",
+"¥14,000"
+],
+[
+"Standard - Yearly",
+"¥22,000"
+],
+[
+"3000 Generation  Credits",
+"¥5,000"
+],
+[
+"4000 Credits",
+"¥6,000"
+],
+[
+"10000 Generation Credits",
+"¥15,000"
+],
+[
+"Max - Monthly",
+"¥15,000"
+]
+],
+"pmin": "¥1,500",
+"pmax": "¥22,000"
+},
+"runway|br": {
+"avail": true,
+"rating": 4.55068,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"R$ 99,90"
+],
+[
+"1000 Generation Credits",
+"R$ 59,90"
+],
+[
+"2000 Generation  Credits",
+"R$ 129,90"
+],
+[
+"Pro - Monthly",
+"R$ 199,90"
+],
+[
+"Standard - Yearly",
+"R$ 999,90"
+],
+[
+"4000 Credits",
+"R$ 249,90"
+],
+[
+"3000 Generation  Credits",
+"R$ 199,90"
+],
+[
+"10000 Generation Credits",
+"R$ 599,90"
+],
+[
+"Max - Monthly",
+"R$ 599,90"
+],
+[
+"1500 Generation Credits",
+"R$ 99,90"
+]
+],
+"pmin": "R$ 59,90",
+"pmax": "R$ 999,90"
+},
+"runway|fr": {
+"avail": true,
+"rating": 4.35198,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"17,99 €"
+],
+[
+"1000 Generation Credits",
+"10,00 €"
+],
+[
+"2000 Generation  Credits",
+"22,00 €"
+],
+[
+"Pro - Monthly",
+"39,00 €"
+],
+[
+"3000 Generation  Credits",
+"35,00 €"
+],
+[
+"4000 Credits",
+"45,00 €"
+],
+[
+"Standard - Yearly",
+"149,99 €"
+],
+[
+"10000 Generation Credits",
+"100,00 €"
+],
+[
+"Max - Monthly",
+"99,00 €"
+],
+[
+"Unlimited - Monthly",
+"99,00 €"
+]
+],
+"pmin": "10,00 €",
+"pmax": "149,99 €"
+},
+"runway|sa": {
+"avail": true,
+"rating": 4.26323,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"SAR 59.99"
+],
+[
+"1000 Generation Credits",
+"SAR 39.99"
+],
+[
+"2000 Generation  Credits",
+"SAR 89.99"
+],
+[
+"Pro - Monthly",
+"SAR 149.99"
+],
+[
+"4000 Credits",
+"SAR 179.99"
+],
+[
+"3000 Generation  Credits",
+"SAR 129.99"
+],
+[
+"Standard - Yearly",
+"SAR 599.99"
+],
+[
+"10000 Generation Credits",
+"SAR 399.99"
+],
+[
+"Max - Monthly",
+"SAR 399.99"
+],
+[
+"1500 Generation Credits",
+"SAR 59.99"
+]
+],
+"pmin": "SAR 39.99",
+"pmax": "SAR 599.99"
+},
+"runway|cn": {
+"avail": true,
+"rating": 4.69949,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"¥98.00"
+],
+[
+"1000 Generation Credits",
+"¥68.00"
+],
+[
+"Pro - Monthly",
+"¥228.00"
+],
+[
+"2000 Generation  Credits",
+"¥148.00"
+],
+[
+"Standard - Yearly",
+"¥998.00"
+],
+[
+"Unlimited - Monthly",
+"¥698.00"
+],
+[
+"1500 Generation Credits",
+"¥98.00"
+],
+[
+"3000 Generation  Credits",
+"¥198.00"
+],
+[
+"Max - Monthly",
+"¥698.00"
+],
+[
+"4000 Credits",
+"¥298.00"
+]
+],
+"pmin": "¥68.00",
+"pmax": "¥998.00"
+},
+"runway|tw": {
+"avail": true,
+"rating": 4.6627,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"$490.00"
+],
+[
+"1000 Generation Credits",
+"$320.00"
+],
+[
+"2000 Generation  Credits",
+"$690.00"
+],
+[
+"10000 Generation Credits",
+"$2,990.00"
+],
+[
+"4000 Credits",
+"$1,290.00"
+],
+[
+"Pro - Monthly",
+"$1,190.00"
+],
+[
+"Standard - Yearly",
+"$4,990.00"
+],
+[
+"3000 Generation  Credits",
+"$990.00"
+],
+[
+"Unlimited - Monthly",
+"$2,990.00"
+],
+[
+"7500 Credits",
+"$2,490.00"
+]
+],
+"pmin": "$320.00",
+"pmax": "$4,990.00"
+},
+"runway|th": {
+"avail": true,
+"rating": 4.72809,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"฿499.00"
+],
+[
+"1000 Generation Credits",
+"฿399.00"
+],
+[
+"2000 Generation  Credits",
+"฿699.00"
+],
+[
+"3000 Generation  Credits",
+"฿999.00"
+],
+[
+"Pro - Monthly",
+"฿1,290.00"
+],
+[
+"4000 Credits",
+"฿1,490.00"
+],
+[
+"Unlimited - Monthly",
+"฿3,490.00"
+],
+[
+"Standard - Yearly",
+"฿4,990.00"
+],
+[
+"1500 Generation Credits",
+"฿499.00"
+],
+[
+"Max - Monthly",
+"฿3,490.00"
+]
+],
+"pmin": "฿399.00",
+"pmax": "฿4,990.00"
+},
+"runway|tr": {
+"avail": true,
+"rating": 4.33502,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"₺799,99"
+],
+[
+"1000 Generation Credits",
+"₺499,99"
+],
+[
+"2000 Generation  Credits",
+"₺999,99"
+],
+[
+"Pro - Monthly",
+"₺1.999,99"
+],
+[
+"Unlimited - Monthly",
+"₺2.299,99"
+],
+[
+"4000 Credits",
+"₺1.999,99"
+],
+[
+"Standard - Yearly",
+"₺7.999,99"
+],
+[
+"10000 Generation Credits",
+"₺4.999,99"
+],
+[
+"3000 Generation  Credits",
+"₺1.499,99"
+],
+[
+"Max - Monthly",
+"₺4.999,99"
+]
+],
+"pmin": "₺499,99",
+"pmax": "₺7.999,99"
+},
+"runway|it": {
+"avail": true,
+"rating": 4.26206,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"17,99 €"
+],
+[
+"1000 Generation Credits",
+"10,00 €"
+],
+[
+"2000 Generation  Credits",
+"22,00 €"
+],
+[
+"Pro - Monthly",
+"39,00 €"
+],
+[
+"4000 Credits",
+"45,00 €"
+],
+[
+"Standard - Yearly",
+"149,99 €"
+],
+[
+"3000 Generation  Credits",
+"35,00 €"
+],
+[
+"1500 Generation Credits",
+"17,00 €"
+],
+[
+"Unlimited - Monthly",
+"99,00 €"
+],
+[
+"10000 Generation Credits",
+"100,00 €"
+]
+],
+"pmin": "10,00 €",
+"pmax": "149,99 €"
+},
+"runway|kr": {
+"avail": true,
+"rating": 4.55575,
+"version": "103.0.0",
+"date": "2026-11-01",
+"iap": [
+[
+"Standard - Monthly",
+"￦25,000"
+],
+[
+"1000 Generation Credits",
+"￦17,000"
+],
+[
+"2000 Generation  Credits",
+"￦33,000"
+],
+[
+"Pro - Monthly",
+"￦49,000"
+],
+[
+"3000 Generation  Credits",
+"￦49,000"
+],
+[
+"Standard - Yearly",
+"￦229,000"
+],
+[
+"Max - Monthly",
+"￦129,000"
+],
+[
+"Unlimited - Monthly",
+"￦129,000"
+],
+[
+"4000 Credits",
+"￦66,000"
+],
+[
+"1500 Generation Credits",
+"￦25,000"
+]
+],
+"pmin": "￦17,000",
+"pmax": "￦229,000"
+},
+"pixverse|ru": {
+"avail": true,
+"rating": 4.48495,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"499,00 ₽"
+],
+[
+"Credit Pack #1",
+"449,00 ₽"
+],
+[
+"Elite Plan (Yearly)",
+"4 490,00 ₽"
+],
+[
+"Credit Pack #2",
+"1 790,00 ₽"
+],
+[
+"Credit Pack #4",
+"8 990,00 ₽"
+],
+[
+"Credit Pack #3",
+"4 490,00 ₽"
+]
+],
+"pmin": "449,00 ₽",
+"pmax": "8 990,00 ₽"
+},
+"pixverse|de": {
+"avail": true,
+"rating": 4.18712,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"6,99 €"
+],
+[
+"Credit Pack #1",
+"6,00 €"
+],
+[
+"Credit Pack #2",
+"22,00 €"
+],
+[
+"Elite Plan (Yearly)",
+"59,99 €"
+],
+[
+"Credit Pack #4",
+"100,00 €"
+],
+[
+"Credit Pack #3",
+"60,00 €"
+]
+],
+"pmin": "6,00 €",
+"pmax": "100,00 €"
+},
+"pixverse|jp": {
+"avail": true,
+"rating": 4.24576,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"¥1,000"
+],
+[
+"Credit Pack #1",
+"¥800"
+],
+[
+"Credit Pack #2",
+"¥3,000"
+],
+[
+"Elite Plan (Yearly)",
+"¥8,000"
+],
+[
+"Credit Pack #3",
+"¥8,000"
+],
+[
+"Credit Pack #4",
+"¥15,000"
+]
+],
+"pmin": "¥800",
+"pmax": "¥15,000"
+},
+"pixverse|br": {
+"avail": true,
+"rating": 4.39506,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"R$ 39,90"
+],
+[
+"Credit Pack #1",
+"R$ 29,90"
+],
+[
+"Elite Plan (Yearly)",
+"R$ 299,90"
+],
+[
+"Credit Pack #2",
+"R$ 129,90"
+],
+[
+"Credit Pack #3",
+"R$ 299,90"
+],
+[
+"Credit Pack #4",
+"R$ 599,90"
+]
+],
+"pmin": "R$ 29,90",
+"pmax": "R$ 599,90"
+},
+"pixverse|fr": {
+"avail": true,
+"rating": 4.41322,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"6,99 €"
+],
+[
+"Credit Pack #1",
+"6,00 €"
+],
+[
+"Credit Pack #2",
+"22,00 €"
+],
+[
+"Elite Plan (Yearly)",
+"59,99 €"
+],
+[
+"Credit Pack #3",
+"60,00 €"
+],
+[
+"Credit Pack #4",
+"100,00 €"
+]
+],
+"pmin": "6,00 €",
+"pmax": "100,00 €"
+},
+"pixverse|sa": {
+"avail": true,
+"rating": 4.39252,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"SAR 24.99"
+],
+[
+"Credit Pack #1",
+"SAR 19.99"
+],
+[
+"Elite Plan (Yearly)",
+"SAR 199.99"
+],
+[
+"Credit Pack #2",
+"SAR 89.99"
+],
+[
+"Credit Pack #4",
+"SAR 399.99"
+],
+[
+"Credit Pack #3",
+"SAR 199.99"
+]
+],
+"pmin": "SAR 19.99",
+"pmax": "SAR 399.99"
+},
+"pixverse|cn": {
+"avail": false
+},
+"pixverse|tw": {
+"avail": true,
+"rating": 4.64898,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"$190.00"
+],
+[
+"Credit Pack #1",
+"$150.00"
+],
+[
+"Elite Plan (Yearly)",
+"$1,490.00"
+],
+[
+"Credit Pack #2",
+"$690.00"
+],
+[
+"Credit Pack #3",
+"$1,490.00"
+],
+[
+"Credit Pack #4",
+"$2,990.00"
+]
+],
+"pmin": "$150.00",
+"pmax": "$2,990.00"
+},
+"pixverse|th": {
+"avail": true,
+"rating": 4.61716,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"฿199.00"
+],
+[
+"Credit Pack #1",
+"฿199.00"
+],
+[
+"Credit Pack #2",
+"฿699.00"
+],
+[
+"Elite Plan (Yearly)",
+"฿1,990.00"
+],
+[
+"Credit Pack #4",
+"฿3,990.00"
+],
+[
+"Credit Pack #3",
+"฿1,990.00"
+]
+],
+"pmin": "฿199.00",
+"pmax": "฿3,990.00"
+},
+"pixverse|tr": {
+"avail": true,
+"rating": 3.92013,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"₺299,99"
+],
+[
+"Credit Pack #1",
+"₺249,99"
+],
+[
+"Elite Plan (Yearly)",
+"₺2.499,99"
+],
+[
+"Credit Pack #2",
+"₺999,99"
+],
+[
+"Credit Pack #3",
+"₺2.499,99"
+],
+[
+"Credit Pack #4",
+"₺4.999,99"
+]
+],
+"pmin": "₺249,99",
+"pmax": "₺4.999,99"
+},
+"pixverse|it": {
+"avail": true,
+"rating": 3.81166,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"6,99 €"
+],
+[
+"Credit Pack #1",
+"6,00 €"
+],
+[
+"Elite Plan (Yearly)",
+"59,99 €"
+],
+[
+"Credit Pack #2",
+"22,00 €"
+],
+[
+"Credit Pack #3",
+"60,00 €"
+],
+[
+"Credit Pack #4",
+"100,00 €"
+]
+],
+"pmin": "6,00 €",
+"pmax": "100,00 €"
+},
+"pixverse|kr": {
+"avail": true,
+"rating": 4.33645,
+"version": "0.8.1",
+"date": "2026-09-21",
+"iap": [
+[
+"Elite Plan (Weekly)",
+"￦9,900"
+],
+[
+"Credit Pack #1",
+"￦7,700"
+],
+[
+"Elite Plan (Yearly)",
+"￦77,000"
+],
+[
+"Credit Pack #2",
+"￦33,000"
+],
+[
+"Credit Pack #3",
+"￦77,000"
+],
+[
+"Credit Pack #4",
+"￦149,000"
+]
+],
+"pmin": "￦7,700",
+"pmax": "￦149,000"
+},
+"shots|ru": {
+"avail": true,
+"rating": 2,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"899,00 ₽"
+],
+[
+"Weekly Premium Intro",
+"899,00 ₽"
+],
+[
+"Quarter Coin Pack",
+"1 290,00 ₽"
+],
+[
+" Weekly Basic Premium",
+"599,00 ₽"
+],
+[
+"Yearly Premium",
+"3 490,00 ₽"
+],
+[
+"Half Coin Pack",
+"2 290,00 ₽"
+],
+[
+"Quarter Coin Pack",
+"1 290,00 ₽"
+],
+[
+"Starter Pack",
+"899,00 ₽"
+],
+[
+"Yearly Premium",
+"3 490,00 ₽"
+],
+[
+"Yearly Premium Plus",
+"6 990,00 ₽"
+]
+],
+"pmin": "599,00 ₽",
+"pmax": "6 990,00 ₽"
+},
+"shots|de": {
+"avail": true,
+"rating": 3.94206,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"9,99 €"
+],
+[
+"Weekly Premium Intro",
+"9,99 €"
+],
+[
+" Weekly Basic Premium",
+"7,99 €"
+],
+[
+"Quarter Coin Pack",
+"17,99 €"
+],
+[
+"Starter Pack",
+"9,99 €"
+],
+[
+"Yearly Premium",
+"44,99 €"
+],
+[
+"Weekly Gold Premium",
+"14,99 €"
+],
+[
+"Half Coin Pack",
+"29,99 €"
+],
+[
+"Yearly Premium",
+"89,99 €"
+],
+[
+"Full Coin Pack",
+"39,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "89,99 €"
+},
+"shots|jp": {
+"avail": true,
+"rating": 4.07111,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"¥1,500"
+],
+[
+"Weekly Premium Intro",
+"¥1,500"
+],
+[
+" Weekly Basic Premium",
+"¥1,100"
+],
+[
+"Quarter Coin Pack",
+"¥2,500"
+],
+[
+"Weekly Gold Premium",
+"¥2,000"
+],
+[
+"Yearly Premium",
+"¥6,000"
+],
+[
+"Starter Pack",
+"¥1,500"
+],
+[
+"Half Coin Pack",
+"¥4,000"
+],
+[
+"Yearly Premium",
+"¥13,000"
+],
+[
+"Full Coin Pack",
+"¥6,000"
+]
+],
+"pmin": "¥1,100",
+"pmax": "¥13,000"
+},
+"shots|br": {
+"avail": true,
+"rating": 4.18283,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"R$ 59,90"
+],
+[
+"Weekly Premium Intro",
+"R$ 59,90"
+],
+[
+" Weekly Basic Premium",
+"R$ 49,90"
+],
+[
+"Quarter Coin Pack",
+"R$ 99,90"
+],
+[
+"Yearly Premium",
+"R$ 199,90"
+],
+[
+"Weekly Gold Premium",
+"R$ 79,90"
+],
+[
+"Yearly Premium",
+"R$ 499,90"
+],
+[
+"Half Coin Pack",
+"R$ 149,90"
+],
+[
+"Starter Pack",
+"R$ 49,90"
+],
+[
+"Full Coin Pack",
+"R$ 229,90"
+]
+],
+"pmin": "R$ 49,90",
+"pmax": "R$ 499,90"
+},
+"shots|fr": {
+"avail": true,
+"rating": 4.19569,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"9,99 €"
+],
+[
+"Weekly Premium Intro",
+"9,99 €"
+],
+[
+" Weekly Basic Premium",
+"7,99 €"
+],
+[
+"Quarter Coin Pack",
+"17,99 €"
+],
+[
+"Starter Pack",
+"9,99 €"
+],
+[
+"Weekly Gold Premium",
+"14,99 €"
+],
+[
+"Half Coin Pack",
+"29,99 €"
+],
+[
+"Yearly Premium",
+"44,99 €"
+],
+[
+"Yearly Premium",
+"89,99 €"
+],
+[
+"Weekly Standart Premium",
+"9,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "89,99 €"
+},
+"shots|sa": {
+"avail": true,
+"rating": 4.46626,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"SAR 39.99"
+],
+[
+"Weekly Premium Intro",
+"SAR 39.99"
+],
+[
+"Quarter Coin Pack",
+"SAR 59.99"
+],
+[
+" Weekly Basic Premium",
+"SAR 29.99"
+],
+[
+"Half Coin Pack",
+"SAR 99.99"
+],
+[
+"Yearly Premium",
+"SAR 179.99"
+],
+[
+"Starter Pack",
+"SAR 39.99"
+],
+[
+"Yearly Premium",
+"SAR 349.99"
+],
+[
+"Weekly VIP Premium",
+"SAR 89.99"
+],
+[
+"Weekly Gold Premium",
+"SAR 59.99"
+]
+],
+"pmin": "SAR 29.99",
+"pmax": "SAR 349.99"
+},
+"shots|cn": {
+"avail": false
+},
+"shots|tw": {
+"avail": true,
+"rating": 3.92453,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"$320.00"
+],
+[
+"Quarter Coin Pack",
+"$490.00"
+],
+[
+" Weekly Basic Premium",
+"$220.00"
+],
+[
+"Half Coin Pack",
+"$790.00"
+],
+[
+"Yearly Premium",
+"$1,290.00"
+],
+[
+"Weekly Premium Intro",
+"$320.00"
+],
+[
+"Starter Pack",
+"$320.00"
+],
+[
+"Weekly Gold Premium",
+"$390.00"
+],
+[
+"Yearly Premium",
+"$2,490.00"
+],
+[
+"Full Coin Pack",
+"$1,190.00"
+]
+],
+"pmin": "$220.00",
+"pmax": "$2,490.00"
+},
+"shots|th": {
+"avail": true,
+"rating": 4.44444,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"฿399.00"
+],
+[
+" Weekly Basic Premium",
+"฿249.00"
+],
+[
+"Weekly Premium Intro",
+"฿399.00"
+],
+[
+"Quarter Coin Pack",
+"฿499.00"
+],
+[
+"Full Coin Pack",
+"฿1,290.00"
+],
+[
+"Yearly Premium",
+"฿1,490.00"
+],
+[
+"Weekly Gold Premium",
+"฿499.00"
+],
+[
+"Half Coin Pack",
+"฿999.00"
+],
+[
+"Yearly Premium",
+"฿2,990.00"
+],
+[
+"Weekly Standart Premium",
+"฿299.00"
+]
+],
+"pmin": "฿249.00",
+"pmax": "฿2,990.00"
+},
+"shots|tr": {
+"avail": true,
+"rating": 3.93547,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"₺499,99"
+],
+[
+"Quarter Coin Pack",
+"₺599,99"
+],
+[
+"Half Coin Pack",
+"₺999,99"
+],
+[
+" Weekly Basic Premium",
+"₺299,99"
+],
+[
+"Yearly Premium",
+"₺1.799,99"
+],
+[
+"Weekly Premium Intro",
+"₺499,99"
+],
+[
+"Starter Pack",
+"₺399,99"
+],
+[
+"Full Coin Pack",
+"₺1.799,99"
+],
+[
+"Yearly Premium",
+"₺3.499,99"
+],
+[
+"Weekly Gold Premium",
+"₺599,99"
+]
+],
+"pmin": "₺299,99",
+"pmax": "₺3.499,99"
+},
+"shots|it": {
+"avail": true,
+"rating": 4.04725,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"9,99 €"
+],
+[
+" Weekly Basic Premium",
+"7,99 €"
+],
+[
+"Weekly Premium Intro",
+"9,99 €"
+],
+[
+"Quarter Coin Pack",
+"17,99 €"
+],
+[
+"Weekly Gold Premium",
+"14,99 €"
+],
+[
+"Starter Pack",
+"9,99 €"
+],
+[
+"Half Coin Pack",
+"29,99 €"
+],
+[
+"Yearly Premium",
+"44,99 €"
+],
+[
+"Full Coin Pack",
+"39,99 €"
+],
+[
+"Weekly Platinum Premium",
+"34,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "44,99 €"
+},
+"shots|kr": {
+"avail": true,
+"rating": 4.26206,
+"version": "1.7.0",
+"date": "2026-08-16",
+"iap": [
+[
+"Weekly Pro",
+"￦17,000"
+],
+[
+"Quarter Coin Pack",
+"￦25,000"
+],
+[
+" Weekly Basic Premium",
+"￦9,900"
+],
+[
+"Weekly Premium Intro",
+"￦14,000"
+],
+[
+"Weekly Gold Premium",
+"￦19,000"
+],
+[
+"Starter Pack",
+"￦17,000"
+],
+[
+"Half Coin Pack",
+"￦44,000"
+],
+[
+"Yearly Premium",
+"￦55,000"
+],
+[
+"Weekly Standart Premium",
+"￦12,000"
+],
+[
+"Full Coin Pack",
+"￦55,000"
+]
+],
+"pmin": "￦9,900",
+"pmax": "￦55,000"
+},
+"motionleap|ru": {
+"avail": true,
+"rating": 4.79811,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"299,00 ₽"
+],
+[
+"Unlimited access",
+"459,00 ₽"
+],
+[
+"Unlimited access",
+"1 450,00 ₽"
+],
+[
+"Unlimited access",
+"1 550,00 ₽"
+],
+[
+"Unlimited access",
+"749,00 ₽"
+],
+[
+"Unlimited access",
+"1 590,00 ₽"
+],
+[
+"Motionleap unlimited access",
+"699,00 ₽"
+],
+[
+"Motionleap unlimited access",
+"2 550,00 ₽"
+],
+[
+"Unlimited access",
+"4 990,00 ₽"
+],
+[
+"Unlimited access",
+"1 450,00 ₽"
+]
+],
+"pmin": "299,00 ₽",
+"pmax": "4 990,00 ₽"
+},
+"motionleap|de": {
+"avail": true,
+"rating": 4.65062,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"3,99 €"
+],
+[
+"Unlimited access",
+"20,49 €"
+],
+[
+"Unlimited access",
+"6,49 €"
+],
+[
+"Unlimited access",
+"11,49 €"
+],
+[
+"Unlimited access",
+"20,99 €"
+],
+[
+"Motionleap unlimited access",
+"39,99 €"
+],
+[
+"Unlimited access",
+"69,99 €"
+],
+[
+"Motionleap unlimited access",
+"10,99 €"
+],
+[
+"Unlimited access",
+"20,99 €"
+],
+[
+"Enlight set unlimited access",
+"53,99 €"
+]
+],
+"pmin": "3,99 €",
+"pmax": "69,99 €"
+},
+"motionleap|jp": {
+"avail": true,
+"rating": 4.61674,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"¥2,300"
+],
+[
+"Unlimited access",
+"¥450"
+],
+[
+"Unlimited access",
+"¥650"
+],
+[
+"Unlimited access",
+"¥2,200"
+],
+[
+"Unlimited access",
+"¥4,600"
+],
+[
+"Motionleap unlimited access",
+"¥1,280"
+],
+[
+"Unlimited access",
+"¥300"
+],
+[
+"Unlimited access",
+"¥450"
+],
+[
+"Unlimited access",
+"¥10,000"
+],
+[
+"Unlimited access",
+"¥1,380"
+]
+],
+"pmin": "¥300",
+"pmax": "¥10,000"
+},
+"motionleap|br": {
+"avail": true,
+"rating": 4.78838,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"R$ 14,90"
+],
+[
+"Unlimited access",
+"R$ 74,90"
+],
+[
+"Unlimited access",
+"R$ 24,90"
+],
+[
+"Unlimited access",
+"R$ 78,90"
+],
+[
+"Unlimited access",
+"R$ 52,90"
+],
+[
+"Motionleap unlimited access",
+"R$ 149,90"
+],
+[
+"Motionleap unlimited access",
+"R$ 48,90"
+],
+[
+"Unlimited access",
+"R$ 76,90"
+],
+[
+"Enlight set unlimited access",
+"R$ 192,90"
+],
+[
+"Unlimited access",
+"R$ 399,90"
+]
+],
+"pmin": "R$ 14,90",
+"pmax": "R$ 399,90"
+},
+"motionleap|fr": {
+"avail": true,
+"rating": 4.62367,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"3,99 €"
+],
+[
+"Unlimited access",
+"6,49 €"
+],
+[
+"Unlimited access",
+"20,49 €"
+],
+[
+"Unlimited access",
+"20,99 €"
+],
+[
+"Unlimited access",
+"11,99 €"
+],
+[
+"Motionleap unlimited access",
+"39,99 €"
+],
+[
+"Motionleap unlimited access",
+"11,49 €"
+],
+[
+"Unlimited access",
+"69,99 €"
+],
+[
+"Unlimited access",
+"20,99 €"
+],
+[
+"Enlight set unlimited access",
+"53,99 €"
+]
+],
+"pmin": "3,99 €",
+"pmax": "69,99 €"
+},
+"motionleap|sa": {
+"avail": true,
+"rating": 4.60538,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"SAR 22.99"
+],
+[
+"Unlimited access",
+"SAR 15.99"
+],
+[
+"Unlimited access",
+"SAR 77.99"
+],
+[
+"Motionleap unlimited access",
+"SAR 42.99"
+],
+[
+"Motionleap unlimited access",
+"SAR 154.99"
+],
+[
+"Unlimited access",
+"SAR 42.99"
+],
+[
+"Unlimited access",
+"SAR 77.99"
+],
+[
+"Unlimited access",
+"SAR 249.99"
+],
+[
+"Unlimited access",
+"SAR 259.99"
+],
+[
+"Unlimited access",
+"SAR 77.99"
+]
+],
+"pmin": "SAR 15.99",
+"pmax": "SAR 259.99"
+},
+"motionleap|cn": {
+"avail": true,
+"rating": 4.7313,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"¥26.00"
+],
+[
+"Unlimited access",
+"¥243.00"
+],
+[
+"Unlimited access",
+"¥138.00"
+],
+[
+"Unlimited access",
+"¥43.00"
+],
+[
+"Unlimited access",
+"¥133.00"
+],
+[
+"Motionleap unlimited access",
+"¥68.00"
+],
+[
+"Unlimited access",
+"¥143.00"
+],
+[
+"Phoenix unlimited access",
+"¥168.00"
+],
+[
+"Unlimited access",
+"¥398.00"
+],
+[
+"Unlimited access",
+"¥228.00"
+]
+],
+"pmin": "¥26.00",
+"pmax": "¥398.00"
+},
+"motionleap|tw": {
+"avail": true,
+"rating": 4.74993,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"$1,140.00"
+],
+[
+"Unlimited access",
+"$130.00"
+],
+[
+"Unlimited access",
+"$640.00"
+],
+[
+"Unlimited access",
+"$200.00"
+],
+[
+"Unlimited access",
+"$630.00"
+],
+[
+"Unlimited access",
+"$320.00"
+],
+[
+"Unlimited access",
+"$1,990.00"
+],
+[
+"Motionleap unlimited access",
+"$320.00"
+],
+[
+"Unlimited access",
+"$650.00"
+],
+[
+"Phoenix unlimited access",
+"$680.00"
+]
+],
+"pmin": "$130.00",
+"pmax": "$1,990.00"
+},
+"motionleap|th": {
+"avail": true,
+"rating": 4.78892,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"฿129.00"
+],
+[
+"Unlimited access",
+"฿179.00"
+],
+[
+"Unlimited access",
+"฿639.00"
+],
+[
+"Unlimited access",
+"฿649.00"
+],
+[
+"Unlimited access",
+"฿389.00"
+],
+[
+"Motionleap unlimited access",
+"฿369.00"
+],
+[
+"Motionleap unlimited access",
+"฿1,320.00"
+],
+[
+"Unlimited access",
+"฿659.00"
+],
+[
+"Unlimited access",
+"฿1,990.00"
+],
+[
+"Enlight set unlimited access",
+"฿1,600.00"
+]
+],
+"pmin": "฿129.00",
+"pmax": "฿1,990.00"
+},
+"motionleap|tr": {
+"avail": true,
+"rating": 4.62641,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"₺21,99"
+],
+[
+"Unlimited access",
+"₺109,99"
+],
+[
+"Unlimited access",
+"₺39,99"
+],
+[
+"Unlimited access",
+"₺139,99"
+],
+[
+"Unlimited access",
+"₺229,99"
+],
+[
+"Motionleap unlimited access",
+"₺749,99"
+],
+[
+"Motionleap unlimited access",
+"₺204,99"
+],
+[
+"Unlimited access",
+"₺122,99"
+],
+[
+"Enlight set unlimited access",
+"₺329,99"
+],
+[
+"Unlimited access",
+"₺1.399,99"
+]
+],
+"pmin": "₺21,99",
+"pmax": "₺1.399,99"
+},
+"motionleap|it": {
+"avail": true,
+"rating": 4.69137,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"3,99 €"
+],
+[
+"Unlimited access",
+"20,49 €"
+],
+[
+"Unlimited access",
+"6,49 €"
+],
+[
+"Unlimited access",
+"20,99 €"
+],
+[
+"Unlimited access",
+"11,99 €"
+],
+[
+"Motionleap unlimited access",
+"39,99 €"
+],
+[
+"Unlimited access",
+"20,99 €"
+],
+[
+"Motionleap unlimited access",
+"11,49 €"
+],
+[
+"Unlimited access",
+"69,99 €"
+],
+[
+"Enlight set unlimited access",
+"53,99 €"
+]
+],
+"pmin": "3,99 €",
+"pmax": "69,99 €"
+},
+"motionleap|kr": {
+"avail": true,
+"rating": 4.6413,
+"version": "1.9.38",
+"date": "2026-08-02",
+"iap": [
+[
+"Unlimited access",
+"￦4,900"
+],
+[
+"Unlimited access",
+"￦24,500"
+],
+[
+"Unlimited access",
+"￦8,000"
+],
+[
+"Unlimited access",
+"￦24,500"
+],
+[
+"Unlimited access",
+"￦14,500"
+],
+[
+"Motionleap unlimited access",
+"￦50,000"
+],
+[
+"Motionleap unlimited access",
+"￦14,000"
+],
+[
+"Unlimited access",
+"￦99,000"
+],
+[
+"Unlimited access",
+"￦86,000"
+],
+[
+"Unlimited access",
+"￦24,500"
+]
+],
+"pmin": "￦4,900",
+"pmax": "￦99,000"
+},
+"brainy|ru": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Brainy Pro Yearly",
+"4 490,00 ₽"
+],
+[
+"2,000 Credits",
+"1 490,00 ₽"
+],
+[
+"5,000 Credits",
+"3 490,00 ₽"
+],
+[
+"500 Credits",
+"449,00 ₽"
+],
+[
+"US",
+"6 990,00 ₽"
+],
+[
+"Pro Plan Weekly ",
+"599,00 ₽"
+],
+[
+"Pro Yearly Subscription",
+"7 990,00 ₽"
+]
+],
+"pmin": "449,00 ₽",
+"pmax": "7 990,00 ₽"
+},
+"brainy|de": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Pro Plan Weekly ",
+"7,99 €"
+],
+[
+"Brainy Pro Yearly",
+"59,99 €"
+],
+[
+"2,000 Credits",
+"19,99 €"
+],
+[
+"5,000 Credits",
+"44,99 €"
+],
+[
+"500 Credits",
+"5,99 €"
+],
+[
+"US",
+"89,99 €"
+],
+[
+"Pro Yearly Subscription",
+"99,99 €"
+]
+],
+"pmin": "5,99 €",
+"pmax": "99,99 €"
+},
+"brainy|jp": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Pro Plan Weekly ",
+"¥1,100"
+],
+[
+"Brainy Pro Yearly",
+"¥8,000"
+],
+[
+"2,000 Credits",
+"¥3,000"
+],
+[
+"5,000 Credits",
+"¥6,000"
+],
+[
+"500 Credits",
+"¥800"
+],
+[
+"US",
+"¥13,000"
+],
+[
+"Pro Yearly Subscription",
+"¥15,000"
+]
+],
+"pmin": "¥800",
+"pmax": "¥15,000"
+},
+"brainy|br": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Brainy Pro Yearly",
+"R$ 299,90"
+],
+[
+"2,000 Credits",
+"R$ 119,90"
+],
+[
+"5,000 Credits",
+"R$ 249,90"
+],
+[
+"500 Credits",
+"R$ 29,90"
+],
+[
+"US",
+"R$ 499,90"
+],
+[
+"Pro Plan Weekly ",
+"R$ 49,90"
+],
+[
+"Pro Yearly Subscription",
+"R$ 599,90"
+]
+],
+"pmin": "R$ 29,90",
+"pmax": "R$ 599,90"
+},
+"brainy|fr": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Pro Plan Weekly ",
+"7,99 €"
+],
+[
+"Brainy Pro Yearly",
+"59,99 €"
+],
+[
+"2,000 Credits",
+"19,99 €"
+],
+[
+"5,000 Credits",
+"44,99 €"
+],
+[
+"500 Credits",
+"5,99 €"
+],
+[
+"US",
+"89,99 €"
+],
+[
+"Pro Yearly Subscription",
+"99,99 €"
+]
+],
+"pmin": "5,99 €",
+"pmax": "99,99 €"
+},
+"brainy|sa": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Brainy Pro Yearly",
+"SAR 199.99"
+],
+[
+"2,000 Credits",
+"SAR 79.99"
+],
+[
+"5,000 Credits",
+"SAR 179.99"
+],
+[
+"500 Credits",
+"SAR 19.99"
+],
+[
+"US",
+"SAR 349.99"
+],
+[
+"Pro Plan Weekly ",
+"SAR 29.99"
+],
+[
+"Pro Yearly Subscription",
+"SAR 399.99"
+]
+],
+"pmin": "SAR 19.99",
+"pmax": "SAR 399.99"
+},
+"brainy|cn": {
+"avail": false
+},
+"brainy|tw": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Brainy Pro Yearly",
+"$1,490.00"
+],
+[
+"2,000 Credits",
+"$590.00"
+],
+[
+"5,000 Credits",
+"$1,290.00"
+],
+[
+"500 Credits",
+"$150.00"
+],
+[
+"US",
+"$2,490.00"
+],
+[
+"Pro Plan Weekly ",
+"$220.00"
+],
+[
+"Pro Yearly Subscription",
+"$2,990.00"
+]
+],
+"pmin": "$150.00",
+"pmax": "$2,990.00"
+},
+"brainy|th": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Brainy Pro Yearly",
+"฿1,990.00"
+],
+[
+"2,000 Credits",
+"฿699.00"
+],
+[
+"5,000 Credits",
+"฿1,490.00"
+],
+[
+"500 Credits",
+"฿199.00"
+],
+[
+"US",
+"฿2,990.00"
+],
+[
+"Pro Plan Weekly ",
+"฿249.00"
+],
+[
+"Pro Yearly Subscription",
+"฿2,990.00"
+]
+],
+"pmin": "฿199.00",
+"pmax": "฿2,990.00"
+},
+"brainy|tr": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Pro Plan Weekly ",
+"₺299,99"
+],
+[
+"Pro Yearly Subscription",
+"₺3.999,99"
+],
+[
+"Brainy Pro Yearly",
+"₺2.499,99"
+],
+[
+"2,000 Credits",
+"₺999,99"
+],
+[
+"5,000 Credits",
+"₺1.999,99"
+],
+[
+"500 Credits",
+"₺249,99"
+],
+[
+"US",
+"₺3.499,99"
+]
+],
+"pmin": "₺249,99",
+"pmax": "₺3.999,99"
+},
+"brainy|it": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Pro Plan Weekly ",
+"7,99 €"
+],
+[
+"Brainy Pro Yearly",
+"59,99 €"
+],
+[
+"2,000 Credits",
+"19,99 €"
+],
+[
+"5,000 Credits",
+"44,99 €"
+],
+[
+"500 Credits",
+"5,99 €"
+],
+[
+"US",
+"89,99 €"
+],
+[
+"Pro Yearly Subscription",
+"99,99 €"
+]
+],
+"pmin": "5,99 €",
+"pmax": "99,99 €"
+},
+"brainy|kr": {
+"avail": true,
+"rating": 0,
+"version": "1.7",
+"date": "2026-11-08",
+"iap": [
+[
+"Pro Plan Weekly ",
+"￦9,900"
+],
+[
+"Brainy Pro Yearly",
+"￦77,000"
+],
+[
+"2,000 Credits",
+"￦29,000"
+],
+[
+"5,000 Credits",
+"￦66,000"
+],
+[
+"500 Credits",
+"￦7,700"
+],
+[
+"US",
+"￦110,000"
+],
+[
+"Pro Yearly Subscription",
+"￦129,000"
+]
+],
+"pmin": "￦7,700",
+"pmax": "￦129,000"
+},
+"chaton|ru": {
+"avail": true,
+"rating": 4.63276,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"599,00 ₽"
+],
+[
+"Weekly PRO access (free trial)",
+"699,00 ₽"
+],
+[
+"Premium access (1 week)",
+"599,00 ₽"
+],
+[
+"Premium",
+"2 990,00 ₽"
+],
+[
+" Premium access (1 week)",
+"699,00 ₽"
+],
+[
+"Premium",
+"2 490,00 ₽"
+],
+[
+"3 Videos Pack",
+"99,00 ₽"
+],
+[
+"Premium",
+"499,00 ₽"
+],
+[
+"7 Videos Pack",
+"249,00 ₽"
+],
+[
+"Premium access PRO+ (1 year)",
+"4 990,00 ₽"
+]
+],
+"pmin": "99,00 ₽",
+"pmax": "4 990,00 ₽"
+},
+"chaton|de": {
+"avail": true,
+"rating": 4.56932,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"6,99 €"
+],
+[
+"Premium access (1 week)",
+"6,99 €"
+],
+[
+"Premium",
+"39,99 €"
+],
+[
+"Weekly PRO access (free trial)",
+"8,99 €"
+],
+[
+"Premium",
+"6,99 €"
+],
+[
+"Premium",
+"34,99 €"
+],
+[
+"Premium",
+"39,99 €"
+],
+[
+"Premium access PRO+ (1 year)",
+"69,99 €"
+],
+[
+" Premium access (1 week)",
+"8,99 €"
+],
+[
+"Premium annually access",
+"49,99 €"
+]
+],
+"pmin": "6,99 €",
+"pmax": "69,99 €"
+},
+"chaton|jp": {
+"avail": true,
+"rating": 4.42469,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"¥1,000"
+],
+[
+"Weekly PRO access (free trial)",
+"¥1,200"
+],
+[
+"Premium",
+"¥5,000"
+],
+[
+"Premium access (1 week)",
+"¥1,000"
+],
+[
+"Premium",
+"¥1,000"
+],
+[
+"Premium access PRO+ (1 year)",
+"¥10,000"
+],
+[
+"Premium",
+"¥700"
+],
+[
+"Premium",
+"¥6,000"
+],
+[
+"Premium",
+"¥5,000"
+],
+[
+"7 Videos Pack",
+"¥400"
+]
+],
+"pmin": "¥400",
+"pmax": "¥10,000"
+},
+"chaton|br": {
+"avail": true,
+"rating": 4.81451,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"R$ 34,90"
+],
+[
+"Weekly PRO access (free trial)",
+"R$ 39,90"
+],
+[
+"Premium access (1 week)",
+"R$ 34,90"
+],
+[
+"Premium",
+"R$ 199,90"
+],
+[
+"Premium",
+"R$ 34,90"
+],
+[
+"Premium access PRO+ (1 year)",
+"R$ 299,90"
+],
+[
+" Premium access (1 week)",
+"R$ 39,90"
+],
+[
+"3 Videos Pack",
+"R$ 8,99"
+],
+[
+"Premium",
+"R$ 199,90"
+],
+[
+"7 Videos Pack",
+"R$ 18,99"
+]
+],
+"pmin": "R$ 8,99",
+"pmax": "R$ 299,90"
+},
+"chaton|fr": {
+"avail": true,
+"rating": 4.62629,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"6,99 €"
+],
+[
+"Premium access (1 week)",
+"6,99 €"
+],
+[
+"Premium",
+"39,99 €"
+],
+[
+"Weekly PRO access (free trial)",
+"8,99 €"
+],
+[
+"Premium",
+"6,99 €"
+],
+[
+"Premium",
+"39,99 €"
+],
+[
+"Premium",
+"34,99 €"
+],
+[
+"Premium annually access",
+"49,99 €"
+],
+[
+"Premium access PRO+ (1 year)",
+"69,99 €"
+],
+[
+" Premium access (1 week)",
+"8,99 €"
+]
+],
+"pmin": "6,99 €",
+"pmax": "69,99 €"
+},
+"chaton|sa": {
+"avail": true,
+"rating": 4.50854,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"SAR 29.99"
+],
+[
+"Premium access (1 week)",
+"SAR 29.99"
+],
+[
+"Weekly PRO access (free trial)",
+"SAR 34.99"
+],
+[
+"Premium",
+"SAR 179.99"
+],
+[
+"Premium",
+"SAR 29.99"
+],
+[
+" Premium access (1 week)",
+"SAR 34.99"
+],
+[
+"Premium",
+"SAR 129.99"
+],
+[
+"Premium",
+"SAR 29.99"
+],
+[
+"3 Videos Pack",
+"SAR 5.49"
+],
+[
+"7 Videos Pack",
+"SAR 10.99"
+]
+],
+"pmin": "SAR 5.49",
+"pmax": "SAR 179.99"
+},
+"chaton|cn": {
+"avail": false
+},
+"chaton|tw": {
+"avail": true,
+"rating": 4.62615,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"$220.00"
+],
+[
+"Weekly PRO access (free trial)",
+"$290.00"
+],
+[
+"Premium",
+"$1,290.00"
+],
+[
+"Premium access (1 week)",
+"$220.00"
+],
+[
+"Premium",
+"$220.00"
+],
+[
+"Premium",
+"$990.00"
+],
+[
+"3 Videos Pack",
+"$50.00"
+],
+[
+"7 Videos Pack",
+"$90.00"
+],
+[
+" Premium access (1 week)",
+"$290.00"
+],
+[
+"Premium access PRO+ (1 year)",
+"$1,990.00"
+]
+],
+"pmin": "$50.00",
+"pmax": "$1,990.00"
+},
+"chaton|th": {
+"avail": true,
+"rating": 4.70169,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Weekly PRO access (free trial)",
+"฿299.00"
+],
+[
+"Premium",
+"฿249.00"
+],
+[
+"Premium access (1 week)",
+"฿249.00"
+],
+[
+"Premium",
+"฿1,490.00"
+],
+[
+"Premium",
+"฿249.00"
+],
+[
+"7 Videos Pack",
+"฿99.00"
+],
+[
+"3 Videos Pack",
+"฿49.00"
+],
+[
+" Premium access (1 week)",
+"฿299.00"
+],
+[
+"Premium",
+"฿999.00"
+],
+[
+"Premium access PRO+ (1 year)",
+"฿1,990.00"
+]
+],
+"pmin": "฿49.00",
+"pmax": "฿1,990.00"
+},
+"chaton|tr": {
+"avail": true,
+"rating": 4.3186,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Weekly PRO access (free trial)",
+"₺249,99"
+],
+[
+"Premium",
+"₺299,99"
+],
+[
+"Premium",
+"₺999,99"
+],
+[
+"Premium access (1 week)",
+"₺299,99"
+],
+[
+"3 Videos Pack",
+"₺74,99"
+],
+[
+"7 Videos Pack",
+"₺149,99"
+],
+[
+" Premium access (1 week)",
+"₺249,99"
+],
+[
+"Premium",
+"₺179,99"
+],
+[
+"Premium",
+"₺1.499,99"
+],
+[
+"12 Videos Pack",
+"₺244,99"
+]
+],
+"pmin": "₺74,99",
+"pmax": "₺1.499,99"
+},
+"chaton|it": {
+"avail": true,
+"rating": 4.60134,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"7,99 €"
+],
+[
+"Premium access (1 week)",
+"7,99 €"
+],
+[
+"Weekly PRO access (free trial)",
+"8,99 €"
+],
+[
+"Premium",
+"39,99 €"
+],
+[
+"Premium",
+"6,99 €"
+],
+[
+"Premium",
+"34,99 €"
+],
+[
+"Premium access PRO+ (1 year)",
+"69,99 €"
+],
+[
+"Premium annually access",
+"49,99 €"
+],
+[
+"Premium",
+"6,99 €"
+],
+[
+" Premium access (1 week)",
+"8,99 €"
+]
+],
+"pmin": "6,99 €",
+"pmax": "69,99 €"
+},
+"chaton|kr": {
+"avail": true,
+"rating": 4.47161,
+"version": "1.101",
+"date": "2026-11-05",
+"iap": [
+[
+"Premium",
+"￦9,900"
+],
+[
+"Premium access (1 week)",
+"￦9,900"
+],
+[
+"Premium",
+"￦55,000"
+],
+[
+"Weekly PRO access (free trial)",
+"￦11,000"
+],
+[
+"Premium",
+"￦9,900"
+],
+[
+"Premium",
+"￦6,600"
+],
+[
+" Premium access (1 week)",
+"￦11,000"
+],
+[
+"Premium",
+"￦9,900"
+],
+[
+"Premium access PRO+ (1 year)",
+"￦88,000"
+],
+[
+"7 Videos Pack",
+"￦4,400"
+]
+],
+"pmin": "￦4,400",
+"pmax": "￦88,000"
+},
+"genie|ru": {
+"avail": true,
+"rating": 4.68732,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"699,00 ₽"
+],
+[
+"Pro Access",
+"599,00 ₽"
+],
+[
+"Yearly Unlimited",
+"3 490,00 ₽"
+],
+[
+"1000 Credits",
+"899,00 ₽"
+],
+[
+"Pro Access",
+"8 990,00 ₽"
+],
+[
+"Weekly Unlimited Discounted",
+"999,00 ₽"
+],
+[
+"4000 Credits",
+"1 790,00 ₽"
+],
+[
+"Pro Yearly",
+"3 490,00 ₽"
+],
+[
+"Yearly Unlimited Discounted",
+"8 990,00 ₽"
+],
+[
+"Pro Access",
+"999,00 ₽"
+]
+],
+"pmin": "599,00 ₽",
+"pmax": "8 990,00 ₽"
+},
+"genie|de": {
+"avail": true,
+"rating": 4.57122,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"6,99 €"
+],
+[
+"Pro Access",
+"6,99 €"
+],
+[
+"Yearly Unlimited",
+"44,99 €"
+],
+[
+"Pro Access",
+"99,99 €"
+],
+[
+"Pro Yearly",
+"44,99 €"
+],
+[
+"Weekly Unlimited Discounted",
+"11,99 €"
+],
+[
+"1000 Credits",
+"9,99 €"
+],
+[
+"Yearly Unlimited Discounted",
+"99,99 €"
+],
+[
+"Pro Access",
+"9,99 €"
+],
+[
+"Pro Access",
+"8,99 €"
+]
+],
+"pmin": "6,99 €",
+"pmax": "99,99 €"
+},
+"genie|jp": {
+"avail": true,
+"rating": 4.5245,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"¥1,000"
+],
+[
+"Yearly Unlimited",
+"¥6,000"
+],
+[
+"Pro Access",
+"¥1,500"
+],
+[
+"Pro Access",
+"¥1,000"
+],
+[
+"Genie Weekly Pro",
+"¥1,100"
+],
+[
+"Pro Yearly",
+"¥6,000"
+],
+[
+"1000 Credits",
+"¥1,500"
+],
+[
+"4000 Credits",
+"¥3,000"
+],
+[
+"Pro Access",
+"¥1,100"
+],
+[
+"Weekly Unlimited Discounted",
+"¥1,800"
+]
+],
+"pmin": "¥1,000",
+"pmax": "¥6,000"
+},
+"genie|br": {
+"avail": true,
+"rating": 4.82409,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"R$ 39,90"
+],
+[
+"Pro Access",
+"R$ 599,90"
+],
+[
+"Weekly Unlimited Discounted",
+"R$ 69,90"
+],
+[
+"Pro Access",
+"R$ 39,90"
+],
+[
+"Pro Access",
+"R$ 59,90"
+],
+[
+"Yearly Unlimited",
+"R$ 199,90"
+],
+[
+"Genie Weekly Pro",
+"R$ 44,90"
+],
+[
+"Pro Access",
+"R$ 44,90"
+],
+[
+"Pro Yearly",
+"R$ 199,90"
+],
+[
+"Yearly Unlimited Discounted",
+"R$ 599,90"
+]
+],
+"pmin": "R$ 39,90",
+"pmax": "R$ 599,90"
+},
+"genie|fr": {
+"avail": true,
+"rating": 4.64009,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"7,99 €"
+],
+[
+"Pro Access",
+"7,99 €"
+],
+[
+"Pro Access",
+"99,99 €"
+],
+[
+"Weekly Unlimited Discounted",
+"11,99 €"
+],
+[
+"Yearly Unlimited",
+"69,99 €"
+],
+[
+"Pro Yearly",
+"44,99 €"
+],
+[
+"Pro Access",
+"8,99 €"
+],
+[
+"Yearly Unlimited Discounted",
+"99,99 €"
+],
+[
+"1000 Credits",
+"9,99 €"
+],
+[
+"Pro Access",
+"14,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "99,99 €"
+},
+"genie|sa": {
+"avail": true,
+"rating": 4.53009,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"SAR 29.99"
+],
+[
+"Pro Access",
+"SAR 29.99"
+],
+[
+"Genie Weekly Pro",
+"SAR 39.99"
+],
+[
+"Genie Weekly Pro",
+"SAR 34.99"
+],
+[
+"Pro Access",
+"SAR 399.99"
+],
+[
+"Weekly Unlimited Discounted",
+"SAR 49.99"
+],
+[
+"Yearly Unlimited",
+"SAR 179.99"
+],
+[
+"Pro Access",
+"SAR 34.99"
+],
+[
+"Pro Yearly",
+"SAR 129.99"
+],
+[
+"1000 Credits",
+"SAR 39.99"
+]
+],
+"pmin": "SAR 29.99",
+"pmax": "SAR 399.99"
+},
+"genie|cn": {
+"avail": false
+},
+"genie|tw": {
+"avail": true,
+"rating": 4.54379,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"$220.00"
+],
+[
+"Yearly Unlimited",
+"$1,290.00"
+],
+[
+"Pro Access",
+"$220.00"
+],
+[
+"Pro Yearly",
+"$1,290.00"
+],
+[
+"1000 Credits",
+"$320.00"
+],
+[
+"10000 Credits",
+"$1,290.00"
+],
+[
+"4000 Credits",
+"$690.00"
+],
+[
+"Pro Access",
+"$290.00"
+],
+[
+"Weekly Unlimited Discounted",
+"$390.00"
+],
+[
+"Yearly Unlimited Discounted",
+"$2,990.00"
+]
+],
+"pmin": "$220.00",
+"pmax": "$2,990.00"
+},
+"genie|th": {
+"avail": true,
+"rating": 4.71363,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"฿249.00"
+],
+[
+"Pro Access",
+"฿249.00"
+],
+[
+"Weekly Unlimited Discounted",
+"฿399.00"
+],
+[
+"Yearly Unlimited",
+"฿1,490.00"
+],
+[
+"Pro Yearly",
+"฿1,490.00"
+],
+[
+"Pro Access",
+"฿499.00"
+],
+[
+"Pro Access",
+"฿299.00"
+],
+[
+"Yearly Unlimited Discounted",
+"฿3,990.00"
+],
+[
+"1000 Credits",
+"฿399.00"
+],
+[
+"Yearly Unlimited",
+"฿3,990.00"
+]
+],
+"pmin": "฿249.00",
+"pmax": "฿3,990.00"
+},
+"genie|tr": {
+"avail": true,
+"rating": 4.56016,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"₺249,99"
+],
+[
+"Pro Access",
+"₺4.999,99"
+],
+[
+"Weekly Unlimited Discounted",
+"₺599,99"
+],
+[
+"Yearly Unlimited",
+"₺999,99"
+],
+[
+"Pro Access",
+"₺249,99"
+],
+[
+"Yearly Unlimited",
+"₺4.999,99"
+],
+[
+"Pro Access",
+"₺59,99"
+],
+[
+"Pro Yearly",
+"₺299,99"
+],
+[
+"Yearly Unlimited Discounted",
+"₺4.999,99"
+],
+[
+"Secret Discount",
+"₺4.999,99"
+]
+],
+"pmin": "₺59,99",
+"pmax": "₺4.999,99"
+},
+"genie|it": {
+"avail": true,
+"rating": 4.65036,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"7,99 €"
+],
+[
+"Genie Weekly Pro",
+"8,99 €"
+],
+[
+"Pro Access",
+"7,99 €"
+],
+[
+"Pro Access",
+"99,99 €"
+],
+[
+"Yearly Unlimited",
+"44,99 €"
+],
+[
+"Weekly Unlimited Discounted",
+"11,99 €"
+],
+[
+"Pro Yearly",
+"44,99 €"
+],
+[
+"1000 Credits",
+"9,99 €"
+],
+[
+"Pro Access",
+"9,99 €"
+],
+[
+"Pro Access",
+"8,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "99,99 €"
+},
+"genie|kr": {
+"avail": true,
+"rating": 4.50239,
+"version": "10.7.2",
+"date": "2026-10-26",
+"iap": [
+[
+"Weekly Unlimited",
+"￦9,900"
+],
+[
+"Pro Access",
+"￦9,900"
+],
+[
+"Yearly Unlimited",
+"￦55,000"
+],
+[
+"Pro Yearly",
+"￦55,000"
+],
+[
+"1000 Credits",
+"￦17,000"
+],
+[
+"4000 Credits",
+"￦33,000"
+],
+[
+"Pro Access",
+"￦17,000"
+],
+[
+"Pro Access",
+"￦11,000"
+],
+[
+"Weekly Unlimited Discounted",
+"￦17,000"
+],
+[
+"Secret Discount",
+"￦149,000"
+]
+],
+"pmin": "￦9,900",
+"pmax": "￦149,000"
+},
+"nova|ru": {
+"avail": true,
+"rating": 4.72044,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"449,00 ₽"
+],
+[
+"1 Week Chatbot Pro",
+"599,00 ₽"
+],
+[
+"1 Week Chatbot Pro",
+"449,00 ₽"
+],
+[
+"1 Year Chatbot Pro",
+"3 490,00 ₽"
+],
+[
+"1 Week Chatbot Pro",
+"599,00 ₽"
+],
+[
+"1 Week Chatbot Pro",
+"699,00 ₽"
+],
+[
+"1 Week Chatbot Pro",
+"449,00 ₽"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"699,00 ₽"
+],
+[
+"1 Year Chatbot Pro",
+"2 490,00 ₽"
+],
+[
+"1 Week Chatbot Pro",
+"349,00 ₽"
+]
+],
+"pmin": "349,00 ₽",
+"pmax": "3 490,00 ₽"
+},
+"nova|de": {
+"avail": true,
+"rating": 4.50673,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"5,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"7,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"5,99 €"
+],
+[
+"1 Year Chatbot Pro",
+"44,99 €"
+],
+[
+"Nova Premium Subscription",
+"9,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"8,99 €"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"11,99 €"
+],
+[
+"1 Year Chatbot Pro",
+"69,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"2,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"3,99 €"
+]
+],
+"pmin": "2,99 €",
+"pmax": "69,99 €"
+},
+"nova|jp": {
+"avail": true,
+"rating": 4.4732,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"¥700"
+],
+[
+"1 Week Chatbot Pro",
+"¥1,000"
+],
+[
+"1 Week Chatbot Pro",
+"¥700"
+],
+[
+"1 Week Chatbot Pro",
+"¥600"
+],
+[
+"1 Week Chatbot Pro",
+"¥700"
+],
+[
+"Nova Premium Subscription",
+"¥1,500"
+],
+[
+"1 Year Chatbot Pro",
+"¥6,000"
+],
+[
+"1 Year Chatbot Pro",
+"¥3,000"
+],
+[
+"1 Week Chatbot Pro",
+"¥600"
+],
+[
+"1 Year Chatbot Pro",
+"¥4,500"
+]
+],
+"pmin": "¥600",
+"pmax": "¥6,000"
+},
+"nova|br": {
+"avail": true,
+"rating": 4.7177,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"R$ 24,90"
+],
+[
+"1 Week Chatbot Pro",
+"R$ 39,90"
+],
+[
+"1 Week Chatbot Pro",
+"R$ 24,90"
+],
+[
+"1 Year Chatbot Pro",
+"R$ 199,90"
+],
+[
+"1 Week Chatbot Pro",
+"R$ 39,90"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"R$ 49,90"
+],
+[
+"1 Week Chatbot Pro",
+"R$ 14,90"
+],
+[
+"1 Week Chatbot Pro",
+"R$ 14,90"
+],
+[
+"1 Year Chatbot Pro",
+"R$ 79,90"
+],
+[
+"Nova Credit Pack Discounted",
+"R$ 59,90"
+]
+],
+"pmin": "R$ 14,90",
+"pmax": "R$ 199,90"
+},
+"nova|fr": {
+"avail": true,
+"rating": 4.55422,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"7,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"5,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"8,99 €"
+],
+[
+"1 Year Chatbot Pro",
+"44,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"7,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"5,99 €"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"11,99 €"
+],
+[
+"1 Year Chatbot Pro",
+"69,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"3,99 €"
+],
+[
+"Nova Premium Subscription",
+"9,99 €"
+]
+],
+"pmin": "3,99 €",
+"pmax": "69,99 €"
+},
+"nova|sa": {
+"avail": true,
+"rating": 4.35778,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"SAR 19.99"
+],
+[
+"1 Week Chatbot Pro",
+"SAR 29.99"
+],
+[
+"1 Week Chatbot Pro",
+"SAR 19.99"
+],
+[
+"1 Year Chatbot Pro",
+"SAR 179.99"
+],
+[
+"1 Week Chatbot Pro",
+"SAR 34.99"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"SAR 39.99"
+],
+[
+"Nova Premium Subscription",
+"SAR 39.99"
+],
+[
+"1 Week Chatbot Pro",
+"SAR 29.99"
+],
+[
+"1 Week Chatbot Pro",
+"SAR 19.99"
+],
+[
+"1 Week Chatbot Pro",
+"SAR 17.99"
+]
+],
+"pmin": "SAR 17.99",
+"pmax": "SAR 179.99"
+},
+"nova|cn": {
+"avail": false
+},
+"nova|tw": {
+"avail": true,
+"rating": 4.6567,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"$150.00"
+],
+[
+"1 Week Chatbot Pro",
+"$220.00"
+],
+[
+"1 Year Chatbot Pro",
+"$1,290.00"
+],
+[
+"1 Week Chatbot Pro",
+"$150.00"
+],
+[
+"1 Week Chatbot Pro",
+"$90.00"
+],
+[
+"1 Week Chatbot Pro",
+"$290.00"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"$320.00"
+],
+[
+"1 Year Chatbot Pro",
+"$990.00"
+],
+[
+"1 Week Chatbot Pro",
+"$150.00"
+],
+[
+"1 Year Chatbot Pro",
+"$1,990.00"
+]
+],
+"pmin": "$90.00",
+"pmax": "$1,990.00"
+},
+"nova|th": {
+"avail": true,
+"rating": 4.76396,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"฿199.00"
+],
+[
+"1 Week Chatbot Pro",
+"฿249.00"
+],
+[
+"1 Week Chatbot Pro",
+"฿99.00"
+],
+[
+"1 Week Chatbot Pro",
+"฿149.00"
+],
+[
+"1 Week Chatbot Pro",
+"฿199.00"
+],
+[
+"1 Week Chatbot Pro",
+"฿199.00"
+],
+[
+"1 Year Chatbot Pro",
+"฿1,490.00"
+],
+[
+"1 Week Chatbot Pro",
+"฿299.00"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"฿399.00"
+],
+[
+"1 Year Chatbot Pro",
+"฿499.00"
+]
+],
+"pmin": "฿99.00",
+"pmax": "฿1,490.00"
+},
+"nova|tr": {
+"avail": true,
+"rating": 4.48324,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"₺119,99"
+],
+[
+"1 Week Chatbot Pro",
+"₺179,99"
+],
+[
+"1 Week Chatbot Pro",
+"₺199,99"
+],
+[
+"1 Year Chatbot Pro",
+"₺999,99"
+],
+[
+"1 Week Chatbot Pro",
+"₺199,99"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"₺229,99"
+],
+[
+"1 Week Chatbot Pro",
+"₺149,99"
+],
+[
+"1 Week Chatbot Pro",
+"₺249,99"
+],
+[
+"Nova Premium Subscription",
+"₺499,99"
+],
+[
+"Nova AI Assistant Upgrade PRO",
+"₺149,99"
+]
+],
+"pmin": "₺119,99",
+"pmax": "₺999,99"
+},
+"nova|it": {
+"avail": true,
+"rating": 4.5946,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"5,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"7,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"5,99 €"
+],
+[
+"1 Year Chatbot Pro",
+"44,99 €"
+],
+[
+"1 Week Chatbot Pro",
+"8,99 €"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"11,99 €"
+],
+[
+"1 Year Chatbot Pro",
+"69,99 €"
+],
+[
+"Nova Credit Pack Discounted",
+"9,99 €"
+],
+[
+"1 Year Chatbot Pro",
+"34,99 €"
+],
+[
+"Nova AI Assistant Upgrade PRO",
+"2,99 €"
+]
+],
+"pmin": "2,99 €",
+"pmax": "69,99 €"
+},
+"nova|kr": {
+"avail": true,
+"rating": 4.4681,
+"version": "4.5.6",
+"date": "2026-10-30",
+"iap": [
+[
+"1 Week Chatbot Pro",
+"￦6,600"
+],
+[
+"1 Week Chatbot Pro",
+"￦9,900"
+],
+[
+"1 Week Chatbot Pro",
+"￦6,600"
+],
+[
+"1 Year Chatbot Pro",
+"￦55,000"
+],
+[
+"1 Month Chatbot OpenAI Subs",
+"￦15,000"
+],
+[
+"1 Week Chatbot Pro",
+"￦11,000"
+],
+[
+"1 Week Chatbot Pro",
+"￦6,600"
+],
+[
+"1 Week Chatbot Pro",
+"￦4,400"
+],
+[
+"1 Year Chatbot Pro",
+"￦44,000"
+],
+[
+"1 Year Chatbot Pro",
+"￦88,000"
+]
+],
+"pmin": "￦4,400",
+"pmax": "￦88,000"
+},
+"chatai|ru": {
+"avail": true,
+"rating": 4.81695,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"599,00 ₽"
+],
+[
+"Weekly Pro",
+"699,00 ₽"
+],
+[
+"Unlimited Year",
+"4 990,00 ₽"
+],
+[
+"1 Year Unlimited (Promo)",
+"2 490,00 ₽"
+],
+[
+"Unlimited Month",
+"999,00 ₽"
+],
+[
+"Year Unlimited +",
+"5 990,00 ₽"
+],
+[
+"Weekly Pro",
+"699,00 ₽"
+],
+[
+"Unlimited Week",
+"599,00 ₽"
+],
+[
+"300,000 Credits",
+"4 490,00 ₽"
+],
+[
+"150,000 Credits",
+"2 490,00 ₽"
+]
+],
+"pmin": "599,00 ₽",
+"pmax": "5 990,00 ₽"
+},
+"chatai|de": {
+"avail": true,
+"rating": 4.67098,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"7,99 €"
+],
+[
+"Weekly Pro",
+"8,99 €"
+],
+[
+"Unlimited Year",
+"79,99 €"
+],
+[
+"Unlimited Month",
+"17,99 €"
+],
+[
+"1 Year Unlimited (Promo)",
+"34,99 €"
+],
+[
+"Unlimited Week",
+"7,99 €"
+],
+[
+"Year Unlimited +",
+"79,99 €"
+],
+[
+"300,000 Credits",
+"59,99 €"
+],
+[
+"Weekly Pro",
+"8,99 €"
+],
+[
+"150,000 Credits",
+"34,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "79,99 €"
+},
+"chatai|jp": {
+"avail": true,
+"rating": 4.59615,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"¥1,000"
+],
+[
+"Weekly Pro",
+"¥1,200"
+],
+[
+"Unlimited Year",
+"¥10,000"
+],
+[
+"Unlimited Month",
+"¥2,500"
+],
+[
+"Weekly Pro",
+"¥1,200"
+],
+[
+"Unlimited Week",
+"¥1,000"
+],
+[
+"Year Unlimited +",
+"¥10,000"
+],
+[
+"1 Year Unlimited (Promo)",
+"¥4,500"
+],
+[
+"300,000 Credits",
+"¥8,000"
+],
+[
+"150,000 Credits",
+"¥5,000"
+]
+],
+"pmin": "¥1,000",
+"pmax": "¥10,000"
+},
+"chatai|br": {
+"avail": true,
+"rating": 4.84504,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"R$ 39,90"
+],
+[
+"Weekly Pro",
+"R$ 39,90"
+],
+[
+"Unlimited Year",
+"R$ 399,90"
+],
+[
+"Unlimited Month",
+"R$ 79,90"
+],
+[
+"1 Year Unlimited (Promo)",
+"R$ 149,90"
+],
+[
+"50,000 Credits",
+"R$ 59,90"
+],
+[
+"Year Unlimited +",
+"R$ 399,90"
+],
+[
+"Weekly Pro",
+"R$ 39,90"
+],
+[
+"Unlimited Week",
+"R$ 39,90"
+],
+[
+"300,000 Credits",
+"R$ 299,90"
+]
+],
+"pmin": "R$ 39,90",
+"pmax": "R$ 399,90"
+},
+"chatai|fr": {
+"avail": true,
+"rating": 4.60391,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"7,99 €"
+],
+[
+"Weekly Pro",
+"8,99 €"
+],
+[
+"Unlimited Year",
+"79,99 €"
+],
+[
+"Unlimited Month",
+"17,99 €"
+],
+[
+"1 Year Unlimited (Promo)",
+"34,99 €"
+],
+[
+"Year Unlimited +",
+"79,99 €"
+],
+[
+"50,000 Credits",
+"9,99 €"
+],
+[
+"Weekly Pro",
+"8,99 €"
+],
+[
+"Unlimited Week",
+"7,99 €"
+],
+[
+"300,000 Credits",
+"59,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "79,99 €"
+},
+"chatai|sa": {
+"avail": true,
+"rating": 4.66912,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"SAR 29.99"
+],
+[
+"Weekly Pro",
+"SAR 34.99"
+],
+[
+"Unlimited Year",
+"SAR 299.99"
+],
+[
+"Unlimited Month",
+"SAR 59.99"
+],
+[
+"1 Year Unlimited (Promo)",
+"SAR 129.99"
+],
+[
+"Year Unlimited +",
+"SAR 299.99"
+],
+[
+"50,000 Credits",
+"SAR 39.99"
+],
+[
+"Weekly Pro",
+"SAR 34.99"
+],
+[
+"Unlimited Week",
+"SAR 29.99"
+],
+[
+"300,000 Credits",
+"SAR 199.99"
+]
+],
+"pmin": "SAR 29.99",
+"pmax": "SAR 299.99"
+},
+"chatai|cn": {
+"avail": false
+},
+"chatai|tw": {
+"avail": true,
+"rating": 4.84685,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"$220.00"
+],
+[
+"Weekly Pro",
+"$290.00"
+],
+[
+"Unlimited Year",
+"$2,290.00"
+],
+[
+"Unlimited Month",
+"$490.00"
+],
+[
+"1 Year Unlimited (Promo)",
+"$990.00"
+],
+[
+"Weekly Pro",
+"$290.00"
+],
+[
+"Unlimited Week",
+"$220.00"
+],
+[
+"Year Unlimited +",
+"$2,290.00"
+],
+[
+"300,000 Credits",
+"$1,490.00"
+],
+[
+"150,000 Credits",
+"$990.00"
+]
+],
+"pmin": "$220.00",
+"pmax": "$2,290.00"
+},
+"chatai|th": {
+"avail": true,
+"rating": 4.76265,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"฿249.00"
+],
+[
+"Unlimited Month",
+"฿599.00"
+],
+[
+"Unlimited Year",
+"฿2,490.00"
+],
+[
+"Weekly Pro",
+"฿299.00"
+],
+[
+"1 Year Unlimited (Promo)",
+"฿999.00"
+],
+[
+"Weekly Pro",
+"฿299.00"
+],
+[
+"Unlimited Week",
+"฿249.00"
+],
+[
+"Year Unlimited +",
+"฿2,490.00"
+],
+[
+"300,000 Credits",
+"฿1,990.00"
+],
+[
+"150,000 Credits",
+"฿999.00"
+]
+],
+"pmin": "฿249.00",
+"pmax": "฿2,490.00"
+},
+"chatai|tr": {
+"avail": true,
+"rating": 4.69546,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"₺179,99"
+],
+[
+"Unlimited Year",
+"₺1.799,99"
+],
+[
+"Weekly Pro",
+"₺299,99"
+],
+[
+"Unlimited Month",
+"₺349,99"
+],
+[
+"1 Year Unlimited (Promo)",
+"₺699,99"
+],
+[
+"Year Unlimited +",
+"₺2.499,99"
+],
+[
+"Weekly Pro",
+"₺299,99"
+],
+[
+"Unlimited Week",
+"₺249,99"
+],
+[
+"300,000 Credits",
+"₺2.499,99"
+],
+[
+"150,000 Credits",
+"₺1.499,99"
+]
+],
+"pmin": "₺179,99",
+"pmax": "₺2.499,99"
+},
+"chatai|it": {
+"avail": true,
+"rating": 4.70587,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"7,99 €"
+],
+[
+"Weekly Pro",
+"8,99 €"
+],
+[
+"Unlimited Year",
+"79,99 €"
+],
+[
+"Unlimited Month",
+"17,99 €"
+],
+[
+"1 Year Unlimited (Promo)",
+"34,99 €"
+],
+[
+"50,000 Credits",
+"9,99 €"
+],
+[
+"Year Unlimited +",
+"79,99 €"
+],
+[
+"Weekly Pro",
+"8,99 €"
+],
+[
+"Unlimited Week",
+"7,99 €"
+],
+[
+"300,000 Credits",
+"59,99 €"
+]
+],
+"pmin": "7,99 €",
+"pmax": "79,99 €"
+},
+"chatai|kr": {
+"avail": true,
+"rating": 4.64015,
+"version": "1.9",
+"date": "2024-12-21",
+"iap": [
+[
+"PRO Week",
+"￦9,900"
+],
+[
+"Unlimited Year",
+"￦99,000"
+],
+[
+"Weekly Pro",
+"￦11,000"
+],
+[
+"Unlimited Month",
+"￦22,000"
+],
+[
+"1 Year Unlimited (Promo)",
+"￦44,000"
+],
+[
+"300,000 Credits",
+"￦77,000"
+],
+[
+"Weekly Pro",
+"￦11,000"
+],
+[
+"Unlimited Week",
+"￦9,900"
+],
+[
+"Year Unlimited +",
+"￦99,000"
+],
+[
+"150,000 Credits",
+"￦49,000"
+]
+],
+"pmin": "￦9,900",
+"pmax": "￦99,000"
+},
+"askai|ru": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Discounted_Yearly_C",
+"4 990,00 ₽"
+],
+[
+"Discounted_Yearly_B",
+"3 490,00 ₽"
+],
+[
+"Discounted_Yearly",
+"4 490,00 ₽"
+],
+[
+"Monthly",
+"899,00 ₽"
+],
+[
+"Yearly",
+"5 990,00 ₽"
+],
+[
+"Weekly",
+"699,00 ₽"
+]
+],
+"pmin": "699,00 ₽",
+"pmax": "5 990,00 ₽"
+},
+"askai|de": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Weekly",
+"8,99 €"
+],
+[
+"Discounted_Yearly_C",
+"69,99 €"
+],
+[
+"Discounted_Yearly_B",
+"44,99 €"
+],
+[
+"Discounted_Yearly",
+"59,99 €"
+],
+[
+"Monthly",
+"9,99 €"
+],
+[
+"Yearly",
+"79,99 €"
+]
+],
+"pmin": "8,99 €",
+"pmax": "79,99 €"
+},
+"askai|jp": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"ウィークリー  ",
+"¥1,300"
+],
+[
+"年単位で  ",
+"¥11,000"
+],
+[
+"Discounted_Yearly_C",
+"¥10,000"
+],
+[
+"Discounted_Yearly_B",
+"¥6,000"
+],
+[
+"Discounted_Yearly",
+"¥8,000"
+],
+[
+"月刊。",
+"¥1,500"
+]
+],
+"pmin": "¥1,300",
+"pmax": "¥11,000"
+},
+"askai|br": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Discounted_Yearly_C",
+"R$ 399,90"
+],
+[
+"Discounted_Yearly_B",
+"R$ 249,90"
+],
+[
+"Discounted_Yearly",
+"R$ 299,90"
+],
+[
+"Monthly",
+"R$ 49,90"
+],
+[
+"Yearly",
+"R$ 499,90"
+],
+[
+"Weekly",
+"R$ 49,90"
+]
+],
+"pmin": "R$ 49,90",
+"pmax": "R$ 499,90"
+},
+"askai|fr": {
+"avail": true,
+"rating": 5,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Discounted_Yearly_C",
+"69,99 €"
+],
+[
+"Discounted_Yearly_B",
+"44,99 €"
+],
+[
+"Discounted_Yearly",
+"59,99 €"
+],
+[
+"Monthly",
+"9,99 €"
+],
+[
+"Yearly",
+"79,99 €"
+],
+[
+"Weekly",
+"8,99 €"
+]
+],
+"pmin": "8,99 €",
+"pmax": "79,99 €"
+},
+"askai|sa": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Weekly",
+"SAR 34.99"
+],
+[
+"Discounted_Yearly_C",
+"SAR 249.99"
+],
+[
+"Discounted_Yearly_B",
+"SAR 179.99"
+],
+[
+"Discounted_Yearly",
+"SAR 199.99"
+],
+[
+"Monthly",
+"SAR 39.99"
+],
+[
+"Yearly",
+"SAR 299.99"
+]
+],
+"pmin": "SAR 34.99",
+"pmax": "SAR 299.99"
+},
+"askai|cn": {
+"avail": false
+},
+"askai|tw": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Discounted_Yearly_C",
+"$1,990.00"
+],
+[
+"Discounted_Yearly_B",
+"$1,290.00"
+],
+[
+"Discounted_Yearly",
+"$1,490.00"
+],
+[
+"Monthly",
+"$320.00"
+],
+[
+"Yearly",
+"$2,290.00"
+],
+[
+"Weekly",
+"$290.00"
+]
+],
+"pmin": "$290.00",
+"pmax": "$2,290.00"
+},
+"askai|th": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Discounted_Yearly_C",
+"฿1,990.00"
+],
+[
+"Discounted_Yearly_B",
+"฿1,490.00"
+],
+[
+"Discounted_Yearly",
+"฿1,990.00"
+],
+[
+"Monthly",
+"฿399.00"
+],
+[
+"Yearly",
+"฿2,490.00"
+],
+[
+"Weekly",
+"฿299.00"
+]
+],
+"pmin": "฿299.00",
+"pmax": "฿2,490.00"
+},
+"askai|tr": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Weekly",
+"₺399,99"
+],
+[
+"Discounted_Yearly_C",
+"₺2.499,99"
+],
+[
+"Discounted_Yearly_B",
+"₺1.799,99"
+],
+[
+"Discounted_Yearly",
+"₺2.299,99"
+],
+[
+"Monthly",
+"₺249,99"
+],
+[
+"Yearly",
+"₺2.999,99"
+]
+],
+"pmin": "₺249,99",
+"pmax": "₺2.999,99"
+},
+"askai|it": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"Discounted_Yearly_C",
+"69,99 €"
+],
+[
+"Discounted_Yearly_B",
+"44,99 €"
+],
+[
+"Discounted_Yearly",
+"59,99 €"
+],
+[
+"Monthly",
+"9,99 €"
+],
+[
+"Yearly",
+"79,99 €"
+],
+[
+"Weekly",
+"8,99 €"
+]
+],
+"pmin": "8,99 €",
+"pmax": "79,99 €"
+},
+"askai|kr": {
+"avail": true,
+"rating": 0,
+"version": "1.4.5",
+"date": "2026-11-02",
+"iap": [
+[
+"매주. ",
+"￦12,000"
+],
+[
+"해마다.",
+"￦99,000"
+],
+[
+"Discounted_Yearly_C",
+"￦88,000"
+],
+[
+"Discounted_Yearly_B",
+"￦55,000"
+],
+[
+"Discounted_Yearly",
+"￦66,000"
+],
+[
+"매달의. ",
+"￦14,000"
+]
+],
+"pmin": "￦12,000",
+"pmax": "￦99,000"
+}
+}
