@@ -521,4 +521,280 @@ PAGES = [{
         "アプリ：米国 App Store のページ、2026年11月8日時点。",
     ],
     "fix": '内容が古くなっている場合は、<a href="mailto:sagalabs@proton.me">ご連絡ください</a>。ページを修正します。',
+}, {
+    **COMMON, "lang": "pt-BR", "path": "pt-br/cripto-familia-trump-apos-eleicoes-wlfi-trump-usd1/", "ct": "rd-trump-crypto-midterms-pt-br",
+    "kicker": "Notícias de cripto",
+    "title": "Cripto da família Trump após as eleições: WLFI, TRUMP e USD1 (8 nov. 2026)",
+    "h1": "Cripto da família Trump após as eleições de meio de mandato: o que os democratas querem investigar e como WLFI, TRUMP e USD1 se moveram",
+    "description": ("Depois que os democratas conquistaram a Câmara dos Representantes em 3 de novembro de 2026, há relatos de que planejam "
+                    "investigar a World Liberty Financial (WLFI, USD1) e a memecoin TRUMP. Cronologia, preços da CoinGecko de 1 a 8 de "
+                    "novembro, o que observar a seguir e como acompanhar esses tokens no iPhone."),
+    "llms": ("Notícia, 8 de novembro de 2026: o que foi relatado sobre as investigações que os democratas preparam contra a World Liberty "
+             "Financial (WLFI, USD1), a World Liberty Trust e a memecoin TRUMP após as eleições de meio de mandato de 3 de novembro, com "
+             "cronologia datada, preços da CoinGecko de 1 a 8 de novembro (TRUMP cerca de −32%, WLFI cerca de −8%, USD1 perto de US$ 1), "
+             "o que observar a seguir e três apps para iPhone para acompanhar os tokens (CoinGecko, Crypton, CoinMarketCap). Não é "
+             "aconselhamento financeiro."),
+    "llms_note": "Crypton, one of the three apps named, is made by Saga Labs, which runs Reditor.",
+    "stand": "O que foi relatado, com datas e fontes, e o que os preços fizeram na semana após a votação.",
+    "answer": [
+        "<strong>Depois que os democratas conquistaram a Câmara nas eleições de meio de mandato de 3 de novembro de 2026, o deputado Robert "
+        "Garcia, que deve presidir o Comitê de Supervisão da Câmara, sinalizou investigações sobre os negócios com cripto da família Trump; "
+        "segundo o " + a(CN, "crypto.news") + ", elas poderiam começar já em fevereiro de 2027.</strong> Na semana após a votação, os dados "
+        "da CoinGecko mostram a memecoin TRUMP em queda de cerca de 32%, o token WLFI da World Liberty Financial em queda de cerca de 8%, e a "
+        "stablecoin USD1 perto de US$ 1.",
+    ],
+    "sections": [
+        ("reported", "O que foi relatado",
+         "<p>Segundo o " + a(CN, "crypto.news") + ", que citou projeções da NBC News e da MS NOW, os democratas assumiram o controle da "
+         "Câmara. O site informa que Garcia respondeu ao resultado com duas palavras, «Lawyer up» («contratem um advogado»), e que os "
+         "comitês poderão pedir documentos e depoimentos por intimação.</p>\n"
+         "<p>Os alvos citados nessa reportagem são:</p>\n" + ul([
+             "<strong>World Liberty Financial</strong>, seu token WLFI e sua stablecoin USD1, incluindo a propriedade estrangeira. O "
+             "crypto.news informa que um veículo de investimento do xeque Tahnoon bin Zayed, dos Emirados Árabes Unidos, comprou 49% por "
+             "US$ 500 milhões, segundo relatos, pouco antes da posse de janeiro de 2025.",
+             "<strong>World Liberty Trust Company</strong>, o banco fiduciário planejado para o USD1. A Reuters informou que o Escritório do "
+             "Controlador da Moeda (OCC) lhe deu aprovação preliminar condicional em 14 de agosto de 2026, e que ela não é final ("
+             + a(OCC, "Reuters, via The Star") + ").",
+             "<strong>A memecoin TRUMP.</strong> Segundo o crypto.news, Trump declarou mais de US$ 1 bilhão em renda ligada a cripto em 2025, "
+             "cerca de US$ 635 milhões deles em royalties ligados à moeda; a Reuters estimou que os negócios cripto da família renderam pelo "
+             "menos US$ 2,3 bilhões.",
+             "<strong>O perdão ao fundador da Binance, Changpeng Zhao.</strong> O crypto.news informa que Zhao nega ligações de negócios com a "
+             "família e diz que nunca discutiu qualquer acordo de clemência.",
+             "Negócios de outros membros da família."]) +
+         "<p>A porta-voz da Casa Branca, Lauren Bis, disse à Newsweek, citada pelo crypto.news, que os planos dos democratas são a "
+         "continuação do que chamou de longa caça às bruxas contra o presidente. Em 8 de novembro, o Financial Times publicou a história na "
+         "primeira página com o título <em>Crypto industry braces for reckoning over Trump ties</em>.</p>\n"),
+        ("timeline", "Cronologia", ul([
+            "<strong>Antes de janeiro de 2025.</strong> Um veículo de Tahnoon bin Zayed teria comprado 49% da World Liberty Financial (crypto.news).",
+            "<strong>14 de agosto de 2026.</strong> O OCC concede à World Liberty Trust Company aprovação preliminar condicional (Reuters).",
+            "<strong>Setembro de 2026.</strong> A lei CLARITY não passa na votação de encerramento de debate (cloture) no Senado (CNBC).",
+            "<strong>3 de novembro de 2026.</strong> Eleições de meio de mandato; os democratas vencem a Câmara, segundo as projeções da NBC News e da MS NOW.",
+            "<strong>4 de novembro de 2026.</strong> TRUMP tem a maior queda diária da semana na CoinGecko, de US$ 1,59 para US$ 1,27. O crypto.news informa as investigações planejadas.",
+            "<strong>5 de novembro de 2026.</strong> A CNBC informa que o resultado põe a indústria cripto na defensiva em Washington.",
+            "<strong>8 de novembro de 2026.</strong> O Financial Times publica a história na primeira página.",
+            "<strong>A partir de fevereiro de 2027.</strong> As investigações poderiam começar, segundo o crypto.news."])),
+        ("prices", "Como os tokens se moveram de 1 a 8 de novembro", table(
+            ("Token", "1 nov. (fechamento diário)", "8 nov.", "Variação", "Valor de mercado, 8 nov."),
+            [("TRUMP (Official Trump)", "US$ 1,71", "US$ 1,16", "&minus;32%", "~US$ 328 milhões"),
+             ("WLFI (World Liberty Financial)", "US$ 0,050", "US$ 0,046", "&minus;8%", "~US$ 1,47 bilhão"),
+             ("USD1 (stablecoin)", "US$ 0,998", "US$ 0,998", "0%", "~US$ 3,44 bilhões (de ~US$ 3,87 bilhões)"),
+             ("Bitcoin, para comparação", "US$ 78.294", "US$ 75.806", "&minus;3%", "")],
+            "Fonte: CoinGecko, fechamento diário em UTC de 1 de novembro e preço na manhã de 8 de novembro (UTC). Arredondado. O USD1 manteve "
+            "o preço, enquanto o valor de mercado dele na CoinGecko caiu cerca de US$ 430 milhões na semana. O bitcoin também caiu na mesma "
+            "semana, então nem todo movimento pode ser atribuído à notícia.")),
+        ("next", "O que observar a seguir", ul([
+            "<strong>Quando os comitês começam.</strong> O crypto.news informou que as investigações poderiam começar já em fevereiro de 2027, "
+            "quando a nova Câmara estiver instalada.",
+            "<strong>A lei CLARITY.</strong> A " + a(CNBC, "CNBC") + " informou que o projeto de estrutura de mercado já havia fracassado em "
+            "uma votação de encerramento de debate no Senado em setembro; os analistas citados esperam uma versão democrata mais dura no ano "
+            "que vem ou nenhum movimento até 2028.",
+            "<strong>O banco fiduciário.</strong> A aprovação da World Liberty Trust Company é preliminar e condicional; o OCC ainda precisa dar "
+            "a aprovação final (Reuters)."])),
+        ("track", "Como acompanhar WLFI, TRUMP e USD1 no iPhone",
+         "<p>Qualquer rastreador de cripto que use dados da CoinGecko ou da CoinMarketCap mostra os três. Três opções:</p>\n" + ul([
+             "<strong>CoinGecko</strong> (" + a(COINGECKO_APP, "App Store") + "), de onde saem os preços deste artigo, com alertas de preço e widgets.",
+             "<strong>Crypton</strong> (" + a(CRYPTON, "App Store") + "): procure WLFI, TRUMP ou USD1 pelo nome ou símbolo, adicione aos favoritos "
+             "e escolha-os no widget de lista de moedas da tela inicial. Se você tiver algum, informe a quantidade e o preço médio de compra para "
+             "ver lucro e prejuízo. Funciona sem conta, e a versão à venta não tem alertas de preço.",
+             "<strong>CoinMarketCap</strong> (" + a(CMC_APP, "App Store") + "), com alertas de preço e widgets."]) +
+         "<p>A reviewland compara mais apps para esses três tokens, por alertas, widgets e preço, em "
+         + a(RL, "the best apps to track WLFI and the TRUMP coin on iPhone") + " (em inglês).</p>\n"
+         '<p class="note">Não é aconselhamento financeiro. Este artigo relata o que outros publicaram e o que os preços fizeram; não recomenda '
+         "comprar nem vender nada.</p>\n"),
+    ],
+    "faq": [
+        ("Os democratas estão investigando as cripto de Trump?", "Segundo o crypto.news, depois de vencerem a Câmara em 3 de novembro de 2026, os democratas planejam examinar a World Liberty Financial, o USD1, a memecoin TRUMP e negócios relacionados; as investigações poderiam começar já em fevereiro de 2027."),
+        ("Como a moeda TRUMP reagiu às eleições?", "Na CoinGecko, ela caiu de US$ 1,71 no fechamento de 1 de novembro para cerca de US$ 1,16 em 8 de novembro, uma queda de cerca de 32%, com a maior queda diária em 4 de novembro."),
+        ("O USD1 perdeu a paridade com o dólar?", "Não. Na CoinGecko, ele ficou perto de US$ 1 na semana após a votação, em cerca de US$ 0,998 em 8 de novembro."),
+        ("Como acompanho WLFI e TRUMP no iPhone?", "Procure-os em um rastreador que use dados da CoinGecko ou da CoinMarketCap, como CoinGecko, Crypton ou CoinMarketCap, adicione à lista de observação e coloque-os em um widget da tela inicial."),
+    ],
+    "sources_html": [
+        a(CN, "Democrats prepare to investigate World Liberty Financial after House win") + ", crypto.news, 4 de novembro de 2026.",
+        a(CNBC, "Democratic sweep puts crypto on defensive in Washington") + ", CNBC, 5 de novembro de 2026.",
+        a(OCC, "US regulator approves bank charter for Trump-backed crypto company World Liberty Financial") + ", Reuters via The Star, 15 de agosto de 2026.",
+        "<em>Crypto industry braces for reckoning over Trump ties</em>, Financial Times, 8 de novembro de 2026 (pago; só a manchete).",
+        "Preços: CoinGecko, " + ", ".join(a(u, k) for k, u in CG.items()) + ", consultado em 8 de novembro de 2026.",
+        "Apps: suas páginas na App Store dos EUA, 8 de novembro de 2026.",
+    ],
+    "fix": 'Se algo aqui estiver desatualizado, <a href="mailto:sagalabs@proton.me">avise-nos</a> e corrigiremos a página.',
+}, {
+    **COMMON, "lang": "fr", "path": "fr/cryptos-famille-trump-apres-elections-wlfi-trump-usd1/", "ct": "rd-trump-crypto-midterms-fr",
+    "kicker": "Actualité crypto",
+    "title": "Cryptos de la famille Trump après les élections : WLFI, TRUMP et USD1 (8 nov. 2026)",
+    "h1": "Cryptos de la famille Trump après les élections de mi-mandat : ce que les démocrates veulent enquêter, et l’évolution de WLFI, TRUMP et USD1",
+    "description": ("Après la victoire des démocrates à la Chambre des représentants le 3 novembre 2026, des informations indiquent qu’ils "
+                    "prévoient d’enquêter sur World Liberty Financial (WLFI, USD1) et sur le mème coin TRUMP. Chronologie, cours CoinGecko du "
+                    "1er au 8 novembre, ce qu’il faut suivre et comment suivre ces jetons sur iPhone."),
+    "llms": ("Actualité, 8 novembre 2026 : ce qui a été rapporté sur les enquêtes que préparent les démocrates sur World Liberty Financial "
+             "(WLFI, USD1), World Liberty Trust et le mème coin TRUMP après les élections de mi-mandat du 3 novembre, avec une chronologie datée, "
+             "les cours CoinGecko du 1er au 8 novembre (TRUMP environ −32 %, WLFI environ −8 %, USD1 proche de 1 $), ce qu’il faut suivre et trois "
+             "applications iPhone pour suivre les jetons (CoinGecko, Crypton, CoinMarketCap). Ce n’est pas un conseil financier."),
+    "llms_note": "Crypton, one of the three apps named, is made by Saga Labs, which runs Reditor.",
+    "stand": "Ce qui a été rapporté, avec dates et sources, et ce que les cours ont fait la semaine suivant le vote.",
+    "answer": [
+        "<strong>Après la victoire des démocrates à la Chambre lors des élections de mi-mandat du 3 novembre 2026, le représentant Robert Garcia, "
+        "qui devrait présider la commission de surveillance de la Chambre, a laissé entendre des enquêtes sur les activités crypto de la famille "
+        "Trump ; selon " + a(CN, "crypto.news") + ", elles pourraient commencer dès février 2027.</strong> La semaine suivant le vote, les "
+        "données de CoinGecko montrent le mème coin TRUMP en baisse d’environ 32 %, le jeton WLFI de World Liberty Financial en baisse d’environ "
+        "8 %, et le stablecoin USD1 proche de 1 $.",
+    ],
+    "sections": [
+        ("reported", "Ce qui a été rapporté",
+         "<p>Selon " + a(CN, "crypto.news") + ", qui cite les projections de NBC News et MS NOW, les démocrates ont pris le contrôle de la "
+         "Chambre. Le site rapporte que Garcia a répondu au résultat par deux mots, « Lawyer up » (« prenez un avocat »), et que les commissions "
+         "pourront demander des documents et des témoignages par citation à comparaître.</p>\n"
+         "<p>Les cibles citées par ce reportage sont :</p>\n" + ul([
+             "<strong>World Liberty Financial</strong>, son jeton WLFI et son stablecoin USD1, y compris la propriété étrangère. crypto.news "
+             "rapporte qu’un véhicule d’investissement du cheikh Tahnoon bin Zayed, des Émirats arabes unis, a pris 49 % pour, selon les "
+             "informations, 500 millions de dollars, peu avant l’investiture de janvier 2025.",
+             "<strong>World Liberty Trust Company</strong>, la banque fiduciaire prévue pour USD1. Reuters a rapporté que l’Office of the "
+             "Comptroller of the Currency (OCC) lui a accordé une approbation préliminaire conditionnelle le 14 août 2026, et qu’elle n’est pas "
+             "définitive (" + a(OCC, "Reuters, via The Star") + ").",
+             "<strong>Le mème coin TRUMP.</strong> Selon crypto.news, Trump a déclaré plus d’un milliard de dollars de revenus liés aux cryptos pour "
+             "2025, dont environ 635 millions de dollars de redevances liées à la monnaie ; Reuters a estimé que les activités crypto de la famille "
+             "ont rapporté au moins 2,3 milliards de dollars.",
+             "<strong>La grâce accordée au fondateur de Binance, Changpeng Zhao.</strong> crypto.news rapporte que Zhao nie tout lien d’affaires "
+             "avec la famille et affirme n’avoir jamais discuté d’un accord de clémence.",
+             "Les affaires d’autres membres de la famille."]) +
+         "<p>La porte-parole de la Maison Blanche, Lauren Bis, a déclaré à Newsweek, cité par crypto.news, que les projets des démocrates "
+         "prolongent ce qu’elle appelle une longue chasse aux sorcières contre le président. Le 8 novembre, le Financial Times a publié l’histoire "
+         "en une, sous le titre <em>Crypto industry braces for reckoning over Trump ties</em>.</p>\n"),
+        ("timeline", "Chronologie", ul([
+            "<strong>Avant janvier 2025.</strong> Un véhicule du cheikh Tahnoon bin Zayed aurait pris 49 % de World Liberty Financial (crypto.news).",
+            "<strong>14 août 2026.</strong> L’OCC accorde à World Liberty Trust Company une approbation préliminaire conditionnelle (Reuters).",
+            "<strong>Septembre 2026.</strong> La loi CLARITY échoue au vote de clôture des débats au Sénat (CNBC).",
+            "<strong>3 novembre 2026.</strong> Élections de mi-mandat ; les démocrates remportent la Chambre, selon les projections de NBC News et MS NOW.",
+            "<strong>4 novembre 2026.</strong> TRUMP connaît sur CoinGecko la plus forte baisse quotidienne de la semaine, de 1,59 $ à 1,27 $. crypto.news rapporte les enquêtes prévues.",
+            "<strong>5 novembre 2026.</strong> CNBC rapporte que le résultat met l’industrie crypto sur la défensive à Washington.",
+            "<strong>8 novembre 2026.</strong> Le Financial Times met l’histoire en une.",
+            "<strong>À partir de février 2027.</strong> Les enquêtes pourraient commencer, selon crypto.news."])),
+        ("prices", "Évolution des jetons du 1er au 8 novembre", table(
+            ("Jeton", "1er nov. (clôture quotidienne)", "8 nov.", "Variation", "Capitalisation, 8 nov."),
+            [("TRUMP (Official Trump)", "1,71 $", "1,16 $", "&minus;32 %", "~328 millions $"),
+             ("WLFI (World Liberty Financial)", "0,050 $", "0,046 $", "&minus;8 %", "~1,47 milliard $"),
+             ("USD1 (stablecoin)", "0,998 $", "0,998 $", "0 %", "~3,44 milliards $ (contre ~3,87 milliards $)"),
+             ("Bitcoin, pour comparaison", "78 294 $", "75 806 $", "&minus;3 %", "")],
+            "Source : CoinGecko, clôture quotidienne en UTC le 1er novembre et cours du matin du 8 novembre (UTC). Arrondi. USD1 a conservé son "
+            "cours, tandis que sa capitalisation sur CoinGecko a baissé d’environ 430 millions de dollars sur la semaine. Le bitcoin a aussi baissé "
+            "la même semaine : tout mouvement ne peut donc pas être attribué à l’actualité.")),
+        ("next", "Ce qu’il faut suivre", ul([
+            "<strong>Quand les commissions commencent.</strong> crypto.news a rapporté que les enquêtes pourraient commencer dès février 2027, une "
+            "fois la nouvelle Chambre en place.",
+            "<strong>La loi CLARITY.</strong> " + a(CNBC, "CNBC") + " a rapporté que ce projet sur la structure du marché avait déjà échoué en "
+            "septembre au vote de clôture des débats au Sénat ; les analystes cités attendent soit une version démocrate plus dure l’an prochain, "
+            "soit aucun mouvement avant 2028.",
+            "<strong>La banque fiduciaire.</strong> L’approbation de World Liberty Trust Company est préliminaire et conditionnelle ; l’OCC doit "
+            "encore donner son approbation finale (Reuters)."])),
+        ("track", "Comment suivre WLFI, TRUMP et USD1 sur iPhone",
+         "<p>Tout traqueur de cryptos qui utilise les données de CoinGecko ou de CoinMarketCap les affiche tous les trois. Trois options :</p>\n" + ul([
+             "<strong>CoinGecko</strong> (" + a(COINGECKO_APP, "App Store") + "), la source des cours de cet article, avec alertes de prix et widgets.",
+             "<strong>Crypton</strong> (" + a(CRYPTON, "App Store") + ") : recherchez WLFI, TRUMP ou USD1 par nom ou symbole, ajoutez-les aux favoris "
+             "et choisissez-les pour le widget de liste de monnaies de l’écran d’accueil. Si vous en détenez, saisissez la quantité et votre prix "
+             "d’achat moyen pour voir vos gains et pertes. Sans compte ; la version en vente n’a pas d’alertes de prix.",
+             "<strong>CoinMarketCap</strong> (" + a(CMC_APP, "App Store") + "), avec alertes de prix et widgets."]) +
+         "<p>reviewland compare davantage d’applications pour ces trois jetons, par alertes, widgets et prix, dans "
+         + a(RL, "the best apps to track WLFI and the TRUMP coin on iPhone") + " (en anglais).</p>\n"
+         '<p class="note">Ce n’est pas un conseil financier. Cet article rapporte ce que d’autres ont publié et ce qu’ont fait les cours ; il ne '
+         "recommande ni d’acheter ni de vendre quoi que ce soit.</p>\n"),
+    ],
+    "faq": [
+        ("Les démocrates enquêtent-ils sur les cryptos de Trump ?", "Selon crypto.news, après leur victoire à la Chambre le 3 novembre 2026, les démocrates prévoient d’examiner World Liberty Financial, USD1, le mème coin TRUMP et les opérations liées ; les enquêtes pourraient commencer dès février 2027."),
+        ("Comment le mème coin TRUMP a-t-il réagi aux élections ?", "Sur CoinGecko, il est passé de 1,71 $ à la clôture du 1er novembre à environ 1,16 $ le 8 novembre, soit une baisse d’environ 32 %, avec la plus forte baisse quotidienne le 4 novembre."),
+        ("USD1 a-t-il perdu son ancrage au dollar ?", "Non. Sur CoinGecko, il est resté proche de 1 $ la semaine suivant le vote, à environ 0,998 $ le 8 novembre."),
+        ("Comment suivre WLFI et TRUMP sur iPhone ?", "Recherchez-les dans un traqueur qui utilise les données de CoinGecko ou de CoinMarketCap, comme CoinGecko, Crypton ou CoinMarketCap, ajoutez-les à une liste de suivi et placez-les dans un widget de l’écran d’accueil."),
+    ],
+    "sources_html": [
+        a(CN, "Democrats prepare to investigate World Liberty Financial after House win") + ", crypto.news, 4 novembre 2026.",
+        a(CNBC, "Democratic sweep puts crypto on defensive in Washington") + ", CNBC, 5 novembre 2026.",
+        a(OCC, "US regulator approves bank charter for Trump-backed crypto company World Liberty Financial") + ", Reuters via The Star, 15 août 2026.",
+        "<em>Crypto industry braces for reckoning over Trump ties</em>, Financial Times, 8 novembre 2026 (payant ; titre seulement).",
+        "Cours : CoinGecko, " + ", ".join(a(u, k) for k, u in CG.items()) + ", consultés le 8 novembre 2026.",
+        "Applications : leurs pages de l’App Store américain, 8 novembre 2026.",
+    ],
+    "fix": 'Si quelque chose est périmé, <a href="mailto:sagalabs@proton.me">écrivez-nous</a> et nous corrigerons la page.',
+}, {
+    **COMMON, "lang": "ar", "path": "ar/kriptu-trump-baed-alintikhabat-wlfi-trump-usd1/", "ct": "rd-trump-crypto-midterms-ar",
+    "kicker": "أخبار العملات الرقمية",
+    "title": "عملات عائلة ترامب الرقمية بعد الانتخابات: WLFI وTRUMP وUSD1 (8 نوفمبر 2026)",
+    "h1": "عملات عائلة ترامب الرقمية بعد انتخابات منتصف الولاية: ما يريد الديمقراطيون التحقيق فيه، وكيف تحركت WLFI وTRUMP وUSD1",
+    "description": ("بعد فوز الديمقراطيين بمجلس النواب في 3 نوفمبر 2026، تُفيد تقارير بأنهم يخططون للتحقيق في World Liberty Financial "
+                    "(WLFI وUSD1) وعملة الميم TRUMP. يتضمن المقال تسلسلًا زمنيًا، وأسعار CoinGecko من 1 إلى 8 نوفمبر، وما يجب متابعته لاحقًا، "
+                    "وكيف تتابع هذه الرموز على آيفون."),
+    "llms": ("خبر بتاريخ 8 نوفمبر 2026: ما أُفيد عن التحقيقات التي يعدّها الديمقراطيون بشأن World Liberty Financial (WLFI وUSD1) وWorld "
+             "Liberty Trust وعملة الميم TRUMP بعد انتخابات منتصف الولاية في 3 نوفمبر، مع تسلسل زمني مؤرخ، وأسعار CoinGecko من 1 إلى 8 نوفمبر "
+             "(TRUMP نحو −32%، وWLFI نحو −8%، وUSD1 قرب دولار واحد)، وما يُتابع لاحقًا، وثلاثة تطبيقات لآيفون لمتابعة الرموز (CoinGecko "
+             "وCrypton وCoinMarketCap). ليست نصيحة مالية."),
+    "llms_note": "Crypton, one of the three apps named, is made by Saga Labs, which runs Reditor.",
+    "stand": "ما أُفيد به، مع التواريخ والمصادر، وما فعلته الأسعار في الأسبوع بعد التصويت.",
+    "answer": [
+        "<strong>بعد فوز الديمقراطيين بمجلس النواب في انتخابات منتصف الولاية في 3 نوفمبر 2026، أشار النائب روبرت غارسيا، المتوقع أن يرأس لجنة "
+        "الرقابة في المجلس، إلى تحقيقات في أعمال العائلة في العملات الرقمية؛ وبحسب " + a(CN, "crypto.news") + "، قد تبدأ في فبراير 2027.</strong> "
+        "وفي الأسبوع التالي للتصويت، تُظهر بيانات CoinGecko انخفاض عملة الميم TRUMP بنحو 32%، وانخفاض رمز WLFI التابع لشركة World Liberty "
+        "Financial بنحو 8%، وبقاء العملة المستقرة USD1 قرب دولار واحد.",
+    ],
+    "sections": [
+        ("reported", "ما أُفيد به",
+         "<p>بحسب " + a(CN, "crypto.news") + "، الذي استشهد بتوقعات NBC News وMS NOW، سيطر الديمقراطيون على مجلس النواب. وذكر الموقع أن "
+         "غارسيا رد على النتيجة بكلمتين، «Lawyer up» («استعينوا بمحامٍ»)، وأن اللجان قد تطلب وثائق وشهادات عبر استدعاء قضائي.</p>\n"
+         "<p>الأهداف التي يسمّيها هذا التقرير:</p>\n" + ul([
+             "<strong>World Liberty Financial</strong> ورمزها WLFI وعملتها المستقرة USD1، بما في ذلك الملكية الأجنبية. ذكر crypto.news أن ذراعًا "
+             "استثماريًا للشيخ طحنون بن زايد من الإمارات اشترى حصة 49% بنحو 500 مليون دولار، بحسب التقارير، قبيل تنصيب يناير 2025.",
+             "<strong>World Liberty Trust Company</strong>، بنك الأمانة المخطط لـUSD1. ذكرت Reuters أن مكتب مراقب العملة (OCC) منحها موافقة "
+             "مبدئية مشروطة في 14 أغسطس 2026، وأنها ليست نهائية (" + a(OCC, "Reuters، عبر The Star") + ").",
+             "<strong>عملة الميم TRUMP.</strong> بحسب crypto.news، أعلن ترامب دخلًا مرتبطًا بالعملات الرقمية لعام 2025 يتجاوز مليار دولار، منها "
+             "نحو 635 مليون دولار من أتاوات مرتبطة بالعملة؛ وقدّرت Reuters أن مشاريع العائلة في العملات الرقمية حققت ما لا يقل عن 2.3 مليار دولار.",
+             "<strong>العفو عن مؤسس Binance تشانغبينغ تشاو.</strong> ذكر crypto.news أن تشاو ينفي وجود روابط عمل مع العائلة، ويقول إنه لم يناقش "
+             "أي ترتيب للعفو قط.",
+             "أعمال أفراد آخرين من العائلة."]) +
+         "<p>قالت المتحدثة باسم البيت الأبيض، لورين بيس، لصحيفة Newsweek، كما نقل crypto.news، إن خطط الديمقراطيين امتداد لما وصفته بأنه «مطاردة "
+         "ساحرات» طويلة ضد الرئيس. وفي 8 نوفمبر، نشرت Financial Times القصة على صفحتها الأولى تحت عنوان "
+         "<em>Crypto industry braces for reckoning over Trump ties</em>.</p>\n"),
+        ("timeline", "التسلسل الزمني", ul([
+            "<strong>قبل يناير 2025.</strong> تشير التقارير إلى أن ذراعًا للشيخ طحنون بن زايد حصل على 49% من World Liberty Financial (crypto.news).",
+            "<strong>14 أغسطس 2026.</strong> يمنح OCC شركة World Liberty Trust Company موافقة مبدئية مشروطة (Reuters).",
+            "<strong>سبتمبر 2026.</strong> يفشل قانون CLARITY في تصويت إنهاء المناقشة في مجلس الشيوخ (CNBC).",
+            "<strong>3 نوفمبر 2026.</strong> انتخابات منتصف الولاية؛ يفوز الديمقراطيون بمجلس النواب بحسب توقعات NBC News وMS NOW.",
+            "<strong>4 نوفمبر 2026.</strong> تسجل TRUMP أكبر انخفاض يومي لها خلال الأسبوع على CoinGecko، من 1.59 إلى 1.27 دولار. ينقل crypto.news التحقيقات المخططة.",
+            "<strong>5 نوفمبر 2026.</strong> تنقل CNBC أن النتيجة تضع صناعة العملات الرقمية في موقف دفاعي في واشنطن.",
+            "<strong>8 نوفمبر 2026.</strong> تنشر Financial Times القصة على صفحتها الأولى.",
+            "<strong>من فبراير 2027.</strong> قد تبدأ التحقيقات، بحسب crypto.news."])),
+        ("prices", "كيف تحركت الرموز من 1 إلى 8 نوفمبر", table(
+            ("الرمز", "1 نوفمبر (إغلاق يومي)", "8 نوفمبر", "التغير", "القيمة السوقية، 8 نوفمبر"),
+            [("TRUMP (Official Trump)", "$1.71", "$1.16", "&minus;32%", "نحو 328 مليون $"),
+             ("WLFI (World Liberty Financial)", "$0.050", "$0.046", "&minus;8%", "نحو 1.47 مليار $"),
+             ("USD1 (عملة مستقرة)", "$0.998", "$0.998", "0%", "نحو 3.44 مليار $ (من نحو 3.87 مليار $)"),
+             ("Bitcoin، للمقارنة", "$78,294", "$75,806", "&minus;3%", "")],
+            "المصدر: CoinGecko، إغلاق يومي بتوقيت UTC لـ1 نوفمبر، وسعر صباح 8 نوفمبر (UTC). مقرّب. حافظت USD1 على سعرها، بينما انخفضت قيمتها "
+            "السوقية على CoinGecko بنحو 430 مليون دولار خلال الأسبوع. وانخفض البيتكوين في الأسبوع نفسه أيضًا، لذا لا يمكن إرجاع كل حركة إلى الأخبار.")),
+        ("next", "ما يجب متابعته", ul([
+            "<strong>متى تبدأ اللجان.</strong> ذكر crypto.news أن التحقيقات قد تبدأ في فبراير 2027، بعد تشكيل المجلس الجديد.",
+            "<strong>قانون CLARITY.</strong> ذكرت " + a(CNBC, "CNBC") + " أن مشروع قانون هيكل السوق فشل بالفعل في تصويت إنهاء المناقشة في مجلس الشيوخ "
+            "في سبتمبر؛ ويتوقع المحللون الذين نقلت عنهم نسخة ديمقراطية أشد في العام المقبل، أو عدم أي تحرك حتى 2028.",
+            "<strong>بنك الأمانة.</strong> موافقة World Liberty Trust Company مبدئية ومشروطة؛ ولا تزال OCC بحاجة إلى إعطاء الموافقة النهائية (Reuters)."])),
+        ("track", "كيف تتابع WLFI وTRUMP وUSD1 على آيفون",
+         "<p>أي متتبع للعملات الرقمية يستخدم بيانات CoinGecko أو CoinMarketCap يعرض الثلاثة. ثلاثة خيارات:</p>\n" + ul([
+             "<strong>CoinGecko</strong> (" + a(COINGECKO_APP, "App Store") + ")، مصدر الأسعار في هذا المقال، مع تنبيهات سعرية وأدوات.",
+             "<strong>Crypton</strong> (" + a(CRYPTON, "App Store") + "): ابحث عن WLFI أو TRUMP أو USD1 بالاسم أو الرمز، وأضفها إلى المفضلة، "
+             "واختَرها لأداة قائمة العملات على الشاشة الرئيسية. إذا كنت تمتلك منها شيئًا، فأدخل الكمية ومتوسط سعر الشراء لترى الربح والخسارة. "
+             "تعمل دون حساب، والنسخة المعروضة للبيع لا تحتوي على تنبيهات سعرية.",
+             "<strong>CoinMarketCap</strong> (" + a(CMC_APP, "App Store") + ")، مع تنبيهات سعرية وأدوات."]) +
+         "<p>تقارن reviewland المزيد من التطبيقات لهذه الرموز الثلاثة، بحسب التنبيهات والأدوات والسعر، في "
+         + a(RL, "the best apps to track WLFI and the TRUMP coin on iPhone") + " (بالإنجليزية).</p>\n"
+         '<p class="note">ليست نصيحة مالية. يعرض هذا المقال ما نشره الآخرون وما فعلته الأسعار؛ ولا يوصي بشراء أو بيع أي شيء.</p>\n'),
+    ],
+    "faq": [
+        ("هل يحقق الديمقراطيون في عملات ترامب الرقمية؟", "بحسب crypto.news، بعد فوزهم بمجلس النواب في 3 نوفمبر 2026، يخطط الديمقراطيون لدراسة World Liberty Financial وUSD1 وعملة الميم TRUMP والصفقات المرتبطة بها، وقد تبدأ التحقيقات في فبراير 2027."),
+        ("كيف تفاعلت عملة TRUMP مع الانتخابات؟", "على CoinGecko انخفضت من 1.71 دولار عند إغلاق 1 نوفمبر إلى نحو 1.16 دولار في 8 نوفمبر، أي بنحو 32%، وكان أكبر انخفاض يومي في 4 نوفمبر."),
+        ("هل فقدت USD1 ارتباطها بالدولار؟", "لا. بحسب CoinGecko بقيت قرب دولار واحد خلال الأسبوع بعد التصويت، عند نحو 0.998 دولار في 8 نوفمبر."),
+        ("كيف أتابع WLFI وTRUMP على آيفون؟", "ابحث عنهما في متتبع يستخدم بيانات CoinGecko أو CoinMarketCap، مثل CoinGecko أو Crypton أو CoinMarketCap، وأضفهما إلى قائمة المراقبة وضعهما في أداة على الشاشة الرئيسية."),
+    ],
+    "sources_html": [
+        a(CN, "Democrats prepare to investigate World Liberty Financial after House win") + "، crypto.news، 4 نوفمبر 2026.",
+        a(CNBC, "Democratic sweep puts crypto on defensive in Washington") + "، CNBC، 5 نوفمبر 2026.",
+        a(OCC, "US regulator approves bank charter for Trump-backed crypto company World Liberty Financial") + "، Reuters عبر The Star، 15 أغسطس 2026.",
+        "<em>Crypto industry braces for reckoning over Trump ties</em>، Financial Times، 8 نوفمبر 2026 (مدفوع؛ العنوان فقط).",
+        "الأسعار: CoinGecko، " + ", ".join(a(u, k) for k, u in CG.items()) + "، تم الاطلاع عليها في 8 نوفمبر 2026.",
+        "التطبيقات: صفحاتها في App Store الأمريكي، 8 نوفمبر 2026.",
+    ],
+    "fix": 'إذا كان هناك شيء قديم هنا، <a href="mailto:sagalabs@proton.me">أخبرنا</a> وسنصحح الصفحة.',
 }]
