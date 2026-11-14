@@ -42,11 +42,92 @@ ABOUT = {"title": "Reditor hakkında ve uygulamaları nasıl kontrol ediyoruz",
 <p>Her sayfayı yaklaşık ayda bir yeniden kontrol ediyoruz. "Güncellendi" tarihi yalnızca veriler gerçekten yeniden kontrol edildiğinde değişir.</p>
 """}
 
-SECTIONS = {"ai-video": "Fotoğraftan ya da metinden yapay zeka videosu", "ai-image": "Yapay zeka görselleri", "ai-chat": "Yapay zeka sohbet uygulamaları",
+SECTIONS = {"car": "Araba ekranı ve CarPlay", "ai-video": "Fotoğraftan ya da metinden yapay zeka videosu", "ai-image": "Yapay zeka görselleri", "ai-chat": "Yapay zeka sohbet uygulamaları",
             "offline-ai": "Özel ve çevrimdışı yapay zeka", "privacy": "Fotoğraf kasaları ve gizlilik", "crypto": "Kripto takip uygulamaları",
             "wellbeing": "Uyku, meditasyon ve odaklanma"}
 
 TEXT = {
+    "car-video-complaints": {
+        "path": "tr/araba-ekraninda-video-izleme-calisan-iphone-uygulamasi/",
+        "kicker": "Araba ekranı rehberi",
+        "title": "Çalışmayan bir uygulamaya ödeme yapmadan araba ekranında video nasıl izlenir (2026)",
+        "h1": "Çalışmayan bir uygulamaya ödeme yapmadan araba ekranında video nasıl izlenir (2026)",
+        "description": "Araç video uygulamalarına “doesn't work in my car”, “paid and nothing happened” ve “scam” diyen 1 ve 2 yıldızlı yorumlar gelir. 863 yorumdan beş şikâyet ve ödeme yapmadan önce her birinden nasıl kaçınılacağı.",
+        "llms": "Rehber, 14 Kasım 2026: iPhone için araba ekranı video ve widget uygulamalarının (CarTV, CarDash, CarTube, APTV, myCar, Car Connect) ABD App Store'daki 863 bir ve iki yıldızlı yorumunda en çok tekrarlanan beş şikâyet: “scam” ve iade talepleri, “doesn't work in my car”, test etmeden ödeme, beklenmeyen ücretler ve “stopped working after the iOS update”; her biri için bir çözümle. Araba ekranındaki video yalnızca araç park halindeyken ve yalnızca üreticisi destekleyen araçlarda oynatılır. Sayılar yaklaşık değerlerdir.",
+        "stand": "ABD App Store yorumlarından şikâyetler ve ödeme yapmadan önce her biri için yapabileceğiniz kontrol.",
+        "answer": [
+            "<strong>Çalışmayan bir uygulamaya ödeme yapmadan araba ekranında video izlemek için önce aracınızın videoyu destekleyip desteklemediğine bakın ve yalnızca kendi aracınızda ücretsiz test etmenize izin veren bir uygulama için ödeme yapın.</strong> Araba ekranındaki video yalnızca araç park halindeyken ve yalnızca üreticisi destekleyen araçlarda oynatılır; bu yüzden aynı uygulama bir arabada çalışıp başka bir arabada hiçbir şey yapmayabilir.",
+            "<strong>Önce ücretsiz test:</strong> {app:6833951195} (indirmesi ücretsiz, puan: {rating:6833951195}) 5 saniyelik bir test klibi oynatır ve ödeme yapmadan önce videonun kendi aracınızda çalışıp çalışmadığını açıkça gösterir. <a href=\"{CARSCREEN}\">CarScreen'i App Store'dan alın</a>."
+        ],
+        "sections": [
+            [
+                "data",
+                "Neye baktık",
+                "<p>Araba için video ve widget uygulamasından sekiz uygulamanın ABD App Store'daki 1.210 güncel yorumunu indirdik ve bunların 863'ünü, yani bir ya da iki yıldızlı olanları tuttuk. Aşağıdaki beş şikâyet en çok tekrarlananlardır. Sayılar anahtar kelime eşleştirmesinden geldiği için yaklaşıktır ve bir yorum birden fazla grupta sayılabilir.</p>\n<ul>\n<li>“Scam”, “fraud”, “want my money back”: yaklaşık 320 yorum.</li>\n<li>“Doesn't work in my car” veya “car not supported”: yaklaşık 170.</li>\n<li>“Paid and it didn't work”, önceden test etme yolu olmadan: yaklaşık 120.</li>\n<li>“Charged again” veya “can't cancel”: yaklaşık 100.</li>\n<li>“Stopped working after the iOS update”: yaklaşık 45.</li>\n</ul>\n<p>Yorumlarda geçen uygulamalar, 14 Kasım 2026 itibarıyla Türkiye App Store verileriyle: {app:6800211040} (ücretsiz, puan {rating:6800211040}), {app:6797764175} (ücretsiz, puan {rating:6797764175}), {app:6756518125} (ücretsiz, puan {rating:6756518125}), {app:1665625393} (ücretsiz, puan {rating:1665625393}), {app:6755033589} (ücretsiz, puan {rating:6755033589}) ve {app:6476621657} (ücretsiz, puan {rating:6476621657}). “Ücretsiz” indirmenin ücretsiz olduğu anlamına gelir; çoğu, uygulama içinde abonelik ya da ömür boyu plan satar.</p>\n"
+            ],
+            [
+                "scam",
+                "“Scam” ve “I want my money back”",
+                "<p>En çok tekrarlanan kelime budur: “scam”, “fraud” ya da “waste of money” 863 yorumun yaklaşık 320'sinde geçer; genellikle uygulama yorumcunun arabasında hiçbir şey yapmadığında. Tipik bir ifade: “Makes you pay and it did nothing” (CarTube, 1 yıldız). Karışıklığın bir kısmı ürünün kendisinden kaynaklanıyor: CarTube'un açıklaması web'de video oynatmak için bir Safari uzantısından bahsederken, yorumlar CarPlay ekranında video bekliyor.</p>\n<p><strong>Çözüm:</strong> Yüklemeden önce uygulamanın açıklamasının ne vaat ettiğini okuyun ve uygulama <em>sizin</em> araba ekranınızda bir şey gösterene kadar ödeme yapmayın. Zaten ödediyseniz, <a href=\"https://support.apple.com/tr-tr/118223\">Apple iade talebinin nasıl yapılacağını anlatıyor</a>; karar Apple'ın.</p>\n"
+            ],
+            [
+                "notmycar",
+                "“Doesn't work in my car”",
+                "<p>Yaklaşık 170 yorum arabayla ilgili: “Does not work on 2023 Hyundai Tucson with wireless CarPlay!” (CarTube, 1 yıldız), “MY CAR WAS NOT EVEN SUPPORTED” (Car Connect, 1 yıldız). Uygulamaların kendi açıklamaları nedenini anlatıyor. APTV'nin açıklaması, videonun yalnızca araç park halindeyken oynatıldığını, iOS 27 veya üstünü ve CarPlay'de video destekleyen bir araç gerektirdiğini ve birçok aracın bunu henüz desteklemediğini söylüyor. CarDash'in açıklaması, yalnızca bir CarPlay ses bağlantısının video desteği garantilemediğini ve sonucun iPhone'unuza, iOS sürümüne, araca ve içerik kaynağına bağlı olduğunu söylüyor.</p>\n<p><strong>Çözüm:</strong> Araç desteğini uygulamadan ayrı bir soru olarak ele alın. Kendi aracınızda, park halindeyken test edin. {app:6833951195} tam da bunun için tasarlanmış: açıklamasına göre 5 saniyelik bir test klibi oynatır ve videonun aracınızda çalışıp çalışmadığını açıkça gösterir; video yalnızca araç park halindeyken ve yalnızca üreticisi destekleyen araçlarda oynatılır. Test “hayır” derse hiçbir şey kaybetmezsiniz ve ücretsiz widget'larını yine kullanabilirsiniz.</p>\n"
+            ],
+            [
+                "paidfirst",
+                "“Paid and it didn't work”",
+                "<p>Yaklaşık 120 yorum, uygulamanın çalıştığını görmeden önce para istediğini ve sonra çalışmadığını söylüyor: “just spent 5 bucks for it not to play anything on my car screen” (CarTV, 1 yıldız); “No introductory trial to test app” (myCar, 1 yıldız); “Charges me 31 dollar and it doesn't even work” (Car Connect, 1 yıldız).</p>\n<p><strong>Çözüm:</strong> Yalnızca ücretsiz indirme değil, arabada çalışan ücretsiz bir testi olan bir uygulama seçin. İki açıklama bunu söylüyor: CarScreen'in 5 saniyelik test klibi, ücretsiz ve herhangi bir ödemeden önce; CarDash'te ise “limited free car-playback allowance” ve Pro'dan önce bir çalma listesi kaynağı. Videonun çalıştığını gördükten sonra karar verin. CarScreen'in açıklaması, ücretsiz araç içi kontrolden sonra tek bir ödemenin videoyu, çalma listelerini ve tarayıcıyı açtığını, abonelik ve yenileme olmadığını söylüyor.</p>\n"
+            ],
+            [
+                "charged",
+                "“Charged again” ve “can't cancel”",
+                "<p>Yaklaşık 100 yorum ilk ödemeden sonra paranın çekilmesiyle ilgili: “Click on free try, charges for full year subscriptions” (CarDash, 1 yıldız). Birçok liste haftalık, yıllık ya da ömür boyu plan satıyor; APTV'nin listesi 14 Kasım 2026 itibarıyla haftalık $9.99 ve ömür boyu $49.99 planı gösteriyor.</p>\n<p><strong>Çözüm:</strong> Ödeme ekranındaki planı okuyun (haftalık olan en kolay gözden kaçandır) ve deneme süresi bitmeden bir hatırlatıcı kurun. Yenilemeleri durdurmak için hesabınızdan <a href=\"https://support.apple.com/tr-tr/118428\">aboneliği Apple üzerinden iptal edin</a>; uygulamayı silerek değil. Tek seferlik satın alma yenilemeleri tamamen önler.</p>\n"
+            ],
+            [
+                "iosupdate",
+                "“Stopped working after the iOS update”",
+                "<p>Yaklaşık 45 yorum bir iPhone güncellemesinin videoyu bozduğunu söylüyor: “Stopped working after iOS 27.2 update” (CarTV, 1 yıldız), çoğunlukla ömür boyu plan satın almış kişilerden. Nedeni doğrulayamayız; yalnızca yorumcuların yazdıklarını aktarıyoruz.</p>\n<p><strong>Çözüm:</strong> Ömür boyu plan satın almadan önce uygulamanın App Store sayfasındaki son güncelleme tarihine bakın ve ortalamaya değil en yeni yorumlara bakın. Araba ekranındaki video iPhone, iOS ve arabanın birlikte çalışmasına bağlıdır (CarDash'in açıklaması da bunu söylüyor); bu yüzden tek seferlik ödeme, ücretsiz bir testten daha büyük bir bahistir. Buna güveniyorsanız uzun bir yolculuktan hemen önce büyük bir iOS güncellemesi yüklemeyin.</p>\n"
+            ],
+            [
+                "checklist",
+                "Ödemeden önce: beş maddelik kontrol",
+                "<ul>\n<li>Arabanız, üreticisinin araba ekranında videoyu desteklediği modellerden biri mi? Bulamıyorsanız desteklenmiyor sayın.</li>\n<li>Uygulama, ödeme ekranından önce aracınızda ücretsiz test ediyor mu?</li>\n<li>Plan abonelik mi yoksa tek seferlik satın alma mı, ve onaylamadan önce ekranda gösterilen fiyat nedir?</li>\n<li>Nerede iptal edeceğinizi (<a href=\"https://support.apple.com/tr-tr/118428\">Apple: aboneliği iptal etme</a>) ve nerede iade isteyeceğinizi (<a href=\"https://support.apple.com/tr-tr/118223\">Apple: iade isteme</a>) biliyor musunuz?</li>\n<li>Park halinde misiniz? Araba kullanırken asla izlemeyin.</li>\n</ul>\n"
+            ]
+        ],
+        "faq": [
+            [
+                "iPhone'umdaki videoları araba ekranında izleyebilir miyim?",
+                "Bazen. CarScreen, CarDash ve APTV'nin açıklamalarına göre video yalnızca araç park halindeyken araba ekranına ulaşır ve yalnızca üreticisi destekleyen araçlarda. Birçok araç desteklemez."
+            ],
+            [
+                "Bir araba video uygulaması neden bir arabada çalışıp diğerinde çalışmaz?",
+                "Çünkü yalnızca uygulamaya değil, arabaya da bağlıdır. APTV'nin açıklaması birçok aracın henüz CarPlay videosunu desteklemediğini, CarDash'in açıklaması ise yalnızca bir CarPlay ses bağlantısının video desteği garantilemediğini söylüyor."
+            ],
+            [
+                "Ödemeden önce nasıl kontrol edebilirim?",
+                "Önce aracınızı test eden bir uygulama kullanın. CarScreen ücretsiz 5 saniyelik bir test klibi oynatır ve videonun aracınızda çalışıp çalışmadığını söyler; CarDash'in açıklaması ise sınırlı bir ücretsiz araç içi oynatma hakkı sunar."
+            ],
+            [
+                "App Store'dan iade alabilir miyim?",
+                "Talep edebilirsiniz. Apple, Apple'dan satın alınan uygulamalar ya da içerikler için iade talebi hakkındaki sayfasında nasıl yapılacağını anlatıyor; onay Apple'a aittir."
+            ],
+            [
+                "Arabada video izlemek güvenli mi?",
+                "Yalnızca park halindeyken. Burada söz edilen her uygulama açıklaması, araba kullanırken asla izlenmemesini söylüyor."
+            ]
+        ],
+        "sources_html": [
+            "Yorumlar: ABD App Store, 8 uygulamadan 1.210 indirildi, 863'ü 1 veya 2 yıldız, 14 Kasım 2026; anahtar kelimeye göre sayıldı, yaklaşık.",
+            "<a href=\"https://support.apple.com/tr-tr/118223\">Apple'dan satın alınan uygulama veya içerik için iade talep etme</a>, Apple Destek.",
+            "<a href=\"https://support.apple.com/tr-tr/118428\">Apple üzerinden aboneliği iptal etme</a>, Apple Destek.",
+            "Uygulamalar: Türkiye App Store sayfaları ve Apple arama verileri, 14 Kasım 2026. CarScreen: App Store sayfası, {app:6833951195}."
+        ],
+        "fix": "Burada güncel olmayan bir şey varsa <a href=\"mailto:sagalabs@proton.me\">bize bildirin</a>, sayfayı düzeltelim.",
+        "decimal": ",",
+        "no_rating": "yeni"
+    },
     "image-to-video": {
         "path": "tr/fotografi-videoya-ceviren-yapay-zeka-uygulamalari-iphone/",
         "title": "Fotoğrafı Videoya Çeviren En İyi Yapay Zeka Uygulamaları: iPhone (2026)",

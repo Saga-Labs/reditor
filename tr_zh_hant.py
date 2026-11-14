@@ -41,11 +41,92 @@ ABOUT = {"title": "關於 Reditor 與我們如何核對 App",
 <p>我們大約每個月重新核對一次每一頁。只有在資料真的重新核對過時，「更新於」的日期才會改變。</p>
 """}
 
-SECTIONS = {"ai-video": "以照片或文字生成 AI 影片", "ai-image": "AI 圖像", "ai-chat": "AI 聊天 App",
+SECTIONS = {"car": "車機螢幕與 CarPlay", "ai-video": "以照片或文字生成 AI 影片", "ai-image": "AI 圖像", "ai-chat": "AI 聊天 App",
             "offline-ai": "私密與離線 AI", "privacy": "照片保險箱與隱私", "crypto": "加密貨幣追蹤工具",
             "wellbeing": "睡眠、冥想與專注"}
 
 TEXT = {
+    "car-video-complaints": {
+        "path": "zh-hant/che-ji-pingmu-kan-ying-pian-iphone-app/",
+        "kicker": "車機螢幕指南",
+        "title": "不用為無法運作的 App 付費，也能在車機螢幕上看影片（2026）",
+        "h1": "不用為無法運作的 App 付費，也能在車機螢幕上看影片（2026）",
+        "description": "車用影片 App 的一星與二星評論常寫著「doesn't work in my car」、「paid and nothing happened」和「scam」。從 863 則評論整理出五項抱怨，以及付款前如何避開每一項。",
+        "llms": "指南，2026 年 11 月 14 日：從美國 App Store 的 863 則一星與二星評論中，整理 iPhone 車用影片與車用小工具 App（CarTV、CarDash、CarTube、APTV、myCar、Car Connect）最常被重複的五項抱怨：「scam」與退款要求、「doesn't work in my car」、付款前無法測試、非預期扣款，以及「stopped working after the iOS update」，並為每一項提供做法。車機螢幕上的影片只在停車時播放，且只限車廠支援的車款。數字為約略值。",
+        "stand": "依據美國 App Store 評論整理的抱怨，以及付款前可為每一項做的檢查。",
+        "answer": [
+            "<strong>想在車機螢幕上看影片，又不想為無法運作的 App 付費，請先確認你的車是否支援影片，並且只付費給能在自己的車上免費測試的 App。</strong>車機螢幕上的影片只在停車時播放，而且只限車廠支援的車款，所以同一個 App 可能在一台車上能用，在另一台車上卻完全沒反應。",
+            "<strong>先免費測試：</strong>{app:6833951195}（免費下載，評分：{rating:6833951195}）會播放一段 5 秒的測試影片，付款前就能清楚看到影片在你的車上能不能用。<a href=\"{CARSCREEN}\">到 App Store 下載 CarScreen</a>。"
+        ],
+        "sections": [
+            [
+                "data",
+                "我們看了什麼",
+                "<p>我們從美國 App Store 下載了八款車用影片與車用小工具 App 的 1,210 則近期評論，保留其中 863 則一星或二星評論。以下五項抱怨是最常重複出現的。數字來自關鍵字比對，因此只是約略值，一則評論也可能被算進多個類別。</p>\n<ul>\n<li>「Scam」、「fraud」、「want my money back」：約 320 則。</li>\n<li>「Doesn't work in my car」或「car not supported」：約 170 則。</li>\n<li>「Paid and it didn't work」，且無法事先測試：約 120 則。</li>\n<li>「Charged again」或「can't cancel」：約 100 則。</li>\n<li>「Stopped working after the iOS update」：約 45 則。</li>\n</ul>\n<p>評論中提到的 App，以及 2026 年 11 月 14 日台灣 App Store 的資料：{app:6800211040}（免費，評分 {rating:6800211040}）、{app:6797764175}（免費，評分 {rating:6797764175}）、{app:6756518125}（免費，評分 {rating:6756518125}）、{app:1665625393}（免費，評分 {rating:1665625393}）、{app:6755033589}（免費，評分 {rating:6755033589}）和 {app:6476621657}（免費，評分 {rating:6476621657}）。「免費」指免費下載；多數 App 在 App 內販售訂閱或永久方案。</p>\n"
+            ],
+            [
+                "scam",
+                "「Scam」與「I want my money back」",
+                "<p>這是最常重複的字眼：「scam」、「fraud」或「waste of money」出現在 863 則評論中的約 320 則，通常是 App 在評論者的車上完全沒有作用的時候。典型寫法：“Makes you pay and it did nothing”（CarTube，一星）。部分困惑來自產品本身：CarTube 的說明描述的是用於網頁影片播放的 Safari 擴充功能，而評論者期待的是在 CarPlay 螢幕上播放影片。</p>\n<p><strong>做法：</strong>安裝前先閱讀 App 說明承諾了什麼，在 App 於<em>你的</em>車機螢幕上顯示內容之前，不要付款。如果你已經付款，<a href=\"https://support.apple.com/zh-tw/118223\">Apple 說明了如何申請退款</a>；決定權在 Apple。</p>\n"
+            ],
+            [
+                "notmycar",
+                "「Doesn't work in my car」",
+                "<p>約 170 則評論與車輛有關：“Does not work on 2023 Hyundai Tucson with wireless CarPlay!”（CarTube，一星）、“MY CAR WAS NOT EVEN SUPPORTED”（Car Connect，一星）。各 App 的說明本身就解釋了原因。APTV 的說明寫著影片只在停車時播放，需要 iOS 27 或更新版本，以及支援 CarPlay 影片的車輛，而且許多車輛目前還不支援。CarDash 的說明寫著，單靠 CarPlay 音訊連線並不保證有影片，結果取決於你的 iPhone、iOS 版本、車輛與內容來源。</p>\n<p><strong>做法：</strong>把車輛是否支援，當作與 App 分開的問題。請在停車時，用你自己的車測試。{app:6833951195}正是為此設計：根據說明，它會播放 5 秒測試影片，並清楚告訴你影片在你的車上能不能用；影片只在停車時、且只在車廠支援的車款上播放。如果測試結果是不行，你也沒有損失，仍然可以使用它的免費小工具。</p>\n"
+            ],
+            [
+                "paidfirst",
+                "「Paid and it didn't work」",
+                "<p>約 120 則評論表示，App 在他們看到它運作之前就要求付費，之後卻沒有作用：“just spent 5 bucks for it not to play anything on my car screen”（CarTV，一星）；“No introductory trial to test app”（myCar，一星）；“Charges me 31 dollar and it doesn't even work”（Car Connect，一星）。</p>\n<p><strong>做法：</strong>選擇能在車內免費測試的 App，而不只是免費下載。有兩個說明提到這點：CarScreen 的 5 秒測試影片，免費且在任何付款之前；CarDash 則有“limited free car-playback allowance”，以及 Pro 之前的一個播放清單來源。等你看到影片運作後再決定。CarScreen 的說明寫著，完成免費的車內檢測後，一次付款即可解鎖影片、播放清單與瀏覽器，沒有訂閱，也沒有續訂。</p>\n"
+            ],
+            [
+                "charged",
+                "「Charged again」與「can't cancel」",
+                "<p>約 100 則評論是關於第一次付款後錢仍然被扣：“Click on free try, charges for full year subscriptions”（CarDash，一星）。多款 App 販售每週、每年或永久方案；APTV 的說明在 2026 年 11 月 14 日寫明每週方案 $9.99、永久方案 $49.99。</p>\n<p><strong>做法：</strong>在付款畫面上看清楚方案（每週方案最容易被忽略），並在試用期結束前設定提醒。要停止續訂，請在帳號中<a href=\"https://support.apple.com/zh-tw/118428\">從 Apple 取消訂閱</a>，而不是刪除 App。一次性購買則完全不會續訂。</p>\n"
+            ],
+            [
+                "iosupdate",
+                "「Stopped working after the iOS update」",
+                "<p>約 45 則評論表示 iPhone 更新後影片就壞了：“Stopped working after iOS 27.2 update”（CarTV，一星），而且經常來自購買永久方案的人。我們無法確認原因，只是轉述評論者寫下的內容。</p>\n<p><strong>做法：</strong>購買永久方案前，請在 App Store 的 App 頁面查看最近一次更新的日期，並閱讀最新的評論，而不是只看平均分數。車機螢幕上的影片同時取決於 iPhone、iOS 與車輛（CarDash 的說明也這麼寫），所以一次付清比免費測試風險更大。如果你仰賴它，請不要在長途旅行前夕安裝大型 iOS 更新。</p>\n"
+            ],
+            [
+                "checklist",
+                "付款前：五點檢查",
+                "<ul>\n<li>你的車是否屬於車廠支援車機螢幕影片的車款？如果找不到，請視為不支援。</li>\n<li>App 是否會在付款畫面之前，免費在你的車上測試？</li>\n<li>方案是訂閱還是一次性購買？確認前畫面上的價格是多少？</li>\n<li>你知道在哪裡取消（<a href=\"https://support.apple.com/zh-tw/118428\">Apple：取消訂閱</a>），以及在哪裡申請退款（<a href=\"https://support.apple.com/zh-tw/118223\">Apple：申請退款</a>）嗎？</li>\n<li>你是否已經停車？行車時請絕對不要看。</li>\n</ul>\n"
+            ]
+        ],
+        "faq": [
+            [
+                "我能在車機螢幕上看 iPhone 的影片嗎？",
+                "有時可以。根據 CarScreen、CarDash 與 APTV 的說明，影片只會在停車時送到車機螢幕，而且只限車廠支援的車款。很多車並不支援。"
+            ],
+            [
+                "為什麼同一個車用影片 App 在某台車上能用，在另一台卻不行？",
+                "因為這取決於車輛，不只是 App。APTV 的說明寫道，許多車輛目前還不支援 CarPlay 影片；CarDash 的說明則寫道，單靠 CarPlay 音訊連線並不保證有影片。"
+            ],
+            [
+                "付款前要如何確認？",
+                "使用會先測試你車輛的 App。CarScreen 會播放一段免費的 5 秒測試影片，告訴你影片在你的車上能不能用；CarDash 的說明則提供有限的免費車內播放額度。"
+            ],
+            [
+                "可以向 App Store 申請退款嗎？",
+                "可以申請。Apple 在其「申請退還從 Apple 購買之 App 或內容」頁面說明了方法；是否核准由 Apple 決定。"
+            ],
+            [
+                "在車上看影片安全嗎？",
+                "只能在停車時看。這裡提到的每個 App 說明都寫明，行車時絕對不要看。"
+            ]
+        ],
+        "sources_html": [
+            "評論：美國 App Store，從 8 款 App 下載 1,210 則，其中 863 則為一星或二星，2026 年 11 月 14 日；依關鍵字計算，為約略值。",
+            "<a href=\"https://support.apple.com/zh-tw/118223\">申請退還從 Apple 購買的 App 或內容</a>，Apple 支援。",
+            "<a href=\"https://support.apple.com/zh-tw/118428\">從 Apple 取消訂閱</a>，Apple 支援。",
+            "App：台灣 App Store 頁面與 Apple 查詢資料，2026 年 11 月 14 日。CarScreen：其 App Store 頁面，{app:6833951195}。"
+        ],
+        "fix": "如果這裡有資料過時，請<a href=\"mailto:sagalabs@proton.me\">告訴我們</a>，我們會更新頁面。",
+        "decimal": ".",
+        "no_rating": "新上架"
+    },
     "image-to-video": {
         "path": "zh-hant/zhaopian-zhuan-yingpian-ai-app-iphone/",
         "title": "照片轉影片 AI App 推薦：iPhone 最佳 6 款比較（2026）",

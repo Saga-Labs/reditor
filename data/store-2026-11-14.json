@@ -1,0 +1,639 @@
+{
+ "carscreen|us": {
+  "avail": true,
+  "name": "CarScreen: Car Widgets & Video",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|ru": {
+  "avail": true,
+  "name": "CarScreen: Виджеты и видео",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|de": {
+  "avail": true,
+  "name": "CarScreen: Widgets & Video",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|jp": {
+  "avail": true,
+  "name": "CarScreen: 車のダッシュボードウィジェットと動画",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|es": {
+  "avail": true,
+  "name": "CarScreen: Widgets y vídeo",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|br": {
+  "avail": true,
+  "name": "CarScreen: Widgets e vídeo",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|fr": {
+  "avail": true,
+  "name": "CarScreen: Widgets et vidéo",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|sa": {
+  "avail": true,
+  "name": "CarScreen: Car Widgets & Video",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|tw": {
+  "avail": true,
+  "name": "CarScreen: 車用儀表板小工具與影片播放",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|th": {
+  "avail": true,
+  "name": "CarScreen: Car Widgets & Video",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|tr": {
+  "avail": true,
+  "name": "CarScreen: Car Widgets & Video",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|it": {
+  "avail": true,
+  "name": "CarScreen: Widget auto e video",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "carscreen|kr": {
+  "avail": true,
+  "name": "CarScreen: 차량 대시보드 위젯과 동영상",
+  "rating": 0,
+  "version": "1.0",
+  "date": "2026-11-13"
+ },
+ "cartv|us": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Player & Cast",
+  "rating": 4.5,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|ru": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV авто",
+  "rating": 4.1,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|de": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Auto",
+  "rating": 4.4,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|jp": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV 動画",
+  "rating": 3.3,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|es": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Auto",
+  "rating": 4.1,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|br": {
+  "avail": true,
+  "name": "CarTV - IPTV M3U Carro",
+  "rating": 4.6,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|fr": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Auto",
+  "rating": 4.5,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|sa": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Player & Cast",
+  "rating": 4.4,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|tw": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV 影片",
+  "rating": 4.5,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|th": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Player & Cast",
+  "rating": 4.4,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|tr": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Player & Cast",
+  "rating": 4.1,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|it": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV Auto",
+  "rating": 4.2,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cartv|kr": {
+  "avail": true,
+  "name": "CarTV - M3U IPTV 동영상",
+  "rating": 4.5,
+  "version": "1.1.6",
+  "date": "2026-10-23"
+ },
+ "cardash|us": {
+  "avail": true,
+  "name": "CarDash: Video Player for Cars",
+  "rating": 4.6,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|ru": {
+  "avail": true,
+  "name": "CarDash: Video Player for Cars",
+  "rating": 4.9,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|de": {
+  "avail": true,
+  "name": "CarDash: Videoplayer fürs Auto",
+  "rating": 4.5,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|jp": {
+  "avail": true,
+  "name": "CarDash 車内動画プレーヤー・GPSドライブ記録",
+  "rating": 4.2,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|es": {
+  "avail": true,
+  "name": "CarDash: Videos e IPTV en auto",
+  "rating": 4.5,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|br": {
+  "avail": true,
+  "name": "CarDash: Vídeo e IPTV no carro",
+  "rating": 4.7,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|fr": {
+  "avail": true,
+  "name": "CarDash : vidéos en voiture",
+  "rating": 4.4,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|sa": {
+  "avail": true,
+  "name": "CarDash: Car Video & Trip Log",
+  "rating": 4.3,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|tw": {
+  "avail": true,
+  "name": "CarDash: Video Player for Cars",
+  "rating": 5,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|th": {
+  "avail": true,
+  "name": "CarDash: Car Video & Trip Log",
+  "rating": 4.7,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|tr": {
+  "avail": true,
+  "name": "CarDash: Car Video & Trip Log",
+  "rating": 4.4,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|it": {
+  "avail": true,
+  "name": "CarDash: Video e IPTV in auto",
+  "rating": 4.4,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cardash|kr": {
+  "avail": true,
+  "name": "CarDash 차량 동영상 플레이어·주행 경로 기록",
+  "rating": 4.7,
+  "version": "1.3.8",
+  "date": "2026-11-13"
+ },
+ "cartube|us": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 3.8,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|ru": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 2.9,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|de": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 3.3,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|jp": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 3.8,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|es": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 4.0,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|br": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 4.0,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|fr": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 4.1,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|sa": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 3.8,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|tw": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 4.9,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|th": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 4.7,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|tr": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 3.2,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|it": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 4.4,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "cartube|kr": {
+  "avail": true,
+  "name": "CarTube ‣",
+  "rating": 5,
+  "version": "1.0.1",
+  "date": "2025-12-17"
+ },
+ "carconnect|us": {
+  "avail": true,
+  "name": "Car Connect, Play, Widgets",
+  "rating": 4.7,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|ru": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.6,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|de": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.3,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|jp": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.0,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|es": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.5,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|br": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.8,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|fr": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.4,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|sa": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.5,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|tw": {
+  "avail": true,
+  "name": "Car Screen, Mirror Auto Play",
+  "rating": 4.6,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|th": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.7,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|tr": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.5,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|it": {
+  "avail": true,
+  "name": "Car Connect, Play & Widgets",
+  "rating": 4.5,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "carconnect|kr": {
+  "avail": true,
+  "name": "Car Widgets & Play Functions",
+  "rating": 4.5,
+  "version": "2.1.3",
+  "date": "2026-11-13"
+ },
+ "mycar|us": {
+  "avail": true,
+  "name": "myCar: Car Widgets・Play Themes",
+  "rating": 4.6,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|ru": {
+  "avail": true,
+  "name": "myCar: Car Widgets & Dashboard",
+  "rating": 4.5,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|de": {
+  "avail": true,
+  "name": "myCar: Car Widgets & Dashboard",
+  "rating": 4.3,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|jp": {
+  "avail": true,
+  "name": "myCar: 車用ウィジェット＆起動音",
+  "rating": 4.3,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|es": {
+  "avail": true,
+  "name": "myCar: Car Widgets & Dashboard",
+  "rating": 4.4,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|br": {
+  "avail": true,
+  "name": "myCar: Car Widgets & Dashboard",
+  "rating": 4.6,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|fr": {
+  "avail": true,
+  "name": "myCar: Car Widgets & Dashboard",
+  "rating": 4.4,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|sa": {
+  "avail": true,
+  "name": "myCar: Car Widgets・Play Themes",
+  "rating": 4.1,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|tw": {
+  "avail": true,
+  "name": "myCar: Car Widgets・Play Themes",
+  "rating": 4.8,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|th": {
+  "avail": true,
+  "name": "myCar: Car Widgets・Play Themes",
+  "rating": 4.4,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|tr": {
+  "avail": true,
+  "name": "myCar: Car Widgets・Play Themes",
+  "rating": 4.2,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|it": {
+  "avail": true,
+  "name": "myCar: Car Widgets & Dashboard",
+  "rating": 4.5,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "mycar|kr": {
+  "avail": true,
+  "name": "myCar: Car Widgets & Dashboard",
+  "rating": 4.5,
+  "version": "1.13.0",
+  "date": "2026-11-07"
+ },
+ "aptv|us": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 4.3,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|ru": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 3.8,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|de": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 4,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|jp": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 3.2,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|es": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 3.9,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|br": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 4.6,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|fr": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 4.5,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|sa": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 3.6,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|tw": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 3,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|th": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 4.4,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|tr": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 3.7,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|it": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 3.6,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ },
+ "aptv|kr": {
+  "avail": true,
+  "name": "APTV - Car TV Player & Cast",
+  "rating": 4.5,
+  "version": "2.4.9",
+  "date": "2026-11-11"
+ }
+}

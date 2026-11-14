@@ -535,16 +535,18 @@ def main():
     for mod in PAGE_MODULES:
         pages += importlib.import_module(f"pages.{mod}").PAGES
     for lang in LANGS:
-        if lang in ("en", "es"):
+        if lang == "en":
             continue
         try:
             TR_MODULES[lang] = importlib.import_module("tr_" + lang.lower().replace("-", "_"))
         except ModuleNotFoundError:
             continue
-        T[lang] = TR_MODULES[lang].UI
+        # es has its own hand-written home, about and UI strings; tr_es.py only adds translated page texts
+        if lang != "es":
+            T[lang] = TR_MODULES[lang].UI
         base = {q["group"]: q for q in pages if q["lang"] == "en"}
         for group, text in TR_MODULES[lang].TEXT.items():
-            pg = i18n.localize(base[group], lang, LANGS[lang], text, TR_MODULES[lang].UI, human_date)
+            pg = i18n.localize(base[group], lang, LANGS[lang], text, getattr(TR_MODULES[lang], "UI", {}), human_date)
             if pg:
                 pages.append(pg)
     ALL_PAGES[:] = pages
@@ -643,7 +645,7 @@ def main():
     write("es/acerca/", simple_page("es", "es/acerca/", "Quiénes somos y cómo comprobamos las apps",
                                     "Quién hace Reditor, cómo comprobamos las apps y cómo avisamos de las nuestras.", about_es, about_alts))
     for lang, mod in TR_MODULES.items():
-        if lang in active_langs():
+        if lang in active_langs() and lang != "es":
             write(about_path(lang), simple_page(lang, about_path(lang), mod.ABOUT["title"], mod.ABOUT["desc"], mod.ABOUT["html"], about_alts))
 
     # sitemap

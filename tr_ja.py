@@ -40,11 +40,92 @@ ABOUT = {"title": "Reditorについてとアプリの確認方法",
 <p>各ページはおよそ月に1回、確認し直します。「更新日」は、データを実際に確認し直したときだけ変わります。</p>
 """}
 
-SECTIONS = {"ai-video": "写真やテキストからAI動画", "ai-image": "AI画像生成", "ai-chat": "AIチャットアプリ",
+SECTIONS = {"car": "車載画面とCarPlay", "ai-video": "写真やテキストからAI動画", "ai-image": "AI画像生成", "ai-chat": "AIチャットアプリ",
             "offline-ai": "プライベートなオフラインAI", "privacy": "写真の保管とプライバシー", "crypto": "仮想通貨トラッカー",
             "wellbeing": "睡眠・瞑想・集中"}
 
 TEXT = {
+    "car-video-complaints": {
+        "path": "ja/kuruma-no-gamen-de-douga-wo-miru-iphone-app/",
+        "kicker": "車載画面ガイド",
+        "title": "動かないアプリに払わずに、車の画面で動画を見る方法（2026年版）",
+        "h1": "動かないアプリに払わずに、車の画面で動画を見る方法（2026年版）",
+        "description": "車内動画アプリには「doesn't work in my car」「paid and nothing happened」「scam」といった1〜2つ星のレビューが付いています。863件のレビューから見つかった5つの不満と、支払い前にそれぞれを避ける方法。",
+        "llms": "ガイド、2026年11月14日：iPhone向けの車内動画・車内ウィジェットアプリ（CarTV、CarDash、CarTube、APTV、myCar、Car Connect）について、米国App Storeの1〜2つ星レビュー863件で最も繰り返された5つの不満：「scam」と返金の要求、「doesn't work in my car」、テスト前の支払い、予期しない請求、「stopped working after the iOS update」。それぞれに対処法を付けています。車の画面の動画は駐車中のみ、かつメーカーが対応している車でのみ再生されます。件数はおおよその数です。",
+        "stand": "米国App Storeのレビューに見られる不満と、支払い前にアプリごとにできる確認方法。",
+        "answer": [
+            "<strong>動かないアプリにお金を払わずに車の画面で動画を見るには、まず車が動画に対応しているかを確かめ、自分の車で無料で試せるアプリにだけ支払ってください。</strong> 車の画面の動画は、駐車中にのみ再生され、メーカーが対応している車でのみ動きます。同じアプリでも、ある車では動き、別の車では何もしないことがあります。",
+            "<strong>まず無料テストを:</strong> {app:6833951195}（ダウンロードは無料、評価: {rating:6833951195}）は5秒のテスト動画を再生し、支払う前に動画が自分の車で動くかどうかをはっきり示します。<a href=\"{CARSCREEN}\">App StoreでCarScreenを入手</a>。"
+        ],
+        "sections": [
+            [
+                "data",
+                "調べた内容",
+                "<p>米国App Storeで、車内動画と車内ウィジェットの8つのアプリについて最近の1,210件のレビューをダウンロードし、そのうち1つ星か2つ星の863件を残しました。以下の5つの不満が最も繰り返されたものです。件数はキーワードによる照合なので概算で、1件のレビューが複数の分類に入ることがあります。</p>\n<ul>\n<li>「Scam」「fraud」「want my money back」：約320件。</li>\n<li>「Doesn't work in my car」または「car not supported」：約170件。</li>\n<li>「Paid and it didn't work」、事前に試せない：約120件。</li>\n<li>「Charged again」または「can't cancel」：約100件。</li>\n<li>「Stopped working after the iOS update」：約45件。</li>\n</ul>\n<p>レビューに登場したアプリと、2026年11月14日時点の日本のApp Storeのデータ: {app:6800211040}（無料、評価 {rating:6800211040}）、{app:6797764175}（無料、評価 {rating:6797764175}）、{app:6756518125}（無料、評価 {rating:6756518125}）、{app:1665625393}（無料、評価 {rating:1665625393}）、{app:6755033589}（無料、評価 {rating:6755033589}）、{app:6476621657}（無料、評価 {rating:6476621657}）。「無料」はダウンロードが無料という意味です。多くのアプリは、アプリ内で購読や買い切りプランを販売しています。</p>\n"
+            ],
+            [
+                "scam",
+                "「Scam」と「I want my money back」",
+                "<p>最も繰り返される言葉です。「scam」「fraud」「waste of money」は863件中およそ320件に現れ、多くはレビュー投稿者の車でアプリが何もしなかった場合です。典型的な文面は「Makes you pay and it did nothing」（CarTube、1つ星）。混乱の一部は製品そのものにあります。CarTubeの説明はウェブ動画用のSafari拡張機能だと書かれているのに、レビューではCarPlayの画面に動画が映ることを期待しています。</p>\n<p><strong>対処:</strong> インストールの前に、アプリの説明が何を約束しているかを読み、アプリが<em>あなたの</em>車の画面に何かを映すまで支払わないでください。すでに支払った場合は、<a href=\"https://support.apple.com/ja-jp/118223\">Appleが返金の依頼方法を説明しています</a>。判断するのはAppleです。</p>\n"
+            ],
+            [
+                "notmycar",
+                "「Doesn't work in my car」",
+                "<p>約170件のレビューは車に関するものです。「Does not work on 2023 Hyundai Tucson with wireless CarPlay!」（CarTube、1つ星）、「MY CAR WAS NOT EVEN SUPPORTED」（Car Connect、1つ星）。理由はアプリ自身の説明に書かれています。APTVの説明では、動画は駐車中のみ再生され、iOS 27以降とCarPlayでの動画に対応した車が必要で、多くの車はまだ対応していないとあります。CarDashの説明では、CarPlayの音声接続だけでは動画の対応を保証せず、表示はiPhone、iOSのバージョン、車、コンテンツの配信元によって変わるとあります。</p>\n<p><strong>対処:</strong> 車の対応は、アプリとは別の問題として扱ってください。駐車中に、自分の車で確かめます。{app:6833951195}はこの考えに沿って作られています。説明によれば、5秒のテスト動画を再生し、動画が自分の車で動くかどうかをはっきり示します。動画は駐車中のみ、かつメーカーが対応する車でのみ再生されます。テストで「できない」と出ても失うものはなく、無料のウィジェットはそのまま使えます。</p>\n"
+            ],
+            [
+                "paidfirst",
+                "「Paid and it didn't work」",
+                "<p>約120件のレビューは、アプリが動くところを見る前に支払いを求められ、その後動かなかったと書いています。「just spent 5 bucks for it not to play anything on my car screen」（CarTV、1つ星）、「No introductory trial to test app」（myCar、1つ星）、「Charges me 31 dollar and it doesn't even work」（Car Connect、1つ星）。</p>\n<p><strong>対処:</strong> 無料ダウンロードだけでなく、車の中で動く無料テストがあるアプリを選んでください。二つの説明がそれを明記しています。CarScreenの5秒テスト動画は無料で、支払いの前に試せます。CarDashの説明には「limited free car-playback allowance」と、Proの前に1つのプレイリスト元があると書かれています。動画が動くのを見てから判断してください。CarScreenの説明では、無料の車内チェックの後、1回の支払いで動画・プレイリスト・ブラウザが使えるようになり、購読も更新もないとされています。</p>\n"
+            ],
+            [
+                "charged",
+                "「Charged again」と「can't cancel」",
+                "<p>約100件のレビューは、最初の支払いの後にお金が引かれることに関するものです。「Click on free try, charges for full year subscriptions」（CarDash、1つ星）。複数のアプリが週額、年額、買い切りのプランを販売しています。APTVの説明には、週額$9.99、買い切り$49.99と書かれています（2026年11月14日時点）。</p>\n<p><strong>対処:</strong> 支払い画面でプランを読み（週額は見落としやすい）、無料期間が終わる前に通知を設定してください。更新を止めるには、アプリを削除するのではなく、アカウントで<a href=\"https://support.apple.com/ja-jp/118428\">Appleで購読を解約</a>します。買い切りなら、そもそも更新はありません。</p>\n"
+            ],
+            [
+                "iosupdate",
+                "「Stopped working after the iOS update」",
+                "<p>約45件のレビューは、iPhoneのアップデートで動画が動かなくなったと書いています。「Stopped working after iOS 27.2 update」（CarTV、1つ星）。買い切りプランを買った人からの投稿が多いです。原因は確認できません。レビュー投稿者が書いたことを伝えているだけです。</p>\n<p><strong>対処:</strong> 買い切りプランを買う前に、App Storeのアプリページで最後に更新された日付を確認し、平均ではなく最新のレビューを読んでください。車の画面の動画は、iPhone、iOS、車の組み合わせに左右されるため（CarDashの説明にもそう書かれています）、一括払いは無料テストより大きな賭けです。頼りにしている場合は、長い旅行の直前に大きなiOSアップデートを入れないでください。</p>\n"
+            ],
+            [
+                "checklist",
+                "支払い前の5項目チェック",
+                "<ul>\n<li>車は、メーカーが車の画面での動画に対応しているものですか？見つからなければ、対応していないと考えてください。</li>\n<li>アプリは支払い画面の前に、あなたの車で無料で試せますか？</li>\n<li>プランは購読ですか、買い切りですか。確定する前に画面に表示される価格はいくらですか？</li>\n<li>解約の場所（<a href=\"https://support.apple.com/ja-jp/118428\">Apple: 購読の解約</a>）と、返金の依頼先（<a href=\"https://support.apple.com/ja-jp/118223\">Apple: 返金のリクエスト</a>）を知っていますか？</li>\n<li>駐車していますか？運転中は決して見ないでください。</li>\n</ul>\n"
+            ]
+        ],
+        "faq": [
+            [
+                "iPhoneから車の画面で動画を見られますか？",
+                "場合によります。CarScreen、CarDash、APTVの説明によれば、動画は駐車中にのみ車の画面に届き、メーカーが対応している車でのみです。対応していない車は多くあります。"
+            ],
+            [
+                "同じ車内動画アプリが、ある車では動き、別の車では動かないのはなぜですか？",
+                "アプリだけでなく車にも左右されるからです。APTVの説明では、多くの車がまだCarPlayの動画に対応していないとあり、CarDashの説明では、CarPlayの音声接続だけでは動画の対応は保証されないとあります。"
+            ],
+            [
+                "支払う前に確かめるには？",
+                "まず車を確かめてくれるアプリを使ってください。CarScreenは無料の5秒テスト動画を再生し、車で動画が動くかどうかを示します。CarDashの説明には、車内再生の無料枠が限られていると書かれています。"
+            ],
+            [
+                "App Storeから返金を受けられますか？",
+                "依頼はできます。Appleは、Appleで購入したアプリやコンテンツの返金依頼について、そのページで方法を説明しています。承認するかどうかはAppleが決めます。"
+            ],
+            [
+                "車内で動画を見るのは安全ですか？",
+                "駐車中だけにしてください。ここで挙げたどのアプリの説明も、運転中に見ないよう求めています。"
+            ]
+        ],
+        "sources_html": [
+            "レビュー: 米国App Store、8つのアプリから1,210件をダウンロード、そのうち1つ星か2つ星の863件、2026年11月14日。キーワードによる集計で概算。",
+            "<a href=\"https://support.apple.com/ja-jp/118223\">Appleから購入したアプリやコンテンツの返金をリクエストする</a>、Appleサポート。",
+            "<a href=\"https://support.apple.com/ja-jp/118428\">Appleで購読を解約する</a>、Appleサポート。",
+            "アプリ: 日本のApp Storeのページと、Appleのルックアップデータ、2026年11月14日。CarScreen: そのApp Storeのページ {app:6833951195}。"
+        ],
+        "fix": "ここに古い情報があれば、<a href=\"mailto:sagalabs@proton.me\">お知らせください</a>。ページを直します。",
+        "decimal": ".",
+        "no_rating": "新規"
+    },
     "image-to-video": {
         "path": "ja/shashin-douga-ai-app-iphone/",
         "title": "写真を動画にするAIアプリ iPhone おすすめ6選(2026年)",

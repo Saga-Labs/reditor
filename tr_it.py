@@ -44,11 +44,92 @@ ABOUT = {
 """,
 }
 
-SECTIONS = {"ai-video": "Video con l'IA da una foto o da un testo", "ai-image": "Immagini con l'IA", "ai-chat": "App di chat con l'IA",
+SECTIONS = {"car": "Schermo dell'auto e CarPlay", "ai-video": "Video con l'IA da una foto o da un testo", "ai-image": "Immagini con l'IA", "ai-chat": "App di chat con l'IA",
             "offline-ai": "IA privata e offline", "privacy": "Casseforti per foto e privacy", "crypto": "Tracker di criptovalute",
             "wellbeing": "Sonno, meditazione e concentrazione"}
 
 TEXT = {
+    "car-video-complaints": {
+        "path": "it/guardare-video-sullo-schermo-dellauto-app-che-funziona-iphone/",
+        "kicker": "Guida allo schermo dell'auto",
+        "title": "Come guardare video sullo schermo dell'auto senza pagare un'app che non funziona (2026)",
+        "h1": "Come guardare video sullo schermo dell'auto senza pagare un'app che non funziona (2026)",
+        "description": "Le app video per l'auto ricevono recensioni da 1 e 2 stelle che dicono “doesn't work in my car”, “paid and nothing happened” e “scam”. Cinque lamentele da 863 recensioni e come evitare ognuna prima di pagare.",
+        "llms": "Guida, 14 novembre 2026: le cinque lamentele più ripetute in 863 recensioni da 1 e 2 stelle di app video e widget per l'auto su iPhone nell'App Store statunitense (CarTV, CarDash, CarTube, APTV, myCar, Car Connect): “scam” e richieste di rimborso, “doesn't work in my car”, pagamento prima di provare, addebiti imprevisti e “stopped working after the iOS update”, con una soluzione per ciascuna. Il video sullo schermo dell'auto si riproduce solo a veicolo fermo e solo su auto il cui produttore lo supporta. I numeri sono approssimativi.",
+        "stand": "Lamentele dalle recensioni dell'App Store statunitense e un controllo da fare per ciascuna prima di pagare.",
+        "answer": [
+            "<strong>Per guardare video sullo schermo dell'auto senza pagare un'app che non funziona, controlla prima se la tua auto supporta il video, e paga solo un'app che ti permetta di provare gratis nella tua auto.</strong> Il video sullo schermo dell'auto si riproduce solo quando l'auto è parcheggiata e solo nelle auto il cui produttore lo supporta, quindi la stessa app può funzionare in un'auto e non fare nulla in un'altra.",
+            "<strong>Prova gratuita prima di tutto:</strong> {app:6833951195} (download gratuito, valutazione: {rating:6833951195}) riproduce un breve clip di prova di 5 secondi e ti dice chiaramente se il video funziona nella tua auto prima che tu paghi. <a href=\"{CARSCREEN}\">Scarica CarScreen dall'App Store</a>."
+        ],
+        "sections": [
+            [
+                "data",
+                "Cosa abbiamo esaminato",
+                "<p>Abbiamo scaricato 1.210 recensioni recenti dell'App Store statunitense di otto app video e widget per l'auto e ne abbiamo tenute 863, quelle da una o due stelle. Le cinque lamentele qui sotto sono le più ripetute. I conteggi derivano da una ricerca per parole chiave, quindi sono approssimativi, e una recensione può contare in più di un gruppo.</p>\n<ul>\n<li>“Scam”, “fraud”, “want my money back”: circa 320 recensioni.</li>\n<li>“Doesn't work in my car” o “car not supported”: circa 170.</li>\n<li>“Paid and it didn't work”, senza modo di provare prima: circa 120.</li>\n<li>“Charged again” o “can't cancel”: circa 100.</li>\n<li>“Stopped working after the iOS update”: circa 45.</li>\n</ul>\n<p>Le app citate nelle recensioni, con i loro dati sull'App Store italiano al 14 novembre 2026: {app:6800211040} (gratis, valutazione {rating:6800211040}), {app:6797764175} (gratis, valutazione {rating:6797764175}), {app:6756518125} (gratis, valutazione {rating:6756518125}), {app:1665625393} (gratis, valutazione {rating:1665625393}), {app:6755033589} (gratis, valutazione {rating:6755033589}) e {app:6476621657} (gratis, valutazione {rating:6476621657}). “Gratis” significa download gratuito; la maggior parte vende un abbonamento o un piano a vita dentro l'app.</p>\n"
+            ],
+            [
+                "scam",
+                "“Scam” e “I want my money back”",
+                "<p>È la parola più ripetuta: “scam”, “fraud” o “waste of money” compare in circa 320 delle 863 recensioni, di solito quando l'app non ha fatto nulla nell'auto di chi scrive. Frase tipica: “Makes you pay and it did nothing” (CarTube, 1 stella). Parte della confusione viene dal prodotto stesso: la scheda di CarTube descrive un'estensione Safari per riprodurre video sul web, mentre le recensioni si aspettano video sullo schermo CarPlay.</p>\n<p><strong>Soluzione:</strong> prima di installare, leggi che cosa promette la scheda dell'app e non pagare finché l'app non ha mostrato qualcosa sullo schermo della <em>tua</em> auto. Se hai già pagato, <a href=\"https://support.apple.com/it-it/118223\">Apple spiega come chiedere un rimborso</a>; la decisione è di Apple.</p>\n"
+            ],
+            [
+                "notmycar",
+                "“Doesn't work in my car”",
+                "<p>Circa 170 recensioni riguardano l'auto: “Does not work on 2023 Hyundai Tucson with wireless CarPlay!” (CarTube, 1 stella), “MY CAR WAS NOT EVEN SUPPORTED” (Car Connect, 1 stella). Le schede delle app spiegano il motivo. Quella di APTV dice che il video si riproduce solo a veicolo fermo, richiede iOS 27 o successivo e un veicolo che supporti il video su CarPlay, e che molti veicoli non lo supportano ancora. Quella di CarDash dice che una semplice connessione audio CarPlay non garantisce il video, e che il risultato dipende da iPhone, versione di iOS, veicolo e fonte del contenuto.</p>\n<p><strong>Soluzione:</strong> considera il supporto dell'auto come una questione separata dall'app. Prova nella tua auto, a veicolo fermo. {app:6833951195} è fatta proprio per questo: secondo la sua scheda riproduce un clip di prova di 5 secondi e ti dice chiaramente se il video funziona nella tua auto, e il video funziona solo a veicolo fermo e solo nelle auto il cui produttore lo supporta. Se il test dice di no, non hai perso nulla e puoi comunque usarne i widget gratuiti.</p>\n"
+            ],
+            [
+                "paidfirst",
+                "“Paid and it didn't work”",
+                "<p>Circa 120 recensioni dicono che l'app ha chiesto soldi prima che potessero vederla funzionare, e poi non funzionava: “just spent 5 bucks for it not to play anything on my car screen” (CarTV, 1 stella); “No introductory trial to test app” (myCar, 1 stella); “Charges me 31 dollar and it doesn't even work” (Car Connect, 1 stella).</p>\n<p><strong>Soluzione:</strong> scegli un'app con una prova gratuita che funziona in auto, non solo un download gratuito. Due schede lo dicono: il clip di prova di 5 secondi di CarScreen, gratuito e prima di qualsiasi pagamento, e per CarDash il “limited free car-playback allowance” e una fonte di playlist prima di Pro. Decidi dopo aver visto il video funzionare. La scheda di CarScreen dice che, dopo il controllo gratuito in auto, un solo pagamento sblocca video, playlist e browser, senza abbonamento né rinnovi.</p>\n"
+            ],
+            [
+                "charged",
+                "“Charged again” e “can't cancel”",
+                "<p>Circa 100 recensioni riguardano soldi che escono dopo il primo pagamento: “Click on free try, charges for full year subscriptions” (CarDash, 1 stella). Molte app vendono piani settimanali, annuali o a vita; la scheda di APTV indica, al 14 novembre 2026, un piano settimanale da $9.99 e uno a vita da $49.99.</p>\n<p><strong>Soluzione:</strong> leggi il piano nella schermata di pagamento (quello settimanale è il più facile da non notare) e imposta un promemoria prima che finisca la prova. Per fermare i rinnovi, <a href=\"https://support.apple.com/it-it/118428\">annulla l'abbonamento da Apple</a> nel tuo account, non cancellando l'app. Un acquisto unico evita del tutto i rinnovi.</p>\n"
+            ],
+            [
+                "iosupdate",
+                "“Stopped working after the iOS update”",
+                "<p>Circa 45 recensioni dicono che un aggiornamento dell'iPhone ha rotto il video: “Stopped working after iOS 27.2 update” (CarTV, 1 stella), spesso da persone che avevano comprato un piano a vita. Non possiamo confermare la causa; riportiamo solo quello che hanno scritto i recensori.</p>\n<p><strong>Soluzione:</strong> prima di comprare un piano a vita, controlla la data dell'ultimo aggiornamento nella pagina dell'app sull'App Store e leggi le recensioni più recenti, non la media. Il video sullo schermo dell'auto dipende insieme da iPhone, iOS e auto (lo dice la scheda di CarDash), quindi un pagamento unico è una scommessa più grande di una prova gratuita. Se ci fai affidamento, non installare un grande aggiornamento iOS poco prima di un lungo viaggio.</p>\n"
+            ],
+            [
+                "checklist",
+                "Prima di pagare: un controllo in cinque punti",
+                "<ul>\n<li>La tua auto è di un modello il cui produttore supporta il video sullo schermo? Se non lo trovi, considerala non supportata.</li>\n<li>L'app la prova gratis nella tua auto, prima della schermata di pagamento?</li>\n<li>Il piano è un abbonamento o un acquisto unico, e qual è il prezzo sullo schermo prima di confermare?</li>\n<li>Sai dove annullare (<a href=\"https://support.apple.com/it-it/118428\">Apple: annullare un abbonamento</a>) e dove chiedere un rimborso (<a href=\"https://support.apple.com/it-it/118223\">Apple: chiedere un rimborso</a>)?</li>\n<li>Sei parcheggiato? Non guardare mai mentre guidi.</li>\n</ul>\n"
+            ]
+        ],
+        "faq": [
+            [
+                "Posso guardare i video del mio iPhone sullo schermo dell'auto?",
+                "A volte. Secondo le schede di CarScreen, CarDash e APTV, il video arriva sullo schermo dell'auto solo a veicolo fermo e solo su auto il cui produttore lo supporta. Molte auto non lo supportano."
+            ],
+            [
+                "Perché un'app video per l'auto funziona in un'auto e in un'altra no?",
+                "Perché dipende dall'auto, non solo dall'app. La scheda di APTV dice che molti veicoli non supportano ancora il video su CarPlay, e quella di CarDash che una semplice connessione audio CarPlay non garantisce il video."
+            ],
+            [
+                "Come posso controllare prima di pagare?",
+                "Usa un'app che prova prima la tua auto. CarScreen riproduce un clip di prova gratuito di 5 secondi e ti dice se il video funziona nella tua auto; la scheda di CarDash offre un limite gratuito di riproduzione in auto."
+            ],
+            [
+                "Posso ottenere un rimborso dall'App Store?",
+                "Puoi chiederlo. Apple spiega come nella sua pagina sulla richiesta di rimborso per app o contenuti acquistati da Apple; l'approvazione spetta ad Apple."
+            ],
+            [
+                "È sicuro guardare video in auto?",
+                "Solo a veicolo fermo. Ogni scheda di app citata qui dice di non guardare mai mentre si guida."
+            ]
+        ],
+        "sources_html": [
+            "Recensioni: App Store statunitense, 1.210 scaricate da 8 app, 863 con 1 o 2 stelle, 14 novembre 2026; conteggio per parola chiave, approssimativo.",
+            "<a href=\"https://support.apple.com/it-it/118223\">Richiedere un rimborso per app o contenuti acquistati da Apple</a>, Supporto Apple.",
+            "<a href=\"https://support.apple.com/it-it/118428\">Annullare un abbonamento da Apple</a>, Supporto Apple.",
+            "App: le loro pagine sull'App Store italiano e i dati di ricerca Apple, 14 novembre 2026. CarScreen: la sua pagina sull'App Store, {app:6833951195}."
+        ],
+        "fix": "Se qualcosa qui è superato, <a href=\"mailto:sagalabs@proton.me\">facci sapere</a> e correggeremo la pagina.",
+        "decimal": ",",
+        "no_rating": "nuova"
+    },
     "image-to-video": {
         "path": "it/app-trasformare-foto-in-video-ia-iphone/",
         "title": "Le migliori app per trasformare una foto in video con l'IA su iPhone (2026)",
