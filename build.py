@@ -30,7 +30,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma", "nov05_sora_chatgpt", "nov08_trump_crypto"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma", "nov05_sora_chatgpt", "nov08_trump_crypto", "nov14_car_video"]
 
 T = {
     "en": {
@@ -41,7 +41,7 @@ T = {
         "faq": "Frequently asked questions", "sources": "Sources",
         "who": "Who should use what", "cases": "Use cases",
         "method": "How we checked",
-        "footer": "Reditor is run by Saga Labs, which makes Dora, Pinku, Brainy, Ask AI, Photo Vault, Crypton, Drop and 3 Tasks, some of the apps we compare.",
+        "footer": "Reditor is run by Saga Labs, which makes Dora, Pinku, Brainy, Ask AI, Photo Vault, Crypton, Drop, 3 Tasks and CarScreen, some of the apps we compare.",
         "about": "About and method", "home": "All alternatives",
         "ratings": "ratings", "store_page": "App Store page",
     },
@@ -114,6 +114,7 @@ HOME_SECTIONS = [
     ("privacy", {"en": "Photo vaults and privacy", "es": "Bóvedas de fotos y privacidad"}),
     ("crypto", {"en": "Crypto trackers", "es": "Apps para seguir cripto"}),
     ("wellbeing", {"en": "Sleep, meditation and focus", "es": "Sueño, meditación y concentración"}),
+    ("car", {"en": "Car screen and CarPlay", "es": "Pantalla del coche y CarPlay"}),
 ]
 HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video", "luma-alt", "sora-chatgpt"},
@@ -123,6 +124,7 @@ HOME_GROUPS = {
     "privacy": {"keepsafe-alt", "calculator-vault"},
     "crypto": {"blockfolio-alt", "trump-crypto-news"},
     "wellbeing": {"headspace-alt", "endel-alt", "forest-alt"},
+    "car": {"car-video-complaints"},
 }
 
 MORE_RELATED = {
@@ -202,10 +204,11 @@ OUR_LLMS = [("Dora", 6754180384, "AI video and image generator for iPhone and do
             ("Photo Vault", 1532670722, "photo and video vault with Face ID, no account and no data collected; Premium yearly or lifetime."),
             ("Crypton", 1143691286, "crypto price and portfolio tracker with P&L per coin and widgets; free, optional account."),
             ("Drop", 1462269642, "breathing sessions and nature sounds with a growing garden; free, Pro monthly or lifetime."),
-            ("3 Tasks", 1553693943, "to-do list of three tasks a day with a timer on each; free, one-time Pro.")]
+            ("3 Tasks", 1553693943, "to-do list of three tasks a day with a timer on each; free, one-time Pro."),
+            ("CarScreen", 6833951195, "car dashboard widgets and your own videos on the car screen while parked, in cars that support it; free car check, then one payment.")]
 
 OUR_IDS = {"1667947372", "6754878073", "1143691286", "6754180384",
-           "1553693943", "1462269642", "1662608035", "1532670722"}
+           "1553693943", "1462269642", "1662608035", "1532670722", "6833951195"}
 
 
 def place_ours(p):
@@ -430,7 +433,8 @@ def news_html(p, alternates):
     lang = p["lang"]
     upd = human_date(p["updated"], lang)
     crypton = store_link(1143691286, p["ct"])
-    fill = lambda h: h.replace("{CRYPTON}", esc(crypton))
+    carscreen = store_link(6833951195, p["ct"])
+    fill = lambda h: h.replace("{CRYPTON}", esc(crypton)).replace("{CARSCREEN}", esc(carscreen))
     article = {
         "@context": "https://schema.org", "@type": "NewsArticle",
         "headline": p["h1"], "description": p["description"],
@@ -612,7 +616,7 @@ def main():
                                 home_alts, home_ld))
 
     about_en = """<h1>About Reditor and how we check</h1>
-<p>Reditor is run by <a href="https://aisagalab.com/">Saga Labs</a>, a small studio that makes iPhone apps (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, Dora, Ask AI and Brainy). Contact: sagalabs@proton.me.</p>
+<p>Reditor is run by <a href="https://aisagalab.com/">Saga Labs</a>, a small studio that makes iPhone apps (Photo Vault, Drop, Pinku, 3 Tasks, Crypton, CarScreen, Dora, Ask AI and Brainy). Contact: sagalabs@proton.me.</p>
 <h2>Our apps are one more option, and we say which</h2>
 <p>When one of our apps fits a question, it is included as one more option, placed where it fits rather than first, and the footer of every page names our apps. Competitors are linked to their normal App Store pages and shown with their real data, including where they are better than ours.</p>
 <h2>What we check</h2>
