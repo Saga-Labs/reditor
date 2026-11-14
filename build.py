@@ -30,7 +30,7 @@ BING_META = '<meta name="msvalidate.01" content="9DC742D40B7AE2CB77616DE48BE1528
 INDEXNOW_KEY = "870d0f45c495fc54876afbd176539771"
 PT = "118348020"  # App Store provider token for campaign links
 
-PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma", "nov05_sora_chatgpt", "nov08_trump_crypto", "nov14_car_video"]
+PAGE_MODULES = ["sora", "private_llm", "dance_video", "chaton", "image_video", "es_alternativas", "private_chat", "ollama_alt", "nov02_video", "nov02_alts", "nov03_seedance", "nov03_midjourney", "nov03_perplexity", "nov03_deepseek", "nov03_watermark", "nov03_grok", "nov03_google_video", "nov03_nano_banana", "nov03_chatgpt_image", "nov03_lm_studio", "nov03_keepsafe", "nov03_calculator_vault", "nov03_blockfolio", "nov03_chatgpt_plus", "nov03_headspace", "nov03_endel", "nov03_forest", "nov05_luma", "nov05_sora_chatgpt", "nov08_trump_crypto", "nov14_car_video", "nov14_ai_companion"]
 
 T = {
     "en": {
@@ -120,7 +120,7 @@ HOME_GROUPS = {
     "ai-video": {"sora", "dance-video", "viggle-alt", "image-to-video", "ugc-ads", "kling-alt", "runway-alt", "pika-alt", "hailuo-alt", "pixverse-alt", "seedance-alt", "no-watermark", "google-video", "luma-alt", "sora-chatgpt"},
     "ai-image": {"midjourney-alt", "nano-banana", "chatgpt-image"},
     "ai-chat": {"chaton-alt", "perplexity-alt", "deepseek-alt", "grok-apps", "chatgpt-plus-alt"},
-    "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives", "lm-studio-iphone"},
+    "offline-ai": {"private-llm", "private-chat-situation", "ollama-alternatives", "lm-studio-iphone", "ai-companion-complaints"},
     "privacy": {"keepsafe-alt", "calculator-vault"},
     "crypto": {"blockfolio-alt", "trump-crypto-news"},
     "wellbeing": {"headspace-alt", "endel-alt", "forest-alt"},
