@@ -1,0 +1,400 @@
+{
+ "1158555867|br": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|de": {
+  "avail": true,
+  "name": "Replika - KI Companion Chat"
+ },
+ "1158555867|es": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|fr": {
+  "avail": true,
+  "name": "Replika - IA Companion Chat"
+ },
+ "1158555867|it": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|jp": {
+  "avail": true,
+  "name": "Replika: 世界初のA Iフレンド・人工知能との会話"
+ },
+ "1158555867|kr": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|ru": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|sa": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|th": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|tr": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|tw": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1158555867|us": {
+  "avail": true,
+  "name": "Replika - AI Companion Chat"
+ },
+ "1671705818|br": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|de": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|es": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|fr": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|it": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|jp": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|kr": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|ru": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|sa": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|th": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|tr": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|tw": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "1671705818|us": {
+  "avail": true,
+  "name": "Character AI: Chat, Talk, Text"
+ },
+ "6445815935|br": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|de": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|es": {
+  "avail": true,
+  "name": "Pi: Talk to Your AI Friend"
+ },
+ "6445815935|fr": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|it": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|jp": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|kr": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|ru": {
+  "avail": false
+ },
+ "6445815935|sa": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|th": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|tr": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|tw": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6445815935|us": {
+  "avail": true,
+  "name": "Pi, your personal AI"
+ },
+ "6450270929|br": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|de": {
+  "avail": false
+ },
+ "6450270929|es": {
+  "avail": false
+ },
+ "6450270929|fr": {
+  "avail": false
+ },
+ "6450270929|it": {
+  "avail": false
+ },
+ "6450270929|jp": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|kr": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|ru": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|sa": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|th": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|tr": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|tw": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6450270929|us": {
+  "avail": true,
+  "name": "Nomi: AI Companion with a Soul"
+ },
+ "6451038161|br": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|de": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|es": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|fr": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|it": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|jp": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|kr": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|ru": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|sa": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|th": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|tr": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|tw": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6451038161|us": {
+  "avail": true,
+  "name": "Kindroid: Your Personal AI"
+ },
+ "6477549878|br": {
+  "avail": false
+ },
+ "6477549878|de": {
+  "avail": true,
+  "name": "Tolan: Your Friendly Guide"
+ },
+ "6477549878|es": {
+  "avail": true,
+  "name": "Tolan: Your Friendly Guide"
+ },
+ "6477549878|fr": {
+  "avail": true,
+  "name": "Tolan: Your Friendly Guide"
+ },
+ "6477549878|it": {
+  "avail": true,
+  "name": "Tolan: Your Friendly Guide"
+ },
+ "6477549878|jp": {
+  "avail": false
+ },
+ "6477549878|kr": {
+  "avail": false
+ },
+ "6477549878|ru": {
+  "avail": false
+ },
+ "6477549878|sa": {
+  "avail": true,
+  "name": "Tolan: Your Friendly Guide"
+ },
+ "6477549878|th": {
+  "avail": false
+ },
+ "6477549878|tr": {
+  "avail": false
+ },
+ "6477549878|tw": {
+  "avail": false
+ },
+ "6477549878|us": {
+  "avail": true,
+  "name": "Tolan: Your Friendly Guide"
+ },
+ "6738960374|br": {
+  "avail": false
+ },
+ "6738960374|de": {
+  "avail": true,
+  "name": "Private AI Chat: Cora"
+ },
+ "6738960374|es": {
+  "avail": true,
+  "name": "Private AI Chat: Cora"
+ },
+ "6738960374|fr": {
+  "avail": true,
+  "name": "Private AI Chat: Cora"
+ },
+ "6738960374|it": {
+  "avail": true,
+  "name": "Private AI Chat: Cora"
+ },
+ "6738960374|jp": {
+  "avail": false
+ },
+ "6738960374|kr": {
+  "avail": false
+ },
+ "6738960374|ru": {
+  "avail": true,
+  "name": "Private AI Chat: Cora"
+ },
+ "6738960374|sa": {
+  "avail": false
+ },
+ "6738960374|th": {
+  "avail": false
+ },
+ "6738960374|tr": {
+  "avail": true,
+  "name": "Private AI Chat: Cora"
+ },
+ "6738960374|tw": {
+  "avail": false
+ },
+ "6738960374|us": {
+  "avail": true,
+  "name": "Private AI Chat: Cora"
+ },
+ "6786747271|br": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|de": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|es": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|fr": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|it": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|jp": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|kr": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|ru": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|sa": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|th": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|tr": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|tw": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ },
+ "6786747271|us": {
+  "avail": true,
+  "name": "Talking Friday: AI Voice Chat"
+ }
+}

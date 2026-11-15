@@ -30,29 +30,54 @@ def info(app_id, cc):
     return STORE.get(f"{KEY[app_id]}|{cc}")
 
 
-def fill_news(s, cc, text):
-    """Tokens in news prose: {app:ID} = store link with the store's name; {rating:ID} = stars or the 'no rating' word."""
+# Companion guide (news page, 14 Nov 2026): lookups of 15 Nov 2026 per storefront. Only the name and whether the app is
+# on sale in that country are used; the ratings and prices in the text stay as the English page has them.
+COMP_STORE = json.loads((ROOT / "data" / "store-companion-2026-11-15.json").read_text(encoding="utf-8"))
+
+
+def news_app(i, cc):
+    """Store entry of an app named in a news guide, for the page's country (the car and companion lookups never share ids)."""
+    if i in CAR_KEY:
+        return CAR_STORE[f"{CAR_KEY[i]}|{cc}"]
+    return COMP_STORE[f"{i}|{cc}"]
+
+
+def fill_news(s, cc, text, missing):
+    """Tokens in news prose: {app:ID} = store link with the store's name (plain name, and noted in the sources, when the
+    app is not on sale in that country); {href:ID} = that store's URL; {rating:ID} = stars or the 'no rating' word."""
     def app(m):
         i = int(m.group(1))
-        d = CAR_STORE[f"{CAR_KEY[i]}|{cc}"]
-        href = "{CARSCREEN}" if i == CARSCREEN_ID else f"https://apps.apple.com/{cc}/app/id{i}"
-        return f'<a href="{href}">{html.escape(d["name"], quote=False)}</a>'
+        d = news_app(i, cc)
+        if not d.get("avail", True):
+            missing.add(i)
+            return html.escape(COMP_STORE[f"{i}|us"]["name"], quote=False)
+        name = html.escape(d["name"], quote=False)
+        if i == CARSCREEN_ID:
+            return f'<a href="{{CARSCREEN}}">{name}</a>'
+        return f'<a href="https://apps.apple.com/{cc}/app/id{i}">{name}</a>'
+
+    def href(m):
+        return f"https://apps.apple.com/{cc}/app/id{m.group(1)}"
 
     def rating(m):
-        d = CAR_STORE[f"{CAR_KEY[int(m.group(1))]}|{cc}"]
+        d = news_app(int(m.group(1)), cc)
         if not d.get("rating"):
             return text["no_rating"]
         return f"{d['rating']:.1f}".replace(".", text["decimal"])
 
     s = re.sub(r"\{app:(\d+)\}", app, s)
+    s = re.sub(r"\{href:(\d+)\}", href, s)
     return re.sub(r"\{rating:(\d+)\}", rating, s)
 
 
 def localize_news(base, lang, L, text):
-    """News guide (no price table): the words come from tr_<code>.py TEXT[group]; the names, ratings and store links
-    come from data/store-<CAR_CHECKED>.json for the page's country. Prices in the text are the developer's own."""
+    """News guide (no price table): the words come from tr_<code>.py TEXT[group]; the names and store links come from
+    the store file of the page's country (car: data/store-<CAR_CHECKED>.json; companion: data/store-companion-*.json).
+    Prices in the text are the developer's own. An app not on sale in the country keeps its name, without a link, and
+    the sources say so (text["not_on_sale"], with {names})."""
     cc = L["cc"]
-    F = lambda s: fill_news(s, cc, text)
+    missing = set()
+    F = lambda s: fill_news(s, cc, text, missing)
     pg = dict(base)
     pg.update(lang=lang, store=cc, ct=f"{base['ct']}-{lang.lower()}"[:40], path=text["path"], checked=CAR_CHECKED,
               updated=CAR_CHECKED, apps=[], related=list(base.get("related", [])))
@@ -62,6 +87,9 @@ def localize_news(base, lang, L, text):
     pg["sections"] = [(sid, h, F(body)) for sid, h, body in text["sections"]]
     pg["faq"] = [tuple(x) for x in text["faq"]]
     pg["sources_html"] = [F(x) for x in text["sources_html"]]
+    if missing:
+        names = ", ".join(COMP_STORE[f"{i}|us"]["name"] for i in sorted(missing))
+        pg["sources_html"].append(text["not_on_sale"].format(names=html.escape(names, quote=False)))
     if "llms_note" in text:
         pg["llms_note"] = text["llms_note"]
     else:
