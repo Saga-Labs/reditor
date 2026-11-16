@@ -364,3 +364,113 @@ TEXT["ai-companion-complaints"] = {
     "fix": "如果這裡有過時的資訊，請<a href='mailto:sagalabs@proton.me'>告訴我們</a>，我們會更新此頁面。",
     "not_on_sale": "{names} 未在台灣 App Store 上架：名稱不附連結，資料來自美國商店頁面。",
 }
+
+# ---- 2026/11/16：11/15 發布的指南（每日翻譯）。連結指向台灣 App Store；11/16 查詢。
+_ZH_TN = "https://apps.apple.com/tw/app/id1348028646"
+_ZH_GT = "https://apps.apple.com/tw/app/id414706506"
+_ZH_MT = "https://apps.apple.com/tw/app/id1018949559"
+_ZH_IT = "https://apps.apple.com/tw/app/id288113403"
+_ZH_CANCEL = "https://support.apple.com/en-us/118428"
+_ZH_REFUND = "https://support.apple.com/en-us/118223"
+
+TEXT["translator-complaints"] = {
+    "path": "zh-hant/fanyi-app-buhui-ti-zhi-yiwai-dingyue-iphone/",
+    "kicker": "翻譯 App 指南",
+    "title": "不會突然收取訂閱費的 Translate Now 替代方案 (2026)",
+    "h1": "不會突然收取訂閱費的 Translate Now 替代方案 (2026)",
+    "description": "翻譯 App 收到許多關於訂閱與扣款、離線模式失效與網路錯誤的 1 星和 2 星評價。157 則近期評價的內容，以及付費前如何逐一檢查。",
+    "llms": "指南，2026 年 11 月 15 日：在 Translate Now、Google Translate、Microsoft Translator 與 iTranslate 的 157 則近期 App Store 1 星與 2 星評價中，最常重複的三項抱怨：取消後仍被收費的訂閱與扣款（約佔 Translate Now 評價的一半）、離線模式未如宣傳般運作，以及網路錯誤。每項都附有下載或旅行前可以進行的檢查。數字為約略值。",
+    "stand": "來自四款翻譯 App、157 則近期 App Store 評價的抱怨，以及付費或出國前可以做的檢查。",
+    "answer": [
+        "<strong>要選一款不會突然收取訂閱費的翻譯 App，請在下載前閱讀 App Store 頁面上的試用與續訂條款、在試用結束的那天設定提醒，並知道在哪裡取消：「設定」、你的名字、「訂閱項目」。</strong> 出國前先在家裡測試離線模式，因為有好幾款 App 在那裡會失效。",
+        "在 Translate Now、Google Translate、Microsoft Translator 與 iTranslate 的 157 則 1 星和 2 星評價中，最常見的抱怨是訂閱與扣款（以 Translate Now 最多）、離線模式未如預期運作，以及網路錯誤。下方每一項都附有檢查方法。",
+    ],
+    "sections": [
+        ["data", "我們看了什麼",
+         "<p>我們下載了美國 App Store 上四款翻譯 App 最新的 1 星和 2 星評價：<a href='" + _ZH_TN + "'>Translate Now - AI Translator</a>（30 則）、<a href='" + _ZH_GT + "'>Google Translate</a>（55 則）、<a href='" + _ZH_MT + "'>Microsoft Translator</a>（57 則）與 <a href='" + _ZH_IT + "'>iTranslate Translator</a>（15 則）。共 157 則，為每款 App 最近的評價（每款最多 100 則），於 2026 年 11 月 15 日下載。有三類抱怨一再出現：金錢（訂閱、付費牆、取消後扣款）、離線模式未如預期運作，以及網路錯誤。</p>\n<ul>\n<li>訂閱、付費牆與扣款：Translate Now 約佔一半評價（30 則中的 14 則），iTranslate 則為 15 則中的 4 則。</li>\n<li>離線或「沒有網路」的問題：Google Translate 55 則中的 5 則，Microsoft Translator 57 則中的 6 則。</li>\n<li>翻譯錯誤或品質不佳：Google Translate 55 則中的 10 則。</li>\n</ul>\n<p>評價是不滿意的人的意見，不是對 App 的測試。</p>\n"],
+        ["money", "「取消後仍被扣款」與試用（最大的一類）",
+         "<p>這是 Translate Now 最大的一類。一位評價者說：「I canceled the subscription and it still charged me」（Translate Now，1 星）。另一位：「Did not realize they were taking $10.98 a WEEK on a subscription fee」（Translate Now，1 星）。iTranslate 的抱怨則針對試用：「Be sure to cancel after trial or pay $40 per month every month!」（iTranslate，1 星）。也有人覺得免費部分太少：「You have to pay for common languages」（Translate Now，1 星）。這些是評價者的原話，並非我們在各 App 中核實過的事實。</p>\n<p>App Store 頁面說明了每款 App 販售的內容。Translate Now 的頁面宣傳一個名為 Air Apps One 的訂閱。iTranslate 的頁面則寫明，免費試用會轉為付費訂閱，除非在試用結束前至少 24 小時關閉自動續訂。</p>\n<p><strong>下載前與開始任何試用前，請這樣做：</strong></p>\n<ol>\n<li>捲動到 App Store 頁面的最底部，閱讀訂閱條款：價格、續訂頻率，以及免費試用何時結束。</li>\n<li>在試用結束前一天的行事曆設定提醒。</li>\n<li>要查看或停止訂閱：打開「設定」，點選你的名字，點選「訂閱項目」，再點選該訂閱，然後點選「取消訂閱」。Apple 的步驟在<a href='" + _ZH_CANCEL + "'>在 Apple 取消訂閱</a>頁面。刪除 App 並不會取消訂閱。</li>\n<li>如果取消後仍被扣款，你可以向 Apple 申請退款：<a href='" + _ZH_REFUND + "'>申請退還在 Apple 購買之 App 或內容的費用</a>。是否退款由 Apple 決定。</li>\n</ol>\n"],
+        ["offline", "「離線時無法使用」（Google Translate、Microsoft Translator）",
+         "<p>翻譯 App 在沒有訊號時最有用：在飛機上，或在外國的地鐵裡。評價顯示，正是在這些時候，好幾款 App 會失靈。Google Translate 的一位評價者：「It DOES NOT work offline as advertised…」（1 星）。另一位來自日本：「This app was unusable if /when I wasn't connected to the internet」（2 星）。Microsoft Translator 的一位評價者表示，這款 App「removed the ability to download languages for offline use」（1 星）。</p>\n<p>iTranslate 的 App Store 頁面也從開發者的角度說明了同樣的事：要使用離線模式，必須先下載語言包。</p>\n<p><strong>處理方式：</strong>出發前先在家裡用 Wi-Fi 測試離線模式。關閉 Wi-Fi 與行動數據，打開 App 翻譯一句話。若失敗，表示缺少語言包，或該 App 不支援該語言的離線模式。請在 App 設定中找可下載的語言；若找不到，先查看 App Store 頁面。</p>\n"],
+        ["network", "「網路錯誤」（Microsoft Translator）",
+         "<p>在這組評價中，Microsoft Translator 的網路相關抱怨最多，主要針對其即時對話模式：「Keeps getting network error when trying to use live translation」（2 星），來自一位當時連著 Wi-Fi 的評價者。另一位評價者表示，即使在 Wi-Fi 下，App 仍要求他檢查網路。</p>\n<p><strong>處理方式：</strong>把 App 完全關閉，關掉再開啟 Wi-Fi，然後改用行動數據試試。若仍失敗，改用文字模式。它較慢，但通常能用。如果你需要可靠的離線模式，請在出發前決定，而不是在對話途中才決定。</p>\n"],
+        ["checklist", "下載或出發前：5 點檢查",
+         "<ul>\n<li>我在下載前有沒有閱讀 App Store 頁面上的訂閱條款與試用期長度？</li>\n<li>我有沒有在試用結束前一天設定提醒？</li>\n<li>我有沒有在家裡關閉 Wi-Fi 與行動數據，測試過離線模式？</li>\n<li>我有沒有確認可以下載哪些語言，以及出發前是否需要？</li>\n<li>我知道在哪裡取消（<a href='" + _ZH_CANCEL + "'>Apple：取消訂閱</a>），也知道如何申請退款（<a href='" + _ZH_REFUND + "'>Apple：申請退款</a>）嗎？</li>\n</ul>\n"],
+    ],
+    "faq": [
+        ["哪一款翻譯 App 的訂閱抱怨最少？",
+         "評價沒有指出哪一款最好。在這組評價中，Translate Now 的訂閱與扣款抱怨最多（30 則近期的 1 星和 2 星評價中有 14 則）。下載前請閱讀每款 App 在 App Store 上的訂閱條款。"],
+        ["Google Translate 在 iPhone 上能離線使用嗎？",
+         "有些評價者說，它離線時無法如宣傳般運作。出國前請在家裡關閉 Wi-Fi 與行動數據測試，並確認可以下載哪些語言。"],
+        ["如何取消翻譯 App 的訂閱？",
+         "在 iPhone 上，打開「設定」，點選你的名字，點選「訂閱項目」，再點選該訂閱，然後點選「取消訂閱」。Apple 在其「取消訂閱」頁面有詳細說明。"],
+        ["取消後被扣的費用可以退款嗎？",
+         "可以向 Apple 申請。Apple 的「申請退還在 Apple 購買之 App 或內容的費用」頁面說明了方法；是否核准由 Apple 決定。"],
+    ],
+    "sources_html": [
+        "評價：美國 App Store 客戶評價資料，各 App 最新一頁，157 則 1 星和 2 星評價，2026 年 11 月 15 日下載；以關鍵字計算，為約略值。",
+        "App：美國 App Store 頁面，以及 2026 年 11 月 15 日 Apple 的查詢資料，涵蓋 Translate Now、Google Translate、Microsoft Translator 與 iTranslate。",
+        "<a href='" + _ZH_CANCEL + "'>在 Apple 取消訂閱</a>，Apple 支援。",
+        "<a href='" + _ZH_REFUND + "'>申請退還在 Apple 購買之 App 或內容的費用</a>，Apple 支援。",
+    ],
+    "fix": "如果本頁內容過時，請<a href='mailto:sagalabs@proton.me'>告訴我們</a>，我們會更正。",
+    "not_on_sale": "{names} 未在台灣 App Store 販售：名稱不附連結，資料取自美國頁面。",
+}
+
+_ZH_FS = "https://apps.apple.com/tw/app/id6752642525"
+_ZH_HD = "https://apps.apple.com/tw/app/id6747442689"
+_ZH_CO = "https://apps.apple.com/tw/app/id1603892248"
+_ZH_TCGP = "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon"
+_ZH_CM = "https://www.cardmarket.com/en/Pokemon"
+_ZH_EBAY = "https://www.ebay.com/help/buying/search-tips/advanced-search?id=4044"
+_ZH_RANK = "https://reviewland.io/best-pokemon-card-scanner-apps-iphone/"
+
+TEXT["tcg-price-complaints"] = {
+    "path": "zh-hant/pokemon-kapian-jiage-jiance-buhui-zhi-cuowu-yi-saomiao-fukuan-iphone/",
+    "kicker": "卡牌價格指南",
+    "title": "如何核對寶可夢卡牌價格，避免錯誤數值與掃描付費牆 (2026)",
+    "h1": "如何核對寶可夢卡牌價格，避免錯誤數值與掃描付費牆 (2026)",
+    "description": "卡牌掃描 App 收到大量關於價格錯誤或浮動（21%）、付費牆與掃描次數限制（21%）、卡牌無法辨識（12%）以及意外扣款（8%）的 1 至 3 星評價。895 則評價的內容，以及如何自行核對價格。",
+    "llms": "指南，2026 年 11 月 15 日：在 FoilSnap、HoloDex 與 Collectr 三款卡牌掃描 App 的 895 則 1 至 3 星 App Store 評價中，最常重複的四項抱怨：價格錯誤或浮動（21%）、付費牆或掃描次數限制（約 21%）、卡牌無法辨識（12%），以及意外扣款（8%）。每項都有對應的處理方法：比對 TCGplayer 與 Cardmarket、查看 eBay 的已售商品、核對印刷的編號與版本，並先閱讀試用條款與 Apple 的取消步驟。數字為約略值。",
+    "stand": "來自 895 則 App Store 評價的抱怨，以及每一項都可以不靠任何 App 完成的檢查。",
+    "answer": [
+        "<strong>要在不被錯誤數值誤導的情況下核對寶可夢卡牌價格，請把掃描器的價格當成初步估計：先在 TCGplayer 與 Cardmarket 上確認正確的卡牌，再到 eBay 的已售商品中查看同一張卡實際賣出的價格。</strong> 要避開掃描付費牆，請在掃描前閱讀 App Store 頁面上的免費額度與試用條款，並知道在「設定」的哪裡取消：你的名字，然後「訂閱項目」。",
+        "在 FoilSnap、HoloDex 與 Collectr 的 895 則 1 至 3 星評價中，最主要的抱怨是價格錯誤或浮動（21%）、付費牆或掃描次數限制（約 21%）、卡牌無法辨識（12%），以及意外扣款（8%）。下方每一項都有今天就能用的解決方法。",
+    ],
+    "sections": [
+        ["data", "我們看了什麼",
+         "<p>我們下載了評價數最多的三款寶可夢與 TCG 卡牌掃描 App 最近的 1 至 3 星評價：<a href='" + _ZH_FS + "'>TCG Card Scanner - FoilSnap</a>（283 則，免費，4.8）、<a href='" + _ZH_HD + "'>HoloDex - TCG Scan &amp; Collect</a>（284 則，免費，4.8）與 <a href='" + _ZH_CO + "'>Collectr - TCG Collector App</a>（328 則，免費，4.9），均為 2026 年 11 月 15 日的資料，來自七個 App Store 地區，共 895 則 1 至 3 星評價。計算依據是關鍵字比對，因此為約略值，一則評價可能落入多個類別。對於核對價格最重要的四項抱怨如下：</p>\n<ul>\n<li>價格錯誤、過時或浮動：<strong>21%</strong>（191 則）。</li>\n<li>卡牌無法辨識或辨識錯誤：<strong>12%</strong>（110 則）。</li>\n<li>付費牆出現太早，或「免費」的 App 其實並不免費：<strong>11.5%</strong>（103 則），另有免費掃描次數限制：<strong>9.7%</strong>（87 則）。</li>\n<li>意外扣款、無法取消、取消後仍被扣款：<strong>8%</strong>（75 則）。</li>\n</ul>\n<p>評價是不滿意的人的意見，不是對 App 的測試。若要依各 App 頁面的說明，比較七款掃描 App 的排名，請見<a href='" + _ZH_RANK + "'>iPhone 寶可夢卡牌掃描 App 推薦（2026）</a>。</p>\n"],
+        ["wrongprice", "「價格錯誤」與「每次掃描數值都不同」（21%）",
+         "<p>這是三款 App 中最常見的抱怨。FoilSnap 的一位評價者：「Results were all different values ranging from cents to $25.」（1 至 3 星評價，美國）。當你用價格來買賣或交換時，這點最讓人困擾。</p>\n<p><strong>處理方式，五個步驟，今天就能做，不需要額外的 App：</strong></p>\n<ol>\n<li>找出卡牌的資訊：名稱、卡上印的編號（通常在下緣附近），以及系列符號或代碼。兩張同名的卡可能價值相差很多。</li>\n<li>在 <a href='" + _ZH_TCGP + "'>TCGplayer</a> 上搜尋該名稱與編號，並打開正確的版本（holo、reverse holo、初版、語言）。看市場價與最低的販售價，不要只看一個數字。</li>\n<li>在 <a href='" + _ZH_CM + "'>Cardmarket</a> 上比對同一張卡，該網站以歐元顯示歐洲價格。如果兩個網站差距很大，表示其中一個是不同版本或不同狀態。（Cardmarket 可能無法被自動化工具載入，但在一般瀏覽器中可以開啟。）</li>\n<li>查看實際成交價：在 eBay 搜尋該卡，並篩選已售出的商品（<a href='" + _ZH_EBAY + "'>eBay：進階搜尋的使用方式</a>）。成交價是人們實際付的錢，標價只是希望。</li>\n<li>比較相同的狀態。接近全新的卡與同一張卡的使用過版本，售價不同；而掃描器無法從照片中看出一個折角。</li>\n</ol>\n<p>如果掃描器給出的價格非常低，也請做同樣的檢查，例如評價「Most of my cards prices of 50p 30p or 10p」（FoilSnap，英國）中所述的情況：看起來太低或太高的價格，是需要比較的訊號，而不是可以直接相信的數字。</p>\n"],
+        ["notrecognised", "「無法辨識我的卡」（12%）",
+         "<p>約 12% 的評價表示，App 給出了錯誤的卡名或版本：「Every time you scan it gives you the wrong name of the card」（FoilSnap，美國）。FoilSnap 的 1 至 3 星評價中，有近四分之一（23%）與此有關。FoilSnap 自己的頁面也說明了背後的原因：一般的掃描器常因全像箔的反光而誤判卡牌。</p>\n<p><strong>處理方式：</strong>不要相信你沒有讀過的名稱。把 App 顯示的名稱、編號與系列符號，與卡上印的內容比對。若不一致，請在 <a href='" + _ZH_TCGP + "'>TCGplayer</a> 上手動搜尋編號與版本。掃描時，把卡牌平放在單色、深色或淺色的背景上，並將卡面向遠離燈光的方向傾斜，避免箔面反光。另有 8% 的評價表示缺少語言（「No support for German cards. Only English, Japanese and Chinese.」，Collectr，德國）。因此如果你的卡不是英文版，請在付費前查看頁面與卡牌清單。</p>\n"],
+        ["paywall", "「付費牆」與「只能掃描 10 次」（約 21%）",
+         "<p>另外 21% 的評價是關於先付錢、後見價值：付費牆出現太早（11.5%），以及免費掃描次數有限（9.7%）。「Immediate pay wall for core app functionality」（HoloDex，加拿大）。「After you scan 35 cards they make you pay」（Collectr，美國）。各 App 頁面也相互印證：HoloDex 的頁面寫明，App 內購買可解鎖無限掃描、獨家篩選與 AI 評級；Collectr 的頁面則寫明，無限掃描需要 App 內購買。三款 App 都可以免費下載，但這與免費使用並不相同。</p>\n<p><strong>處理方式：</strong>在掃描整個收藏前，請閱讀 App Store 頁面上的說明與 App 內購買列表。在你需要的功能旁邊找「unlimited」、「premium」或「in-app purchase」等字樣。有兩款的頁面寫明價格免費：Dex 寫道，來自 TCGplayer、Cardmarket、eBay 與 CardTrader 的價格對所有人免費；PriceCharting 則寫道，App 完全免費。若只是查一、兩張卡，你甚至可能不需要 App：上面的步驟在網站上完成，不花任何錢。我們把能讀到的免費限制並排列在<a href='" + _ZH_RANK + "'>我們的七款卡牌掃描 App 排名</a>中。</p>\n"],
+        ["charged", "「被扣款」與「不讓我取消」（8%）",
+         "<p>約 8% 是關於扣款：「Tried to cancel and it wouldn't let me and it auto renewed.」（FoilSnap，美國）。在價格之後，這是 FoilSnap 最常見的抱怨（佔其 1 至 3 星評價的 15%）。FoilSnap 的頁面寫道，與許多 App 一樣，訂閱會自動續訂，除非你在目前期間結束前至少 24 小時取消。</p>\n<p><strong>處理方式，在 iPhone 上，不到一分鐘：</strong></p>\n<ol>\n<li>開始免費試用前，先看付款視窗：它會顯示價格、續訂頻率與試用結束日期。</li>\n<li>在試用結束前一天，於行事曆加入提醒。</li>\n<li>要查看或停止：打開「設定」，點選你的名字，點選「訂閱項目」，再點選該訂閱，然後點選「取消訂閱」。Apple 的步驟在<a href='" + _ZH_CANCEL + "'>在 Apple 取消訂閱</a>頁面。刪除 App 並不會取消訂閱。</li>\n<li>若你是在不知情的情況下被扣款，可以申請退款：<a href='" + _ZH_REFUND + "'>申請退還在 Apple 購買之 App 或內容的費用</a>。是否退款由 Apple 決定。</li>\n</ol>\n"],
+        ["checklist", "相信價格或開始試用前：5 點檢查",
+         "<ul>\n<li>我有沒有讀過卡牌的名稱、編號與系列，並確認它們與 App 顯示的內容一致？</li>\n<li>我有沒有在 TCGplayer 與 Cardmarket 上比對過相同版本與狀態的價格？</li>\n<li>買賣或交換前，我有沒有查看 eBay 的已售商品？</li>\n<li>掃描前，我有沒有閱讀 App 內購買列表與試用條款？</li>\n<li>我知道試用結束的日期，也知道在哪裡取消（<a href='" + _ZH_CANCEL + "'>Apple：取消訂閱</a>）嗎？</li>\n</ul>\n"],
+    ],
+    "faq": [
+        ["寶可夢卡牌掃描 App 準確嗎？",
+         "因情況而異。在 FoilSnap、HoloDex 與 Collectr 的 895 則 1 至 3 星評價中，21% 提到價格錯誤、過時或浮動，12% 提到卡牌無法辨識。請把 App 的數值當作初步估計，並在 TCGplayer 與 Cardmarket 上確認正確的卡牌。"],
+        ["為什麼掃描器每次顯示的價格都不同？",
+         "評價沒有說明原因。一位 FoilSnap 的評價者在十次掃描中，同一張卡得到的數值從幾分錢到 25 美元不等。版本、狀態或來源不同，都可能改變數字，因此請在交易市場上確認。"],
+        ["在哪裡可以免費查詢寶可夢卡牌價格？",
+         "TCGplayer 與 Cardmarket 的網站會列出寶可夢卡牌價格，而 eBay 的已售商品則顯示卡牌的實際成交價。Dex 在 App Store 上的說明寫道，其價格對所有人免費。"],
+        ["如何取消卡牌掃描 App 的訂閱？",
+         "在 iPhone 上，打開「設定」，點選你的名字，點選「訂閱項目」，再點選該訂閱，然後點選「取消訂閱」。Apple 在其「取消訂閱」頁面有詳細說明。"],
+        ["可以向 App Store 申請退款嗎？",
+         "可以申請。Apple 的「申請退還在 Apple 購買之 App 或內容的費用」頁面說明了方法；是否核准由 Apple 決定。"],
+    ],
+    "sources_html": [
+        "評價：美國、加拿大、英國、德國、澳洲、法國與日本的 App Store；三款 App 共 895 則 1 至 3 星評價，2026 年 11 月 15 日下載；以關鍵字計算，為約略值。",
+        "<a href='" + _ZH_CANCEL + "'>在 Apple 取消訂閱</a>，Apple 支援。",
+        "<a href='" + _ZH_REFUND + "'>申請退還在 Apple 購買之 App 或內容的費用</a>，Apple 支援。",
+        "<a href='" + _ZH_TCGP + "'>TCGplayer：寶可夢</a>；<a href='" + _ZH_CM + "'>Cardmarket：寶可夢</a>；<a href='" + _ZH_EBAY + "'>eBay：進階搜尋</a>。",
+        "App：美國 App Store 頁面與 2026 年 11 月 15 日的 Apple 查詢資料。<a href='" + _ZH_RANK + "'>iPhone 寶可夢卡牌掃描 App 推薦（2026）</a>，Reviewland。",
+    ],
+    "fix": "如果本頁內容過時，請<a href='mailto:sagalabs@proton.me'>告訴我們</a>，我們會更正。",
+    "not_on_sale": "{names} 未在台灣 App Store 販售：名稱不附連結，資料取自美國頁面。",
+}
+SECTIONS["cards"] = "收藏卡與價格"

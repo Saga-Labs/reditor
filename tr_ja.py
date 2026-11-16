@@ -363,3 +363,114 @@ TEXT["ai-companion-complaints"] = {
     "fix": "ここに古い情報があれば、<a href='mailto:sagalabs@proton.me'>ご連絡ください</a>。ページを修正します。",
     "not_on_sale": "{names} は日本のApp Storeでは配信されていないため、名前はリンクなしで掲載し、データは米国版のものです。",
 }
+
+# ---- 16 Nov 2026: 15日公開のガイド（毎日の翻訳）。日本のストアへのリンク。16日の確認。
+_JA_TN = "https://apps.apple.com/jp/app/id1348028646"
+_JA_GT = "https://apps.apple.com/jp/app/id414706506"
+_JA_MT = "https://apps.apple.com/jp/app/id1018949559"
+_JA_IT = "https://apps.apple.com/jp/app/id288113403"
+_JA_CANCEL = "https://support.apple.com/en-us/118428"
+_JA_REFUND = "https://support.apple.com/en-us/118223"
+
+TEXT["translator-complaints"] = {
+    "path": "ja/honyaku-app-muryo-kanyu-chuumon-muryo-ofuraido-iphone/",
+    "kicker": "翻訳アプリのガイド",
+    "title": "Translate Nowの代わりに、思わぬ定期購入のない翻訳アプリ (2026)",
+    "h1": "Translate Nowの代わりに、思わぬ定期購入のない翻訳アプリ (2026)",
+    "description": "翻訳アプリには、定期購入や請求、オフラインで動かないこと、通信エラーに関する1〜2つ星のレビューが届いています。4つの翻訳アプリに関する157件の新しいレビューが何を言っているか、そして支払う前に各アプリを確かめる方法を紹介します。",
+    "llms": "ガイド、2026年11月15日：Translate Now、Google Translate、Microsoft Translator、iTranslateのApp Store（米国）の1〜2つ星の新しいレビュー157件で、最も繰り返された3つの不満：解約後の定期購入と請求（Translate Nowのレビューのほぼ半分）、説明どおりに動かないオフラインモード、通信エラー。それぞれに、ダウンロードや旅行の前に行える確認項目を付けました。数値は概算です。",
+    "stand": "4つの翻訳アプリのApp Store（米国）の新しいレビュー157件からの不満と、支払いや旅行の前に行える確認。",
+    "answer": [
+        "<strong>思わぬ定期購入を避けて翻訳アプリを選ぶには、ダウンロードの前にApp Storeのページで無料体験と更新の条件を読み、無料体験が終わる日にリマインダーを設定し、解約方法（設定、自分の名前、サブスクリプション）を覚えておきましょう。</strong> 複数のアプリはオフラインで動かないことがあるため、旅行の前に自宅でオフラインモードを試してください。",
+        "Translate Now、Google Translate、Microsoft Translator、iTranslateの1〜2つ星のレビュー157件で、最も多かった不満は定期購入と請求（特にTranslate Now）、期待どおりに動かないオフラインモード、通信エラーでした。それぞれの確認方法を下に書いています。",
+    ],
+    "sections": [
+        ["data", "調べた内容",
+         "<p>米国のApp Storeで、4つの翻訳アプリの最新の1〜2つ星レビューをダウンロードしました：<a href='" + _JA_TN + "'>Translate Now - AI Translator</a>（30件）、<a href='" + _JA_GT + "'>Google Translate</a>（55件）、<a href='" + _JA_MT + "'>Microsoft Translator</a>（57件）、<a href='" + _JA_IT + "'>iTranslate Translator</a>（15件）。合計157件で、各アプリの最新のレビュー（アプリごとに最大100件）を2026年11月15日にダウンロードしました。繰り返し出てくる不満は3つです：お金（定期購入、支払いの壁、解約後の請求）、期待どおりに動かないオフラインモード、通信エラーです。</p>\n<ul>\n<li>定期購入、支払いの壁、請求：Translate Nowのレビューのほぼ半分（30件中14件）、iTranslateでは15件中4件。</li>\n<li>オフラインや「インターネットに接続されていない」問題：Google Translateで55件中5件、Microsoft Translatorで57件中6件。</li>\n<li>誤訳や低品質な翻訳：Google Translateで55件中10件。</li>\n</ul>\n<p>レビューは不満を持った人の意見であり、アプリの検査結果ではありません。</p>\n"],
+        ["money", "「解約したのに請求された」と無料体験（最も多い不満）",
+         "<p>Translate Nowでは、これが最も大きなグループです。あるレビュー：「I canceled the subscription and it still charged me」（Translate Now、1つ星）。別のレビュー：「Did not realize they were taking $10.98 a WEEK on a subscription fee」（Translate Now、1つ星）。iTranslateでは無料体験が問題になっています：「Be sure to cancel after trial or pay $40 per month every month!」（iTranslate、1つ星）。無料の範囲が小さすぎるという声もあります：「You have to pay for common languages」（Translate Now、1つ星）。これらはレビュー投稿者の言葉であり、各アプリで私たちが確認した事実ではありません。</p>\n<p>App Storeのページには、各アプリが何を販売しているかが書かれています。Translate Nowのページはサブスクリプション「Air Apps One」を宣伝しています。iTranslateのページには、無料体験は終了の少なくとも24時間前に自動更新をオフにしない限り、有料の定期購入に切り替わると書かれています。</p>\n<p><strong>ダウンロードや無料体験を始める前に：</strong></p>\n<ol>\n<li>App Storeのページを最後までスクロールし、定期購入の条件を読みます：料金、更新の頻度、無料体験がいつ終わるか。</li>\n<li>無料体験が終わる前日にカレンダーのリマインダーを設定します。</li>\n<li>定期購入を確認または停止するには：「設定」を開き、自分の名前、「サブスクリプション」、該当の定期購入、「サブスクリプションをキャンセル」の順にタップします。Appleの手順は<a href='" + _JA_CANCEL + "'>Appleで定期購入をキャンセルする</a>に載っています。アプリを削除しても定期購入は解約されません。</li>\n<li>解約後に請求された場合は、Appleに返金を依頼できます：<a href='" + _JA_REFUND + "'>Appleで購入したアプリやコンテンツの払い戻しを依頼する</a>。判断はAppleが行います。</li>\n</ol>\n"],
+        ["offline", "「オフラインで動かない」（Google Translate、Microsoft Translator）",
+         "<p>翻訳アプリが最も役立つのは、電波がないとき、たとえば機内や外国の地下鉄の中です。レビューによると、そのときに複数のアプリが動かなくなります。Google Translateのレビュー：「It DOES NOT work offline as advertised…」（1つ星）。日本から書かれた別のレビュー：「This app was unusable if /when I wasn't connected to the internet」（2つ星）。Microsoft Translatorのレビューでは、アプリから「removed the ability to download languages for offline use」（1つ星）とあります。</p>\n<p>iTranslateのApp Storeページも、同じことを提供者側から説明しています。オフラインモードを使うには、先に言語パックをダウンロードする必要があります。</p>\n<p><strong>対処法：</strong>旅行の前に、Wi-Fiのある自宅でオフラインモードを試してください。Wi-Fiとモバイルデータをオフにし、アプリを開いて文を一つ翻訳します。失敗した場合は、言語パックがないか、その言語のオフラインモードに対応していません。アプリの設定でダウンロード可能な言語を探し、見つからなければまずApp Storeのページを確認してください。</p>\n"],
+        ["network", "「ネットワークエラー」（Microsoft Translator）",
+         "<p>この中でネットワークに関する不満が最も多いのはMicrosoft Translatorで、主にリアルタイム会話モードについてです：「Keeps getting network error when trying to use live translation」（2つ星、Wi-Fiに接続していたレビュー投稿者）。別のレビュー投稿者は、Wi-Fiに接続しているのにアプリからネットワークを確認するよう求められたと書いています。</p>\n<p><strong>対処法：</strong>アプリを完全に終了し、Wi-Fiをオフにしてから再びオンにし、モバイルデータで試してください。それでも失敗する場合は、テキストモードを使ってください。遅いですが、多くの場合動きます。確実なオフラインモードが必要なら、会話の途中ではなく、旅行の前に決めておきましょう。</p>\n"],
+        ["checklist", "ダウンロードや旅行の前の5項目チェック",
+         "<ul>\n<li>ダウンロードの前に、App Storeのページで定期購入の条件と無料体験の期間を読んだか？</li>\n<li>無料体験が終わる前日のリマインダーを設定したか？</li>\n<li>Wi-Fiとモバイルデータをオフにして、自宅でオフラインモードを試したか？</li>\n<li>ダウンロードできる言語を確認し、出発前に必要かどうかを決めたか？</li>\n<li>解約の方法（<a href='" + _JA_CANCEL + "'>Apple：定期購入をキャンセルする</a>）と返金の依頼方法（<a href='" + _JA_REFUND + "'>Apple：返金を依頼する</a>）を知っているか？</li>\n</ul>\n"],
+    ],
+    "faq": [
+        ["定期購入に関する不満が最も少ない翻訳アプリはどれですか？",
+         "レビューは勝者を示していません。この調査では、Translate Nowが定期購入と請求に関する不満が最も多く、新しい1〜2つ星レビュー30件中14件でした。ダウンロードの前に、各アプリのApp Storeで定期購入の条件を読んでください。"],
+        ["Google TranslateはiPhoneでオフラインで使えますか？",
+         "オフラインでは説明どおりに動かないと書くレビュー投稿者がいます。旅行の前に、自宅でWi-Fiとモバイルデータをオフにして試し、ダウンロードできる言語を確認してください。"],
+        ["翻訳アプリの定期購入を解約するにはどうすればよいですか？",
+         "iPhoneでは「設定」を開き、自分の名前、「サブスクリプション」、該当の定期購入、「サブスクリプションをキャンセル」の順にタップします。Appleが定期購入の解約について説明しています。"],
+        ["解約後に請求された分を返金してもらえますか？",
+         "Appleに依頼できます。Appleで購入したアプリやコンテンツの払い戻しを依頼する方法がページに説明されていますが、判断はAppleが行います。"],
+    ],
+    "sources_html": [
+        "レビュー：米国App Storeのカスタマーレビューのフィード、各アプリの最新ページ、1〜2つ星のレビュー157件、2026年11月15日にダウンロード。キーワードによる集計で、概算です。",
+        "アプリ：Translate Now、Google Translate、Microsoft Translator、iTranslateの米国App Storeページと、2026年11月15日時点のAppleの検索データ。",
+        "<a href='" + _JA_CANCEL + "'>Appleで定期購入をキャンセルする</a>、Appleサポート。",
+        "<a href='" + _JA_REFUND + "'>Appleで購入したアプリやコンテンツの払い戻しを依頼する</a>、Appleサポート。",
+    ],
+    "fix": "このページの内容が古い場合は、<a href='mailto:sagalabs@proton.me'>ご連絡ください</a>。ページを修正します。",
+    "not_on_sale": "{names} は日本のApp Storeでは配信されていないため、名前はリンクなしで掲載し、データは米国のページから取りました。",
+}
+
+_JA_FS = "https://apps.apple.com/jp/app/id6752642525"
+_JA_HD = "https://apps.apple.com/jp/app/id6747442689"
+_JA_CO = "https://apps.apple.com/jp/app/id1603892248"
+_JA_TCGP = "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon"
+_JA_CM = "https://www.cardmarket.com/en/Pokemon"
+_JA_EBAY = "https://www.ebay.com/help/buying/search-tips/advanced-search?id=4044"
+_JA_RANK = "https://reviewland.io/best-pokemon-card-scanner-apps-iphone/"
+
+TEXT["tcg-price-complaints"] = {
+    "path": "ja/pokemon-kado-kakaku-kakunin-machigai-scan-shiharai-iphone/",
+    "kicker": "カード価格のガイド",
+    "title": "ポケモンカードの価格を、誤った値やスキャンの支払いの壁なしで確認する方法 (2026)",
+    "h1": "ポケモンカードの価格を、誤った値やスキャンの支払いの壁なしで確認する方法 (2026)",
+    "description": "カードスキャナーのアプリには、誤った価格や変わり続ける価格（21％）、支払いの壁やスキャン回数の上限（21％）、認識されないカード（12％）、予想外の請求（8％）についての1〜3つ星レビューが届いています。895件のレビューの内容と、自分で価格を確かめる方法です。",
+    "llms": "ガイド、2026年11月15日：カードスキャナーアプリFoilSnap、HoloDex、Collectrの1〜3つ星のApp Storeレビュー895件で、最も繰り返された4つの不満：誤った、または変わり続ける価格（21％）、支払いの壁やスキャン回数の上限（約21％）、カードが認識されない（12％）、予想外の請求（8％）。それぞれに対処法があります：TCGplayerとCardmarketで比較する、eBayの販売済み商品を見る、印刷された番号と版を照合する、無料体験の条件とAppleの解約手順を先に読む。数値は概算です。",
+    "stand": "895件のApp Storeレビューからの不満と、どのアプリもなしで各項目について行える確認。",
+    "answer": [
+        "<strong>ポケモンカードの価格を誤った値なしで確認するには、スキャナーの価格は最初の目安として扱い、TCGplayerとCardmarketで正確なカードを確かめ、その後eBayの販売済み商品で同じカードがいくらで売れたかを確認します。</strong> スキャンの支払いの壁を避けるには、スキャンの前にApp Storeのページで無料で使える範囲と無料体験の条件を読み、設定（自分の名前、次にサブスクリプション）で解約方法を覚えておきましょう。",
+        "FoilSnap、HoloDex、Collectrの1〜3つ星レビュー895件で、最も多い不満は、誤った、または変わり続ける価格（21％）、支払いの壁やスキャン回数の上限（約21％）、カードが認識されない（12％）、予想外の請求（8％）でした。それぞれに、今日すぐ使える対処法を下に書いています。",
+    ],
+    "sections": [
+        ["data", "調べた内容",
+         "<p>カードスキャナーのアプリのうち、レビュー数が最も多い3つについて、最新の1〜3つ星レビューをダウンロードしました：<a href='" + _JA_FS + "'>TCG Card Scanner - FoilSnap</a>（283件、無料、4.8）、<a href='" + _JA_HD + "'>HoloDex - TCG Scan &amp; Collect</a>（284件、無料、4.8）、<a href='" + _JA_CO + "'>Collectr - TCG Collector App</a>（328件、無料、4.9）。いずれも2026年11月15日時点で、7つのApp Storeの国からのものです。1〜3つ星のレビューは合計895件です。集計はキーワード照合によるため概算で、1件のレビューが複数の分類に入ることがあります。価格の確認に最も重要な4つの不満は次のとおりです：</p>\n<ul>\n<li>誤った、古い、または変わり続ける価格：<strong>21％</strong>（191件）。</li>\n<li>カードが認識されない、または誤って認識される：<strong>12％</strong>（110件）。</li>\n<li>支払いの壁が早すぎる、または「無料」なのに無料ではない：<strong>11.5％</strong>（103件）、さらに無料のスキャン回数の上限：<strong>9.7％</strong>（87件）。</li>\n<li>予想外の請求、解約できない、解約後の請求：<strong>8％</strong>（75件）。</li>\n</ul>\n<p>レビューは不満を持った人の意見であり、アプリの検査結果ではありません。各アプリのページに書かれている内容で7つのスキャナーアプリを比べたランキングは、<a href='" + _JA_RANK + "'>iPhone向けポケモンカードスキャナーアプリのおすすめ (2026)</a>をご覧ください。</p>\n"],
+        ["wrongprice", "「価格が間違っている」「スキャンのたびに値が違う」（21％）",
+         "<p>3つのアプリすべてで、これが最も多い不満です。FoilSnapのレビュー：「Results were all different values ranging from cents to $25.」（1〜3つ星、米国）。売買や交換に価格を使うときに、特に困ります。</p>\n<p><strong>対処法、追加のアプリなしで今日できる5つのステップ：</strong></p>\n<ol>\n<li>カードの情報を確認します：名前、カードに印刷された番号（通常は下の端の近く）、セットのマークやコード。同じ名前の2枚のカードでも、価値は大きく違うことがあります。</li>\n<li>その名前と番号を<a href='" + _JA_TCGP + "'>TCGplayer</a>で検索し、正確な版（ホロ、リバースホロ、初版、言語）を開きます。1つの数字ではなく、市場価格と最安値の出品を読みます。</li>\n<li>同じカードを<a href='" + _JA_CM + "'>Cardmarket</a>で確認します。ここにはユーロ建てのヨーロッパの価格が表示されます。2つのサイトが大きく違う場合は、どちらかが別の版や状態を示しています。（Cardmarketは自動ツールでは読み込めないことがありますが、通常のブラウザでは開けます。）</li>\n<li>実際にいくらで売れたかを見ます：eBayでカードを検索し、販売済みの商品に絞り込みます（<a href='" + _JA_EBAY + "'>eBay：詳細検索の使い方</a>）。販売価格は人が実際に払った金額で、出品価格は希望にすぎません。</li>\n<li>同じ状態で比べます。ほぼ新品の状態と使用済みのコピーでは価格が違い、スキャナーは写真から角の折れを見分けられません。</li>\n</ol>\n<p>スキャナーが非常に安い価格を示した場合も同じように確認してください。「Most of my cards prices of 50p 30p or 10p」（FoilSnap、英国）というレビューのように、低すぎる、または高すぎると感じる価格は、信じるためではなく比べるためのサインです。</p>\n"],
+        ["notrecognised", "「カードを認識しない」（12％）",
+         "<p>レビューの約12％は、アプリがカード名や版を間違えたと書いています：「Every time you scan it gives you the wrong name of the card」（FoilSnap、米国）。FoilSnapの1〜3つ星レビューの4分の1近く（23％）がこの問題に関するものです。FoilSnap自身のページも、その背景の問題を認めています：通常のスキャナーは、ホロ加工の反射のせいでカードを誤認しやすいと書いています。</p>\n<p><strong>対処法：</strong>読んでいない名前を信じないでください。アプリが表示する名前、番号、セットのマークを、カードに印刷された内容と比べます。違う場合は、番号と版を<a href='" + _JA_TCGP + "'>TCGplayer</a>で手作業で検索します。スキャンそのものは、無地の暗いまたは明るい背景にカードを平らに置き、箔が光らないようにランプから離して傾けてください。レビューの8％は、言語が足りないと書いています（「No support for German cards. Only English, Japanese and Chinese.」、Collectr、ドイツ）。カードが英語でない場合は、支払う前に掲載内容とカード一覧を確認してください。</p>\n"],
+        ["paywall", "「支払いの壁」と「スキャンは10回だけ」（約21％）",
+         "<p>レビューのさらに21％は、価値よりも先にお金を求められることに関するものです：早すぎる支払いの壁（11.5％）と、無料のスキャン回数の上限（9.7％）。「Immediate pay wall for core app functionality」（HoloDex、カナダ）。「After you scan 35 cards they make you pay」（Collectr、米国）。掲載内容もそれを裏付けています。HoloDexのページでは、アプリ内購入で無制限のスキャン、限定フィルター、AIによる鑑定が使えると書かれ、Collectrのページでは、無制限のカードスキャンにはアプリ内購入が必要だと書かれています。3つのアプリとも無料でダウンロードできますが、無料で使えるという意味ではありません。</p>\n<p><strong>対処法：</strong>コレクションをスキャンする前に、App Storeのページの説明とアプリ内課金の一覧を読んでください。必要な機能の近くにある「unlimited」「premium」「in-app purchase」という語を探します。価格が無料だと書いている掲載も2件あります：Dexのページでは、TCGplayer、Cardmarket、eBay、CardTraderからの価格は誰でも無料だとあり、PriceChartingのページではアプリは完全に無料だとあります。カードが1〜2枚なら、アプリが不要な場合もあります：上の手順をWebサイトで行えば費用はかかりません。読み取れた無料の上限は、<a href='" + _JA_RANK + "'>7つのカードスキャナーアプリのランキング</a>に並べて掲載しています。</p>\n"],
+        ["charged", "「請求された」「解約させてもらえなかった」（8％）",
+         "<p>約8％は請求に関するものです：「Tried to cancel and it wouldn't let me and it auto renewed.」（FoilSnap、米国）。FoilSnapでは価格の次に多い不満です（1〜3つ星レビューの15％）。FoilSnapのページには、多くのアプリと同じく、現在の期間が終わる少なくとも24時間前に解約しない限り、定期購入は自動更新されると書かれています。</p>\n<p><strong>iPhoneでの対処法（1分以内）：</strong></p>\n<ol>\n<li>無料体験を始める前に、支払い画面を読みます。料金、更新の頻度、無料体験の終了日が表示されています。</li>\n<li>無料体験が終わる前日に、カレンダーにリマインダーを追加します。</li>\n<li>確認または停止するには：「設定」を開き、自分の名前、「サブスクリプション」、該当の定期購入、「サブスクリプションをキャンセル」の順にタップします。Appleの手順は<a href='" + _JA_CANCEL + "'>Appleで定期購入をキャンセルする</a>に載っています。アプリを削除しても定期購入は解約されません。</li>\n<li>意図せず請求された場合は、返金を依頼できます：<a href='" + _JA_REFUND + "'>Appleで購入したアプリやコンテンツの払い戻しを依頼する</a>。判断はAppleが行います。</li>\n</ol>\n"],
+        ["checklist", "価格を信じる前や無料体験を始める前の5項目チェック",
+         "<ul>\n<li>カードの名前、番号、セットを読み、アプリの表示と一致するか確認したか？</li>\n<li>同じ版と状態で、TCGplayerとCardmarketの価格を比べたか？</li>\n<li>売買の前に、eBayの販売済み商品を見たか？</li>\n<li>スキャンの前に、アプリ内課金の一覧と無料体験の条件を読んだか？</li>\n<li>無料体験が終わる日と解約方法（<a href='" + _JA_CANCEL + "'>Apple：定期購入をキャンセルする</a>）を知っているか？</li>\n</ul>\n"],
+    ],
+    "faq": [
+        ["ポケモンカードのスキャナーアプリはどのくらい正確ですか？",
+         "さまざまです。FoilSnap、HoloDex、Collectrの1〜3つ星レビュー895件のうち、21％が誤った、古い、または変わり続ける価格に、12％が認識されないカードに言及しています。アプリの値は最初の目安として使い、正確なカードをTCGplayerとCardmarketで確認してください。"],
+        ["スキャナーが毎回違う価格を示すのはなぜですか？",
+         "レビューには理由が書かれていません。あるFoilSnapのレビュー投稿者は、同じカードを10回スキャンして、セントから25ドルまでの値を得ました。版、状態、情報源が違えば数字も変わるため、マーケットプレイスで確認してください。"],
+        ["ポケモンカードの価格は無料でどこで確認できますか？",
+         "TCGplayerとCardmarketはWebサイトでポケモンカードの価格を掲載しており、eBayの販売済み商品では実際の販売価格がわかります。DexのApp Storeの掲載には、価格は誰にでも無料だと書かれています。"],
+        ["カードスキャナーアプリの定期購入を解約するにはどうすればよいですか？",
+         "iPhoneでは「設定」を開き、自分の名前、「サブスクリプション」、該当の定期購入、「サブスクリプションをキャンセル」の順にタップします。Appleが定期購入の解約について説明しています。"],
+        ["App Storeから返金してもらえますか？",
+         "依頼できます。Appleで購入したアプリやコンテンツの払い戻しの依頼方法は、Appleのページに説明されています。承認はAppleが判断します。"],
+    ],
+    "sources_html": [
+        "レビュー：米国、カナダ、英国、ドイツ、オーストラリア、フランス、日本のApp Store；3つのアプリの1〜3つ星レビュー895件、2026年11月15日にダウンロード。キーワードによる集計で、概算です。",
+        "<a href='" + _JA_CANCEL + "'>Appleで定期購入をキャンセルする</a>、Appleサポート。",
+        "<a href='" + _JA_REFUND + "'>Appleで購入したアプリやコンテンツの払い戻しを依頼する</a>、Appleサポート。",
+        "<a href='" + _JA_TCGP + "'>TCGplayer：ポケモン</a>；<a href='" + _JA_CM + "'>Cardmarket：ポケモン</a>；<a href='" + _JA_EBAY + "'>eBay：詳細検索</a>。",
+        "アプリ：米国App Storeのページと、2026年11月15日時点のAppleの検索データ。<a href='" + _JA_RANK + "'>iPhone向けポケモンカードスキャナーアプリのおすすめ (2026)</a>、Reviewland。",
+    ],
+    "fix": "このページの内容が古い場合は、<a href='mailto:sagalabs@proton.me'>ご連絡ください</a>。ページを修正します。",
+    "not_on_sale": "{names} は日本のApp Storeでは配信されていないため、名前はリンクなしで掲載し、データは米国のページから取りました。",
+}
+
+SECTIONS["cards"] = "トレーディングカードと価格"
